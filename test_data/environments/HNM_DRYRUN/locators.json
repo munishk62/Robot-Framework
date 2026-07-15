@@ -1,7 +1,0 @@
-{
-  "my_timecard": {
-    "MY_TIMECARD_PAGE_LEGEND_AUDIT_GRID": "//b[normalize-space()='Select a task']",
-    "MY_TIMECARD_PAGE_LEGEND_AUDIT_GRID_FIRST_ICON": "(//b[normalize-space()='Select a task']//ancestor::tr/following-sibling::tr//td)[1]",
-    "MY_TIMECARD_PAGE_LEGEND_AUDIT_GRID_FIRST_LABEL": "(//b[normalize-space()='Select a task']//ancestor::tr/following-sibling::tr//td[2])[1]"
-  }
-}
