@@ -1,6 +1,0 @@
-@Library('wfm-qe-libs') _
-wfmQAPuneJenkins([
-    "testEnv": "QA29_B0", 
-    "testPath": "tests/web/examples/",
-    "agentLabel": "SWS_UBU_01"
-])

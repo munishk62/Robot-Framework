@@ -1,3 +1,0 @@
-HH,,
-"HRCI","place_holder_emp_id","STATUS_CHANGE","placeholder_current_date","","T"
-TT,,
