@@ -1,9 +1,0 @@
-@Library('wfm-qe-libs') _
-wfmQAPuneJenkins([
-    "testEnv": "EYEMART_SB",
-    "testPath": "tests/",
-    "includeTags": "bat_phase1",
-    "healthCheckTimeout": "10",
-    "skipDatabaseHealthCheck": false,
-    "queuePendingThreshold": "100"
-])
