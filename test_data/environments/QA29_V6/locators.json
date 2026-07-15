@@ -1,0 +1,7 @@
+
+{
+  "my_timecard": {
+    "MY_TIMECARD_PAGE_AUDIT_TAB_SPECIFIC_RECORD_SHIFT_TIME": "//iframe[@id='iframe_tcard_audit'] >>> (//div[@id='gridbox_timecard_audit']//tr[contains(@class,'_light')]//td[contains(text(),'{AUDIT_DATE}')])[1]//following-sibling::td[8]",
+    "MY_TIMECARD_PAGE_AUDIT_TAB_SPECIFIC_RECORD_LOCATION": "//iframe[@id='iframe_tcard_audit'] >>> (//div[@id='gridbox_timecard_audit']//tr[contains(@class,'_light')]//td[contains(text(),'{AUDIT_DATE}')])[1]//following-sibling::td[9]"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "default": {
+    "planning_week_date": "3_0",
+    "week_trade_day": "3_0",
+    "notes": "Automation Notes for Shift Advertise",
+    "respond_note": "Automation Respond Note for Shift Advertise",
+    "shift_start_time": "08:00",
+    "shift_end_time": "16:00"
+  },
+  "withdraw_shift": {
+    "planning_week_date": "0_0",
+    "week_trade_day": "0_6",
+    "notes": "Automation Notes for Shift Advertise",
+    "respond_note": "Automation Respond Note for Shift Advertise",
+    "shift_start_time": "08:00",
+    "shift_end_time": "16:00"
+  }
+}

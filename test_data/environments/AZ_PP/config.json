@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwsazopp.reflexisinc.com/RWS4",
+    "domainId": "AZ",
+    "kernel_url": "https://knlcl17pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlazopp.reflexisinc.com/kernel/views/authenticate/W/AZ.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "AZ_PP",
+    "RAR_GATEWAY_URI": "https://knlazopp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

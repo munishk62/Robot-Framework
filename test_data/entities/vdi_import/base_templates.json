@@ -1,0 +1,25 @@
+{
+  "default": {
+    "unit_id": "StoreEntity.MODEL_STORE1.UNIT_ID",
+    "metric_category": "VDIImportMetricCategory.Forecast",
+    "feed_level": "VDIImportFeedLevel.Store",
+    "import_type": "VDImportType.VDI",
+    "week_start_date": "9_0",
+    "driver_import_value": "2.2",
+    "metric_id": "NA"
+  },
+  "vdi_import_schedule_regeneration_sit": {
+    "unit_id": "ZSITSTORE006",
+    "metric_category": "A",
+    "feed_level": "S",
+    "import_type": "VDImportType.VDI",
+    "week_start_date": "1_0",
+    "driver_start_time": "14:00",
+    "driver_end_time": "22:00",
+    "metric_id": "VDI_DEMAND_STORE",
+    "skip_days": [0, 5],
+    "schedule_regeneration": "NA",
+    "activity_name": "UK_STORE",
+    "description": "Generic SIT VDI Import template for schedule regeneration tests for a 2pm-10pm demand window. Use at invocation with unit_id override for different stores. Override skip_days or activity_name for different scenarios."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "default": {
+    "week_start_date": "SanityCheck.PLANNING_WEEK_START_DATE",
+    "schedule_type": "ScheduleTypeToBeGenerated.TEMPLATE",
+    "max_attempts": "ScheduleGenerationAttemptTime.MAX_ATTEMPTS",
+    "intervals": "ScheduleGenerationAttemptTime.INTERVALS",
+    "regenerate_forecast_required": false,
+    "do_publish_schedule": false
+  },
+  "not_mapped_template": {
+    "week_start_date": "8_0",
+    "schedule_type": "ScheduleTypeToBeGenerated.TEMPLATE",
+    "max_attempts": "ScheduleGenerationAttemptTime.MAX_ATTEMPTS",
+    "intervals": "ScheduleGenerationAttemptTime.INTERVALS",
+    "regenerate_forecast_required": false,
+    "do_publish_schedule": false
+  }
+}

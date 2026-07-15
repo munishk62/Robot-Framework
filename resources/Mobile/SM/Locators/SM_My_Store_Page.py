@@ -1,0 +1,11 @@
+SM_MY_STORE_PROFILE_ICON = '//android.widget.ImageView[contains(@resource-id,"imgAssociate")] | //XCUIElementTypeButton[@name="myStoreProfileButton"]'
+SM_MY_STORE_PROFILE_NAME = '//android.widget.TextView[contains(@resource-id,"id/name") and starts-with(@text,"{0}")] | //XCUIElementTypeStaticText[@name="myStoreProfileName" and starts-with(@label,"{0}")]'
+SM_MY_STORE_PROFILE_DIALOG_CLOSE_BTN = '//android.widget.TextView[contains(@resource-id,"dialogCloseBtn")] | //XCUIElementTypeButton[@name="myStoreProfileOkButton"]'
+SM_SCHEDULE_PAGE_NEXT_WEEK_BUTTON = '//android.widget.ImageButton[contains(@resource-id,"btn_next")] | //XCUIElementTypeButton[@name="btn_next_week"]'
+SM_SCHEDULE_PAGE_PREVIOUS_WEEK_BUTTON = '//android.widget.ImageButton[contains(@resource-id,"btn_prev")]  | //XCUIElementTypeButton[@name="btn_prev_week"]'
+SM_MY_STORE_PAGE_TITLE = '//android.widget.TextView[contains(@resource-id,"tv_title_request")]'
+SM_MY_STORE_DYNAMIC_PAGE_TITLE = '//android.widget.TextView[contains(@resource-id,"tv_title_request") and @text="{0}"]'
+SM_MY_STORE_PAGE_EDIT_SHIFT_TIMING = '//android.widget.TextView[contains(@resource-id,"tv_schedule_timing")]'
+# semantics label
+SM_MY_STORE_MENU = '1000000000023'
+SM_MY_STORE_OPEN_SHIFTS = '1000000000119'

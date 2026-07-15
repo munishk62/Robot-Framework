@@ -1,0 +1,11 @@
+{
+  "default": {
+    "start_date": "-2_4",
+    "day_1": 1,
+    "day_2": 2,
+    "notes_day_1": "Daily notes for day 1",
+    "notes_day_2": "Daily notes for day 2",
+    "weekly_notes": "Weekly notes for selected week",
+    "edited_weekly_notes": "Weekly notes for selected week for Associate:"
+  }
+}

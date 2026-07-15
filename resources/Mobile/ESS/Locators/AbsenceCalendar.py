@@ -1,0 +1,6 @@
+absence_calendar_filter_all = "absence_calendar.filter.all"
+absence_calendar_filter_day_off = "absence_calendar.filter.day_off"
+absence_calendar_filter_time_off = "absence_calendar.filter.time_off"
+absence_calendar_label_no_absence = "absence_calendar.label.no_absence"
+schedule_semantic_selected_day = "schedule.semantic.selected_day"
+absence_calendar_semantics_list = "absence_calendar.semantics.list"

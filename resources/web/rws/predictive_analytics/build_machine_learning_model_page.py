@@ -1,0 +1,2 @@
+BMLM_PAGE_ADD_MACHINE_LEARNING_MODEL_BTN = "span[ng-click*='addMLModel']"
+BMLM_PAGE_ADD_MACHINE_LEARNING_MODEL_PREVIOUS_BTN = "button[ng-click*='backToListPage']"

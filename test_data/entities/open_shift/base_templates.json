@@ -1,0 +1,41 @@
+{
+    "default": {
+        "planning_week_date": "3_0",
+        "week_trade_day": "3_6",
+        "respond_note": "Automation Respond Note for Open Shift",
+        "week_day_offset": "6_4",
+        "day_offset": 4,
+        "start_time": "10:00",
+        "end_time": "17:00",
+        "task": "TaskSegmentType.CONTINUED_WORK",
+        "staff_group": "StaffGroup.SG1"
+    },
+    "add_edit_open_shift": {
+        "week_date_offset": ["6_5"],
+        "unallocation_days": [5, 6],
+        "start_time": "14:00",
+        "end_time": "18:00",
+        "copy_to_day": [6],
+        "task": "TaskSegmentType.CONTINUED_WORK"
+    },
+    "updated_open_shift": {
+        "updated_date_offsets": ["6_5", "6_6"],
+        "start_time": "14:30",
+        "end_time": "18:30",
+        "move_to_day": [5]
+    },
+    "add_edit_open_shift_mobile": {
+        "week_day_offset": "9_5",
+        "start_time": "14:00",
+        "end_time": "18:00",
+        "edit_start_time": "14:30",
+        "edit_end_time": "18:30",
+        "copy_from_day": [5],
+        "copy_to_day": [6],
+        "move_from_day": [6],
+        "move_to_day": [5],
+        "shift_to_delete_day": [5],
+        "task": "TaskSegmentType.CONTINUED_WORK",
+        "staff_group": "StaffGroup.SG1"
+    }
+}

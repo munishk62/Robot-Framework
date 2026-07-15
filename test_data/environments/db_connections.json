@@ -1,0 +1,26 @@
+{
+  "QA28_B0": {
+    "database": "WFMDB",
+    "hostname": "db2hostname.example.com",
+    "port": 50030,
+    "username": "db2user",
+    "password": "some password",
+    "schema": "RWS4"
+  },
+  "DEMO05": {
+    "database": "RWS4",
+    "hostname": "z182sd-rws4demo05.rfx.zebra.com",
+    "port": 50030,
+    "username": "rwsuser",
+    "password": "some pwd",
+    "schema": "RWS4"
+  },
+  "STAGING": {
+    "database": "WFMDB",
+    "hostname": "db2hostname.example.com",
+    "port": 50030,
+    "username": "db2user",
+    "password": "some password",
+    "schema": "RWS4"
+  }
+}

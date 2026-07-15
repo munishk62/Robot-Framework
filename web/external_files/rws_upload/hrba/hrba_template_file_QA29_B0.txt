@@ -1,0 +1,4 @@
+HH,,
+HRBA,RFLX,"place_holder_emp_id1",20120101, ,Store1,FTAutomation01,,,M, ,N, ,Job Code1,JCODE1,20120101,19760222,20080222, ,20040301, , , ,STORE1,SGRP1,DEPT1,20091102,F, ,H, ,Standard,20120101, , , ,125 Townpark Dr NW, ,Kennesaw,GA,US,77386,678/685-1291, , , , ,H,18.55000,20091102,"place_holder_badge_id1",20120101,A,20091102, , , , ,B,
+HRBA,RFLX,"place_holder_emp_id2",20120101, ,Store1,PTAutomation02,,,M, ,N, ,Job Code1,JCODE1,20120101,19760222,20080222, ,20040301, , , ,STORE1,SGRP1,DEPT1,20091102,P, ,S, ,Standard,20120101, , , ,125 Townpark Dr NW, ,Kennesaw,GA,US,77386,678/685-1291, , , , ,H,18.55000,20091102,"place_holder_badge_id2",20120101,A,20091102, , , , ,B,
+TT,,

@@ -1,0 +1,2207 @@
+{
+  "MOBILE_APP_THEME_D_MOBILE_APP_THEME": {
+    "themeType": "dark",
+    "primary": "245fa2",
+    "primaryVariant": "245fa2",
+    "secondary": "245fa2",
+    "secondaryVariant": "245fa2",
+    "statusBar": "1d518d"
+  },
+  "RWS_DAILY_STORE_SCHEDULE_D_TASKDISP": {
+    "SHOWNONHOMEEMP": false,
+    "IGNORETASKS": false,
+    "SHOWSECONDARYTASK": true,
+    "SHOWPRIMARYTASK": true,
+    "SHOWUNSCHDULEDEMPLOYEE": false
+  },
+  "RWS_ESS_MONTH_VIEW_D_TASKDISP": {
+    "TASKORDER": [
+      "TASKTIME",
+      "TASKNAME"
+    ],
+    "SHIFTTIME": "StartTime - EndTime - (Duration)",
+    "HOMEMANAGEMENT": true,
+    "SHOWTASK": true,
+    "TASKTIME": "StartTime - EndTime",
+    "TASKNAME": true,
+    "SHOWPRIMARYTASK": true,
+    "SHOWSECONDARYTASK": true,
+    "IGNORETASKS": true,
+    "SHOWNOTES": true,
+    "SHOWTOTAL": true,
+    "SHOWMEALBREAK": true,
+    "SHOWNOACTIVITY": true
+  },
+  "ROSOM_UICUSTOM_FILTER_F_ScheduleSpreadsheetReport": {
+    "AssociateTotal": {
+      "show": true,
+      "defaultValue": true
+    },
+    "NonHomeAssociateTotal": {
+      "show": false,
+      "defaultValue": false
+    },
+    "Avail": {
+      "show": true,
+      "defaultValue": true
+    },
+    "DayTotal": {
+      "show": true,
+      "defaultValue": true
+    },
+    "Duration": {
+      "show": true,
+      "defaultValue": true
+    },
+    "MealBreak": {
+      "show": true,
+      "defaultValue": false
+    },
+    "Notes": {
+      "show": true,
+      "defaultValue": true
+    },
+    "Tasks": {
+      "show": true,
+      "defaultValue": false
+    },
+    "TasksSumm": {
+      "show": true,
+      "defaultValue": true
+    },
+    "TOff": {
+      "show": true,
+      "defaultValue": true
+    }
+  },
+  "RWS_STF_LST_D_EMP_DISPLAY_NAME": {
+    "NAME_FORMAT": "L, F"
+  },
+  "RWS_SCHEDULE_COMMON_D_ASSOCIATEGROUPING": {
+    "groupingKey": [
+      "staffGroup"
+    ]
+  },
+  "RWS_SCHEDULE_WEEKPLAN_COMMON_D_DISPLAY_CONFIG_VALUES": {
+    "showOpenShiftsRow": true,
+    "showEmptyAssociateGrouping": true
+  },
+  "RWS_SCHEDULE_WEEKPLAN_COMMON_D_DISPLAY_CONFIG_VISIBILITY": {
+    "displayApplyBreakRulesControl": false,
+    "showOpenShiftsRow": true,
+    "showEmptyAssociateGrouping": false
+  },
+  "RWS_SCHEDULE_COMMON_D_BREAK_RULE_OPTIONS": {
+    "showBreakRulesOptions": "Y,N,T"
+  },
+  "RFP_VOLUME_FORECAST_D_FORECAST_EDIT_EMPTY_VALUE_PERMISSION": {
+    "PROHIBIT_USER_TO_ENTER_EMPTY_VALUE_FOR_NONSTORE": false,
+    "PROHIBIT_USER_TO_ENTER_EMPTY_VALUE_FOR_STORE": true
+  },
+  "RFP_VOLUME_FORECAST_D_FORECAST_DATA_DISPLAY": {
+    "GROUPBY_METRIC_CAT": false
+  },
+  "RFP_VOLUME_FORECAST_F_FORECAST_FILTER_OPTIONS": {
+    "SHOW_DEPT_SELECTION": true,
+    "SHOW_MULTI_DRIVER_FILTER": false
+  },
+  "CLIENT_FC_EDIT_STORESALES_F_SHOW_TREND_WEEKS": {
+    "SHOW_TREND_WEEKS": false
+  },
+  "ROSOM_JOBCODELIST_D_TEMPORARY_SETUP": {
+    "TEMPORARY_SETUP": false
+  },
+  "RWS_ADM_LABORDETAILS_F_LABOR_LAW_RULES": {
+    "maxDailyHrs": true,
+    "maxWeeklyHrs": true,
+    "maxWorkingDays": true,
+    "minDailyHrs": true,
+    "minWeeklyHrs": true,
+    "pyramidCheck": true,
+    "showDayWindow": true,
+    "showRestRules": "hide"
+  },
+  "RWS_STF_LST_F_TASKS_LIST": {
+    "showTasksField": true
+  },
+  "RWS_STF_ADD_F_SHOW_PARTNER_FIELDS": {
+    "showIndivCapacity": "hide"
+  },
+  "RWS_STF_LOGIN_DETAILS_F_PARTNER_LOGIN_FIELDS": {
+    "showJobTitle": "write",
+    "showUnit": "write",
+    "showName": "write",
+    "showUserId": "write",
+    "showWorksIn": "write",
+    "showProfileName": "write",
+    "showDepartment": "write",
+    "showFuncGrp": "hide",
+    "showTelNo": "write",
+    "showFaxNo": "write",
+    "showCancel": "write",
+    "showEmail": "write"
+  },
+  "RWS_STF_STATUS_LST_D_PARTNER_STATUS_FIELDS": {
+    "showHireDate": "read"
+  },
+  "RWS_STF_CAL_D_PARTNER_CALENDAR_FIELDS": {
+    "showAvailability": "write",
+    "showOnCall": "write",
+    "showNonAvailability": "write",
+    "showVacation": "write",
+    "showRejectedVacations": "write",
+    "showApprovedVacations": "write"
+  },
+  "RWS_STF_AGREED_HRS_D_STAFF_AGREED_HRS_FIELDS": {
+    "showEffDt": "write",
+    "showEndDt": "write",
+    "showWeeklyAgreedHrs": "write",
+    "showWeeklyAgreedOTHrs": "write",
+    "showDailyAgreedHours": "write",
+    "showDailyAgreedOTHours": "write",
+    "showCancel": "write"
+  },
+  "RFP_ACT_ATTR_LIST_D_ACTIVITY_ATTR": {
+    "showAdd": true
+  },
+  "ROSOM_CFG_CS_CORPEDIT_WAGERATES_EDIT_D_CORP_WAGE_RATE": {
+    "showPremiumRate": true,
+    "showOvertimeRate": true
+  },
+  "ROSOM_CHANGEPROFILE_D_CHANGE_PROFILE_FIELDS": {
+    "NAME": "read",
+    "CONTACTINFO": "write"
+  },
+  "WEEKPLAN_SCHEDULE_D_PRINTER_FRIENDLY_PDF": {
+    "SHOW_PRINTER_FRIENDLY_PDF": true
+  },
+  "RWS_SCH_HISTORY_D_SCHD_VIEWS": {
+    "highlightScheduledStores": true,
+    "highlightTotalStores": true,
+    "highlightUnScheduledStores": true
+  },
+  "RWS_SCHEDULE_COMPARISON_D_SCHD_STATISTICS": {
+    "showEmpTypeHrs": true,
+    "showActualWorkloadHrs": true
+  },
+  "RWS_ESS_PARTNER_VIEW_D_ESS_SCHD_INFO": {
+    "dispPublishInfo": true
+  },
+  "RWS_ADDTIMEOFF_D_ESS_TIMEOFF_FIELDS": {
+    "showEmpName": "write",
+    "showStore": "write",
+    "showEffDate": "write",
+    "showEndDate": "write",
+    "showType": "write",
+    "showStartTime": "write",
+    "showEndTime": "write",
+    "showReason": "write",
+    "showSave": true
+  },
+  "RWS_STF_SCHEDULE_D_STAFF_SCHD_FIELDS": {
+    "showScheduledDays": "write",
+    "showVacations": "write",
+    "showUnscheduledDays": "write"
+  },
+  "RWS_STF_TIMEOFF_LST_D_ESS_TIME_OFF": {
+    "showDueBy": true,
+    "showAdd": true
+  },
+  "RWS_TIMEOFFEDIT_D_TIME_OFF_EDIT": {
+    "showEffDate": "write",
+    "showStartTime": "write",
+    "showDuration": "write",
+    "showReson": "write",
+    "showStatus": "write",
+    "showSaveBtn": "write"
+  },
+  "RWS_STF_WORKDAY_D_WORKDAY_PERMS": {
+    "showAddBtn": true
+  },
+  "RWS_TIMEOFFEDIT_D_STAFF_TIMEOFF_PERMS": {
+    "showAddTimeOffBtn": true
+  },
+  "RWS_STORE_SCHEDULE_TEMPLATE_D_PREASSIGNMENT_DEFINITION": {
+    "SHOW_SHIFT_INDICATOR": true
+  },
+  "RWS_SCH_OVERS_AND_SHORTS_F_OVERS_AND_SHORTS_VIEW_BY_FILTER": {
+    "ENABLE_GROUP_BY_DEPARTMENT": false,
+    "ENABLE_GROUP_BY_EMPLOYEE": false,
+    "ENABLE_GROUP_BY_STAFF_GROUP": true,
+    "ENABLE_GROUP_BY_TASK": false
+  },
+  "RFP_UPLOADMENU_D_EARNED_HOURS_CALC": {
+    "erndHrsCalcReqd": false
+  },
+  "RWS_SCHEDULE_COMMON_D_EMPLOYEE_CONTEXT_MENU_OPTIONS": {
+    "employeeContextMenuString": [
+      "AVNA",
+      "VDA",
+      "VAA",
+      "LSA",
+      "EPS"
+    ]
+  },
+  "RFP_ACT_ASN_MNT_D_CERT_DISPLAY_NAME": {
+    "CERTIFICATION_NAME_FORMAT": "CERT_NAME"
+  },
+  "RFP_VOLUME_FORECAST_D_DEFAULT_CHK_FORECAST_TYPES": {
+    "ACTUALS": false,
+    "ANN_ADJUSTED": false,
+    "ANN_PLANNED": false,
+    "PER_ADJUSTED": false,
+    "PER_PLANNED": false,
+    "STF_ADJUSTED": true,
+    "STF_PLANNED": true
+  },
+  "SCHEDULE_WEEKLY_BY_ACTIVITY_BRK_D_TIME_DISPLAY_FORMAT": {
+    "TIME_DISPLAY_FORMAT": "hh.mm"
+  },
+  "WEEKPLAN_SCHEDULE_D_SECONDARY_TASK_COLORS": {
+    "B": "E4EBF8",
+    "L": "E4EBF8",
+    "M": "E4EBF8"
+  },
+  "RWS_SCHEDULE_COMMON_D_ASSOCIATE_ROW_DUPLICATION": {
+    "taskStaffGroupBased": false,
+    "departmentReleaseBased": true
+  },
+  "RWS_STF_CERTIFICATIONS_D_UI_OPTIONS": {
+    "expiringCertificateThreshold": "30",
+    "cssTheme": "theme.blue"
+  },
+  "REFLEXIS_COMMON_D_UIC_OPTIONS": {
+    "tableSorterCssTheme": "theme.blue"
+  },
+  "ROSOM_ADM_UNIT_ADD_SUBMIT_D_UNITID_GEN_METHOD": {
+    "unitIdIPType": "UI",
+    "unitIdGenMethod": "LASTSERIAL"
+  },
+  "ROSOM_ADM_UNIT_EDIT_D_UNIT_DEL_TYPE": {
+    "logicalDeletion": true
+  },
+  "FLEX_FLEX_MAIN_D_UIC_OPTIONS": {
+    "pageVersion": "2"
+  },
+  "RWS_STF_EDIT_D_ATTACHMENT_CONFIG": {
+    "profileImageMaxSize": "1024"
+  },
+  "RFP_CFG_WDR_DRV_ADDEDIT_D_METRIC_ATTR": {
+    "SHOW_METRIC_APPILICABILITY": true
+  },
+  "RWS_MEETING_COMMON_D_MEETING_TMPL_ICON_CONFIG": {
+    "tmplIconConfig": "{}"
+  },
+  "RWS_STF_LST_D_DISPLAY_COLUMNS": {
+    "showStaffgroupColumn": true
+  },
+  "RWS_STF_EMP_AVL_DET_ROSTER_D_UIC_OPTIONS": {
+    "SHOW_SUMMARY_TABLE": false,
+    "DEF_WEEK_OFFSET": "0"
+  },
+  "ROSOM_EDITUSER_RESETPASSWORD_D_PASSWORD_VALIDATION": {
+    "passwordPattern": "(?=^(.*[a-zA-Z]){1}.*$)(?=^(.*[0-9]){1}.*$)^[^*|,:<>[\\]{}\\\\;()@&$#%!^&\\-_+?/.~=]*$"
+  },
+  "RWS_SCH_MODEL_D_BUTTON_PERMISSIONS": {
+    "COPY_BUTTON": false,
+    "DELETE_BUTTON": false
+  },
+  "RWS_STF_EMPLOCK_EDIT_D_DISPLAY_CONFIG_VISIBILITY": {
+    "MULTI_STORE_RELEASE": {
+      "SHOW_CHECKBOX": true,
+      "DEFAULT_VALUE": false
+    },
+    "SHOW_STAFF_GROUP": true
+  },
+  "RWS_STORE_SCHEDULE_TEMPLATE_D_ADV_FILTER_OPTIONS_VISIBILITY": {
+    "departmentFilter": true,
+    "staffGroupFilter": true,
+    "taskFilter": true
+  },
+  "ROSOM_ADDUSER_D_DISPLAY_CONFIG_VISIBILITY": {
+    "SHOW_SECURITY_QUESTION": false
+  },
+  "ESS_ESS_STF_NOTICE_BOARD_D_SHIFTDISP": {
+    "SHOWMEALBREAK": true,
+    "SHOWRESTPERIOD": true,
+    "SHOWFLEXTASK": true
+  },
+  "ROSOM_ADM_UNIT_EDIT_D_FIELDDISP": {
+    "SHOWCONTACTPERSON": false,
+    "SHOWJOBTITLE": false
+  },
+  "RWS_EMP_CERT_ADD_EDIT_D_DISPLAY_CONFIG_VISIBILITY": {
+    "COMMENTS_CONFIG": {
+      "IS_COMMENTS_MANDATORY": false,
+      "DISPLAY_COMMENTS": true
+    }
+  },
+  "WEEKPLAN_SCHEDULE_D_SHOW_AVAILABILITY_INFO_IN_CELL": {
+    "showAvailabilityInfoInCell": false
+  },
+  "RWS_STORE_SCHEDULE_TEMPLATE_D_SHOW_AVAILABILITY_INFO_IN_CELL": {
+    "showAvailabilityInfoInCell": false
+  },
+  "RFP_VOLUME_FORECAST_D_FORECAST_CONTROLS": {
+    "SHOW_EXPORT_DTL_CTRL": true
+  },
+  "STAFF_REQUESTS_DAYOFF_D_DEFAULT_DUE_BY_DAYOFF": {
+    "SHOW_DEFAULT_DUE_BY_DAYOFF": true
+  },
+  "STAFF_REQUESTS_TIMEOFF_D_DEFAULT_DUE_BY_TIMEOFF": {
+    "SHOW_DEFAULT_DUE_BY_TIMEOFF": true
+  },
+  "RWS_SHIFT_TEMPLATE_D_SHIFT_TEMPLATE_CONFIG_DISPLAY": {
+    "showTemplateAvgYrsOfExp": true,
+    "showTemplateAvgSkillLvl": true
+  },
+  "ROSOM_JOBCODEDEPTMAPPING_D_IMPORTS_PRE_PROCESS": {
+    "HRBA": "none"
+  },
+  "WEBCLOCKLOGIN_D_WEBCLOCK_UI_OPTIONS": {
+    "ACTIVITY_SELECTION_MANDATORY": true,
+    "SHOW_PASSWORD_BOX": false,
+    "DISPLAY_NEW_WEB_CLOCK": true,
+    "WEBCLOCK_VIRTUAL_KEYPAD": "AN"
+  },
+  "CORP_AVAILABILITY_TEMPLATE_D_ENABLE_DEFAULT_TEMPLATE": {
+    "enableDefaultTemplate": false
+  },
+  "ROSOM_MAINTAINJOBCODE_D_PROFILEIDDISP": {
+    "SHOWPROFILEIDS": false
+  },
+  "STAFF_REQUESTS_DAYOFF_D_DEFAULT_EFF_DATE_DAYOFF": {
+    "DEFAULT_EFF_DATE": 0
+  },
+  "STAFF_REQUESTS_TIMEOFF_D_DEFAULT_EFF_DATE_TIMEOFF": {
+    "DEFAULT_EFF_DATE": 0
+  },
+  "RWS_SCHEDULE_WEEKPLAN_COMMON_F_SCHEDULE_REPORTS_VIEW_BY_FILTER": {
+    "ENABLE_GROUP_BY_DEPARTMENT": false,
+    "ENABLE_GROUP_BY_EMPLOYEE": false,
+    "ENABLE_GROUP_BY_STAFF_GROUP": false,
+    "ENABLE_GROUP_BY_TASK": true
+  },
+  "RFC_FCST_INIT_COMMON_D_FCST_INIT_OPTIONS": {
+    "ALLOW_FCST_JOB_TO_SCHD": false
+  },
+  "RWS_STF_EMP_AVL_DET_ROSTER_D_AVAILABILITY_PREFERENCE": {
+    "PERMANENT": true,
+    "TEMPORARY": true
+  },
+  "ESS_SHIFTBIDDING_D_SHIFT_TRADE_SWAP_REQUEST_ELEMENTS_CONFIG": {
+    "showCrossSiteStores": true,
+    "showShiftTimingsAfter": true,
+    "showShiftTimingsBefore": true,
+    "showMinDuration": true,
+    "showMaxDuration": true,
+    "showDays": true
+  },
+  "RWS_SCHEDULE_TEMPLATE_COMMON_D_EMPLOYEE_CONTEXT_MENU_OPTIONS": {
+    "employeeContextMenuString": [
+      "AET",
+      "VD",
+      "VDA",
+      "SD",
+      "SL",
+      "STL",
+      "DL",
+      "SU",
+      "CS",
+      "MS",
+      "DT",
+      "DET",
+      "AVNA",
+      "AVDNA"
+    ]
+  },
+  "RWS_SCHEDULE_TEMPLATE_COMMON_D_SHIFT_CONTEXT_MENU_OPTIONS": {
+    "shiftContextMenuString": [
+      "VD",
+      "DS",
+      "SL",
+      "SU",
+      "STL",
+      "DL",
+      "CS",
+      "MS",
+      "AVN"
+    ]
+  },
+  "RWS_DELETE_REGEN_SCHEDULES_D_SHOW_HIST_WEEK": {
+    "SHOW_HIST_WEEK": false
+  },
+  "STAFF_REQ_CAL_D_PUB_HOL_IN_CAL": {
+    "DISP_PUBHOL_STF_CAL": true
+  },
+  "ESS_REQ_CAL_D_ESS_CALENDAR_DISPLAY_CONFIG": {
+    "DISP_PUBHOL_ESS_CAL": true
+  },
+  "STAFF_REQUESTS_DAYOFF_D_ENABLE_EMPLOYEE_AVAILABLE_HRS_DAYOFF": {
+    "ENABLE_EMPLOYEE_AVAILABLE_HRS": false
+  },
+  "RWS_STF_ADD_D_SHOW_FIELDS_FOR_NEW_HIRE": {
+    "lastName": "W",
+    "firstName": "W",
+    "middleName": "W",
+    "displayName": "W",
+    "SSN": "W",
+    "DOB": "W",
+    "gender": "W",
+    "assocId": "W",
+    "storeId": "W",
+    "dept": "W",
+    "staffGrp": "W",
+    "securityGrp": "W",
+    "contractType": "W",
+    "DOH": "W",
+    "empType": "W",
+    "minWeeklyHrs": "W",
+    "maxWeeklyHrs": "W",
+    "skillLevel": "W",
+    "perfRating": "W",
+    "wageRateEffDate": "W",
+    "wageBaseRate": "W",
+    "salariedHourly": "W",
+    "indvCapacity": "W",
+    "salaried": "W",
+    "hourly": "W",
+    "weeklyHours": "W",
+    "jobCode": "W"
+  },
+  "DAILY_SCHEDULE_PDF_D_DISPLAY_CONFIG": {
+    "COLUMNS": {
+      "ASSOCIATE_ID": true,
+      "JOB": true,
+      "ASSOCIATE_NAME": true
+    },
+    "DISPLAY_NAME_FORMAT": "L,F",
+    "EXTRANOTES_LINE_COUNT": "0",
+    "GROUP_BY": "",
+    "HEADER_DATE_FORMAT": "E, MM/dd/yyyy",
+    "INCLUDE_UNSCHEDULED": true,
+    "NON_HOME_SHIFTS": false,
+    "NOTE_TYPES": {
+      "E": false,
+      "S": false
+    },
+    "PAGE_BREAK": false,
+    "REPEAT_STATISTICS": false,
+    "SHOW_ONLY_WORKING_HOURS": false,
+    "SHOW_SEC_STAFF": false,
+    "SORT_BY": "shiftStartTime"
+  },
+  "DAILY_SCHEDULE_PDF_D_PATTERN_CONFIG": {
+    "DIFFERENTIATE_NO_ACTIVITY": true,
+    "HIGHLIGHT": ""
+  },
+  "RWS_DELETE_REGEN_SCHEDULES_D_Options": {
+    "SHOW_RELEASE_OPTION": false,
+    "SHOW_DRAFT_OPTION": false,
+    "SHOW_UPDATE_WORKLOAD_OPTION": false
+  },
+  "RWS_SCH_PREASSIGNMENT_ADD_D_PREASSIGN_OPTIONS": {
+    "DEFAULT_INC_PREASSIGN_IN_SCHD": "Y",
+    "SHOW_INC_PREASSIGN_IN_SCHD": true,
+    "SHOW_DAY_FREQ": true
+  },
+  "RWS_SCH_PREASSIGNMENTS_D_PREASSIGN_LIST_OPTIONS": {
+    "SHOW_DEPT_RELATED_INFO": true
+  },
+  "WEEKPLAN_SCHEDULE_F_MobileScheduleContext": {
+    "NO_OF_PASTFUTURE_WEEKS": "52"
+  },
+  "ESS_ESS_STF_NOTICE_BOARD_D_SHIFTDISP_MEAL": {
+    "SHOWMEALBREAK": true,
+    "SHOWMEALDURATION": false,
+    "SHOWBREAK": true,
+    "SHOWRESTPERIOD": true,
+    "SHOWPAIDMEAL": true
+  },
+  "RWS_MEETING_LISTING_F_MEETING_INST_CANCEL_REASON": {
+    "REASON_CODES": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ]
+  },
+  "RWS_STFREQCALR_AVAILABILITY_D_AUTO_APPROVAL_CONFIG": {
+    "ENABLE_AVL_AUTO_APPR": false,
+    "MAX_HRS_DAY_AUTOAPPR": 270,
+    "DEFAULT_MEAL_AUTOAPPR": 30
+  },
+  "ROSOM_STOREDEPT_D_DEPARTMENT": {
+    "SHOW_DEPT_CAT": false
+  },
+  "ROSOM_SELECTSTORE_D_SWITCH_STORE_OPTIONS": {
+    "SWITCH_STORE_SORT_ORDER": "UNIT_NAME"
+  },
+  "ROSOM_CFG_CS_CORPEDIT_STFGRP_D_STAFFGROUP": {
+    "SHOW_STGRP_CAT": false
+  },
+  "RFX_NOTIFICATION_D_RFX_NOTIF_STATUS": {
+    "NOTIFICATION_STATUS": true
+  },
+  "RFX_NOTIFICATION_D_RFX_NOTIF_AUTO_FETCH": {
+    "AutoFetchNotif": true
+  },
+  "WEEKPLAN_SCHEDULE_D_WKPLAN_SCHD_DEFAULT_PREF": {
+    "defaultSortPreferenceSetId": "Staffgroup Alphabetical",
+    "defaultDisplayPrefSetId": "Statistics Mode"
+  },
+  "MODULESELECTION_D_DISPLAY_CONFIG": {
+    "SHOW_SYSTEM_MESSAGES": false
+  },
+  "RWS_STAFF_TIMEOFF_REQUEST_D_SS_OS_IN_REQUESTS": {
+    "SS_OS_IN_REQUESTS": false
+  },
+  "SIDE_NAVIGATION_BAR_D_SIDE_NAV_BAR_DEFAULT_UI": {
+    "SIDE_NAV_DEFAULT_OPTION": "icons_only"
+  },
+  "STAFF_REQ_CAL_D_REQ_RESP_VISIBILITY": {
+    "SHOW_PREFERENCE": true
+  },
+  "WEEKPLAN_SCHEDULE_D_DISABLE_CONTEXT_MENU": {
+    "disableContextMenu": true
+  },
+  "WEEKPLAN_SCHEDULE_D_SCHEDULE_GRAPH_COLOR": {
+    "schedule": "#e2e2e2",
+    "workload": "#63adff",
+    "overs": "#a2c6ff",
+    "shorts": "#e2e2e2",
+    "coveredCoverage": "#218004",
+    "notCoveredCoverage": "#A30004",
+    "notDefinedCoverage": "#d7a843"
+  },
+  "RTA_TCARD_D_MAIN_GRID_COLUMNS": {
+    "TXN_TYPE_ICON": true,
+    "TXN_TYPE_DESC": false
+  },
+  "RTA_TCARD_D_RAW_PUNCH_GRID_COLUMNS": {
+    "TXN_TYPE_ICON": true,
+    "TXN_TYPE_DESC": false
+  },
+  "WEEKPLAN_SCHEDULE_D_TIMECARD_WARN_ICON_CONFIG": {
+    "warnIconConfig": {
+      "1001": "/images/111110051/warn-early-clock.png",
+      "1002": "/images/111110051/warn-late-clock.png",
+      "1003": "/images/111110051/warn-early-clock.png",
+      "1004": "/images/111110051/warn-late-clock.png",
+      "1005": "/images/111110051/warn-early-clock.png",
+      "1006": "/images/111110051/warn-late-clock.png",
+      "1007": "/images/111110051/warn-early-clock.png",
+      "1008": "/images/111110051/warn-late-clock.png",
+      "1018": "/images/111110051/warn-early-clock.png",
+      "1019": "/images/111110051/warn-late-clock.png",
+      "1009": "/images/111110051/warn-early-clock.png",
+      "1010": "/images/111110051/warn-late-clock.png",
+      "1011": "/images/111110051/warn-early-clock.png",
+      "1012": "/images/111110051/warn-late-clock.png",
+      "1013": "/images/111110051/warn-unsch-shift.png",
+      "1015": "/images/111110051/warn-unsch-abs.png",
+      "2001": "/images/111110051/warn-missed-clock.png",
+      "2002": "/images/111110051/warn-missed-clock.png",
+      "2003": "/images/111110051/warn-missed-clock.png",
+      "2004": "/images/111110051/warn-missed-clock.png",
+      "2005": "/images/111110051/warn-missed-clock.png",
+      "2006": "/images/111110051/warn-missed-clock.png",
+      "2010": "/images/111110051/warn-missed-meal.png"
+    }
+  },
+  "SIDE_NAVIGATION_BAR_D_SIDE_NAV_STATE_PERSIST": {
+    "SIDE_NAV_STATE_PERSIST": "FALSE"
+  },
+  "RWS_ALERTSVIEW_DISPLAY_D_ALERT_VIEW_PERMS": {
+    "SHOW_CODE_COLUMN": false
+  },
+  "WEEKPLAN_SCHEDULE_F_PENDING_ESS_REQUESTS": {
+    "filterPendingReqWithResponseOnly": false
+  },
+  "WEEKPLAN_SCHEDULE_D_KEY_STATS": {
+    "showBudget": true,
+    "showDemand": true,
+    "showRQS": true,
+    "showScheduleCost": true,
+    "showScheduleEfficiency": true,
+    "showScheduled": true,
+    "showUnallocated": false,
+    "applyScheduleRoundToWorkload": true
+  },
+  "WEEKPLAN_SCHEDULE_D_DISPLAY_PREFERENCE_OPTIONS_VISIBILITY": {
+    "assocCrossDeptInfo": false,
+    "assocCrossStoreInfo": false,
+    "availability": true,
+    "certifications": true,
+    "costWageRate": false,
+    "dayCrossDeptInfo": true,
+    "dayCrossStoreInfo": true,
+    "dayOffTimeOff": true,
+    "demand": true,
+    "employeeType": true,
+    "hoursAvailable": false,
+    "hoursToGoal": true,
+    "minMaxHours": true,
+    "minorIndicator": true,
+    "primaryJob": true,
+    "productivity": true,
+    "shiftActuals": false,
+    "shiftcrossDepartment": false,
+    "shiftCrossStore": false,
+    "shiftDetailedView": true,
+    "shiftDetails": true,
+    "shiftMealDetails": true,
+    "shiftStyle": true,
+    "shiftTextColor": false,
+    "shiftTotalHours": false,
+    "showCoverageGraphGrid": true,
+    "showCoverageGraphScale": true,
+    "showCoverageGraphValues": true,
+    "taskIndicator": true,
+    "showScheduleVsDemandGraph": true,
+    "showOversShortsGraph": true,
+    "showMinimumCoverageGraph": true,
+    "taskIndicatorIcon": true
+  },
+  "WEEKPLAN_SCHEDULE_D_ADV_FILTER_OPTIONS_VISIBILITY": {
+    "fullTimeColleagueType": true,
+    "partTimeColleagueType": true,
+    "department": true,
+    "jobEligibilityAssigned": true,
+    "jobEligibilityEligible": true,
+    "staffGroup": true,
+    "statusAvailable": true,
+    "statusDayOff": true,
+    "statusScheduled": true,
+    "statusTimeOff": true,
+    "statusUnavailable": true,
+    "statusUnscheduled": true,
+    "task": true,
+    "taskEligibilityAssigned": true,
+    "taskEligibilityEligible": true
+  },
+  "WEEKPLAN_SCHEDULE_D_TASK_COLORS": {
+    "enableTaskColor": false
+  },
+  "RWS_STF_EMP_AVL_DET_ROSTER_D_ENABLE_WEEK_END_DATE_SELECTION": {
+    "ENABLE_WEEK_END_DATE_SELECTION": false
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_D_WKPLAN_SCHD_REPORT_DEFAULT_PREF": {
+    "defaultDisplayPrefSetId": "Pdf Mode",
+    "useSession": false
+  },
+  "RWS_SCHEDULE_COMMON_D_WKPLAN_DISPLAY_CONFIG": {
+    "displayTimeInTwentyFourHourFormat": false,
+    "hideWeekCalendar": false,
+    "showRibbonRefreshButton": false,
+    "useNetRulesForDisplayingMinMax": false,
+    "useNetRulesForSchedulePageDisplay": "MIN_WKLY_HRS , MAX_WKLY_HRS",
+    "useNetRulesForAbsence": "MIN_WKLY_HRS"
+  },
+  "WEEKPLAN_SCHEDULE_D_SHIFT_COLORS": {
+    "shiftAlertIndicator": "#007bff"
+  },
+  "WEEKPLAN_SCHEDULE_D_SCHEDULE_GRAPH_CONFIG": {
+    "showOverShortDetails": true
+  },
+  "RTA_TCARD_D_ACCRUAL_BAL_POPUP": {
+    "showFeedDate": true,
+    "showFeedBalance": false,
+    "includeAdvanceVacationBalance": true
+  },
+  "RFP_ANNUAL_WORKLOAD_PLAN_D_GRID_DISP_PREF": {
+    "ENABLE_DAY_VIEW_FROM_ORGLVL": "1"
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_D_ASSOCIATE_ROW_DUPLICATION": {
+    "departmentReleaseBased": false,
+    "taskStaffGroupBased": false
+  },
+  "WEEKPLAN_SCHEDULE_D_OPEN_SHIFT_FILTER": {
+    "showDepartment": false,
+    "showStaffGroup": true,
+    "showTask": true
+  },
+  "WEEKPLAN_STORE_DASHBOARD_D_STORE_DASHBOARD": {
+    "model": {
+      "title": "Sample",
+      "layout": "4-8",
+      "rows": [
+        {
+          "columns": [
+            {
+              "styleClass": "col-md-4",
+              "widgets": [
+                {
+                  "name": "linklist",
+                  "title": "Links",
+                  "config": {
+                    "links": [
+                      {
+                        "title": "Google",
+                        "href": "http://www.google.com"
+                      },
+                      {
+                        "title": "Github",
+                        "href": "http://www.github.com"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "styleClass": "col-md-8",
+              "widgets": [
+                {
+                  "name": "graph",
+                  "title": "Schedule Graph",
+                  "config": {
+                    "url": "/controller/rws/weekplan/web/schedule/statistics/advanced/keystats/{unitId}/{genShiftId}",
+                    "chart": {
+                      "type": "lineChart"
+                    },
+                    "series": [
+                      {
+                        "title": "Managment Schedule",
+                        "color": "#ADE4FA",
+                        "keyStatName": "scheduleByStaffGroup.MANAGEMENT",
+                        "fill": "true"
+                      },
+                      {
+                        "title": "Dairy Schedule",
+                        "color": "#B5B5F9",
+                        "keyStatName": "scheduleByStaffGroup.DAIRY",
+                        "fill": "true"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "WEEKPLAN_ABOVE_STORE_SCHEDULE_D_OPEN_SHIFT_CONTEXT_MENU": {
+    "enablePinOption": true,
+    "clickType": "none"
+  },
+  "WEEKPLAN_ABOVE_STORE_SCHEDULE_D_WKPLAN_SCHD_DEFAULT_PREF": {
+    "defaultSortPreferenceSetId": "Alphabetical",
+    "defaultDisplayPrefSetId": "Basic Mode"
+  },
+  "PRE_FORECAST_REVIEW_D_EVENT_ICON_CONFIG": {
+    "eventIconConfig": "{D:ws-iconEvents,E:ws-iconEvents,H:ws-iconEvents,W:ws-iconWeatherPartlySunny}"
+  },
+  "WEEKPLAN_WORKLOAD_F_WKPLAN_WKLD_FILTER_PREF": {
+    "staffGroupIds": [],
+    "departmentIds": [],
+    "taskIds": [],
+    "hierarchyFilter": {
+      "selectedOrgLevel": 1,
+      "requiredOrgLevel": 2,
+      "selectedId": "CORP",
+      "filterType": "H",
+      "distributionListId": ""
+    }
+  },
+  "WEEKPLAN_WORKLOAD_D_WKPLAN_WKLD_SORT_PREF": {
+    "groupBy": "task"
+  },
+  "WEEKPLAN_WORKLOAD_D_WKPLAN_WKLD_DISP_PREF": {
+    "displayChildTasks": "true",
+    "displayActivities": "true",
+    "displayPreAssignments": "true",
+    "displayNoWorkloadUnits": "false",
+    "displayShortNameOrIcon": "icon",
+    "displaySpreadViewOr15MinSpreadsheet": "H"
+  },
+  "REFLEXIS_COMMON_D_UNIT_DISPLAY": {
+    "sortBy": "UNIT_ID",
+    "displayFormat": "UNIT_ID - UNIT_NAME"
+  },
+  "WEEKPLAN_WORKLOAD_D_WORKLOAD_UIC_CONFIG": {
+    "displayFormat": "UNIT_ID - UNIT_NAME",
+    "sortBy": "UNIT_ID",
+    "numOfTasksToDisplay": "50"
+  },
+  "PRE_FORECAST_REVIEW_D_DISPLAY_CONFIG": {
+    "showSlider": true,
+    "bulkSave": false
+  },
+  "STF_REQ_CALR_N_D_BOTTOM_PANEL_HEIGHT_CONFIGURATION": {
+    "availabilityPanelHeight": 40,
+    "addRequestPanelHeight": 32
+  },
+  "WEEKPLAN_SCHEDULE_D_WKPLAN_SCHD_DISP_DEMND_STAFFGRP": {
+    "showGroupDemandUnallocatedAtStaffGroup": true
+  },
+  "WEEKPLAN_SCHEDULE_D_OPEN_SHIFT_SOURCE_COLOR": {
+    "batchStartTime": "#000000",
+    "fixedStartTime": "#000000",
+    "manualStartTime": "#000000",
+    "scheduleStartTime": "#000000",
+    "permanentScheduleStartTime": "#000000",
+    "uninitialisedPermanentScheduleStartTime": "#000000",
+    "rStartTime": "#000000",
+    "batchEndTime": "#808080",
+    "fixedEndTime": "#808080",
+    "manualEndTime": "#808080",
+    "scheduleEndTime": "#808080",
+    "permanentScheduleEndTime": "#808080",
+    "uninitialisedPermanentScheduleEndTime": "#808080",
+    "rEndTime": "#808080"
+  },
+  "WEEKPLAN_SCHEDULE_D_SHIFT_BUBBLE_SHORT_NAME": {
+    "showEffectiveTaskShortName": true,
+    "showEffectiveStaffGroupShortName": false
+  },
+  "WEEKPLAN_ABOVE_STORE_SCHEDULE_D_SHIFT_BUBBLE_SHORT_NAME": {
+    "showEffectiveTaskShortName": true,
+    "showEffectiveStaffGroupShortName": false
+  },
+  "RWS_SCHEDULE_COMMON_D_WKPLAN_SCHD_COMMON_DISP_CONFIG": {
+    "showScheduleEfficiencyPrecursor": false,
+    "showCertificationIcon": false,
+    "taskIdsForShiftColor": [],
+    "enableTaskSubGrouping": false
+  },
+  "ESS_SHIFTTRADEBOARD_D_DISPLAY_EVENTS_TAB": {
+    "showEventsTab": false
+  },
+  "WEEKPLAN_SCHEDULE_D_ACTIVITY_BUBBLE_SHORT_NAME_DISP": {
+    "showShortNameOnActivityView": false
+  },
+  "REFLEXIS_COMMON_F_REPORTEE_FILTER": {
+    "reporteeType": "N"
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_D_OTHER_DISP_CONFIG": {
+    "colWidthPercentCSV": "12,8,8",
+    "showCrossedStores": true,
+    "showOpenShifts": false,
+    "showStaffGroupName": false
+  },
+  "RTA_DEVICE_COMMON_F_FILTER_CONFIG": {
+    "DEF_DVC_TYPE_SEL": "11"
+  },
+  "RWS_SCHEDULE_TEMPLATE_COMMON_D_WP_SHIFT_LOCK": {
+    "workpatternShiftLock": "F"
+  },
+  "WEEKPLAN_SCHEDULE_DAILY_D_DAILY_SCHEULE_METRIC_STATISTICS": {
+    "salesForecastMetricAndDepartments": ""
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_PDF_D_WEEK_PLAN_SCHEDULE_REPORT_PDF": {
+    "WEEK_PLAN_SCHEDULE_REPORT_PDF": "landscape"
+  },
+  "RWS_SCHEDULE_TEMPLATE_COMMON_D_RESOLUTION_OPTIONS": {
+    "singleAssociate": true,
+    "multipleAssociate": true,
+    "allOpenShifts": true
+  },
+  "STF_REQ_CALR_N_D_DISPLAY_CONFIGURATION": {
+    "SHOW_APPROVED_COUNT": false,
+    "showFloaterStoreEmpCheckBoxes": false,
+    "SHOW_EMP_STATUS_IN_FILTER": true,
+    "setDefaultViewToMonthly": false,
+    "SET_TIME_OFF_DURATION_INTERVAL": "15"
+  },
+  "RTA_PROCESS_STORE_RELEASE_D_RTA_PROCESS_STORE_RELEASE_CONFIG": {
+    "RTA_PROCESS_STORE_RELEASE_TIME": "15"
+  },
+  "RTA_PROCESS_STORE_RELEASE_D_KEY_STATS": {
+    "applyScheduleRoundToWorkload": false,
+    "showActualHours": true,
+    "showActualsCost": true,
+    "showBudget": true,
+    "showDemand": true,
+    "showRQS": false,
+    "showScheduleCost": false,
+    "showScheduleEfficiency": false,
+    "showScheduled": false,
+    "showUnallocated": false
+  },
+  "ESS_EMP_SCHEDULE_D_SHOW_HIDE_EMAIL_TEXT": {
+    "showEmailOption": false,
+    "showTextOption": false
+  },
+  "RWS_STFREQCALR_AVAILABILITY_D_AVAILIBILITY_PREFERENCES": {
+    "TEMPORARY": true,
+    "PERMANENT": true
+  },
+  "WEEKPLAN_ABOVE_STORE_SCHEDULE_D_DISPLAY_CONFIG": {
+    "showAllUnitLevels": true
+  },
+  "ESS_MY_PROFILE_D_EMP_MGR_EMAIL": {
+    "managerNameClickable": true
+  },
+  "WEEKPLAN_HEALTHCHECK_D_HEALTHCHECK_CONFIG": {
+    "storeOrder": "1",
+    "forecastOrder": "3",
+    "timeAndAttendanceOrder": "6",
+    "scheduleOrder": "5",
+    "rosterOrder": "2",
+    "workloadOrder": "4",
+    "showStore": true,
+    "showForecast": true,
+    "showTimeAndAttendance": true,
+    "showSchedule": true,
+    "showRoster": true,
+    "showWorkload": true,
+    "trendChartMaxRange": "13",
+    "showMinorDetails": true
+  },
+  "WEEKPLAN_SCHEDULE_D_ACTIVITY_VIEW_TIMELINE": {
+    "startTime": 360,
+    "duration": 1080
+  },
+  "RWS_SHIFT_TEMPLATES_D_SHIFT_LOCK_OPTION": {
+    "SHIFT_LOCK_OPTION_LOCK_TASKS_ONLY": false,
+    "SHIFT_LOCK_OPTION_LOCK_ALL_TASKS": false,
+    "SHIFT_LOCK_OPTION_LOCK_DAY": false,
+    "SHIFT_LOCK_OPTION_LOCK_ALL_DAY": false,
+    "SHIFT_LOCK_OPTION_LOCK_SHIFT_AND_TASK": true,
+    "SHIFT_LOCK_OPTION_LOCK_ALL_SHIFTS_AND_TASKS": true,
+    "SHIFT_LOCK_OPTION_UNLOCK_SHIFT_AND_TASK": true,
+    "SHIFT_LOCK_OPTION_UNLOCK_ALL_SHIFTS_AND_TASKS": true,
+    "SHIFT_LOCK_OPTION_LOCK_SHIFT": true,
+    "SHIFT_LOCK_OPTION_LOCK_All_SHIFTS": true
+  },
+  "ESS_EMP_SCHEDULE_D_ESS_SCHEDULE_DISPLAY_CONFIG": {
+    "showScheduleDetailsByDefault": true
+  },
+  "RTA_TCARD_D_PAY_RESULT_COLUMNS": {
+    "PAY_RESULT_COLUMNS_UNIT": true,
+    "PAY_RESULT_COLUMNS_DAYS": true
+  },
+  "REFLEXIS_COMMON_D_PANEL_ICON": {
+    "task": {
+      "Assistance": "assistance.png",
+      "Bagpacking": "bagPacking.png",
+      "Beltedselfscan": "BeltedSelfScan.png",
+      "Calling": "calling.png",
+      "Cashier": "cashier.png",
+      "Cashiertendertransaction": "CashierTenderTrsctn.png",
+      "Changegarbagebagsregister": "ChangeGarbageBags.png",
+      "Checkoutmanager": "CheckoutManager.png",
+      "Cleaning": "cleaning.png",
+      "Creditcardapps": "CreditCardApps.png",
+      "Custcarephone": "CustCarePhone.png",
+      "Customerservice": "CustomerService.png",
+      "Cutropechain": "CutRopeChain.png",
+      "Delivery": "delivery.png",
+      "Demand": "demand.png",
+      "Departmentmaintenance": "DepartmentMaintenance.png",
+      "Diesel": "diesel.png",
+      "Dispatching": "dispatching.png",
+      "Dustmopsweep": "DustMopSweep.png",
+      "Easyorders": "EasyOrders.png",
+      "Ecommercefulfillment": "EcommerceFulfillment.png",
+      "Express": "express.png",
+      "Flowmgr": "FlowMgr.png",
+      "Flowtask": "FlowTask.png",
+      "Frieghthandling": "FrieghtHandling.png",
+      "Gas": "gas.png",
+      "Generalmanager": "GeneralManager.png",
+      "Greeter": "greeter.png",
+      "Hubdelivery": "HubDelivery.png",
+      "Inventoryoverstock": "InventoryOverstock.png",
+      "Inventoryupgrade": "InventoryUpgrade.png",
+      "Investment": "Investment.png",
+      "Kiosk": "kiosk.png",
+      "Maintenance": "Maintenance.png",
+      "Makingkeys": "MakingKeys.png",
+      "Manualshipments": "manualShipments.png",
+      "Merchandise": "Merchandise.png",
+      "Mixingpaint": "MixingPaint.png",
+      "Mobiletill": "MobileTill.png",
+      "Physicalinventory": "PhysicalInventory.png",
+      "Planogram": "planogram.png",
+      "Pricechange": "priceChange.png",
+      "Processing": "processing.png",
+      "Purge": "purge.png",
+      "Register": "Register.png",
+      "Repair": "repair.png",
+      "Replenishment": "Replenishment.png",
+      "Restocking": "restocking.png",
+      "Restockoilrack": "RestockOilRack.png",
+      "Seasonaldisplay": "seasonalDisplay.png",
+      "Securitytagging": "securityTagging.png",
+      "Selfscan": "selfScan.png",
+      "Selling": "selling.png",
+      "Servicing": "Servicing.png",
+      "Stocking": "stocking.png",
+      "Storeclose": "StoreClose.png",
+      "Storeopen": "StoreOpen.png",
+      "Supplymanagement": "supplyManagement.png",
+      "Support": "support.png",
+      "Tasklist": "taskList.png",
+      "Teamleader": "teamLeader.png",
+      "Teammembers": "teamMembers.png",
+      "Timesegment": "timeSegment.png",
+      "Tirecaremech": "TireCareMech.png",
+      "Tirecareroadcall": "TireCareRoadcall.png",
+      "Trainer": "trainer.png",
+      "Transaction": "transaction.png",
+      "Trashremoval": "TrashRemoval.png",
+      "Truckloading": "TruckLoading.png",
+      "Truckunloading": "TruckUnloading.png"
+    }
+  },
+  "SCHEDULE_UI_REPORTS_D_SCHEDULE_UI_REPORTS_OPTIONS": {
+    "PRINT_REPORTS": {
+      "weekplanScheduleSummary": true,
+      "weekplanScheduleDetail": true,
+      "periodScheduleSummary": true,
+      "periodScheduleDetail": true,
+      "associateWeekplanScheduleSummary": true,
+      "EssAssocWeeklySchSum": true,
+      "associateWeekplanScheduleDetail": true,
+      "EssAssocWeeklySchDet": true,
+      "associatePeriodScheduleSummary": true,
+      "EssAssocPeriodSchSum": true,
+      "associatePeriodScheduleDetail": true,
+      "EssAssocPeriodSchDet": true
+    },
+    "PDF_REPORTS": {
+      "weekplanScheduleSummaryPdfReport": true,
+      "weekplanScheduleDetailPdfReport": true,
+      "periodScheduleSummaryPdf": true,
+      "periodScheduleDetailPdf": true,
+      "associateWeekplanScheduleSummaryPdfReport": true,
+      "EssAssocWeeklySchSumPDF": true,
+      "associateWeekplanScheduleDetailPdfReport": true,
+      "EssAssocWeeklySchDetPDF": true,
+      "associatePeriodScheduleSummaryPdfReport": true,
+      "EssAssocPeriodSchSumPDF": true,
+      "associatePeriodScheduleDetailPdfReport": true,
+      "EssAssocPeriodSchDetPDF": true
+    }
+  },
+  "RWS_STAFFPOSITIONRESOLUTION_D_POSITION_RESOLUTION": {
+    "RESOLVED": true
+  },
+  "TIMECLOCK_COMMON_D_AUTH_OPTIONS": {
+    "showBadgeId": true,
+    "showFacialRecognition": true,
+    "showQRCode": true,
+    "defaultAuthOption": "showBadgeId"
+  },
+  "ESS_MY_PROFILE_D_DISPLAY_CONFIGURATION": {
+    "contactEmailHyperlink": true,
+    "hidesmsoption": false
+  },
+  "WEEKPLAN_HEALTHCHECK_D_HEALTHCHECK_ADV_FILTER_OPTIONS_VISIBILITY": {
+    "fullTimeColleagueType": true,
+    "partTimeColleagueType": true,
+    "department": true,
+    "jobEligibilityAssigned": true,
+    "jobEligibilityEligible": true,
+    "staffGroup": true,
+    "statusAvailable": true,
+    "statusDayOff": true,
+    "statusScheduled": true,
+    "statusTimeOff": true,
+    "statusUnavailable": true,
+    "statusUnscheduled": true,
+    "task": true,
+    "taskEligibilityAssigned": true,
+    "taskEligibilityEligible": true
+  },
+  "ESS_VACATION_BIDDING_D_ESS_BIDDING_DISPLAY_OPTIONS": {
+    "showTotalAvailable": false,
+    "showRequestedWeeks": false,
+    "showSeniorityRank": false,
+    "showNoOfWeeks": false,
+    "showTotalBids": false,
+    "showYourChance": false
+  },
+  "ANNUAL_VACATION_PLAN_D_AWARD_ANNAOUNCE": {
+    "AWARD_ANNAOUNCE": false
+  },
+  "MOBILECLOCKLOGIN_D_MOBILECLOCK_UI_OPTIONS": {
+    "ACTIVITY_SELECTION_MANDATORY": true,
+    "DISPLAY_MGR_OVERRIDE": true,
+    "SHOW_DATETIME_OVRRDE_POPUP": true,
+    "SHOW_PASSWORD_BOX": false
+  },
+  "ESSMOBILECONTEXT_D_ESS_MOBILE_CONTEXT": {
+    "ENABLE_MYWORK_INTEGRATION": true,
+    "ENABLE_INCOMING_LANDING": true,
+    "ENABLE_NEW_DASHBOARD": false
+  },
+  "ESS_SHIFTTRADEBOARD_D_ESS_TRADEBOARD_DISPLAY_CONFIG": {
+    "HIDE_ADDITIONAL_WORK_TAB": false,
+    "SWAP_SEARCH_DEFAULT_OPTION": "I"
+  },
+  "ESS_EMP_SCHEDULE_D_SHOW_HIDE_SYNC_CALENDAR": {
+    "showSyncCalOption": true
+  },
+  "RWS_SCHEDULE_COMMON_D_OPENSHIFT_CONTEXT_MENU_OPTIONS": {
+    "openShiftContextMenus": [
+      "SE",
+      "SL",
+      "SN",
+      "OSC",
+      "OSM",
+      "OSA",
+      "OSCL",
+      "OSD",
+      "OSR",
+      "SSAT"
+    ]
+  },
+  "ANNUAL_VACATION_PLAN_D_PLAN_IMPORT": {
+    "PLAN_IMPORT": false
+  },
+  "ESS_RWS_EMP_AVL_DET_D_AVAILABILITY_DEFAULT_DURATION": {
+    "DEFAULT_DURATION_HOURS": "10",
+    "DEFAULT_DURATION_CONFIGURATION": "END_OF_DAY"
+  },
+  "ESS_EMP_SCHEDULE_D_HIDE_ESS_SCH_BREAK": {
+    "hideessschbreak": false
+  },
+  "WEEKPLAN_SCHEDULE_D_USE_DEFAULT_PREF_FOR_PDF": {
+    "useDefaultPrefForPDF": ""
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_D_ASSOCIATE_LAST_NAME_LENGTH_FOR_PDF": {
+    "LAST_NAME_LENGTH_FOR_PDF": 0
+  },
+  "WEEKPLAN_SCHEDULE_D_SHOW_EMPLOYEE_JOB_CODE": {
+    "showJobCodeUnderEmployee": false
+  },
+  "WEEKPLAN_SCHEDULE_DAILY_D_PRINT_PDF_DOWNLOAD": {
+    "PrintPdfDownload": true
+  },
+  "MY_STORE_MOBILE_CONTEXT_D_TODO_STATS": {
+    "showOpenShifts": true,
+    "showPendingRequests": true,
+    "showTimecardWarnings": true,
+    "showShiftRequests": true,
+    "showScheduleAlerts": true,
+    "showScheduleStatus": true,
+    "numFutureWeekSchStatus": 2,
+    "showPayrollNotReleased": true,
+    "numPastWeekPayrollStatus": 5
+  },
+  "MANAGER_MOBILE_CONTEXT_D_SM_MOBILE_CONTEXT": {
+    "enableMyworkIntegrationTablet": true,
+    "enableMyworkIntegrationPhone": true,
+    "enableIncomingLandingTablet": true,
+    "enableIncomingLandingPhone": true,
+    "showDLSLandingForScheduleView": true,
+    "defaultLandingPageForPhoneApp": "myStore"
+  },
+  "WEEKPLAN_SCHEDULE_D_ESS_REQUESTS": {
+    "showResponderDateOfHire": false
+  },
+  "EMPLOYEE_ALERTS_REQUESTS_D_ALTERNATE_WORK_LOC_REQUEST": {
+    "AlternateWorklocrequest": true
+  },
+  "BULK_REQUESTS_D_BULK_REQ": {
+    "SHOWASSOCIATEID": "id"
+  },
+  "ESS_STORE_SCHEULE_F_ESS_STORE_SCHEULE_FILTER": {
+    "defaultDepartmentFilter": "home",
+    "defaultStatusFilter": [
+      "sch"
+    ]
+  },
+  "WEEKPLAN_SCHEDULE_D_HIDE_SCH_REGEN_OPTIONS": {
+    "DEL_REGEN_SELC_EMP": false,
+    "DEL_SFT_REGEN": false,
+    "IN_DAY_REOPTIMIZE": false,
+    "LCK_SFT_PROC_REGEN": false,
+    "LCK_SFT_REGEN": false,
+    "NEW_HIRE": false,
+    "NONE": false,
+    "REGEN_USING_NSGA": false,
+    "UNLCK_SFT_PROC_REGEN": false
+  },
+  "RTA_TCARD_D_DISPLAY_PREFERENCE": {
+    "ACTIVITY_SORTING_PREFERENCE": "ACTIVITY_CODE"
+  },
+  "STF_REQ_CALR_N_D_DIRECT_REPORTEE_UNIT_FILTER": {
+    "showUnitFilter": false
+  },
+  "RWS_SCHEDULE_COMMON_D_EMPLOYEE_CONTEXT_DISPLAY_CONFIG": {
+    "employeeScheduleActionButtons": {
+      "emailSchedule": true,
+      "smsSchedule": true,
+      "schedulePdf": true,
+      "schedulePrint": true
+    }
+  },
+  "MANAGER_MOBILE_CONTEXT_D_SM_DURATION_PICKER": {
+    "defaultStartTimeInPicker": 540,
+    "defaultDurationInPicker": 480
+  },
+  "WEEKPLAN_HEALTHCHECK_D_HEALTHCHECK_STATS_COLOR_CONFIG": {
+    "averageScore": "5.0",
+    "averageScoreColor": "#FFA500",
+    "highScore": "7.5",
+    "highScoreColor": "#00CD00",
+    "lowScoreColor": "#CC0000"
+  },
+  "MOBILE_APP_UPDATE_D_ESS_MOBILE_APP_UPDATE": {
+    "enableESSUpdate": false,
+    "enableESSForceUpdate": false,
+    "ESSiOSAppVersion": "",
+    "ESSAndroidAppVersion": "",
+    "ESSDownloadLinkURL": "",
+    "ESSiOSAppStoreURL": "",
+    "ESSAndroidPlayStoreURL": "",
+    "ESSAppUpdateTitle": "New Version Available",
+    "ESSAppUpdateMessage": "Update app to new version to continue."
+  },
+  "MOBILE_APP_UPDATE_D_SM_MOBILE_APP_UPDATE": {
+    "enableSMUpdate": false,
+    "enableSMForceUpdate": false,
+    "SMiOSAppVersion": "",
+    "SMAndroidAppVersion": "",
+    "SMDownloadLinkURL": "",
+    "SMiOSAppStoreURL": "",
+    "SMAndroidPlayStoreURL": "",
+    "SMAppUpdateTitle": "New Version Available",
+    "SMAppUpdateMessage": "Update app to new version to continue."
+  },
+  "RTA_DEVICE_COMMON_D_DEVICE_UI_OPTIONS": {
+    "EMP_DIVICE_NAME_FORMAT": "LAST_NAME"
+  },
+  "RWS_ROSTER_COMMON_D_ROSTER_COMMON_OPTIONS": {
+    "firstName": true,
+    "lastName": true,
+    "middleName": true,
+    "displayName": true,
+    "profileImage": true,
+    "document": true,
+    "SSN": true,
+    "dateOfBirth": true,
+    "dateOfHire": true,
+    "gender": true,
+    "allowLogin": true,
+    "loginId": true,
+    "staffId": true,
+    "minorExempt": true,
+    "displaySequence": true,
+    "showQuickSearchBox": true,
+    "sortEmployeeIdAsNumeric": false,
+    "manager": true
+  },
+  "ROSTER_CONTACT_INFO_D_ROSTER_CONTACT_INFO_OPTIONS": {
+    "country": true,
+    "emailId": true,
+    "altEmailId": true,
+    "imId": true,
+    "homePhone": true,
+    "mobilePhone": true,
+    "workPhone": true,
+    "altPhone": true,
+    "pager": true,
+    "commPref": true,
+    "mobileCarrier": true,
+    "empLocaleCode": true,
+    "streetAddr": true,
+    "city": true,
+    "state": true,
+    "zipCode": true,
+    "stfnotes": true,
+    "ec1Name": true,
+    "ec1Relation": true,
+    "ec1HomePhone": true,
+    "ec1MobilePhone": true,
+    "ec1WorkPhone": true,
+    "ec1AltPhone": true,
+    "ec1Pager": true,
+    "ec1Email": true,
+    "ec1StreetAddr": true,
+    "ec1City": true,
+    "ec1State": true,
+    "ec1ZipCode": true,
+    "ec1Country": true,
+    "ec2Name": true,
+    "ec2Relation": true,
+    "ec2HomePhone": true,
+    "ec2MobilePhone": true,
+    "ec2WorkPhone": true,
+    "ec2AltPhone": true,
+    "ec2Pager": true,
+    "ec2Email": true,
+    "ec2StreetAddr": true,
+    "ec2City": true,
+    "ec2State": true,
+    "ec2ZipCode": true,
+    "ec2Country": true
+  },
+  "ESS_SHIFTTRADEBOARD_D_COMMON_DISPLAY_CONFIG": {
+    "showDailyDisplay": false,
+    "showWeeklyDisplay": false
+  },
+  "RWS_STF_ATTR_D_STAFF_ATTRIBUTE_FIELDS": {
+    "showAttrIdInName": true
+  },
+  "RWS_STFREQCALR_AVAILABILITY_D_COMMON_DISPLAY_CONFIG": {
+    "showMaxWeeklyDays": false,
+    "showMaxWeeklyHours": false,
+    "showPrevAvailability": false
+  },
+  "RWS_SALES_D_COMMON_DISPLAY_CONFIG": {
+    "salesMetric": ""
+  },
+  "WEEKPLAN_SCHEDULE_D_COVERAGE_DATA_GRID_DISPLAY": {
+    "showCoverageDataGrid": false
+  },
+  "PRE_FORECAST_REVIEW_D_IntraDayGraphConfiguraion": {
+    "barSelectionCount": "20",
+    "interpolationType": "linear",
+    "SystemForecastColor": "#1f77b4",
+    "AdjustedForecastColor": "#ffff00e0",
+    "ActualForecastColor": "#eaeaea"
+  },
+  "RWS_WORKSTATIONDAILYREPORT_D_SHIFT_BUBBLE_SHORT_NAME": {
+    "showEffectiveTaskShortName": false
+  },
+  "WEEKPLAN_SCHEDULE_D_COMPARE_ANY_ITERATION": {
+    "isCompareAnyIterationAllowed": false
+  },
+  "ROSOM_ADM_UNIT_D_ADM_UNIT_DISPLAY_CONFIG": {
+    "hideClosedUnits": false
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_D_DISPLAY_SHIFT_TIME_IN_BOLD": {
+    "displayShiftTimingInBold": false
+  },
+  "WEEKPLAN_ABOVE_STORE_SCHEDULE_D_BI_WEEKLY_STATS": {
+    "showBiWeeklyStats": false,
+    "showBiWeeklyBudgetHours": false,
+    "showBiWeeklyBudgetCost": false
+  },
+  "WEEKPLAN_SCHEDULE_D_SHOW_ALERT_FOR_MODIFIED_UNPUB_SCH": {
+    "showAlertForModifiedUnpubSch": true
+  },
+  "ROSOM_HOLIDAYTYPES_D_CATEGORY_TYPE_PREFERENCE": {
+    "categoryType": false
+  },
+  "WEEKPLAN_SCHEDULE_REPORT_D_FONT_STYLE_FOR_SCHED_REPORT": {
+    "fontSizeForShiftTiming": "12"
+  },
+  "WEEKPLAN_SCHEDULE_D_RETAIN_ADVANCE_FILTER_IN_SESSION": {
+    "retainAdvanceFilterInSession": true
+  },
+  "PRE_FORECAST_REVIEW_D_EDIT_VALIDATIONS": {
+    "validateDeptTotalToStoreTotal": false
+  },
+  "ESS_MOBILE_SCHEDULE_F_MOBILE_SCHEDULE": {
+    "showMonthView": true,
+    "showWeekView": true,
+    "showDayView": false,
+    "showSchDaysOnly": true,
+    "showAllDays": true,
+    "showSummaryView": true,
+    "showDetailedView": true,
+    "defaultSchViewOption": "showWeekView",
+    "defaultSchDaysOption": "showAllDays",
+    "defaultSchDetailsOption": "showSummaryView"
+  },
+  "TIMECLOCK_COMMON_D_TIMECLOCK_CONFIG": {
+    "enableOfflineMode": true,
+    "enableAutoSyncPunches": true,
+    "enableNumericKeypad": true,
+    "autoSyncDelay": "0",
+    "syncBatchRecCount": "20",
+    "enableESS": true,
+    "showVioceCmdFaceReco": true,
+    "showESSafterTxn": true,
+    "enableDemoMode": false,
+    "enableFaceRecoClient": false,
+    "enableIP": false,
+    "enableIPGrayScale": true,
+    "enableIPTilt": false,
+    "enableIPContrast": false,
+    "enableIPBrightness": false,
+    "enableIPSharpness": false,
+    "enableIPFaceCrop": false,
+    "enableIPRejectBlur": false,
+    "enableIPImgResize": true,
+    "IPResizeKB": "300",
+    "enableSplashAppIdle": true,
+    "splashAppIdleTimer": "5",
+    "essTxnIdleTimer": "1",
+    "BadgeidIdleTimer": "5"
+  },
+  "WEEKPLAN_HEALTHCHECK_F_WKPLAN_HEALTHCHECK_DEFAULT_PREF": {
+    "defaultAssociateLookUpSetId": "All Employees"
+  },
+  "ESS_MOBILE_REQUEST_F_MOBILE_REQUEST_LIST": {
+    "showPendingReq": true,
+    "defPendingReq": true,
+    "showApprovedReq": true,
+    "defApprovedReq": true,
+    "showDeclinedReq": true,
+    "defDeclinedReq": true,
+    "defFromDate": "curMonth",
+    "defToDate": "curMonth",
+    "showTypeAvail": true,
+    "defTypeAvail": true,
+    "showTypeDayOff": true,
+    "defTypeDayOff": true,
+    "showTypeProfile": true,
+    "defTypeProfile": true,
+    "showTypeTimeOff": true,
+    "defTypeTimeOff": true,
+    "showTypeTA": true,
+    "defTypeTA": true,
+    "showTypeWorkLoc": true,
+    "defTypeWorkLoc": true
+  },
+  "ESS_MOBILE_REQUEST_D_MOBILE_REQUEST_LIST": {
+    "showAddressChange": true,
+    "showAvailability": true,
+    "showDayOff": true,
+    "showEmailAdssChange": true,
+    "showMealWaiver": true,
+    "showMuteNotif": true,
+    "showNotifChange": true,
+    "showNoteToManager": true,
+    "showPhoneChange": true,
+    "showAltWorkLoc": true
+  },
+  "STF_REQ_CALR_N_F_REQ_CAL_FILTER_CONFIG": {
+    "permittedReporteeTypes": [
+      "D",
+      "I",
+      "N"
+    ],
+    "reporteeType": "N"
+  },
+  "PRE_FORECAST_REVIEW_D_UNIT_SELECTION": {
+    "orgLevelSearch": true
+  },
+  "RWS_SCHEDULE_TEMPLATE_COMMON_D_SCHEDULE_TEMPLATE_DISPLAY_CONFIG": {
+    "showScheduleGeneratedWarning": false,
+    "showAvailabilityInFixedShifts": false,
+    "allowEndDateEditInAssociateTemplate": false
+  },
+  "RPL_BUDGET_PLAN_D_BUDGET_PLAN_PTP_DOWN_BUDGET": {
+    "BUDGET_PLAN_PTP_DOWN_BUDGET": "hidden"
+  },
+  "RPL_BUDGET_PLAN_D_BUDGET_PLAN_BOTTOM_UP_BUDGET": {
+    "BUDGET_PLAN_BOTTOM_UP_BUDGET": "readonly"
+  },
+  "RPL_BUDGET_PLAN_D_BUDGET_PLAN_RECONCILED_BUDGET": {
+    "BUDGET_PLAN_RECONCILED_BUDGET": "hidden"
+  },
+  "RPL_BUDGET_PLAN_D_BUDGET_PLAN_COMPUTE_AHR_BUDGET": {
+    "BUDGET_PLAN_COMPUTE_AHR_BUDGET": "hidden"
+  },
+  "WEEKPLAN_WORKLOAD_D_DISPLAY_PREFERENCE_OPTIONS_VISIBILITY": {
+    "showChildTask": true,
+    "showLocalTask": true,
+    "taskSpread": true,
+    "hourlyInterval": true,
+    "fifteenMinInterval": true,
+    "taskIndicatorColorView": false
+  },
+  "RPL_BUDGET_PLAN_D_BUDGET_PLAN_SPPH_DOWN_BUDGET": {
+    "BUDGET_PLAN_SPPH_DOWN_BUDGET": "hidden"
+  },
+  "RFP_ANNUAL_NA_DAY_PLAN_BKOUT_D_SKIP_CHILDREN_BLKOUT": {
+    "showSkipChildrenCheckBox": false
+  },
+  "RWS_HR_CHANGES_D_LOG_FILE_SHOW_OPTIONS": {
+    "showLogFileInNewTab": true,
+    "showLogButton": false
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_SCHEDULE_GRAPH_COLOR": {
+    "schedule": "#e2e2e2",
+    "workload": "#63adff",
+    "overs": "#a2c6ff",
+    "shorts": "#e2e2e2",
+    "coveredCoverage": "#218004",
+    "notCoveredCoverage": "#A30004",
+    "notDefinedCoverage": "#d7a843"
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_KEY_STATS": {
+    "showBudget": true,
+    "showDemand": true,
+    "showRQS": true,
+    "showScheduleCost": true,
+    "showScheduleEfficiency": true,
+    "showScheduled": true,
+    "showUnallocated": false,
+    "applyScheduleRoundToWorkload": true
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_TASK_COLORS": {
+    "enableTaskColor": true
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_WKPLAN_MULTI_SCHD_DEFAULT_PREF": {
+    "defaultSortPreferenceSetId": "Alphabetical",
+    "defaultDisplayPrefSetId": "Basic Mode"
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_SHIFT_BUBBLE_SHORT_NAME": {
+    "showEffectiveTaskShortName": true,
+    "showEffectiveStaffGroupShortName": false
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_SHOW_EMPLOYEE_JOB_CODE": {
+    "showJobCodeUnderEmployee": true
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_COVERAGE_DATA_GRID_DISPLAY": {
+    "showCoverageDataGrid": true
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_DAILY_D_DAILY_MULTI_SCHD_METRIC_STATISTICS": {
+    "salesForecastMetricAndDepartments": ""
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_SCHEDULE_GRAPH_CONFIG": {
+    "showOverShortDetails": true
+  },
+  "RWS_ROSTER_COMMON_F_ROSTER_FILTER": {
+    "applicablePersonIds": [],
+    "applicableEmployeeIds": [],
+    "firstName": "",
+    "employeeId": "",
+    "lastName": "",
+    "employeeNameIncludes": "",
+    "taskIds": [],
+    "zoneIds": [],
+    "empStatus": [],
+    "empType": [],
+    "statusAsOn": "",
+    "selectedUnitOnly": "",
+    "certificationIds": [],
+    "deptIds": [],
+    "selectedOrgLevel": "",
+    "staffGroupIds": [],
+    "unitIds": [],
+    "applicablePersonIdsToEmployeeIdMap": {},
+    "reporteeType": "NONE",
+    "managerUserId": ""
+  },
+  "RWS_ROSTER_COMMON_D_ROSTER_DEFAULT_PREF": {
+    "defaultFilterSetId": "DEFAULT",
+    "defaultSortPreferenceSetId": "DEFAULT",
+    "defaultDisplayPrefSetId": "DEFAULT"
+  },
+  "WEEKPLAN_SCHEDULE_D_ASSOCIATE_AVAILABILITY_COLORS": {
+    "available": "#77ea77",
+    "unavailable": "#ffc251",
+    "timeoff": "#ff0000",
+    "dayoff": "#990000"
+  },
+  "WEEKPLAN_HEALTHCHECK_F_HEALTHCHECK_PEER_CONFIG": {
+    "storePeerType": "ALL_ELIGIBLE"
+  },
+  "REFLEXIS_COMMON_D_CALENDER_OPTIONS": {
+    "showFiscalWeekNumbers": true
+  },
+  "RWS_ASSOCIATE_TEMPLATE_D_EMP_TEMPLATE_DISPLAY_CONFIG": {
+    "SHOW_SCHEDULED_HOURS": false,
+    "SHOW_EMPLOYEE_ID": false,
+    "EMPLOYEE_TYPES_TO_DISPLAY": ""
+  },
+  "ESS_EMP_SCHEDULE_D_MOBILE_ESS_SCHEDULE": {
+    "showSchPublishDate": true,
+    "showShareScreenshot": true
+  },
+  "RWS_ROSTER_COMMON_F_ROSTER_SORT_PREF": {
+    "sortBy": "homeDeptId",
+    "sortOrder": "0"
+  },
+  "ROSOM_ADM_UNIT_EDIT_D_UNIT_PARENT_CHANGE": {
+    "enableEndDateSelection": false
+  },
+  "RWS_ROSTER_COMMON_F_ROSTER_DISPLAY_PREF": {
+    "displayName": true,
+    "employeeId": true,
+    "homeDeptId": true,
+    "primaryStaffGroupId": true,
+    "homeUnitId": true,
+    "empType": true,
+    "minor": true,
+    "empStatus": true,
+    "photo": true
+  },
+  "RFP_CFG_WDR_DRV_D_COMMON_DISPLAY_CONFIGURATION": {},
+  "WEEKPLAN_SCHEDULE_D_DLS_WINDOW_CONFIG": {
+    "dlsWindowDuration": "1440",
+    "dlsWindowStart": "0000"
+  },
+  "MOBILE_GENERIC_CONFIG_D_MOBILE_GENERIC_CONFIG": {
+    "disableScreenshot": false,
+    "enableTouchId": false
+  },
+  "RTA_APPR_OT_F_RTA_APPR_OT_FILTER": {
+    "CONS_SAL_EMP": true
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_WKPLAN_MULTI_SCHD_STORE_LOAD_CONFIG": {
+    "loadAllStores": true
+  },
+  "MOBILE_APP_UPDATE_D_CLOCK_MOBILE_APP_UPDATE": {
+    "enableClockUpdate": false,
+    "enableClockForceUpdate": false,
+    "ClockiOSAppVersion": "",
+    "ClockAndroidAppVersion": "",
+    "ClockDownloadLinkURL": "",
+    "ClockiOSAppStoreURL": "",
+    "ClockAndroidPlayStoreURL": "",
+    "ClockAppUpdateTitle": "New Version Available",
+    "ClockAppUpdateMessage": "Update app to new version to continue."
+  },
+  "MOBILE_MSG_ALERT_D_CLOCK_MOBILE_MSG_ALERT": {
+    "msgTypePhone": "alert",
+    "msgTypeTab": "alert",
+    "timerCloseDuration": "0"
+  },
+  "MOBILE_MSG_ALERT_D_ESS_MOBILE_MSG_ALERT": {
+    "msgTypePhone": "alert",
+    "msgTypeTab": "alert",
+    "timerCloseDuration": "0"
+  },
+  "MOBILE_MSG_ALERT_D_MGR_MOBILE_MSG_ALERT": {
+    "msgTypePhone": "bannerTop",
+    "msgTypeTab": "bannerTop",
+    "timerCloseDuration": "10"
+  },
+  "SKILL_COVERAGE_D_ENABLE_SKILL_CONFIG": {
+    "headCount": false,
+    "dynamicSkillCov": false,
+    "skillAsRuleafterSchedule": false,
+    "unitAtrributeForCoverage": true,
+    "skillCoverageByTask": false
+  },
+  "MOBILE_APP_UPDATE_D_ESS_20_MOBILE_APP_UPDATE": {
+    "enableESSUpdate": false,
+    "enableESSForceUpdate": false,
+    "ESSiOSAppVersion": "",
+    "ESSAndroidAppVersion": "",
+    "ESSDownloadLinkURL": "",
+    "ESSiOSAppStoreURL": "",
+    "ESSAndroidPlayStoreURL": ""
+  },
+  "RWS_REQUEST_TYPE_D_REQUEST_TYPE_CONFIG": {
+    "allowAttachments": false,
+    "distributionList": false,
+    "autoApproval": false,
+    "levelsOfApproval": false,
+    "profile": false,
+    "increment": false,
+    "displayOrder": false
+  },
+  "RWS_SHARE_REQUEST_D_COMMON_DISP_CONFIG": {
+    "autoApprovalEmpGroups": []
+  },
+  "RTA_TCARD_D_TCARD_DISP_CONFIG_MOBILE": {
+    "hideHoursOnTimeCardRibbon": false
+  },
+  "UPCOMING_ASSOCIATE_ALERTS_D_ASSOICATE_ALERTS_FILTER_WEEK_DURATION": {},
+  "MANAGER_MOBILE_CONTEXT_D_SM_WEB_VIEWS": {
+    "scheduleReports": false,
+    "taMenuOptions": false,
+    "fixedShifts": false,
+    "assocAlerts": false
+  },
+  "ESS_SHIFTTRADEBOARD_D_HIDE_OTHER_RESPONSES_TAB": {
+    "HIDE_FOR_OPEN_SHIFT": false
+  },
+  "WEEKPLAN_SCHEDULE_D_ACTIVITY_VIEW_CONFIG": {
+    "showSecondaryTasks": false
+  },
+  "RFP_ACT_MNT_D_SHOW_DISPLAY_ORDER": {
+    "showDisplayOrder": false
+  },
+  "STAFF_REQUESTS_DAYOFF_D_SHOW_MIN_MAX_WEEKLY_CONTRACT_HRS_DAYOFF": {
+    "showMinOrMaxContractHours": "Show max contract hrs"
+  },
+  "STAFF_REQ_CAL_D_SHOW_REQ_BASED_ON_REQSTATUS_ON_LINEVIEW": {
+    "showReqBasedOnRequestStatus": "R"
+  },
+  "WEEKPLAN_SCHEDULE_D_OPEN_SHIFTS_DISPLAY_CONFIG": {
+    "showOpenShiftInStaffingZone": false
+  },
+  "WEEKPLAN_SCHEDULE_D_REMOVE_INACTIVE_STAFF_GROUPS_AND_DEPARTMENTS": {
+    "removeInactiveStaffGroupsAndDepartments": false
+  },
+  "TIMECLOCK_COMMON_D_FACE_ID_AUTH_OPTIONS": {
+    "defaultFaceIdAuthOption": "none"
+  },
+  "TIMECLOCK_COMMON_D_OFFLINE_PING_CONFIG": {
+    "onlineModeTimer": "10",
+    "offlineModeTimer": "1"
+  },
+  "WEEKPLAN_MULTI_STORE_SCHEDULE_D_ASSOCIATE_AVAILABILITY_COLORS": {
+    "available": "#77ea77",
+    "unavailable": "#ff0000",
+    "timeoff": "#ffc251",
+    "dayoff": "#990000"
+  },
+  "RWS_HR_CHANGES_D_HR_CHANGES_CONFIG": {
+    "multipleEmployeeSelect": true
+  },
+  "RTA_TCARD_D_SKIP_ALT_LOC_UNIT_VALIDATION": {
+    "skipAltLocUnitValidation": false
+  },
+  "REFLEXIS_COMMON_D_BATCH_CONFIG": {
+    "showForecastDebugLogs": false
+  },
+  "MOBILE_APP_UPDATE_D_QSTAR_MOBILE_APP_UPDATE": {
+    "enableQStarUpdate": false,
+    "enableQStarForceUpdate": false,
+    "QStariOSAppVersion": "",
+    "QStarAndroidAppVersion": "",
+    "QStarDownloadLinkURL": "",
+    "QStariOSAppStoreURL": "",
+    "QStarAndroidPlayStoreURL": ""
+  },
+  "RWS_SCHEDULE_COMMON_D_EMPLOYEE_CONTEXT_MENU_OPTIONS_MOBILE": {
+    "SHOW_CERTIFICATION_TAB": false,
+    "SHOW_OPEN_SHIFT_TAB": false
+  },
+  "SCHEDULE_DISRUPTION_INSTANCE_D_AUTO_REFRESH": {
+    "REFRESH_DURATION": "20"
+  },
+  "RTA_PAYROLL_D_PAYROLL_GEN_CONFIG": {
+    "ADJUSTMENTS_WITH_REGULAR_PAYFILE": false
+  },
+  "RWS_RQ_CAL_COMMON_F_RQ_FILTER": {
+    "departmentIds": [],
+    "employeeIds": [],
+    "personIds": null,
+    "requestStatus": null,
+    "orgLevel": "",
+    "locationUnitId": "",
+    "hierarchyLocations": false,
+    "managerId": "",
+    "reporteeType": "",
+    "effDate": null,
+    "endDate": null,
+    "categoryIds": [
+      "D"
+    ],
+    "functionId": "LEAVE_APPROVAL",
+    "employeeStatuses": null,
+    "requestType": null,
+    "requestTypes": null,
+    "employeeCountCategory": null
+  },
+  "MOBILE_MSG_ALERT_D_QSTAR_MOBILE_MSG_ALERT": {
+    "msgTypePhone": "alert",
+    "msgTypeTab": "alert",
+    "timerCloseDurPhone": "0",
+    "timerCloseDurTab": "5"
+  },
+  "DEBUG_SETTINGS_D_DEBUG_SETTINGS_CONFIG": {
+    "sessionLoggerTimeOut": "",
+    "userIdForDebugLogging": ""
+  },
+  "LOG_LVL_SETTINGS_D_LOG_LEVEL_SETTINGS_FOR_LOGGER": {
+    "LoggerTimeOut": "",
+    "logLvl": "",
+    "loggerName": ""
+  },
+  "TIMECLOCK_COMMON_D_TIMECLOCK_FR_CONFIG": {
+    "enableBuddyPunching": true,
+    "upperthrd": "0.3",
+    "normalthrd": "0.15",
+    "claritythrd": "800"
+  },
+  "MOBILE_GENERIC_CONFIG_D_DEVICE_LOGS_CONFIG": {
+    "enableMobileLogs": true,
+    "logLvl": "all",
+    "logSvrCall": true,
+    "logSvrResp": true,
+    "logFileSize": "2",
+    "logBackupLimit": "5"
+  },
+  "MOBILE_GENERIC_CONFIG_D_VALIDATE_OS_CONFIG": {
+    "enableOSValidation": false,
+    "iosLastOSVersionSupport": "",
+    "androidLastOSVersionSupport": ""
+  },
+  "BUILD_MACHINE_LEARNING_MODEL_D_Enable_include_marker": {
+    "includeMarkers": false
+  },
+  "WEEKPLAN_SCHEDULE_D_DLS_INLINE_EDIT": {
+    "isDlsInlineEdit": false
+  },
+  "EVENTS_CALENDAR_D_EVENT_IMPACT_CONFIG": {
+    "eventImpactPercentageMaxValue": "500"
+  },
+  "RWS_EMP_CERT_ADD_EDIT_D_CERTIFICATION_RATING": {
+    "certificationRating": false
+  },
+  "RTA_MGRSUMMARYPUNCH_D_SCH_ACT_DISP_OPTIONS": {
+    "DISP_SHIFTS_IN_STORE": "ALL_STORES"
+  },
+  "SCHEDULE_UI_REPORTS_D_EXPORT_ALL": {
+    "isExportAllEnabled": false
+  },
+  "RTA_ACCRUALS_D_ACCRUAL_ENGINE_CONFIG": {
+    "PROC_ACCRUAL_ONLINE": false
+  },
+  "STF_ROASTER_DAYOFF_D_DAYOFF_DISPLAY_CONFIGURATION": {
+    "hideDeleteForReasonCodes": ""
+  },
+  "WEEKPLAN_SCHEDULE_D_ALLOW_INELIGIBLE_ASSOCIATES": {
+    "allowIneligibleAssociates": true
+  },
+  "WEEKPLAN_ABOVE_STORE_SCHEDULE_D_ABOVE_STORE_SCHEDULE_REPORT_DISP_CONFIG": {
+    "showSelectedUnitList": false
+  },
+  "PCCLOCKCONFIG_D_PC_CLOCK_CONFIG": {
+    "DERIVE_UTC_TIME_PC_CLOCK": false
+  },
+  "REFLEXIS_COMMON_D_SHOW_MOBILITY_LOGS": {
+    "showMobilityLogs": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_PRDPLAN_SCHD_DEFAULT_PREF": {
+    "defaultAdvanceFilterSetId": "",
+    "defaultDailySortPreferenceSetId": "",
+    "defaultDisplayPrefSetId": "Statistics Mode",
+    "defaultSortPreferenceSetId": "Staffgroup Alphabetical"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_ADV_FILTER_OPTIONS_VISIBILITY": {
+    "department": true,
+    "departmentReleaseBased": true,
+    "fullTimeColleagueType": true,
+    "jobCode": false,
+    "jobEligibilityAssigned": true,
+    "jobEligibilityEligible": true,
+    "partTimeColleagueType": true,
+    "staffGroup": true,
+    "statusAvailable": true,
+    "statusDayOff": true,
+    "statusScheduled": true,
+    "statusTimeOff": true,
+    "statusUnavailable": true,
+    "statusUnscheduled": true,
+    "task": true,
+    "taskEligibilityAssigned": true,
+    "taskEligibilityEligible": true,
+    "taskStaffGroupBased": true,
+    "temporaryColleagueType": false,
+    "zone": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_TASK_COLORS": {
+    "enableTaskColor": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_SHIFT_COLORS": {
+    "isExportAllEnabled": true
+  },
+  "PERIOD_SCHEDULE_VIEW_D_PRDPLAN_SCHD_DISP_DEMND_STAFFGRP": {
+    "showGroupDemandUnallocatedAtStaffGroup": true
+  },
+  "PERIOD_SCHEDULE_VIEW_D_SHIFT_BUBBLE_SHORT_NAME": {
+    "showEffectiveStaffGroupShortName": false,
+    "showEffectiveTaskShortName": true
+  },
+  "PERIOD_SCHEDULE_VIEW_D_SHOW_EMPLOYEE_JOB_CODE": {
+    "allowIneligibleAssociates": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_SHOW_AVAILABILITY_INFO_IN_CELL": {
+    "showAvailabilityInfoInCell": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_DISPLAY_PREFERENCE_OPTIONS_VISIBILITY": {
+    "scheduleRibbonOption": true,
+    "shiftTypeOption": true,
+    "dayOffTimeOffRC": false,
+    "showOversShortsGraph": true,
+    "showMinimumCoverageGraph": true,
+    "taskIndicatorIcon": true,
+    "certifications": true,
+    "minorIndicator": true,
+    "productivity": true,
+    "primaryJob": true,
+    "employeeType": true,
+    "assocCrossDeptInfo": false,
+    "demand": true,
+    "minMaxHours": true,
+    "hoursToGoal": true,
+    "costWageRate": false,
+    "hoursAvailable": false,
+    "shiftStyle": true,
+    "shiftDetails": true,
+    "taskIndicator": true,
+    "shiftCrossStore": false,
+    "shiftActuals": false,
+    "availability": true,
+    "shiftTotalHours": false,
+    "shiftDetailedView": true,
+    "dayOffTimeOff": true,
+    "dayCrossDeptInfo": true,
+    "showCoverageGraphGrid": true,
+    "showCoverageGraphScale": true,
+    "assocCrossStoreInfo": false,
+    "shiftTextColor": false,
+    "shiftMealDetails": true,
+    "shiftcrossDepartment": false,
+    "dayCrossStoreInfo": true,
+    "showCoverageGraphValues": true,
+    "showScheduleVsDemandGraph": true
+  },
+  "PERIOD_SCHEDULE_VIEW_D_ASSOCIATE_AVAILABILITY_COLORS": {
+    "available": "#77ea77",
+    "unavailable": "#990000",
+    "timeoff": "#ff0000",
+    "dayoff": "#e5e500"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_ACTIVITY_BUBBLE_SHORT_NAME_DISP": {
+    "showShortNameOnActivityView": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_SECONDARY_TASK_COLORS": {
+    "B": "E4EBF8",
+    "L": "E4EBF8",
+    "M": "E4EBF8"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_RETAIN_ADVANCE_FILTER_IN_SESSION": {
+    "retainAdvanceFilterInSession": true
+  },
+  "PERIOD_SCHEDULE_VIEW_D_SHOW_SIGNATURE_COLUMN": {
+    "SHOWSIGNATURECOLUMN": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_ASSOCIATE_GROUPING": {
+    "groupingKey": [
+      "staffGroup"
+    ]
+  },
+  "PERIOD_SCHEDULE_VIEW_D_PRDPLAN_DISPLAY_CONFIG": {
+    "advanceFilterDefaultDisplay": "Saved Filters",
+    "displayTimeInTwentyFourHourFormat": true,
+    "enableRefreshCache": false,
+    "hideOversAndShortsGraphForMobile": false,
+    "hideRequestTab": false,
+    "hideWeekCalendar": false,
+    "highlightMaxWeeklyViolation": false,
+    "showAlternateLocationOnSeparateLine": false,
+    "showAssociateAddress": false,
+    "showRibbonRefreshButton": false,
+    "useNetRulesForAbsence": "MONTH_CONTRACT_HOURS",
+    "useNetRulesForDisplayingMinMax": false,
+    "useNetRulesForSchedulePageDisplay": "MONTH_CONTRACT_HOURS"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_BREAK_RULE_OPTIONS": {
+    "showBreakRulesOptions": false
+  },
+  "PERIOD_SCHEDULE_VIEW_D_PRDPLAN_SCHD_COMMON_DISP_CONFIG": {
+    "IS_UNIT_ID_PART_OF_UNIT_NAME": false,
+    "certificationExpiringThreshold": "",
+    "colleagueLookUpOrgLevel": "",
+    "colleagueLookUpStaffGroupIds": "",
+    "defaultOpenTabForSchedule": "scheduleCoverage",
+    "defaultTabAfterScheduleEdit": "",
+    "displayPositionCode": false,
+    "effectivityForPositionCode": "PeriodEndDate",
+    "enableShiftEditByInputOnShiftLineView": false,
+    "enableShiftLineViewAsDefaultTab": false,
+    "enableTaskSubGrouping": false,
+    "hideTerminationIndicator": false,
+    "isInlineShiftEditEnabled": false,
+    "isShiftEndTimeCSSSameAsStartTime": false,
+    "rowHighlightShiftSelect": false,
+    "showCertificationIcon": false,
+    "showContactNoInResponse": false,
+    "showExpCertificationIcon": false,
+    "showJobTitle": false,
+    "showLogicalStaffGroup": false,
+    "showPaidIndicatorForDayoffAndTimeoff": true,
+    "showScheduleEfficiencyPrecursor": false,
+    "showSingleValueForMinMaxHours": false,
+    "showTemplateGeneratedShiftsBold": false,
+    "showactivestaffgroupsanddepartments": false,
+    "taskIdsForShiftColor": []
+  },
+  "PERIOD_SCHEDULE_VIEW_D_PERIOD_SCH_CONFIG": {
+    "periodRange": "monthly"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_REFERENCE_DATE": {
+    "referenceDate": "20100101"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_PRINT_PDF_DOWNLOAD": {
+    "PrintPdfDownload": true
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_OTHER_DISP_CONFIG": {
+    "colWidthPercentCSV": "5,2.8,3",
+    "hideDayFromPrintView": "0",
+    "removeEmptyRowsInActivityReport": true,
+    "showCrossedStores": true,
+    "showDynamicStatsRows": false,
+    "showMarkers": false,
+    "showOpenShifts": false,
+    "showStaffGroupName": false
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_PRDPLAN_SCHD_REPORT_DEFAULT_PREF": {
+    "defaultDisplayPrefSetId": "Pdf Mode",
+    "useSession": false
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_ASSOCIATE_ROW_DUPLICATION": {
+    "departmentReleaseBased": false,
+    "taskStaffGroupBased": true
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_ASSOCIATE_LAST_NAME_LENGTH_FOR_PDF": {
+    "LAST_NAME_LENGTH_FOR_PDF": "0"
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_SELECT_FONT_SIZE_FOR_SHIFTS": {
+    "fontSizeForShiftTiming": "12"
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_DISPLAY_SHIFT_TIME_IN_BOLD": {
+    "SHIFT_TIME_IN_BOLD": false
+  },
+  "PERIODPLAN_SCHEDULE_REPORT_PDF_D_PERIOD_PLAN_SCHEDULE_REPORT_PDF": {
+    "PERIOD_PLAN_SCHEDULE_REPORT_PDF": "landscape"
+  },
+  "WEEKPLAN_SCHEDULE_D_FLEXIBLE_ELIGIBILITY_FOR_OPEN_SHIFTS": {
+    "flexibleEligibilityForOpenShifts": "0"
+  },
+  "REFLEXIS_COMMON_D_CSV_SEPARATOR_CONFIG": {
+    "listSeparatorForCSV": ",",
+    "decimalSeparatorForCSV": ".",
+    "groupSeparatorForCSV": ","
+  },
+  "PRE_BEST_FIT_MODEL_D_LIMIT_MODELS_ON_BEST_FIT": {
+    "modelLimit": "4"
+  },
+  "BUILD_MACHINE_LEARNING_MODEL_D_SHOW_TRAINING_GRAPH": {
+    "showTrainingGraph": false
+  },
+  "MULTIWEEK_SCHEDULE_D_DLS_WINDOW_CONFIG": {
+    "dlsWindowDuration": "1440",
+    "dlsWindowStart": "0000"
+  },
+  "MULTIWEEK_SCHEDULE_D_PAGE_DEFAULTS": {},
+  "MULTIWEEK_SCHEDULE_D_ASSOCIATE_AVAILABILITY_COLORS": {
+    "available": "#77ea77",
+    "unavailable": "#990000",
+    "timeoff": "#ff0000",
+    "dayoff": "#e5e500"
+  },
+  "PRE_DRIVER_MODEL_SETUP_D_IS_DEEP_LEARNING_PARAMETERS_EDITABLE": {
+    "isDeepLearningParametersEditable": false
+  },
+  "MULTIWEEK_SCHEDULE_D_DLS_INLINE_EDIT": {
+    "isDlsInlineEdit": false
+  },
+  "RWS_ROSTER_COMMON_D_UIC_OPTIONS": {
+    "showCommentsForAlternateWorkLocationRequest": true,
+    "showCommentsForSkill": true,
+    "showCommentsForCertification": true,
+    "showCommentsForAward": true,
+    "showCommentsForRecognition": true
+  },
+  "MULTIWEEK_SCHEDULE_D_HEALTHCARE_DISPLAY_PREFERENCE": {
+    "showDetailedView": false
+  },
+  "RTA_EXCEPTION_MANAGEMENT_D_EXCEPTION_MANAGEMENT_AWL_CONFIG": {
+    "DISP_ALT_WORK_LOC_EMPLOYEES": false,
+    "DISP_ALT_WORK_LOC_EMPLOYEES_CONDITION": "NONE"
+  },
+  "RWS_SCHEDULE_COMMON_D_EMPLOYEE_SURCHARGE_DETAILS": {
+    "showEmployeeSurchargeDetails": false
+  },
+  "WEEKPLAN_SCHEDULE_D_DELETE_AND_GENERATE": {},
+  "APPSTATUS_D_THRESHOLD_EXECUTION_TIME": {
+    "FCST": "1000",
+    "PREFCST": "1000",
+    "SCHDREGEN": "1000",
+    "WKSHD": "1000"
+  },
+  "MULTIWEEK_SCHEDULE_D_TASK_COLORS": {
+    "enableTaskColor": false
+  },
+  "APPSTATUS_D_AVERAGE_EXECUTION_TIME": {
+    "PRE_BESTFIT": "null",
+    "PRE_SCNINIT": "null",
+    "NETRULES": "null",
+    "BUDGET": "null",
+    "PRE_MLTRAIN": "null",
+    "PRE_MARKER": "null",
+    "PRE_SEASONALITY": "null",
+    "FCST": "null",
+    "PREFCST": "null",
+    "SCHDREGEN": "null",
+    "WKSHD": "null"
+  },
+  "RTA_RULEDETAILS_D_ENABLE_PAYRULE_MASKING": {
+    "ENABLE_PAYCODE_MASKING": false,
+    "ENABLE_UNIT_USAGE_MASKING": false,
+    "ENABLE_UNIT_USED_MASKING": false
+  },
+  "RTA_RULEDETAILS_D_PAYRULE_COSTING_UNIT": {
+    "COSTING_UNIT": false
+  },
+  "RIF_CUSTOMEXTRACT_D_CUSTOM_EXTRACT_DISP_PREF": {
+    "rowlimit": 500
+  },
+  "RWS_ASSOCIATE_DELEGATION_D_ASSOCIATE_DELEGATION_CONFIG": {
+    "RESTRICT_ADD_TO_CURRENT_ASSOCIATE_ONLY": false
+  },
+  "RWS_STAFF_TIMEOFF_REQUEST_D_DEFAULT_REQ_CODE": {
+    "defaultReqCode": "R"
+  },
+  "PERIOD_SCHEDULE_VIEW_D_KEY_STATS": {
+    "showBudget": true,
+    "showDemand": true,
+    "showScheduleCost": true,
+    "showScheduled": true,
+    "applyScheduleRoundToWorkload": true
+  },
+  "MOBILE_GENERIC_CONFIG_D_WEB_UPGRADE_CONFIG": {
+    "ENABLE_WEB_UPGRADE_CONFIG": false,
+    "mobileAppOldVersion": "",
+    "mobileAppNewVersion": ""
+  },
+  "RWS_DELETE_REGEN_SCHEDULES_D_REGENERATE": {
+    "REGENERATE": false
+  },
+  "SCH_PUNCH_IMPORT_UTILITY_D_SIMULATE_PUNCHES_BREAK_MEAL_CONFIG": {
+    "SIMULATE_PUNCHES_MEAL_CONFIG": true,
+    "SIMULATE_PUNCHES_BREAK_CONFIG": true
+  },
+  "RTA_TCARD_D_NOTIFICATIONS": {
+    "NOTIFY_AUDITS": false
+  },
+  "RWS_SCHEDULE_TEMPLATE_COMMON_D_PRECURSOR_BATCH_UI_CONFIG": {
+    "automaticRefreshInterval": "30",
+    "enableDefaultAutoRefresh": false,
+    "showAutoRefreshButton": true
+  },
+  "EARNT_HOURS_D_EARNT_HOURS_CONFIG": {
+    "CONS_WORK_DURATION_FOR_HRS_CALC": false
+  },
+  "REFLEXIS_COMMON_D_DC_STORE_CONFIG": {
+    "employeeLimitForSchedule": "1000",
+    "REQUESTS_LIMIT_FOR_REQUEST_CAL": "1000"
+  },
+  "RWS_DELETE_REGEN_SCHEDULES_D_DISPLAY_ANNUAL_WKLD_OPTION": {
+    "SHOW_ANNUAL_WKLD_OPTION": false
+  },
+  "ESS_NEXT_GEN_COMMON_D_NEXT_POSSIBLE_TRANSACTION_CONFIG": {
+    "nextTransactionThreshold": "30"
+  },
+  "ROSTER_SKILLS_NOTIFY_F_SKILLS_CERT_EXP_NOTFICATIONS_FILTER": {
+    "applicableAwardTypes": [],
+    "applicablePersonIds": [],
+    "empStatus": [
+      "A"
+    ],
+    "empType": [],
+    "reporteeType": "NONE",
+    "deptIds": [],
+    "staffGroupIds": [],
+    "logicalStaffGroupIds": []
+  },
+  "ROSTER_SKILLS_NOTIFY_D_SKILLS_CERT_EXP_NOTFICATIONS_DEFAULT_PREF": {
+    "defaultFilterSetId": "DEFAULT"
+  },
+  "RWS_PROCESS_SIMULATOR_D_MAX_SIMULATION_OPTIONS": {
+    "NO_OF_WEEKS_FOR_SIMULATION": 5,
+    "NO_OF_UNITS_FOR_SIMULATION": 5
+  },
+  "WEEKPLAN_SCHEDULE_F_WKPLAN_SCHD_COVERAGE_FILTER": {
+    "isSelectCoverageStaffgroupsFromAdvanceFilter": false
+  }
+}

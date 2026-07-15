@@ -1,0 +1,18 @@
+{
+  "default": {
+    "week_start_date": "1_0",
+    "transaction_type": "PunchTransactionType.SHIFT_START",
+    "punch_time": "10:00",
+    "reason_code": "TimeCardReasonCodes.TIMECARD_REASON_CODE",
+    "activity_code": "ActivityCode.ACTCODE1_HS",
+    "shift_start_date": "1_6"
+  },
+  "punch_end_data": {
+    "week_start_date": "-1_0",
+    "transaction_type": "PunchTransactionType.SHIFT_END",
+    "punch_time": "17:00",
+    "reason_code": "TimeCardReasonCodes.TIMECARD_REASON_CODE",
+    "activity_code": "ActivityCode.ACTCODE1_HS",
+    "shift_start_date": "-1_3"
+  }
+}

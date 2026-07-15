@@ -1,0 +1,32 @@
+{
+  "default": {
+    "description": "DEFAULTDRIVER1",
+    "forecast_driver_type": "ForecastDriverType.ACTUAL",
+    "driver_group": "DriverGroup.TOTAL_STORE",
+    "driver_granularity": "DriverGranularity.WEEKLY",
+    "adjustment_mode": "DriverAdjustmentMode.EDIT",
+    "aggregate_rule": "DriverAggregateRule.AVERAGE",
+    "display_format": "DriverDisplayFormat.DATE_SKEY_FORMAT",
+    "updated_forecast_driver_type": ""
+  },
+  "front_end": {
+    "description": "FRONTENDDRIVER1",
+    "forecast_driver_type": "ForecastDriverType.ACTUAL",
+    "driver_group": "DriverGroup.TOTAL_STORE",
+    "driver_granularity": "DriverGranularity.DAILY",
+    "adjustment_mode": "DriverAdjustmentMode.EDIT",
+    "aggregate_rule": "DriverAggregateRule.AVERAGE",
+    "display_format": "DriverDisplayFormat.DATE_SKEY_FORMAT",
+    "updated_forecast_driver_type": "ForecastDriverType.REVISED"
+  },
+  "back_end": {
+    "description": "BACKENDDRIVER1",
+    "forecast_driver_type": "ForecastDriverType.CALCULATED",
+    "driver_group": "DriverGroup.DEPARTMENT",
+    "driver_granularity": "DriverGranularity.DAILY",
+    "adjustment_mode": "DriverAdjustmentMode.NO_EDIT",
+    "aggregate_rule": "DriverAggregateRule.SUM",
+    "display_format": "DriverDisplayFormat.DECIMAL_FORMAT",
+    "updated_forecast_driver_type": "ForecastDriverType.REVISED"
+  }
+}

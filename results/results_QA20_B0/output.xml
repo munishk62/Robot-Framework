@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4 (Python 3.14.4 on win32)" generated="2026-04-11T16:39:55.369573" rpa="false" schemaversion="5">
+<suite id="s1" name="L2 Suite" source="C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\tests\web\l2_suite">
+<suite id="s1-s1" name="Schedule Dependent" source="C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\tests\web\l2_suite\schedule_dependent">
+<suite id="s1-s1-s1" name="Week0 Week1 Week2 Sm1Store2 Schedule Suite" source="C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\tests\web\l2_suite\schedule_dependent\week0_week1_week2_sm1store2_schedule_suite.robot">
+<kw name="Run Keywords" owner="BuiltIn" type="SETUP">
+<kw name="Run Only Once" owner="pabot.PabotLib">
+<kw name="Create Dynamic Employees For Week 0 Suite Setup">
+<kw name="Create Dynamic Employees Via HRBA API">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:10.880101" level="INFO">🚀 Suite Setup: Creating dynamic employees for HRCI transfer test via HRBA API...</msg>
+<arg>🚀 Suite Setup: Creating dynamic employees for HRCI transfer test via HRBA API...</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.879418" elapsed="0.000812"/>
+</kw>
+<kw name="Get Store Data" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.939944" level="INFO">${store_data} = {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}</msg>
+<var>${store_data}</var>
+<arg>template_name=model_store2</arg>
+<status status="PASS" start="2026-04-11T16:40:10.880631" elapsed="0.059403"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.940872" level="INFO">${staff_group_id} = SGRP2</msg>
+<var>${staff_group_id}</var>
+<arg>HRBAStaffGroupId</arg>
+<arg>NEWHIRE_STORE2_SG_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.940407" elapsed="0.000534"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.941725" level="INFO">${department_id} = DEPT2</msg>
+<var>${department_id}</var>
+<arg>HRBADepartmentId</arg>
+<arg>NEWHIRE_STORE2_DEPT_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.941248" elapsed="0.000514"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.942309" level="INFO">${job_code} = JCODE1</msg>
+<var>${job_code}</var>
+<arg>HRBAJobCode</arg>
+<arg>NEWHIRE_STORE2_JOB_CODE_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.941966" elapsed="0.000378"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.942883" level="INFO">${job_title} = Job Code1</msg>
+<var>${job_title}</var>
+<arg>HRBAJobTitle</arg>
+<arg>NEWHIRE_STORE2_JOB_TITLE_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.942550" elapsed="0.000371"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.943490" level="INFO">${contract_group} = Standard</msg>
+<var>${contract_group}</var>
+<arg>HRBAContractGroup</arg>
+<arg>NEWHIRE_STORE2_CONTRACT_GROUP_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.943117" elapsed="0.000407"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.944067" level="INFO">${state_code} = GA</msg>
+<var>${state_code}</var>
+<arg>HRBAStateCode</arg>
+<arg>NEWHIRE_STORE2_STATE_CODE_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.943735" elapsed="0.000366"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.944582" level="INFO">${country_code} = US</msg>
+<var>${country_code}</var>
+<arg>HRBACountryCode</arg>
+<arg>NEWHIRE_STORE2_COUNTRY_CODE_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.944283" elapsed="0.000329"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.945109" level="INFO">${full_time_part_time_indicator} = F</msg>
+<var>${full_time_part_time_indicator}</var>
+<arg>HRBAFullTimePartTimeIndicator</arg>
+<arg>NEWHIRE_STORE2_FT_PT_INDICATOR_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.944791" elapsed="0.000350"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.945669" level="INFO">${salaried_hourly} = S</msg>
+<var>${salaried_hourly}</var>
+<arg>HRBASalariedHourly</arg>
+<arg>NEWHIRE_STORE2_SALARIED_HOURLY_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.945326" elapsed="0.000376"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.946223" level="INFO">${partner_role_code} = B</msg>
+<var>${partner_role_code}</var>
+<arg>HRBAPartnerRoleCode</arg>
+<arg>NEWHIRE_STORE2_PARTNER_ROLE_CODE_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.945880" elapsed="0.000380"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.946745" level="INFO">${additional_field} = </msg>
+<var>${additional_field}</var>
+<arg>HRBAAdditionalField</arg>
+<arg>NEWHIRE_STORE2_ADDITIONAL_FIELD_1</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.946445" elapsed="0.000330"/>
+</kw>
+<kw name="Get Config Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.947177" level="INFO">${date_format} = %Y%m%d</msg>
+<var>${date_format}</var>
+<arg>SERVER_DF</arg>
+<doc>Retrieves a configuration value by key with optional default fallback.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.946962" elapsed="0.000250"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:10.947791" level="INFO">${current_day_date} = 20260411</msg>
+<var>${current_day_date}</var>
+<arg>result_format=${date_format}</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.947415" elapsed="0.000408"/>
+</kw>
+<kw name="Subtract Time From Date" owner="DateTime">
+<msg time="2026-04-11T16:40:10.959194" level="INFO">${current_day_date} = 20260410</msg>
+<var>${current_day_date}</var>
+<arg>${current_day_date}</arg>
+<arg>1 day</arg>
+<arg>result_format=${date_format}</arg>
+<doc>Subtracts time from date and returns the resulting date.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.948013" elapsed="0.011239"/>
+</kw>
+<kw name="Calculate Date From Week Day Offset" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:10.960222" level="INFO">Using base week start date for calculation: 2026-04-05</msg>
+<msg time="2026-04-11T16:40:10.960327" level="INFO">${current_week_start_date} = 20260405</msg>
+<var>${current_week_start_date}</var>
+<arg>0_0</arg>
+<arg>date_format=${date_format}</arg>
+<doc>Calculates a specific date from a week-day offset format.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.959564" elapsed="0.000792"/>
+</kw>
+<kw name="Generate Dynamic Employee" owner="rws_upload_api">
+<kw name="Get Regexp Matches" owner="String">
+<msg time="2026-04-11T16:40:10.995484" level="INFO">${matches} = ['1', '2']</msg>
+<var>${matches}</var>
+<arg>${user_key}</arg>
+<arg>\\d+</arg>
+<doc>Returns a list of all non-overlapping matches in the given string.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.995002" elapsed="0.000527"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-04-11T16:40:10.996181" level="INFO">${user_number} = 1</msg>
+<var>${user_number}</var>
+<arg>${matches}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.995822" elapsed="0.000395"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:10.996997" level="INFO">${padded_user_number} = 01</msg>
+<var>${padded_user_number}</var>
+<arg>str(${user_number}).zfill(2)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.996438" elapsed="0.000595"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:10.997641" level="INFO">${year_yy} = 26</msg>
+<var>${year_yy}</var>
+<arg>result_format=%y</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.997242" elapsed="0.000446"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:10.998263" level="INFO">${month} = 04</msg>
+<var>${month}</var>
+<arg>result_format=%m</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.997948" elapsed="0.000349"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:10.998812" level="INFO">${day} = 11</msg>
+<var>${day}</var>
+<arg>result_format=%d</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.998527" elapsed="0.000316"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:10.999338" level="INFO">${minute} = 40</msg>
+<var>${minute}</var>
+<arg>result_format=%M</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.999048" elapsed="0.000321"/>
+</kw>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.008320" level="INFO">${employee_id} = 0126041140</msg>
+<var>${employee_id}</var>
+<arg>SEPARATOR=${EMPTY}</arg>
+<arg>${padded_user_number}</arg>
+<arg>${year_yy}</arg>
+<arg>${month}</arg>
+<arg>${day}</arg>
+<arg>${minute}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:10.999557" elapsed="0.008817"/>
+</kw>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.016563" level="INFO">${password} = 0126041140@123</msg>
+<var>${password}</var>
+<arg>SEPARATOR=${EMPTY}</arg>
+<arg>${employee_id}</arg>
+<arg>${TEST_USER_PWD_SUFFIX}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.008653" elapsed="0.007956"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-04-11T16:40:11.017282" level="INFO">@{parts} = [ ESSNH1 | STORE2 ]</msg>
+<var>@{parts}</var>
+<arg>${user_key}</arg>
+<arg>_</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.016861" elapsed="0.000459"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-04-11T16:40:11.017840" level="INFO">${first_name} = ESSNH1</msg>
+<var>${first_name}</var>
+<arg>${parts}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.017542" elapsed="0.000332"/>
+</kw>
+<variable name="${last_name}">
+<msg time="2026-04-11T16:40:11.018173" level="INFO">${last_name} = 0126041140</msg>
+<var>${employee_id}</var>
+<status status="PASS" start="2026-04-11T16:40:11.017960" elapsed="0.000251"/>
+</variable>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.018868" level="INFO">${display_name} = 0126041140, ESSNH1</msg>
+<var>${display_name}</var>
+<arg>SEPARATOR=,${SPACE}</arg>
+<arg>${last_name}</arg>
+<arg>${first_name}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.018417" elapsed="0.000483"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:11.019515" level="INFO">${profile_name} = ASSOCIATE</msg>
+<var>${profile_name}</var>
+<arg>UserProfileName</arg>
+<arg>${profile_type}</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.019103" elapsed="0.000450"/>
+</kw>
+<variable name="&amp;{employee_data}">
+<msg time="2026-04-11T16:40:11.027691" level="INFO">&amp;{employee_data} = { user_key=ESSNH1_STORE2 | employee_id=0126041140 | username=0126041140 | password=0126041140@123 | first_name=ESSNH1 | last_name=0126041140 | displayName=0126041140, ESSNH1 | badge_id=0126041140 | pr...</msg>
+<var>user_key=${user_key}</var>
+<var>employee_id=${employee_id}</var>
+<var>username=${employee_id}</var>
+<var>password=${password}</var>
+<var>first_name=${first_name}</var>
+<var>last_name=${last_name}</var>
+<var>displayName=${display_name}</var>
+<var>badge_id=${employee_id}</var>
+<var>profile_name=${profile_name}</var>
+<var>unit_id=${store_data}[store_id]</var>
+<var>unit_name=${store_data}[store_name]</var>
+<var>personId=${EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:11.019653" elapsed="0.008131"/>
+</variable>
+<kw name="Log" owner="BuiltIn">
+<arg>Generated dynamic employee: ${user_key} (${profile_type}) - ID: ${employee_id}, Profile: ${profile_name}</arg>
+<arg>level=DEBUG</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.028048" elapsed="0.000555"/>
+</kw>
+<return>
+<value>${employee_data}</value>
+<status status="PASS" start="2026-04-11T16:40:11.028699" elapsed="0.000147"/>
+</return>
+<msg time="2026-04-11T16:40:11.029044" level="INFO">${essnh1_store2} = {'user_key': 'ESSNH1_STORE2', 'employee_id': '0126041140', 'username': '0126041140', 'password': '0126041140@123', 'first_name': 'ESSNH1', 'last_name': '0126041140', 'displayName': '0126041140, ESSNH1...</msg>
+<var>${essnh1_store2}</var>
+<arg>user_key=ESSNH1_STORE2</arg>
+<arg>store_data=${store_data}</arg>
+<arg>profile_type=ASSOCIATE</arg>
+<doc>Generates dynamic employee data with unique timestamp-based employee ID.
+| =Arguments= | =Description= |
+| user_key | Reference key for retrieval (e.g., ESSNH1_STORE2, SM1_STORE2). |
+| store_data | Store configuration dictionary from Get Store Data. |
+| profile_type | Profile constant key (REQUIRED). Options: ASSOCIATE, STORE_ADMIN. |
+Example usage - Create Associate:
+| {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}= | Get Store Data | template_name=model_store2 |
+| ${employee}= | Generate Dynamic Employee | ESSNH1_STORE2 | {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'} | ASSOCIATE |
+Example usage - Create Store Admin:
+| {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}= | Get Store Data | template_name=model_store2 |
+| ${admin}= | Generate Dynamic Employee | SM1_STORE2 | {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'} | STORE_ADMIN |</doc>
+<status status="PASS" start="2026-04-11T16:40:10.994205" elapsed="0.034873"/>
+</kw>
+<kw name="Generate Dynamic Employee" owner="rws_upload_api">
+<kw name="Get Regexp Matches" owner="String">
+<msg time="2026-04-11T16:40:11.061233" level="INFO">${matches} = ['4', '2']</msg>
+<var>${matches}</var>
+<arg>${user_key}</arg>
+<arg>\\d+</arg>
+<doc>Returns a list of all non-overlapping matches in the given string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.060796" elapsed="0.000511"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-04-11T16:40:11.061884" level="INFO">${user_number} = 4</msg>
+<var>${user_number}</var>
+<arg>${matches}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.061568" elapsed="0.000354"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.062620" level="INFO">${padded_user_number} = 04</msg>
+<var>${padded_user_number}</var>
+<arg>str(${user_number}).zfill(2)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.062120" elapsed="0.000542"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.063189" level="INFO">${year_yy} = 26</msg>
+<var>${year_yy}</var>
+<arg>result_format=%y</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.062872" elapsed="0.000349"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.063709" level="INFO">${month} = 04</msg>
+<var>${month}</var>
+<arg>result_format=%m</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.063411" elapsed="0.000330"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.064166" level="INFO">${day} = 11</msg>
+<var>${day}</var>
+<arg>result_format=%d</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.063923" elapsed="0.000272"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.064884" level="INFO">${minute} = 40</msg>
+<var>${minute}</var>
+<arg>result_format=%M</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.064376" elapsed="0.000547"/>
+</kw>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.073935" level="INFO">${employee_id} = 0426041140</msg>
+<var>${employee_id}</var>
+<arg>SEPARATOR=${EMPTY}</arg>
+<arg>${padded_user_number}</arg>
+<arg>${year_yy}</arg>
+<arg>${month}</arg>
+<arg>${day}</arg>
+<arg>${minute}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.065114" elapsed="0.008873"/>
+</kw>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.084857" level="INFO">${password} = 0426041140@123</msg>
+<var>${password}</var>
+<arg>SEPARATOR=${EMPTY}</arg>
+<arg>${employee_id}</arg>
+<arg>${TEST_USER_PWD_SUFFIX}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.074348" elapsed="0.010558"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-04-11T16:40:11.085666" level="INFO">@{parts} = [ ESSNH4 | STORE2 ]</msg>
+<var>@{parts}</var>
+<arg>${user_key}</arg>
+<arg>_</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.085216" elapsed="0.000492"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-04-11T16:40:11.086244" level="INFO">${first_name} = ESSNH4</msg>
+<var>${first_name}</var>
+<arg>${parts}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.085942" elapsed="0.000335"/>
+</kw>
+<variable name="${last_name}">
+<msg time="2026-04-11T16:40:11.086533" level="INFO">${last_name} = 0426041140</msg>
+<var>${employee_id}</var>
+<status status="PASS" start="2026-04-11T16:40:11.086355" elapsed="0.000211"/>
+</variable>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.087217" level="INFO">${display_name} = 0426041140, ESSNH4</msg>
+<var>${display_name}</var>
+<arg>SEPARATOR=,${SPACE}</arg>
+<arg>${last_name}</arg>
+<arg>${first_name}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.086761" elapsed="0.000524"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:11.087933" level="INFO">${profile_name} = ASSOCIATE</msg>
+<var>${profile_name}</var>
+<arg>UserProfileName</arg>
+<arg>${profile_type}</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.087513" elapsed="0.000461"/>
+</kw>
+<variable name="&amp;{employee_data}">
+<msg time="2026-04-11T16:40:11.096095" level="INFO">&amp;{employee_data} = { user_key=ESSNH4_STORE2 | employee_id=0426041140 | username=0426041140 | password=0426041140@123 | first_name=ESSNH4 | last_name=0426041140 | displayName=0426041140, ESSNH4 | badge_id=0426041140 | pr...</msg>
+<var>user_key=${user_key}</var>
+<var>employee_id=${employee_id}</var>
+<var>username=${employee_id}</var>
+<var>password=${password}</var>
+<var>first_name=${first_name}</var>
+<var>last_name=${last_name}</var>
+<var>displayName=${display_name}</var>
+<var>badge_id=${employee_id}</var>
+<var>profile_name=${profile_name}</var>
+<var>unit_id=${store_data}[store_id]</var>
+<var>unit_name=${store_data}[store_name]</var>
+<var>personId=${EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:11.088052" elapsed="0.008104"/>
+</variable>
+<kw name="Log" owner="BuiltIn">
+<arg>Generated dynamic employee: ${user_key} (${profile_type}) - ID: ${employee_id}, Profile: ${profile_name}</arg>
+<arg>level=DEBUG</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.096502" elapsed="0.000643"/>
+</kw>
+<return>
+<value>${employee_data}</value>
+<status status="PASS" start="2026-04-11T16:40:11.097240" elapsed="0.000158"/>
+</return>
+<msg time="2026-04-11T16:40:11.097609" level="INFO">${essnh4_store2} = {'user_key': 'ESSNH4_STORE2', 'employee_id': '0426041140', 'username': '0426041140', 'password': '0426041140@123', 'first_name': 'ESSNH4', 'last_name': '0426041140', 'displayName': '0426041140, ESSNH4...</msg>
+<var>${essnh4_store2}</var>
+<arg>user_key=ESSNH4_STORE2</arg>
+<arg>store_data=${store_data}</arg>
+<arg>profile_type=ASSOCIATE</arg>
+<doc>Generates dynamic employee data with unique timestamp-based employee ID.
+| =Arguments= | =Description= |
+| user_key | Reference key for retrieval (e.g., ESSNH1_STORE2, SM1_STORE2). |
+| store_data | Store configuration dictionary from Get Store Data. |
+| profile_type | Profile constant key (REQUIRED). Options: ASSOCIATE, STORE_ADMIN. |
+Example usage - Create Associate:
+| {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}= | Get Store Data | template_name=model_store2 |
+| ${employee}= | Generate Dynamic Employee | ESSNH1_STORE2 | {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'} | ASSOCIATE |
+Example usage - Create Store Admin:
+| {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}= | Get Store Data | template_name=model_store2 |
+| ${admin}= | Generate Dynamic Employee | SM1_STORE2 | {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'} | STORE_ADMIN |</doc>
+<status status="PASS" start="2026-04-11T16:40:11.059993" elapsed="0.037651"/>
+</kw>
+<kw name="Generate Dynamic Employee" owner="rws_upload_api">
+<kw name="Get Regexp Matches" owner="String">
+<msg time="2026-04-11T16:40:11.131670" level="INFO">${matches} = ['6', '2']</msg>
+<var>${matches}</var>
+<arg>${user_key}</arg>
+<arg>\\d+</arg>
+<doc>Returns a list of all non-overlapping matches in the given string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.131137" elapsed="0.000596"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-04-11T16:40:11.132500" level="INFO">${user_number} = 6</msg>
+<var>${user_number}</var>
+<arg>${matches}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.132082" elapsed="0.000469"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.133546" level="INFO">${padded_user_number} = 06</msg>
+<var>${padded_user_number}</var>
+<arg>str(${user_number}).zfill(2)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.132837" elapsed="0.000766"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.134384" level="INFO">${year_yy} = 26</msg>
+<var>${year_yy}</var>
+<arg>result_format=%y</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.133938" elapsed="0.000497"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.135141" level="INFO">${month} = 04</msg>
+<var>${month}</var>
+<arg>result_format=%m</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.134737" elapsed="0.000472"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.135906" level="INFO">${day} = 11</msg>
+<var>${day}</var>
+<arg>result_format=%d</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.135509" elapsed="0.000448"/>
+</kw>
+<kw name="Get Current Date" owner="DateTime">
+<msg time="2026-04-11T16:40:11.136568" level="INFO">${minute} = 40</msg>
+<var>${minute}</var>
+<arg>result_format=%M</arg>
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.136226" elapsed="0.000390"/>
+</kw>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.146594" level="INFO">${employee_id} = 0626041140</msg>
+<var>${employee_id}</var>
+<arg>SEPARATOR=${EMPTY}</arg>
+<arg>${padded_user_number}</arg>
+<arg>${year_yy}</arg>
+<arg>${month}</arg>
+<arg>${day}</arg>
+<arg>${minute}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.136902" elapsed="0.009745"/>
+</kw>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.154925" level="INFO">${password} = 0626041140@123</msg>
+<var>${password}</var>
+<arg>SEPARATOR=${EMPTY}</arg>
+<arg>${employee_id}</arg>
+<arg>${TEST_USER_PWD_SUFFIX}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.146939" elapsed="0.008037"/>
+</kw>
+<kw name="Split String" owner="String">
+<msg time="2026-04-11T16:40:11.155627" level="INFO">@{parts} = [ ESSNH6 | STORE2 ]</msg>
+<var>@{parts}</var>
+<arg>${user_key}</arg>
+<arg>_</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.155243" elapsed="0.000418"/>
+</kw>
+<kw name="Get From List" owner="Collections">
+<msg time="2026-04-11T16:40:11.156164" level="INFO">${first_name} = ESSNH6</msg>
+<var>${first_name}</var>
+<arg>${parts}</arg>
+<arg>0</arg>
+<doc>Returns the value specified with an ``index`` from ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.155890" elapsed="0.000306"/>
+</kw>
+<variable name="${last_name}">
+<msg time="2026-04-11T16:40:11.156446" level="INFO">${last_name} = 0626041140</msg>
+<var>${employee_id}</var>
+<status status="PASS" start="2026-04-11T16:40:11.156278" elapsed="0.000198"/>
+</variable>
+<kw name="Catenate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:11.157157" level="INFO">${display_name} = 0626041140, ESSNH6</msg>
+<var>${display_name}</var>
+<arg>SEPARATOR=,${SPACE}</arg>
+<arg>${last_name}</arg>
+<arg>${first_name}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.156668" elapsed="0.000527"/>
+</kw>
+<kw name="Get System Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:11.157861" level="INFO">${profile_name} = ASSOCIATE</msg>
+<var>${profile_name}</var>
+<arg>UserProfileName</arg>
+<arg>${profile_type}</arg>
+<doc>Retrieves a system value for a logical constant from environment configuration.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.157434" elapsed="0.000462"/>
+</kw>
+<variable name="&amp;{employee_data}">
+<msg time="2026-04-11T16:40:11.165938" level="INFO">&amp;{employee_data} = { user_key=ESSNH6_STORE2 | employee_id=0626041140 | username=0626041140 | password=0626041140@123 | first_name=ESSNH6 | last_name=0626041140 | displayName=0626041140, ESSNH6 | badge_id=0626041140 | pr...</msg>
+<var>user_key=${user_key}</var>
+<var>employee_id=${employee_id}</var>
+<var>username=${employee_id}</var>
+<var>password=${password}</var>
+<var>first_name=${first_name}</var>
+<var>last_name=${last_name}</var>
+<var>displayName=${display_name}</var>
+<var>badge_id=${employee_id}</var>
+<var>profile_name=${profile_name}</var>
+<var>unit_id=${store_data}[store_id]</var>
+<var>unit_name=${store_data}[store_name]</var>
+<var>personId=${EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:11.157972" elapsed="0.008021"/>
+</variable>
+<kw name="Log" owner="BuiltIn">
+<arg>Generated dynamic employee: ${user_key} (${profile_type}) - ID: ${employee_id}, Profile: ${profile_name}</arg>
+<arg>level=DEBUG</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:11.166250" elapsed="0.000537"/>
+</kw>
+<return>
+<value>${employee_data}</value>
+<status status="PASS" start="2026-04-11T16:40:11.166880" elapsed="0.000120"/>
+</return>
+<msg time="2026-04-11T16:40:11.167182" level="INFO">${essnh6_store2} = {'user_key': 'ESSNH6_STORE2', 'employee_id': '0626041140', 'username': '0626041140', 'password': '0626041140@123', 'first_name': 'ESSNH6', 'last_name': '0626041140', 'displayName': '0626041140, ESSNH6...</msg>
+<var>${essnh6_store2}</var>
+<arg>user_key=ESSNH6_STORE2</arg>
+<arg>store_data=${store_data}</arg>
+<arg>profile_type=ASSOCIATE</arg>
+<doc>Generates dynamic employee data with unique timestamp-based employee ID.
+| =Arguments= | =Description= |
+| user_key | Reference key for retrieval (e.g., ESSNH1_STORE2, SM1_STORE2). |
+| store_data | Store configuration dictionary from Get Store Data. |
+| profile_type | Profile constant key (REQUIRED). Options: ASSOCIATE, STORE_ADMIN. |
+Example usage - Create Associate:
+| {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}= | Get Store Data | template_name=model_store2 |
+| ${employee}= | Generate Dynamic Employee | ESSNH1_STORE2 | {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'} | ASSOCIATE |
+Example usage - Create Store Admin:
+| {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'}= | Get Store Data | template_name=model_store2 |
+| ${admin}= | Generate Dynamic Employee | SM1_STORE2 | {'store_id': 'STORE2', 'store_name': 'D2Store 2', 'test_id': 'GENERIC', 'environment': 'QA20_B0', 'entity_type': 'store'} | STORE_ADMIN |</doc>
+<status status="PASS" start="2026-04-11T16:40:11.130079" elapsed="0.037140"/>
+</kw>
+<kw name="Get Hrba Api Upload Data">
+<msg time="2026-04-11T16:40:11.173531" level="FAIL">No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</msg>
+<var>${hrba_essnh1_store2}</var>
+<arg>template_name=default</arg>
+<arg>employee_id=${essnh1_store2}[employee_id]</arg>
+<arg>associate_id=${essnh1_store2}[employee_id]</arg>
+<arg>colleague_id=${essnh1_store2}[employee_id]</arg>
+<arg>record_effective_from=${current_day_date}</arg>
+<arg>last_name=${essnh1_store2}[last_name]</arg>
+<arg>first_name=${essnh1_store2}[first_name]</arg>
+<arg>job_title=${job_title}</arg>
+<arg>job_code=${job_code}</arg>
+<arg>job_effective_date=${current_day_date}</arg>
+<arg>date_of_hire=${current_week_start_date}</arg>
+<arg>home_store_id=${store_data}[store_id]</arg>
+<arg>home_staff_group_id=${staff_group_id}</arg>
+<arg>home_job_id=${staff_group_id}</arg>
+<arg>home_department_id=${department_id}</arg>
+<arg>home_department_effective_date=${current_day_date}</arg>
+<arg>full_time_part_time_indicator=${full_time_part_time_indicator}</arg>
+<arg>gte_30_lt_30h_indicator=${full_time_part_time_indicator}</arg>
+<arg>salaried_hourly=${salaried_hourly}</arg>
+<arg>contract_group=${contract_group}</arg>
+<arg>contract_effective_date=${current_day_date}</arg>
+<arg>state_code=${state_code}</arg>
+<arg>country_code=${country_code}</arg>
+<arg>base_wage_effective_date=${current_day_date}</arg>
+<arg>badge_number=${essnh1_store2}[employee_id]</arg>
+<arg>badge_effective_date=${current_day_date}</arg>
+<arg>status_effective_date=${current_day_date}</arg>
+<arg>partner_role_code=${partner_role_code}</arg>
+<arg>additional_field=${additional_field}</arg>
+<arg>supervisor_employee_id=${EMPTY}</arg>
+<arg>full_time_date=${EMPTY}</arg>
+<arg>gte_30_date=${EMPTY}</arg>
+<status status="FAIL" start="2026-04-11T16:40:11.173369" elapsed="0.000222">No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</status>
+</kw>
+<kw name="Get Hrba Api Upload Data">
+<var>${hrba_essnh4_store2}</var>
+<arg>template_name=default</arg>
+<arg>employee_id=${essnh4_store2}[employee_id]</arg>
+<arg>associate_id=${essnh4_store2}[employee_id]</arg>
+<arg>colleague_id=${essnh4_store2}[employee_id]</arg>
+<arg>record_effective_from=${current_day_date}</arg>
+<arg>last_name=${essnh4_store2}[last_name]</arg>
+<arg>first_name=${essnh4_store2}[first_name]</arg>
+<arg>job_title=${job_title}</arg>
+<arg>job_code=${job_code}</arg>
+<arg>job_effective_date=${current_day_date}</arg>
+<arg>date_of_hire=${current_week_start_date}</arg>
+<arg>home_store_id=${store_data}[store_id]</arg>
+<arg>home_staff_group_id=${staff_group_id}</arg>
+<arg>home_job_id=${staff_group_id}</arg>
+<arg>home_department_id=${department_id}</arg>
+<arg>home_department_effective_date=${current_day_date}</arg>
+<arg>full_time_part_time_indicator=${full_time_part_time_indicator}</arg>
+<arg>gte_30_lt_30h_indicator=${full_time_part_time_indicator}</arg>
+<arg>salaried_hourly=${salaried_hourly}</arg>
+<arg>contract_group=${contract_group}</arg>
+<arg>contract_effective_date=${current_day_date}</arg>
+<arg>state_code=${state_code}</arg>
+<arg>country_code=${country_code}</arg>
+<arg>base_wage_effective_date=${current_day_date}</arg>
+<arg>badge_number=${essnh4_store2}[employee_id]</arg>
+<arg>badge_effective_date=${current_day_date}</arg>
+<arg>status_effective_date=${current_day_date}</arg>
+<arg>partner_role_code=${partner_role_code}</arg>
+<arg>additional_field=${additional_field}</arg>
+<arg>supervisor_employee_id=${EMPTY}</arg>
+<arg>full_time_date=${EMPTY}</arg>
+<arg>gte_30_date=${EMPTY}</arg>
+<status status="NOT RUN" start="2026-04-11T16:40:11.173975" elapsed="0.000136"/>
+</kw>
+<kw name="Get Hrba Api Upload Data">
+<var>${hrba_essnh6_store2}</var>
+<arg>template_name=default</arg>
+<arg>employee_id=${essnh6_store2}[employee_id]</arg>
+<arg>associate_id=${essnh6_store2}[employee_id]</arg>
+<arg>colleague_id=${essnh6_store2}[employee_id]</arg>
+<arg>record_effective_from=${current_day_date}</arg>
+<arg>last_name=${essnh6_store2}[last_name]</arg>
+<arg>first_name=${essnh6_store2}[first_name]</arg>
+<arg>job_title=${job_title}</arg>
+<arg>job_code=${job_code}</arg>
+<arg>job_effective_date=${current_day_date}</arg>
+<arg>date_of_hire=${current_week_start_date}</arg>
+<arg>home_store_id=${store_data}[store_id]</arg>
+<arg>home_staff_group_id=${staff_group_id}</arg>
+<arg>home_job_id=${staff_group_id}</arg>
+<arg>home_department_id=${department_id}</arg>
+<arg>home_department_effective_date=${current_day_date}</arg>
+<arg>full_time_part_time_indicator=${full_time_part_time_indicator}</arg>
+<arg>gte_30_lt_30h_indicator=${full_time_part_time_indicator}</arg>
+<arg>salaried_hourly=${salaried_hourly}</arg>
+<arg>contract_group=${contract_group}</arg>
+<arg>contract_effective_date=${current_day_date}</arg>
+<arg>state_code=${state_code}</arg>
+<arg>country_code=${country_code}</arg>
+<arg>base_wage_effective_date=${current_day_date}</arg>
+<arg>badge_number=${essnh6_store2}[employee_id]</arg>
+<arg>badge_effective_date=${current_day_date}</arg>
+<arg>status_effective_date=${current_day_date}</arg>
+<arg>partner_role_code=${partner_role_code}</arg>
+<arg>additional_field=${additional_field}</arg>
+<arg>supervisor_employee_id=${EMPTY}</arg>
+<arg>full_time_date=${EMPTY}</arg>
+<arg>gte_30_date=${EMPTY}</arg>
+<status status="NOT RUN" start="2026-04-11T16:40:11.174426" elapsed="0.000125"/>
+</kw>
+<variable name="@{users}">
+<var>${hrba_essnh1_store2}</var>
+<var>${hrba_essnh4_store2}</var>
+<var>${hrba_essnh6_store2}</var>
+<status status="NOT RUN" start="2026-04-11T16:40:11.174695" elapsed="0.000089"/>
+</variable>
+<kw name="Create HRBA Users Via API" owner="rws_upload_api">
+<arg>user_key=SYSADMIN</arg>
+<arg>users_data=${users}</arg>
+<doc>Creates one or multiple users via HRBA data import feed API.
+| =Arguments= | =Description= |
+| user_key | User credentials key for authentication (e.g., SYSADMIN). |
+| users_data | List of template dictionaries from Get Hrba Api Upload Data. |
+Example usage:
+| ${user1}= | Get Hrba Api Upload Data | partner_id=EMP001 | last_name=Smith | home_store_id=STORE01 |
+| ${user2}= | Get Hrba Api Upload Data | partner_id=EMP002 | last_name=Jones | home_store_id=STORE01 |
+| @{users}= | Create List | ${user1} | ${user2} |
+| ${response}= | Create HRBA Users Via API | SYSADMIN | ${users} |</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.284513" elapsed="0.000211"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>✅ Successfully created ESSNH1_STORE2: Employee ID=${essnh1_store2}[employee_id] (${store_data}[store_name])</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.285031" elapsed="0.000121"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>✅ Successfully created ESSNH4_STORE2: Employee ID=${essnh4_store2}[employee_id] (${store_data}[store_name])</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.285365" elapsed="0.000092"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>✅ Successfully created ESSNH6_STORE2: Employee ID=${essnh6_store2}[employee_id] (${store_data}[store_name])</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.285633" elapsed="0.000076"/>
+</kw>
+<kw name="Set Dynamic Employee" owner="rws_upload_api">
+<arg>ESSNH1_STORE2</arg>
+<arg>${essnh1_store2}</arg>
+<doc>Stores a dynamic employee in pabot-shared cache for parallel execution safety.
+| =Arguments= | =Description= |
+| user_key | Reference key to store employee under (e.g., ESSNH1_STORE2, ESSNH2_STORE2). |
+| employee_data | Employee dictionary containing employee_id, displayName, etc. |
+Example usage:
+| Set Dynamic Employee | ESSNH1_STORE2 | ${essnh1_data} |</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.303752" elapsed="0.000345"/>
+</kw>
+<kw name="Set Dynamic Employee" owner="rws_upload_api">
+<arg>ESSNH4_STORE2</arg>
+<arg>${essnh4_store2}</arg>
+<doc>Stores a dynamic employee in pabot-shared cache for parallel execution safety.
+| =Arguments= | =Description= |
+| user_key | Reference key to store employee under (e.g., ESSNH1_STORE2, ESSNH2_STORE2). |
+| employee_data | Employee dictionary containing employee_id, displayName, etc. |
+Example usage:
+| Set Dynamic Employee | ESSNH1_STORE2 | ${essnh1_data} |</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.320685" elapsed="0.000218"/>
+</kw>
+<kw name="Set Dynamic Employee" owner="rws_upload_api">
+<arg>ESSNH6_STORE2</arg>
+<arg>${essnh6_store2}</arg>
+<doc>Stores a dynamic employee in pabot-shared cache for parallel execution safety.
+| =Arguments= | =Description= |
+| user_key | Reference key to store employee under (e.g., ESSNH1_STORE2, ESSNH2_STORE2). |
+| employee_data | Employee dictionary containing employee_id, displayName, etc. |
+Example usage:
+| Set Dynamic Employee | ESSNH1_STORE2 | ${essnh1_data} |</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.336165" elapsed="0.000221"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>📋 Suite Setup Complete: Employees created and available for tests</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:11.336659" elapsed="0.000110"/>
+</kw>
+<doc>Creates dynamic employees via HRBA API in Suite Setup for HRCI tests</doc>
+<status status="FAIL" start="2026-04-11T16:40:10.878903" elapsed="0.458055">No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</status>
+</kw>
+<doc>Creates dynamic employees for week 0 schedule setup in Suite Setup for HRCI tests
+This runs ONCE per suite and creates dynamic employees with shifts for week 0 schedule setup (today's shifts) in STORE2.
+Employees are stored via 'Set Dynamic Employee' in pabot shared cache for retrieval in tests.
+Note: Uses 'Run Only Once' wrapper in Suite Setup for parallel execution safety</doc>
+<status status="FAIL" start="2026-04-11T16:40:10.878198" elapsed="0.458894">No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</status>
+</kw>
+<arg>Create Dynamic Employees For Week 0 Suite Setup</arg>
+<doc>Runs a keyword only once in one of the parallel processes. Optional arguments of the keyword needs to be serializeable in order to
+create an unique lockname.
+Sample request sequence [keyword, keyword 'x', keyword, keyword 5, keyword 'x', keyword 5]
+results in execution of [keyword, keyword 'x', keyword 5]
+[https://pabot.org/PabotLib.html?ref=log#run-only-once|Open online docs.]</doc>
+<status status="FAIL" start="2026-04-11T16:40:10.778619" elapsed="0.647421">No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</status>
+</kw>
+<arg>Run Only Once</arg>
+<arg>Create Dynamic Employees For Week 0 Suite Setup</arg>
+<arg>AND</arg>
+<arg>Run Only Once</arg>
+<arg>Pre Setup Schedule For Week 0 1 And 2 For Store2</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2026-04-11T16:40:10.777495" elapsed="0.648761">No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</status>
+</kw>
+<test id="s1-s1-s1-t1" name="BATTC00021: WFM-19-2 Verify Week Navigator On Labor Forecast Page" line="451">
+<doc>Verify week navigator functionality on labor forecast page</doc>
+<tag>action:read</tag>
+<tag>applicability_not_met</tag>
+<tag>bat_phase2</tag>
+<tag>battc00021</tag>
+<tag>config:rws</tag>
+<tag>config:weekplan_and_schedule_gen</tag>
+<tag>dev:amol</tag>
+<tag>module:forecast</tag>
+<tag>schedule_dependent</tag>
+<tag>week0_week1_sm1store2</tag>
+<status status="FAIL" start="2026-04-11T16:40:11.426399" elapsed="0.004845">Parent suite setup failed:
+No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data</status>
+</test>
+<kw name="Run Keywords" owner="BuiltIn" type="TEARDOWN">
+<kw name="Run Only Once" owner="pabot.PabotLib">
+<kw name="Terminate Users Via HRCI For Week 0 Suite Teardown">
+<kw name="Terminate Users Via HRCI For Suite Teardown">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.550130" level="INFO">🧹 Suite Teardown: Terminating dynamic employees via HRCI API...</msg>
+<arg>🧹 Suite Teardown: Terminating dynamic employees via HRCI API...</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.549560" elapsed="0.000709"/>
+</kw>
+<kw name="Get Config Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.550981" level="INFO">${date_format} = %Y%m%d</msg>
+<var>${date_format}</var>
+<arg>SERVER_DF</arg>
+<doc>Retrieves a configuration value by key with optional default fallback.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.550636" elapsed="0.000406"/>
+</kw>
+<kw name="Calculate Date From Week Day Offset" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.551829" level="INFO">Using base week start date for calculation: 2026-04-05</msg>
+<msg time="2026-04-11T16:40:16.551928" level="INFO">${termination_date} = 20260407</msg>
+<var>${termination_date}</var>
+<arg>0_2</arg>
+<arg>date_format=${date_format}</arg>
+<doc>Calculates a specific date from a week-day offset format.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.551339" elapsed="0.000620"/>
+</kw>
+<kw name="Calculate Date From Week Day Offset" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.552475" level="INFO">Using base week start date for calculation: 2026-04-05</msg>
+<msg time="2026-04-11T16:40:16.552558" level="INFO">${termination_date_transfer_effective_date} = 20260413</msg>
+<var>${termination_date_transfer_effective_date}</var>
+<arg>1_1</arg>
+<arg>date_format=${date_format}</arg>
+<doc>Calculates a specific date from a week-day offset format.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.552167" elapsed="0.000417"/>
+</kw>
+<kw name="Get Dynamic Employee" owner="rws_upload_api">
+<variable name="${cache_key}">
+<msg time="2026-04-11T16:40:16.605342" level="INFO">${cache_key} = DYNAMIC_EMPLOYEE_ESSNH1_STORE2</msg>
+<var>DYNAMIC_EMPLOYEE_${user_key}</var>
+<status status="PASS" start="2026-04-11T16:40:16.605017" elapsed="0.000392"/>
+</variable>
+<kw name="Get Parallel Value For Key" owner="pabot.PabotLib">
+<msg time="2026-04-11T16:40:16.640405" level="INFO">${employee} = </msg>
+<var>${employee}</var>
+<arg>${cache_key}</arg>
+<doc>Get the value for a key. If there is no value for the key then empty
+string is returned.
+[https://pabot.org/PabotLib.html?ref=log#get-parallel-value-for-key|Open online docs.]</doc>
+<status status="PASS" start="2026-04-11T16:40:16.605816" elapsed="0.034644"/>
+</kw>
+<if>
+<branch type="IF" condition="$employee is $None">
+<kw name="Fail" owner="BuiltIn">
+<arg>User key '${user_key}' not found in dynamic employee cache. Ensure Suite Setup ran successfully.</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.641149" elapsed="0.000133"/>
+</kw>
+<status status="NOT RUN" start="2026-04-11T16:40:16.640632" elapsed="0.000725"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:16.640591" elapsed="0.000833"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.642087" level="FAIL">String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</msg>
+<arg>Retrieved dynamic employee from cache: ${user_key} → Employee ID: ${employee}[employee_id]</arg>
+<arg>level=DEBUG</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.641587" elapsed="0.000545">String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<return>
+<value>${employee}</value>
+<status status="PASS" start="2026-04-11T16:40:16.642271" elapsed="0.000149"/>
+</return>
+<msg time="2026-04-11T16:40:16.642642" level="INFO">${essnh1_store2} = </msg>
+<var>${essnh1_store2}</var>
+<arg>ESSNH1_STORE2</arg>
+<doc>Retrieves a dynamic employee by user_key from pabot-shared cache.
+| =Arguments= | =Description= |
+| user_key | Reference key to retrieve employee data (e.g., ESSNH1_STORE2, ESSNH2_STORE2). |
+Example usage:
+| ${essnh1}= | Get Dynamic Employee | ESSNH1_STORE2 |
+| Log | Employee ID: ${essnh1}[employee_id] |
+| Log | Display Name: ${essnh1}[displayName] |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.604382" elapsed="0.038294">String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<kw name="Get Dynamic Employee" owner="rws_upload_api">
+<variable name="${cache_key}">
+<msg time="2026-04-11T16:40:16.690359" level="INFO">${cache_key} = DYNAMIC_EMPLOYEE_ESSNH4_STORE2</msg>
+<var>DYNAMIC_EMPLOYEE_${user_key}</var>
+<status status="PASS" start="2026-04-11T16:40:16.690035" elapsed="0.000407"/>
+</variable>
+<kw name="Get Parallel Value For Key" owner="pabot.PabotLib">
+<msg time="2026-04-11T16:40:16.726173" level="INFO">${employee} = </msg>
+<var>${employee}</var>
+<arg>${cache_key}</arg>
+<doc>Get the value for a key. If there is no value for the key then empty
+string is returned.
+[https://pabot.org/PabotLib.html?ref=log#get-parallel-value-for-key|Open online docs.]</doc>
+<status status="PASS" start="2026-04-11T16:40:16.690840" elapsed="0.035422"/>
+</kw>
+<if>
+<branch type="IF" condition="$employee is $None">
+<kw name="Fail" owner="BuiltIn">
+<arg>User key '${user_key}' not found in dynamic employee cache. Ensure Suite Setup ran successfully.</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.727198" elapsed="0.000162"/>
+</kw>
+<status status="NOT RUN" start="2026-04-11T16:40:16.726492" elapsed="0.000946"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:16.726443" elapsed="0.001077"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.728330" level="FAIL">String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</msg>
+<arg>Retrieved dynamic employee from cache: ${user_key} → Employee ID: ${employee}[employee_id]</arg>
+<arg>level=DEBUG</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.727796" elapsed="0.000585">String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<return>
+<value>${employee}</value>
+<status status="PASS" start="2026-04-11T16:40:16.728487" elapsed="0.000126"/>
+</return>
+<msg time="2026-04-11T16:40:16.728844" level="INFO">${essnh4_store2} = </msg>
+<var>${essnh4_store2}</var>
+<arg>ESSNH4_STORE2</arg>
+<doc>Retrieves a dynamic employee by user_key from pabot-shared cache.
+| =Arguments= | =Description= |
+| user_key | Reference key to retrieve employee data (e.g., ESSNH1_STORE2, ESSNH2_STORE2). |
+Example usage:
+| ${essnh1}= | Get Dynamic Employee | ESSNH1_STORE2 |
+| Log | Employee ID: ${essnh1}[employee_id] |
+| Log | Display Name: ${essnh1}[displayName] |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.689376" elapsed="0.039504">String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<kw name="Get Hrci Api Upload Data" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.729430" level="INFO">${hrci_essnh1_store2} = None</msg>
+<msg time="2026-04-11T16:40:16.729469" level="FAIL">String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</msg>
+<var>${hrci_essnh1_store2}</var>
+<arg>employee_id=${essnh1_store2}[employee_id]</arg>
+<arg>effective_date=${termination_date}</arg>
+<status status="FAIL" start="2026-04-11T16:40:16.729110" elapsed="0.000391">String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<kw name="Get Hrci Api Upload Data" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.730605" level="INFO">${hrci_essnh4_store2} = None</msg>
+<msg time="2026-04-11T16:40:16.730658" level="FAIL">String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</msg>
+<var>${hrci_essnh4_store2}</var>
+<arg>employee_id=${essnh4_store2}[employee_id]</arg>
+<arg>effective_date=${termination_date_transfer_effective_date}</arg>
+<status status="FAIL" start="2026-04-11T16:40:16.730145" elapsed="0.000561">String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<variable name="@{records}">
+<msg time="2026-04-11T16:40:16.731122" level="INFO">@{records} = [ None | None ]</msg>
+<var>${hrci_essnh1_store2}</var>
+<var>${hrci_essnh4_store2}</var>
+<status status="PASS" start="2026-04-11T16:40:16.730832" elapsed="0.000340"/>
+</variable>
+<kw name="Update HRCI User Status Via API" owner="rws_upload_api">
+<kw name="Build Data Import Payload" owner="rws_upload_api">
+<variable name="@{all_data_arrays}">
+<msg time="2026-04-11T16:40:16.794694" level="INFO">@{all_data_arrays} = [ ]</msg>
+<var>@{EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:16.782202" elapsed="0.012585"/>
+</variable>
+<for flavor="IN">
+<iter>
+<kw name="Convert Template To Data Array" owner="rws_upload_api">
+<variable name="@{data_array}">
+<msg time="2026-04-11T16:40:16.805032" level="INFO">@{data_array} = [ ]</msg>
+<var>@{EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:16.796502" elapsed="0.008594"/>
+</variable>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Dictionary Should Contain Key" owner="Collections">
+<msg time="2026-04-11T16:40:16.806303" level="FAIL">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</msg>
+<arg>${template_data}</arg>
+<arg>field_order</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.805971" elapsed="0.000438">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</status>
+</kw>
+<msg time="2026-04-11T16:40:16.806561" level="INFO">${has_field_order} = False</msg>
+<var>${has_field_order}</var>
+<arg>Dictionary Should Contain Key</arg>
+<arg>${template_data}</arg>
+<arg>field_order</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.805384" elapsed="0.001207"/>
+</kw>
+<if>
+<branch type="IF" condition="not ${has_field_order}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.807623" level="FAIL">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</msg>
+<arg>Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.807191" elapsed="0.000524">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</status>
+</kw>
+<status status="FAIL" start="2026-04-11T16:40:16.806706" elapsed="0.001145">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</status>
+</branch>
+<status status="FAIL" start="2026-04-11T16:40:16.806680" elapsed="0.001241">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</status>
+</if>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:16.808428" level="INFO">${field_order} = None</msg>
+<msg time="2026-04-11T16:40:16.808478" level="FAIL">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</msg>
+<var>${field_order}</var>
+<arg>${template_data}</arg>
+<arg>field_order</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.808109" elapsed="0.000438">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</status>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Get From Dictionary" owner="Collections">
+<var>${field_value}</var>
+<arg>${template_data}</arg>
+<arg>${field_name}</arg>
+<arg>default=${EMPTY}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.809361" elapsed="0.000147"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${data_array}</arg>
+<arg>${field_value}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.810161" elapsed="0.000159"/>
+</kw>
+<var name="${field_name}"/>
+<status status="NOT RUN" start="2026-04-11T16:40:16.808994" elapsed="0.001703"/>
+</iter>
+<msg time="2026-04-11T16:40:16.810829" level="FAIL">Value of variable '@{field_order}' is not list or list-like.</msg>
+<var>${field_name}</var>
+<value>@{field_order}</value>
+<status status="FAIL" start="2026-04-11T16:40:16.808679" elapsed="0.002218">Value of variable '@{field_order}' is not list or list-like.</status>
+</for>
+<return>
+<value>${data_array}</value>
+<status status="PASS" start="2026-04-11T16:40:16.811196" elapsed="0.000173"/>
+</return>
+<msg time="2026-04-11T16:40:16.811731" level="INFO">${data_array} = []</msg>
+<var>${data_array}</var>
+<arg>${template_data}</arg>
+<doc>Converts template dictionary to ordered array of field values using explicit field_order metadata.
+This ensures correct field ordering for HRBA/HRCI API requirements (matching CSV column order).
+| =Arguments= | =Description= |
+| template_data | Dictionary with field names, values, and field_order metadata from Get Hrba/Hrci Api Upload Data. |
+*Important*: The template MUST include a 'field_order' key (list of field names in correct order).
+This prevents flaky failures caused by unpredictable dictionary iteration order.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.796082" elapsed="0.015705">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.</status>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_data_arrays}</arg>
+<arg>${data_array}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.812138" elapsed="0.000577"/>
+</kw>
+<var name="${template_data}">None</var>
+<status status="FAIL" start="2026-04-11T16:40:16.795406" elapsed="0.017433">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.</status>
+</iter>
+<iter>
+<kw name="Convert Template To Data Array" owner="rws_upload_api">
+<variable name="@{data_array}">
+<msg time="2026-04-11T16:40:16.826067" level="INFO">@{data_array} = [ ]</msg>
+<var>@{EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:16.813825" elapsed="0.012338"/>
+</variable>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Dictionary Should Contain Key" owner="Collections">
+<msg time="2026-04-11T16:40:16.827817" level="FAIL">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</msg>
+<arg>${template_data}</arg>
+<arg>field_order</arg>
+<doc>Fails if ``key`` is not found from ``dictionary``.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.827320" elapsed="0.000601">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</status>
+</kw>
+<msg time="2026-04-11T16:40:16.828085" level="INFO">${has_field_order} = False</msg>
+<var>${has_field_order}</var>
+<arg>Dictionary Should Contain Key</arg>
+<arg>${template_data}</arg>
+<arg>field_order</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.826465" elapsed="0.001650"/>
+</kw>
+<if>
+<branch type="IF" condition="not ${has_field_order}">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.829008" level="FAIL">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</msg>
+<arg>Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.828594" elapsed="0.000493">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</status>
+</kw>
+<status status="FAIL" start="2026-04-11T16:40:16.828232" elapsed="0.000953">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</status>
+</branch>
+<status status="FAIL" start="2026-04-11T16:40:16.828205" elapsed="0.001043">Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.</status>
+</if>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:16.829811" level="INFO">${field_order} = None</msg>
+<msg time="2026-04-11T16:40:16.829964" level="FAIL">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</msg>
+<var>${field_order}</var>
+<arg>${template_data}</arg>
+<arg>field_order</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.829444" elapsed="0.000715">ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.</status>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Get From Dictionary" owner="Collections">
+<var>${field_value}</var>
+<arg>${template_data}</arg>
+<arg>${field_name}</arg>
+<arg>default=${EMPTY}</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.830841" elapsed="0.000087"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${data_array}</arg>
+<arg>${field_value}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.831133" elapsed="0.000074"/>
+</kw>
+<var name="${field_name}"/>
+<status status="NOT RUN" start="2026-04-11T16:40:16.830589" elapsed="0.000678"/>
+</iter>
+<msg time="2026-04-11T16:40:16.831337" level="FAIL">Value of variable '@{field_order}' is not list or list-like.</msg>
+<var>${field_name}</var>
+<value>@{field_order}</value>
+<status status="FAIL" start="2026-04-11T16:40:16.830305" elapsed="0.001077">Value of variable '@{field_order}' is not list or list-like.</status>
+</for>
+<return>
+<value>${data_array}</value>
+<status status="PASS" start="2026-04-11T16:40:16.831486" elapsed="0.000120"/>
+</return>
+<msg time="2026-04-11T16:40:16.831849" level="INFO">${data_array} = []</msg>
+<var>${data_array}</var>
+<arg>${template_data}</arg>
+<doc>Converts template dictionary to ordered array of field values using explicit field_order metadata.
+This ensures correct field ordering for HRBA/HRCI API requirements (matching CSV column order).
+| =Arguments= | =Description= |
+| template_data | Dictionary with field names, values, and field_order metadata from Get Hrba/Hrci Api Upload Data. |
+*Important*: The template MUST include a 'field_order' key (list of field names in correct order).
+This prevents flaky failures caused by unpredictable dictionary iteration order.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.813418" elapsed="0.018466">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.</status>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_data_arrays}</arg>
+<arg>${data_array}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.832131" elapsed="0.000306"/>
+</kw>
+<var name="${template_data}">None</var>
+<status status="FAIL" start="2026-04-11T16:40:16.813015" elapsed="0.019533">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.</status>
+</iter>
+<var>${template_data}</var>
+<value>@{records_data}</value>
+<status status="FAIL" start="2026-04-11T16:40:16.794970" elapsed="0.037693">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.
+
+4) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+5) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+6) Value of variable '@{field_order}' is not list or list-like.</status>
+</for>
+<variable name="&amp;{payload}">
+<msg time="2026-04-11T16:40:16.840718" level="INFO">&amp;{payload} = { data=[[], []] | metainfo={} }</msg>
+<var>data=${all_data_arrays}</var>
+<var>metainfo=&amp;{EMPTY}</var>
+<status status="PASS" start="2026-04-11T16:40:16.832764" elapsed="0.008016"/>
+</variable>
+<return>
+<value>${payload}</value>
+<status status="PASS" start="2026-04-11T16:40:16.840923" elapsed="0.000175"/>
+</return>
+<msg time="2026-04-11T16:40:16.841419" level="INFO">${payload} = {'data': [[], []], 'metainfo': {}}</msg>
+<var>${payload}</var>
+<arg>${records_data}</arg>
+<doc>Builds API payload JSON from pre-configured template dictionaries (works for HRBA, HRCI, HRAC, etc.).
+| =Arguments= | =Description= |
+| records_data | List of template dictionaries from Get Hrba/Hrci Api Upload Data. |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.781809" elapsed="0.059650">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.
+
+4) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+5) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+6) Value of variable '@{field_order}' is not list or list-like.</status>
+</kw>
+<kw name="Send Data Import Request" owner="rws_upload_api">
+<kw name="Get Config Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.863889" level="INFO">${base_url} = https://wfmproductqa20.reflexisinc.com/RWS4</msg>
+<var>${base_url}</var>
+<arg>key=base_url</arg>
+<doc>Retrieves a configuration value by key with optional default fallback.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.863479" elapsed="0.000467"/>
+</kw>
+<kw name="Replace String" owner="String">
+<msg time="2026-04-11T16:40:16.864693" level="INFO">${endpoint} = https://wfmproductqa20.reflexisinc.com/RWS4/controller/connect/dataimports/v1_0/feed.json</msg>
+<var>${endpoint}</var>
+<arg>${endpoint_template}</arg>
+<arg>{BASE_URL}</arg>
+<arg>${base_url}</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.864256" elapsed="0.000494"/>
+</kw>
+<variable name="${api_key}">
+<msg time="2026-04-11T16:40:16.865026" level="INFO">${api_key} = API_KEY_CORP</msg>
+<var>API_KEY_CORP</var>
+<status status="PASS" start="2026-04-11T16:40:16.864863" elapsed="0.000194"/>
+</variable>
+<variable name="&amp;{custom_headers}">
+<msg time="2026-04-11T16:40:16.865355" level="INFO">&amp;{custom_headers} = { X-reflexis-api-key-X=API_KEY_CORP }</msg>
+<var>X-reflexis-api-key-X=${api_key}</var>
+<status status="PASS" start="2026-04-11T16:40:16.865131" elapsed="0.000265"/>
+</variable>
+<kw name="Send A WFM POST Request" owner="api_executor">
+<kw name="Setup WFM Session For API" owner="api_executor">
+<kw name="Get Pabot Execution Pool ID" owner="api_executor">
+<kw name="Get Variable Value" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.923471" level="INFO">${pabot_id} = 1</msg>
+<var>${pabot_id}</var>
+<arg>${PABOTEXECUTIONPOOLID}</arg>
+<arg>1</arg>
+<doc>Returns variable value or ``default`` if the variable does not exist.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.868380" elapsed="0.055150"/>
+</kw>
+<return>
+<value>${pabot_id}</value>
+<status status="PASS" start="2026-04-11T16:40:16.923653" elapsed="0.000173"/>
+</return>
+<msg time="2026-04-11T16:40:16.924021" level="INFO">${pabot_id} = 1</msg>
+<var>${pabot_id}</var>
+<doc>Gets the Pabot execution pool ID for the current execution.
+Example usage:
+| Get Pabot Execution Pool ID</doc>
+<status status="PASS" start="2026-04-11T16:40:16.867641" elapsed="0.056414"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:16.924717" level="INFO">1</msg>
+<arg>${pabot_id}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.924292" elapsed="0.000486"/>
+</kw>
+<variable name="${session_alias}">
+<msg time="2026-04-11T16:40:16.925077" level="INFO">${session_alias} = session_SYSADMIN_1</msg>
+<var>session_${auth_user_key}_${pabot_id}</var>
+<status status="PASS" start="2026-04-11T16:40:16.924859" elapsed="0.000257"/>
+</variable>
+<kw name="Session Exists" owner="RequestsLibrary">
+<msg time="2026-04-11T16:40:16.925610" level="INFO">${session_exist} = False</msg>
+<var>${session_exist}</var>
+<arg>${session_alias}</arg>
+<doc>Return True if the session has been already created</doc>
+<status status="PASS" start="2026-04-11T16:40:16.925335" elapsed="0.000308"/>
+</kw>
+<if>
+<branch type="IF" condition="${session_exist}">
+<kw name="Log" owner="BuiltIn">
+<arg>Reusing WFM session: ${session_alias}</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.926056" elapsed="0.000092"/>
+</kw>
+<return>
+<value>${session_alias}</value>
+<status status="NOT RUN" start="2026-04-11T16:40:16.926222" elapsed="0.000066"/>
+</return>
+<status status="NOT RUN" start="2026-04-11T16:40:16.925762" elapsed="0.000576"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:16.925738" elapsed="0.000648"/>
+</if>
+<variable name="${lock_key}">
+<msg time="2026-04-11T16:40:16.926608" level="INFO">${lock_key} = session_lock_SYSADMIN_1</msg>
+<var>session_lock_${auth_user_key}_${pabot_id}</var>
+<status status="PASS" start="2026-04-11T16:40:16.926420" elapsed="0.000224"/>
+</variable>
+<kw name="Acquire Lock" owner="pabot.PabotLib">
+<arg>${lock_key}</arg>
+<doc>Wait for a lock with name.
+[https://pabot.org/PabotLib.html?ref=log#acquire-lock|Open online docs.]</doc>
+<status status="PASS" start="2026-04-11T16:40:16.926855" elapsed="0.061563"/>
+</kw>
+<try>
+<branch type="TRY">
+<kw name="Session Exists" owner="RequestsLibrary">
+<msg time="2026-04-11T16:40:16.989370" level="INFO">${session_exist} = False</msg>
+<var>${session_exist}</var>
+<arg>${session_alias}</arg>
+<doc>Return True if the session has been already created</doc>
+<status status="PASS" start="2026-04-11T16:40:16.989008" elapsed="0.000423"/>
+</kw>
+<if>
+<branch type="IF" condition="${session_exist}">
+<kw name="Log" owner="BuiltIn">
+<arg>Reusing WFM session: ${session_alias}</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:16.989866" elapsed="0.000109"/>
+</kw>
+<return>
+<value>${session_alias}</value>
+<status status="NOT RUN" start="2026-04-11T16:40:16.990131" elapsed="0.000137"/>
+</return>
+<status status="NOT RUN" start="2026-04-11T16:40:16.989561" elapsed="0.000796"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:16.989535" elapsed="0.000893"/>
+</if>
+<kw name="Login With Credentials And Return Token" owner="api_executor">
+<kw name="Set Selector Prefix" owner="Browser">
+<msg time="2026-04-11T16:40:16.996567" level="INFO">${prefix} = None</msg>
+<var>${prefix}</var>
+<arg>${NONE}</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the prefix for all selectors in the given scope.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.991590" elapsed="0.005031"/>
+</kw>
+<kw name="Get Config Value" owner="TestDataLibrary">
+<msg time="2026-04-11T16:40:16.997351" level="INFO">${APP_URL} = https://wfmproductqa20.reflexisinc.com/kernel/views/authenticate/W/TESTING1.view</msg>
+<var>${APP_URL}</var>
+<arg>key=app_url</arg>
+<doc>Retrieves a configuration value by key with optional default fallback.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.996960" elapsed="0.000437"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2026-04-11T16:40:17.001069" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\MK6843\\PycharmProjects\\sws_wfm_test_automation\\results\\results_QA20_B0\\browser\\traces\\temp\\37bcdde4-3916-477d-95e8-43cdfb7dcfcc"}</msg>
+<msg time="2026-04-11T16:40:17.589990" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\MK6843\\PycharmProjects\\sws_wfm_test_automation\\results\\results_QA20_B0\\browser\\traces\\temp\\37bcdde4-3916-477d-95e8-43cdfb7dcfcc"}</msg>
+<arg>headless=True</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-04-11T16:40:16.997673" elapsed="0.592880"/>
+</kw>
+<kw name="Replace String" owner="String">
+<msg time="2026-04-11T16:40:17.593180" level="INFO">${mob_url} = https://wfmproductqa20.reflexisinc.com/kernel/views/authenticate/M/TESTING1.view</msg>
+<var>${mob_url}</var>
+<arg>${APP_URL}</arg>
+<arg>/W/</arg>
+<arg>/M/</arg>
+<doc>Replaces ``search_for`` in the given ``string`` with ``replace_with``.</doc>
+<status status="PASS" start="2026-04-11T16:40:17.591722" elapsed="0.001672"/>
+</kw>
+<kw name="Wait Until Keyword Succeeds" owner="BuiltIn">
+<kw name="New Page" owner="Browser">
+<msg time="2026-04-11T16:40:21.271051" level="INFO">Successfully initialized new page object and opened url: https://wfmproductqa20.reflexisinc.com/kernel/views/authenticate/M/TESTING1.view</msg>
+<msg time="2026-04-11T16:40:21.271156" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${mob_url}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-04-11T16:40:17.596486" elapsed="3.674807"/>
+</kw>
+<arg>3x</arg>
+<arg>1s</arg>
+<arg>New Page</arg>
+<arg>${mob_url}</arg>
+<doc>Runs the specified keyword and retries if it fails.</doc>
+<status status="PASS" start="2026-04-11T16:40:17.594374" elapsed="3.677061"/>
+</kw>
+<kw name="Is Element Visible On Webpage" owner="common">
+<kw name="Get Element States" owner="Browser">
+<msg time="2026-04-11T16:40:21.403723" level="INFO">${state} = True</msg>
+<var>${state}</var>
+<arg>${selector}</arg>
+<arg>then</arg>
+<arg>bool(value &amp; visible)</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Get the active states from the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-11T16:40:21.273304" elapsed="0.130474"/>
+</kw>
+<return>
+<value>${state}</value>
+<status status="PASS" start="2026-04-11T16:40:21.403901" elapsed="0.000178"/>
+</return>
+<msg time="2026-04-11T16:40:21.404277" level="INFO">${is_mobile_view_supported} = True</msg>
+<var>${is_mobile_view_supported}</var>
+<arg>${loginpage_username_txt}</arg>
+<doc>Checks if the specified element is visible on the screen.
+| =Arguments= | =Description= |
+| selector    | Locator for the element. |
+Example usage:
+| Is Element Visible On Webpage    id=main-content</doc>
+<status status="PASS" start="2026-04-11T16:40:21.271861" elapsed="0.132449"/>
+</kw>
+<if>
+<branch type="IF" condition="${is_mobile_view_supported}">
+<kw name="Wait Until Page Is Loaded" owner="common">
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2026-04-11T16:40:21.411987" level="INFO">Waiting page load to state to receive domcontentloaded in 30000.0</msg>
+<msg time="2026-04-11T16:40:21.416356" level="INFO">Load state domcontentloaded got in 30000</msg>
+<arg>domcontentloaded</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2026-04-11T16:40:21.405796" elapsed="0.010705"/>
+</kw>
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2026-04-11T16:40:21.421269" level="INFO">Waiting page load to state to receive load in 30000.0</msg>
+<msg time="2026-04-11T16:40:21.423787" level="INFO">Load state load got in 30000</msg>
+<arg>load</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2026-04-11T16:40:21.416820" elapsed="0.007135"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2026-04-11T16:40:21.429952" level="INFO">Waiting page load to state to receive networkidle in 30000.0</msg>
+<msg time="2026-04-11T16:40:23.661822" level="INFO">Load state networkidle got in 30000</msg>
+<arg>networkidle</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2026-04-11T16:40:21.424959" elapsed="2.237058"/>
+</kw>
+<arg>Wait For Load State</arg>
+<arg>networkidle</arg>
+<arg>${timeout}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-04-11T16:40:21.424283" elapsed="2.237887"/>
+</kw>
+<doc>Waits until the current page is fully loaded.
+| =Arguments= | =Description= |
+| timeout    | Maximum time to wait. Optional. Default to PAGE_LOAD_TIMEOUT |
+Example usage:
+| Wait Until Page Is Loaded</doc>
+<status status="PASS" start="2026-04-11T16:40:21.404942" elapsed="2.257320"/>
+</kw>
+<kw name="Enter Username" owner="login">
+<kw name="Type Text" owner="Browser">
+<msg time="2026-04-11T16:40:23.771839" level="INFO">Types the text 'SYSADMIN' in the given field.</msg>
+<msg time="2026-04-11T16:40:23.815316" level="INFO">Highlighted 1 elements for 100 ms.</msg>
+<arg>${loginpage_username_txt}</arg>
+<arg>${username}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-04-11T16:40:23.663247" elapsed="0.239098"/>
+</kw>
+<arg>${username}</arg>
+<doc>Fills in the username field on the login page.
+| =Arguments= | =Description= |
+| username    | Username to enter in the login form. |
+Example usage:
+| Enter Username    testuser</doc>
+<status status="PASS" start="2026-04-11T16:40:23.662549" elapsed="0.239970"/>
+</kw>
+<kw name="Enter Password" owner="login">
+<kw name="Type Secret" owner="Browser">
+<arg>${loginpage_password_txt}</arg>
+<arg>$password</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given secret from ``variable_name`` into the text field
+found by ``selector``.</doc>
+<status status="PASS" start="2026-04-11T16:40:23.903597" elapsed="0.137002"/>
+</kw>
+<arg>${password}</arg>
+<doc>Fills in the password field on the login page.
+| =Arguments= | =Description= |
+| password    | Password to enter in the login form. |
+Example usage:
+| Enter Password    mypassword</doc>
+<status status="PASS" start="2026-04-11T16:40:23.902881" elapsed="0.138041"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-04-11T16:40:24.049643" level="INFO">Clicks the element '//span[@class='login-big-font login-button-fix']'.</msg>
+<msg time="2026-04-11T16:40:24.103305" level="INFO">Highlighted 1 elements for 100 ms.</msg>
+<arg>${MOBILE_PAGE_LOGIN_BUTTON}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-11T16:40:24.041335" elapsed="0.570708"/>
+</kw>
+<kw name="Wait Until Page Is Loaded" owner="common">
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2026-04-11T16:40:24.635788" level="INFO">Waiting page load to state to receive domcontentloaded in 30000.0</msg>
+<msg time="2026-04-11T16:40:24.642957" level="INFO">Load state domcontentloaded got in 30000</msg>
+<arg>domcontentloaded</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2026-04-11T16:40:24.614899" elapsed="0.028445"/>
+</kw>
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2026-04-11T16:40:24.654832" level="INFO">Waiting page load to state to receive load in 30000.0</msg>
+<msg time="2026-04-11T16:40:24.660443" level="INFO">Load state load got in 30000</msg>
+<arg>load</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2026-04-11T16:40:24.644047" elapsed="0.016699"/>
+</kw>
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Wait For Load State" owner="Browser">
+<msg time="2026-04-11T16:40:24.674397" level="INFO">Waiting page load to state to receive networkidle in 30000.0</msg>
+<msg time="2026-04-11T16:40:25.121370" level="INFO">Load state networkidle got in 30000</msg>
+<arg>networkidle</arg>
+<arg>${timeout}</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits that the page reaches the required load state.</doc>
+<status status="PASS" start="2026-04-11T16:40:24.662813" elapsed="0.459117"/>
+</kw>
+<arg>Wait For Load State</arg>
+<arg>networkidle</arg>
+<arg>${timeout}</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-04-11T16:40:24.661398" elapsed="0.460823"/>
+</kw>
+<doc>Waits until the current page is fully loaded.
+| =Arguments= | =Description= |
+| timeout    | Maximum time to wait. Optional. Default to PAGE_LOAD_TIMEOUT |
+Example usage:
+| Wait Until Page Is Loaded</doc>
+<status status="PASS" start="2026-04-11T16:40:24.613224" elapsed="0.509227"/>
+</kw>
+<kw name="Get Property" owner="Browser">
+<msg time="2026-04-11T16:40:25.312950" level="INFO">Highlighted 1 elements for 100 ms.</msg>
+<msg time="2026-04-11T16:40:25.313099" level="INFO">Property: '{ "authToken":"eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg", "expiresOn":"20260411114024" ,"localeCode":"en_US" , "message":"User Authenticated Successfully" ,"status":"SUCCESS" }'</msg>
+<msg time="2026-04-11T16:40:25.313385" level="INFO">${html_body} = { "authToken":"eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg", "expiresOn":"20260411114024" ,"localeCode":"en...</msg>
+<var>${html_body}</var>
+<arg>css=body</arg>
+<arg>innerText</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the ``property`` of the element found by ``selector``.</doc>
+<status status="PASS" start="2026-04-11T16:40:25.123347" elapsed="0.190118"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:25.315359" level="INFO">${json_data} = {'authToken': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'expiresOn': '20260411114024', 'localeCode': '...</msg>
+<var>${json_data}</var>
+<arg>json.loads('''${html_body}''')</arg>
+<arg>json</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-04-11T16:40:25.314167" elapsed="0.001260"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:25.316446" level="INFO">${auth_token} = eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg</msg>
+<var>${auth_token}</var>
+<arg>${json_data}</arg>
+<arg>authToken</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:25.315764" elapsed="0.000744"/>
+</kw>
+<kw name="Set Selector Prefix" owner="Browser">
+<arg>${prefix}</arg>
+<tag>Config</tag>
+<tag>Setter</tag>
+<doc>Sets the prefix for all selectors in the given scope.</doc>
+<status status="PASS" start="2026-04-11T16:40:25.316958" elapsed="0.010680"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2026-04-11T16:40:27.266834" level="WARN">Keyword 'Take Screenshot  EMBED' could not be run on failure:
+[Errno 22] Invalid argument</msg>
+<msg time="2026-04-11T16:40:27.267129" level="INFO">See also file:///C:/Users/MK6843/PycharmProjects/sws_wfm_test_automation/results/results_QA20_B0/playwright-log.txt for additional details.</msg>
+<msg time="2026-04-11T16:40:27.267565" level="FAIL">Execution terminated by signal</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="FAIL" start="2026-04-11T16:40:25.328415" elapsed="2.004070">Execution terminated by signal</status>
+</kw>
+<return>
+<value>${auth_token}</value>
+<status status="PASS" start="2026-04-11T16:40:27.332726" elapsed="0.000199"/>
+</return>
+<status status="FAIL" start="2026-04-11T16:40:21.404424" elapsed="5.928585"/>
+</branch>
+<branch type="ELSE">
+<kw name="Log" owner="BuiltIn">
+<arg>Mobile view is not supported</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:27.333389" elapsed="0.000093"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:27.333689" elapsed="0.000083"/>
+</kw>
+<variable name="${site_token}">
+<var>%{SITE_TOKEN}</var>
+<status status="NOT RUN" start="2026-04-11T16:40:27.333844" elapsed="0.000083"/>
+</variable>
+<return>
+<value>${site_token}</value>
+<status status="NOT RUN" start="2026-04-11T16:40:27.333992" elapsed="0.000074"/>
+</return>
+<status status="NOT RUN" start="2026-04-11T16:40:27.333086" elapsed="0.001027"/>
+</branch>
+<status status="FAIL" start="2026-04-11T16:40:21.404397" elapsed="5.929764"/>
+</if>
+<msg time="2026-04-11T16:40:27.334425" level="INFO">${auth_token} = eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg</msg>
+<var>${auth_token}</var>
+<arg>${ALL_CREDENTIALS}[${auth_user_key}][username]</arg>
+<arg>${ALL_CREDENTIALS}[${auth_user_key}][password]</arg>
+<doc>This keyword logs in with the given credentials and returns the authentication token.
+If the mobile view is not supported, it returns a predefined site token from environment variables.
+This keyword opens new browser window in headless mode and logs in with the given credentials.
+After login, it extracts the authentication token from the html_body tag.
+Args:
+- username: The username of the user.
+- password: The password of the user.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.990955" elapsed="10.343509">Execution terminated by signal</status>
+</kw>
+<kw name="Get API HeaderMap With WFM Auth Token" owner="api_executor">
+<variable name="&amp;{header_map_const}">
+<msg time="2026-04-11T16:40:27.335715" level="INFO">&amp;{header_map_const} = { Accept=application/json; charset=utf-8 | Referer=https://wfmproductqa20.reflexisinc.com/RWS4 | X-Csrf-Token-X=eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyU...</msg>
+<var>Accept=application/json; charset=utf-8</var>
+<var>Referer=${base_url}</var>
+<var>X-Csrf-Token-X=${auth_token}</var>
+<var>x-reflexis-csrf-token-x=${auth_token}</var>
+<var>X-reflexis-auth-token-X=${auth_token}</var>
+<var>authToken=${auth_token}</var>
+<var>Content-Type=application/json</var>
+<status status="PASS" start="2026-04-11T16:40:27.335299" elapsed="0.000461"/>
+</variable>
+<return>
+<value>${header_map_const}</value>
+<status status="PASS" start="2026-04-11T16:40:27.335863" elapsed="0.000098"/>
+</return>
+<msg time="2026-04-11T16:40:27.336143" level="INFO">${header_map} = {'Accept': 'application/json; charset=utf-8', 'Referer': 'https://wfmproductqa20.reflexisinc.com/RWS4', 'X-Csrf-Token-X': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEy...</msg>
+<var>${header_map}</var>
+<arg>${base_url}</arg>
+<arg>${auth_token}</arg>
+<doc>This keyword returns the header map to be used with wfm api with passed in auth token.
+| =Arguments= | =Description= |
+| base_url    | base_url for the app |
+| auth_token    | authentication token for the app |</doc>
+<status status="PASS" start="2026-04-11T16:40:27.334840" elapsed="0.001337"/>
+</kw>
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2026-04-11T16:40:27.337014" level="INFO">Creating Session using : alias=session_SYSADMIN_1, url=https://wfmproductqa20.reflexisinc.com/RWS4, headers={'Accept': 'application/json; charset=utf-8', 'Referer': 'https://wfmproductqa20.reflexisinc.com/RWS4', 'X-Csrf-Token-X': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'x-reflexis-csrf-token-x': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'X-reflexis-auth-token-X': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'authToken': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'Content-Type': 'application/json'},                     cookies={}, auth=None, timeout=180, proxies=None, verify=False,                     debug=0 </msg>
+<arg>${session_alias}</arg>
+<arg>${base_url}</arg>
+<arg>headers=${header_map}</arg>
+<arg>disable_warnings=True</arg>
+<arg>timeout=${LONG_API_TIMEOUT}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2026-04-11T16:40:27.336397" elapsed="0.000937"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:27.338101" level="INFO">Created WFM session: session_SYSADMIN_1</msg>
+<arg>Created WFM session: ${session_alias}</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:27.337590" elapsed="0.000569"/>
+</kw>
+<return>
+<value>${session_alias}</value>
+<status status="PASS" start="2026-04-11T16:40:27.338244" elapsed="0.000119"/>
+</return>
+<status status="FAIL" start="2026-04-11T16:40:16.988635" elapsed="10.349811"/>
+</branch>
+<branch type="FINALLY">
+<kw name="Release Lock" owner="pabot.PabotLib">
+<arg>${lock_key}</arg>
+<doc>Release a lock with name.
+[https://pabot.org/PabotLib.html?ref=log#release-lock|Open online docs.]</doc>
+<status status="PASS" start="2026-04-11T16:40:27.338826" elapsed="0.060961"/>
+</kw>
+<status status="PASS" start="2026-04-11T16:40:27.338585" elapsed="0.061333"/>
+</branch>
+<status status="FAIL" start="2026-04-11T16:40:16.988571" elapsed="10.411431"/>
+</try>
+<msg time="2026-04-11T16:40:27.400281" level="INFO">${session} = session_SYSADMIN_1</msg>
+<var>${session}</var>
+<arg>${auth_user_key}</arg>
+<arg>${api_base_url}</arg>
+<doc>This keyword sets the session for WFM API.
+Session creation drives auth token creation to avoid reusing a token with a new session.
+| =Arguments= | =Description= |
+| auth_user_key    | user_key for authentication. |
+| base_url    | The base URL for the API |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.866707" elapsed="10.533619">Execution terminated by signal</status>
+</kw>
+<kw name="POST On Session" owner="RequestsLibrary">
+<msg time="2026-04-11T16:40:28.262270" level="INFO">POST Request : url=https://wfmproductqa20.reflexisinc.com/RWS4/controller/connect/dataimports/v1_0/feed.json 
+ path_url=/RWS4/controller/connect/dataimports/v1_0/feed.json 
+ headers={'User-Agent': 'python-requests/2.32.5', 'Accept-Encoding': 'gzip, deflate, zstd', 'Accept': 'application/json; charset=utf-8', 'Connection': 'keep-alive', 'Referer': 'https://wfmproductqa20.reflexisinc.com/RWS4', 'X-Csrf-Token-X': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'x-reflexis-csrf-token-x': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'X-reflexis-auth-token-X': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'authToken': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'Content-Type': 'application/json', 'X-reflexis-api-key-X': 'API_KEY_CORP', 'Content-Length': '34'} 
+ body=b'{"data": [[], []], "metainfo": {}}' 
+ </msg>
+<msg time="2026-04-11T16:40:28.262603" level="INFO">POST Response : url=https://wfmproductqa20.reflexisinc.com/RWS4/controller/connect/dataimports/v1_0/feed.json 
+ status=200, reason=OK 
+ headers={'date': 'Sat, 11 Apr 2026 11:10:27 GMT', 'Strict-Transport-Security': 'max-age=31536000;includeSubDomains', 'cache-control': 'private,no-store,no-cache,must-revalidate', 'x-content-type-options': 'nosniff', 'x-reflexis-kernel-enabled-x': 'true', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1;mode=block', 'x-reflexis-csrf-token-x': 'eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg', 'set-cookie': 'JSESSIONID=0000sjucDRC5-0LNZDSs1QrQjNA:was01-rwsolc-inst01; Path=/RWS4; Secure; HttpOnly, GCLB="a83af7a0461633cd"; Max-Age=3660; Path=/; HttpOnly', 'vary': 'Accept-Encoding', 'content-encoding': 'gzip', 'content-type': 'application/json', 'content-language': 'en-US', 'via': '1.1 google', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'} 
+ body={"statusCode":-1,"metaInfo":{"summary":{"recordSummary":{"added":0,"updated":0,"unchanged":0,"deleted":0,"invalid":0,"totalProcessed":0},"processSummary":{"status":"ERROR","message":"Invalid data load. No record identifier found.","traceId":"N/A"},"recordsStatus":[]}},"message":"Error while processing data load"} 
+ </msg>
+<msg time="2026-04-11T16:40:28.262982" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>${session}</arg>
+<arg>${endpoint_url}</arg>
+<arg>json=${body}</arg>
+<arg>expected_status=any</arg>
+<arg>headers=${custom_headers}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2026-04-11T16:40:27.400607" elapsed="0.862507"/>
+</kw>
+<kw name="Process WFM API Response" owner="api_executor">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.286904" level="INFO">Response Body: {"statusCode":-1,"metaInfo":{"summary":{"recordSummary":{"added":0,"updated":0,"unchanged":0,"deleted":0,"invalid":0,"totalProcessed":0},"processSummary":{"status":"ERROR","message":"Invalid data load. No record identifier found.","traceId":"N/A"},"recordsStatus":[]}},"message":"Error while processing data load"}</msg>
+<arg>Response Body: ${response.text}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.266127" elapsed="0.021024"/>
+</kw>
+<if>
+<branch type="IF" condition="${response.status_code} == ${422}">
+<kw name="Fail Test With Response Message From WFM API" owner="api_executor">
+<arg>${response}</arg>
+<doc>This keyword fails the test with the error message from WFM API response when status code is 422.
+| =Arguments= | =Description= |
+| response    | response object of the request. |</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:28.329934" elapsed="0.000330"/>
+</kw>
+<status status="NOT RUN" start="2026-04-11T16:40:28.287603" elapsed="0.042834"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:28.287523" elapsed="0.043041"/>
+</if>
+<if>
+<branch type="IF" condition="'${response.status_code}' != '200' and '${response.status_code}' != '201'">
+<kw name="Fail" owner="BuiltIn">
+<arg>Status code is not 200 or 201, it was ${response.status_code}</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:28.359728" elapsed="0.000210"/>
+</kw>
+<status status="NOT RUN" start="2026-04-11T16:40:28.330718" elapsed="0.029320"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:28.330676" elapsed="0.029446"/>
+</if>
+<if>
+<branch type="IF" condition="${return_raw_response}">
+<return>
+<value>${response}</value>
+<status status="NOT RUN" start="2026-04-11T16:40:28.360466" elapsed="0.000086"/>
+</return>
+<status status="NOT RUN" start="2026-04-11T16:40:28.360211" elapsed="0.000413"/>
+</branch>
+<branch type="ELSE">
+<return>
+<value>${response.json()}</value>
+<status status="PASS" start="2026-04-11T16:40:28.360804" elapsed="0.000102"/>
+</return>
+<status status="PASS" start="2026-04-11T16:40:28.360688" elapsed="0.000289"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:28.360188" elapsed="0.000845"/>
+</if>
+<msg time="2026-04-11T16:40:28.370531" level="INFO">${processed_response} = {'statusCode': -1, 'metaInfo': {'summary': {'recordSummary': {'added': 0, 'updated': 0, 'unchanged': 0, 'deleted': 0, 'invalid': 0, 'totalProcessed': 0}, 'processSummary': {'status': 'ERROR', 'message...</msg>
+<var>${processed_response}</var>
+<arg>${response}</arg>
+<arg>${return_raw_response}</arg>
+<doc>This keyword processes the WFM API response.
+| =Arguments= | =Description= |
+| response    | response object of the request. |</doc>
+<status status="PASS" start="2026-04-11T16:40:28.264281" elapsed="0.106305"/>
+</kw>
+<return>
+<value>${processed_response}</value>
+<status status="PASS" start="2026-04-11T16:40:28.370700" elapsed="0.000180"/>
+</return>
+<msg time="2026-04-11T16:40:28.371167" level="INFO">${response} = {'statusCode': -1, 'metaInfo': {'summary': {'recordSummary': {'added': 0, 'updated': 0, 'unchanged': 0, 'deleted': 0, 'invalid': 0, 'totalProcessed': 0}, 'processSummary': {'status': 'ERROR', 'message...</msg>
+<var>${response}</var>
+<arg>${user_key}</arg>
+<arg>${base_url}</arg>
+<arg>${endpoint}</arg>
+<arg>body=${payload}</arg>
+<arg>custom_headers=${custom_headers}</arg>
+<doc>This keyword sets the post request for the WFM API.
+Automatically retries with new auth token if PossibleRequestTamperingException is detected.
+| =Arguments= | =Description= |
+| auth_user_key    | user_key for authentication. |
+| api_base_url    | The base URL for the API |
+| endpoint    | End point of the API. from api_endpoints.py |
+| body    | json body to be sent in the request |
+| return_raw_response    | Boolean to indicate if raw response is to be returned. (default: False) |
+| custom_headers    | Optional dictionary of additional headers to include in the request |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.865734" elapsed="11.505471">Execution terminated by signal</status>
+</kw>
+<kw name="Run Keyword And Return Status" owner="BuiltIn">
+<kw name="Validate Data Import Response" owner="rws_upload_api">
+<kw name="Should Be Equal As Integers" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.373236" level="INFO">Argument types are:
+&lt;class 'int'&gt;
+&lt;class 'str'&gt;</msg>
+<msg time="2026-04-11T16:40:28.373393" level="FAIL">HRCI API returned error status code: -1: -1 != 1</msg>
+<arg>${response}[statusCode]</arg>
+<arg>1</arg>
+<arg>msg=${entity_name} API returned error status code: ${response}[statusCode]</arg>
+<doc>Fails if objects are unequal after converting them to integers.</doc>
+<status status="FAIL" start="2026-04-11T16:40:28.372740" elapsed="0.000759">HRCI API returned error status code: -1: -1 != 1</status>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:28.374064" level="INFO">${record_summary} = {'added': 0, 'updated': 0, 'unchanged': 0, 'deleted': 0, 'invalid': 0, 'totalProcessed': 0}</msg>
+<var>${record_summary}</var>
+<arg>${response}[metaInfo][summary]</arg>
+<arg>recordSummary</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.373733" elapsed="0.000364"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:28.374550" level="INFO">${added} = 0</msg>
+<var>${added}</var>
+<arg>${record_summary}</arg>
+<arg>added</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.374306" elapsed="0.000275"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:28.375041" level="INFO">${updated} = 0</msg>
+<var>${updated}</var>
+<arg>${record_summary}</arg>
+<arg>updated</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.374780" elapsed="0.000292"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:28.375577" level="INFO">${deleted} = 0</msg>
+<var>${deleted}</var>
+<arg>${record_summary}</arg>
+<arg>deleted</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.375297" elapsed="0.000314"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:28.376076" level="INFO">${invalid} = 0</msg>
+<var>${invalid}</var>
+<arg>${record_summary}</arg>
+<arg>invalid</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.375841" elapsed="0.000264"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2026-04-11T16:40:28.376515" level="INFO">${total_processed} = 0</msg>
+<var>${total_processed}</var>
+<arg>${record_summary}</arg>
+<arg>totalProcessed</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.376291" elapsed="0.000263"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.377258" level="INFO">${successful_records} = 0</msg>
+<var>${successful_records}</var>
+<arg>${added} + ${updated} + ${deleted}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.376749" elapsed="0.000545"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.378139" level="FAIL">❌ No records were processed successfully (Added=0, Updated=0, Deleted=0)</msg>
+<arg>${successful_records} &gt; 0</arg>
+<arg>msg=❌ No records were processed successfully (Added=${added}, Updated=${updated}, Deleted=${deleted})</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="FAIL" start="2026-04-11T16:40:28.377519" elapsed="0.000709">❌ No records were processed successfully (Added=0, Updated=0, Deleted=0)</status>
+</kw>
+<if>
+<branch type="IF" condition="${invalid} &gt; 0">
+<kw name="Extract Record Error Details" owner="rws_upload_api">
+<var>${error_details}</var>
+<arg>${response}</arg>
+<arg>${entity_name}</arg>
+<doc>Extracts detailed error information from recordsStatus array for failed records.
+| =Arguments= | =Description= |
+| response | API response JSON containing recordsStatus array. |
+| entity_name | Entity name for logging (e.g., HRBA, HRCI, HRAC). |</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:28.378949" elapsed="0.000138"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>❌ ${entity_name} Import Failed - ${invalid} invalid records found</arg>
+<arg>level=ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:28.379328" elapsed="0.000094"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<arg>📋 Error Details:\n${error_details}</arg>
+<arg>level=ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:28.379608" elapsed="0.000077"/>
+</kw>
+<kw name="Fail" owner="BuiltIn">
+<arg>❌ ${entity_name} import validation failed - ${invalid} invalid records found\n\n${error_details}</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="NOT RUN" start="2026-04-11T16:40:28.379857" elapsed="0.000084"/>
+</kw>
+<status status="NOT RUN" start="2026-04-11T16:40:28.378356" elapsed="0.001643"/>
+</branch>
+<status status="PASS" start="2026-04-11T16:40:28.378331" elapsed="0.001723"/>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.381005" level="INFO">📊 HRCI Import: Added=0, Updated=0, Deleted=0, Invalid=0, Total=0</msg>
+<arg>📊 ${entity_name} Import: Added=${added}, Updated=${updated}, Deleted=${deleted}, Invalid=${invalid}, Total=${total_processed}</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.380244" elapsed="0.000835"/>
+</kw>
+<arg>${response}</arg>
+<arg>${entity_name}</arg>
+<doc>Validates data import API response (works for HRBA, HRCI, HRAC, etc.).
+| =Arguments= | =Description= |
+| response | API response JSON from data import request. |
+| entity_name | Entity name for logging (e.g., HRBA, HRCI, HRAC). |</doc>
+<status status="FAIL" start="2026-04-11T16:40:28.372201" elapsed="0.009081">Several failures occurred:
+
+1) HRCI API returned error status code: -1: -1 != 1
+
+2) ❌ No records were processed successfully (Added=0, Updated=0, Deleted=0)</status>
+</kw>
+<msg time="2026-04-11T16:40:28.381423" level="INFO">${validation_passed} = False</msg>
+<var>${validation_passed}</var>
+<arg>Validate Data Import Response</arg>
+<arg>${response}</arg>
+<arg>${entity_name}</arg>
+<doc>Runs the specified keyword and returns the status as a Boolean value.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.371537" elapsed="0.009917"/>
+</kw>
+<if>
+<branch type="IF" condition="not ${validation_passed}">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.382394" level="ERROR">❌ HRCI Import Failed - Response: {'statusCode': -1, 'metaInfo': {'summary': {'recordSummary': {'added': 0, 'updated': 0, 'unchanged': 0, 'deleted': 0, 'invalid': 0, 'totalProcessed': 0}, 'processSummary': {'status': 'ERROR', 'message': 'Invalid data load. No record identifier found.', 'traceId': 'N/A'}, 'recordsStatus': []}}, 'message': 'Error while processing data load'}</msg>
+<arg>❌ ${entity_name} Import Failed - Response: ${response}</arg>
+<arg>level=ERROR</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.381952" elapsed="0.000646"/>
+</kw>
+<kw name="Fail" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.383375" level="FAIL">HRCI import validation failed - check logs for details</msg>
+<arg>${entity_name} import validation failed - check logs for details</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2026-04-11T16:40:28.382812" elapsed="0.000668">HRCI import validation failed - check logs for details</status>
+</kw>
+<status status="FAIL" start="2026-04-11T16:40:28.381592" elapsed="0.002037">HRCI import validation failed - check logs for details</status>
+</branch>
+<status status="FAIL" start="2026-04-11T16:40:28.381568" elapsed="0.002149">HRCI import validation failed - check logs for details</status>
+</if>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.384535" level="INFO">✅ HRCI Import Successful - Response validated</msg>
+<arg>✅ ${entity_name} Import Successful - Response validated</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.383967" elapsed="0.000656"/>
+</kw>
+<return>
+<value>${response}</value>
+<status status="PASS" start="2026-04-11T16:40:28.384748" elapsed="0.000158"/>
+</return>
+<msg time="2026-04-11T16:40:28.385232" level="INFO">${response} = {'statusCode': -1, 'metaInfo': {'summary': {'recordSummary': {'added': 0, 'updated': 0, 'unchanged': 0, 'deleted': 0, 'invalid': 0, 'totalProcessed': 0}, 'processSummary': {'status': 'ERROR', 'message...</msg>
+<var>${response}</var>
+<arg>${user_key}</arg>
+<arg>${payload}</arg>
+<arg>${DATA_IMPORT_FEED_API_TEMPLATE}</arg>
+<arg>entity_name=HRCI</arg>
+<doc>Sends data import POST request to API with automatic validation (works for HRBA, HRCI, HRAC, etc.).
+| =Arguments= | =Description= |
+| user_key | User credentials key for authentication (e.g., SYSADMIN). |
+| payload | Dictionary payload with 'data' and 'metainfo' keys. |
+| endpoint_template | Endpoint URL template (e.g., DATA_IMPORT_FEED_API_TEMPLATE). |
+| entity_name | Entity name for logging (e.g., HRBA, HRCI, HRAC). |
+Example usage:
+| {'data': [[], []], 'metainfo': {}}= | Build Data Import Payload | [None, None] |
+| ${response}= | Send Data Import Request | SYSADMIN | {'data': [[], []], 'metainfo': {}} | {BASE_URL}/controller/connect/dataimports/v1_0/feed.json | HRBA |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.862358" elapsed="11.522927">Several failures occurred:
+
+1) Execution terminated by signal
+
+2) HRCI import validation failed - check logs for details</status>
+</kw>
+<return>
+<value>${response}</value>
+<status status="PASS" start="2026-04-11T16:40:28.385432" elapsed="0.000154"/>
+</return>
+<arg>user_key=SYSADMIN</arg>
+<arg>records_data=${records}</arg>
+<doc>Updates one or multiple user statuses via HRCI data import feed API (termination, rehire, status changes).
+| =Arguments= | =Description= |
+| user_key | User credentials key for authentication (e.g., SYSADMIN). |
+| records_data | List of template dictionaries from Get Hrci Api Upload Data. |
+Example usage - Terminate employee:
+| ${record}= | Get Hrci Api Upload Data | employee_id=2026008008 | effective_date=20260212 | employee_status=T |
+| [None, None]= | Create List | ${record} |
+| ${response}= | Update HRCI User Status Via API | SYSADMIN | [None, None] |</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.781041" elapsed="11.604848">Several failures occurred:
+
+1) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+2) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+3) Value of variable '@{field_order}' is not list or list-like.
+
+4) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+5) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+6) Value of variable '@{field_order}' is not list or list-like.
+
+7) Execution terminated by signal
+
+8) HRCI import validation failed - check logs for details</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.386749" level="FAIL">String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</msg>
+<arg>✅ Successfully terminated ESSNH1_STORE2: Employee ID=${essnh1_store2}[employee_id]</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2026-04-11T16:40:28.386224" elapsed="0.000586">String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.387725" level="FAIL">String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</msg>
+<arg>✅ Successfully terminated ESSNH4_STORE2: Employee ID=${essnh4_store2}[employee_id]</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2026-04-11T16:40:28.387171" elapsed="0.000613">String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.388617" level="INFO">🧹 Suite Teardown Complete</msg>
+<arg>🧹 Suite Teardown Complete</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.388117" elapsed="0.000581"/>
+</kw>
+<doc>Terminates the dynamic employees via HRCI API in Suite Teardown.
+This runs ONCE per suite and terminates the employees created in Suite Setup to clean up after
+the tests. It ensures that the test data does not persist beyond the suite execution.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.549073" elapsed="11.839928">Several failures occurred:
+
+1) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+2) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+3) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+4) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+5) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+6) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+    [ Message content over the limit has been removed. ]
+
+8) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+9) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+10) Value of variable '@{field_order}' is not list or list-like.
+
+11) Execution terminated by signal
+
+12) HRCI import validation failed - check logs for details
+
+13) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+14) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<doc>Terminates the dynamic employees via HRCI API in Week 0 Suite Teardown.
+This runs ONCE after all Week 0 tests and terminates the employees created in Suite Setup to clean up after
+the tests. It ensures that the test data does not persist beyond the Week 0 suite execution.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.548526" elapsed="11.840760">Several failures occurred:
+
+1) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+2) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+3) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+4) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+5) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+6) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+    [ Message content over the limit has been removed. ]
+
+8) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+9) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+10) Value of variable '@{field_order}' is not list or list-like.
+
+11) Execution terminated by signal
+
+12) HRCI import validation failed - check logs for details
+
+13) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+14) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<arg>Terminate Users Via HRCI For Week 0 Suite Teardown</arg>
+<doc>Runs a keyword only once in one of the parallel processes. Optional arguments of the keyword needs to be serializeable in order to
+create an unique lockname.
+Sample request sequence [keyword, keyword 'x', keyword, keyword 5, keyword 'x', keyword 5]
+results in execution of [keyword, keyword 'x', keyword 5]
+[https://pabot.org/PabotLib.html?ref=log#run-only-once|Open online docs.]</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.440348" elapsed="12.061577">Several failures occurred:
+
+1) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+2) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+3) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+4) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+5) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+6) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+    [ Message content over the limit has been removed. ]
+
+8) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+9) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+10) Value of variable '@{field_order}' is not list or list-like.
+
+11) Execution terminated by signal
+
+12) HRCI import validation failed - check logs for details
+
+13) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+14) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-04-11T16:40:28.502767" level="INFO">Week 1 &amp; 2 SM1_STORE2 Suite Complete - All tests executed</msg>
+<arg>Week 1 &amp; 2 SM1_STORE2 Suite Complete - All tests executed</arg>
+<arg>level=INFO</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-04-11T16:40:28.502269" elapsed="0.000565"/>
+</kw>
+<arg>Run Only Once</arg>
+<arg>Terminate Users Via HRCI For Week 0 Suite Teardown</arg>
+<arg>AND</arg>
+<arg>Log</arg>
+<arg>Week 1 &amp; 2 SM1_STORE2 Suite Complete - All tests executed</arg>
+<arg>level=INFO</arg>
+<doc>Executes all the given keywords in a sequence.</doc>
+<status status="FAIL" start="2026-04-11T16:40:16.439255" elapsed="12.063757">Several failures occurred:
+
+1) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+2) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+3) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+4) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+5) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+6) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+    [ Message content over the limit has been removed. ]
+
+8) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+9) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+10) Value of variable '@{field_order}' is not list or list-like.
+
+11) Execution terminated by signal
+
+12) HRCI import validation failed - check logs for details
+
+13) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+14) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</kw>
+<doc>Week 0, Week 1 &amp; Week 2 - SM1_STORE2 Schedule Suite
+
+**PURPOSE:**
+This suite consolidates all BATTC test cases that require Week 0, Week 1, and Week 2 schedule data for Store2.
+All tests in this suite use the same week setup, enabling efficient parallel execution.
+
+**ONE-TIME SETUP APPROACH:**
+Suite Setup executes 'Setup Schedule For Week 0 and 1 wrapped with 'Run Only Once' from pabot.PabotLib.
+This ensures schedule setup runs exactly ONCE across all parallel processes before any tests execute.
+
+**PARALLEL EXECUTION ENABLED:**
+Tests can be executed in parallel using pabot. The setup runs once, then all tests execute concurrently.
+
+**TEST CASES INCLUDED:**
+Week 0 tests (SM1_STORE2):
+- BATTC00139: Verify Week In Progress Schedule Copy Generated By Servlet For Distribution List
+- BATTC00143: Verify The Shifts Are Unallocated And Moved To Open Pool After Transfer
+- BATTC00144: Verify The Shifts Are Unallocated And Moved To Open Pool After Termination
+Week 1 tests (SM1_STORE2):
+- BATTC00119: Verify Approval Of Extra Work Shift Response
+- BATTC00118: Verify Approval Of Open Shift Response On Web
+- BATTC00120: Verify Advertised Shift Response Approval
+- BATTC00121: Verify Approval Of Individual Swap Shift Response In Web
+- BATTC00186: Verify Approval Of All Eligible Swap Shift Response In Web
+- BATTC00193: Verify user is able to do shift trading for new hires
+Week 2 tests (SM1_STORE2):
+- BATTC00136: Verify User Is Able To Publish Schedule By Running The Servlet For Specific Unit
+Weeks 0-2 Navigation (SM1_STORE2):
+- BATTC00020: WFM-19-1 Verify Week Navigation For Schedule Page And Review Legends
+- BATTC00021: WFM-19-2 Verify Week Navigator On Labor Forecast Page
+- BATTC00022: WFM-19-3 Verify Week Navigator On Driver Forecast Page
+
+**EXECUTION COMMANDS:**
+
+Sequential execution:
+uv run python executor.py tests/web/l2_suite/schedule_dependent/week0_week1_week2_sm1store2_schedule_suite.robot --test-env QA28_B0
+
+Parallel execution (recommended, 4 processes):
+uv run python executor.py tests/web/l2_suite/schedule_dependent/week0_week1_week2_sm1store2_schedule_suite.robot --test-env QA28_B0 --processes 4
+
+With browser visible (for debugging):
+uv run python executor.py tests/web/l2_suite/schedule_dependent/week0_week1_week2_sm1store2_schedule_suite.robot --test-env QA28_B0 --show-browser
+
+**LOCK FILE CLEANUP:**
+If setup appears to be skipped, clean pabot lock files before running:
+Remove-Item -Path ".pabot_results" -Recurse -Force -ErrorAction SilentlyContinue
+
+**ORIGINAL TEST FILES:**
+Original individual test files remain in their locations for backward compatibility.
+After full validation, they can be deprecated/removed.</doc>
+<status status="FAIL" start="2026-04-11T16:39:55.492945" elapsed="33.010229">Suite setup failed:
+No keyword with name 'Get Hrba Api Upload Data' found. Did you mean:
+    TestDataLibrary.Get Hrci Api Upload Data
+    TestDataLibrary.Get Hcri Upload Data
+
+Also suite teardown failed:
+Several failures occurred:
+
+1) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+2) String '${employee}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+3) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+4) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+5) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+6) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+    [ Message content over the limit has been removed. ]
+
+8) Template missing 'field_order' metadata. This is required to ensure correct API field ordering. Add 'field_order' array to the template JSON.
+
+9) ValueError: Argument 'dictionary' got value 'None' (None) that cannot be converted to Mapping.
+
+10) Value of variable '@{field_order}' is not list or list-like.
+
+11) Execution terminated by signal
+
+12) HRCI import validation failed - check logs for details
+
+13) String '${essnh1_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.
+
+14) String '${essnh4_store2}' used with invalid index 'employee_id'. To use '[employee_id]' as a literal value, it needs to be escaped like '\[employee_id]'.</status>
+</suite>
+<status status="FAIL" start="2026-04-11T16:39:55.491360" elapsed="33.051758"/>
+</suite>
+<meta name="App Version">WFM.45.1.21.0.20260330.U182434</meta>
+<meta name="Browser">chrome</meta>
+<meta name="Environment">QA20_B0</meta>
+<meta name="Mobile Platform">android</meta>
+<status status="FAIL" start="2026-04-11T16:39:55.437801" elapsed="33.106622"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">action:read</stat>
+<stat pass="0" fail="1" skip="0">applicability_not_met</stat>
+<stat pass="0" fail="1" skip="0">bat_phase2</stat>
+<stat pass="0" fail="1" skip="0">battc00021</stat>
+<stat pass="0" fail="1" skip="0">config:rws</stat>
+<stat pass="0" fail="1" skip="0">config:weekplan_and_schedule_gen</stat>
+<stat pass="0" fail="1" skip="0">dev:amol</stat>
+<stat pass="0" fail="1" skip="0">module:forecast</stat>
+<stat pass="0" fail="1" skip="0">schedule_dependent</stat>
+<stat pass="0" fail="1" skip="0">week0_week1_sm1store2</stat>
+</tag>
+<suite>
+<stat name="L2 Suite" id="s1" pass="0" fail="1" skip="0">L2 Suite</stat>
+<stat name="Schedule Dependent" id="s1-s1" pass="0" fail="1" skip="0">L2 Suite.Schedule Dependent</stat>
+<stat name="Week0 Week1 Week2 Sm1Store2 Schedule Suite" id="s1-s1-s1" pass="0" fail="1" skip="0">L2 Suite.Schedule Dependent.Week0 Week1 Week2 Sm1Store2 Schedule Suite</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-04-11T16:40:27.266834" level="WARN">Keyword 'Take Screenshot  EMBED' could not be run on failure:
+[Errno 22] Invalid argument</msg>
+<msg time="2026-04-11T16:40:28.382394" level="ERROR">❌ HRCI Import Failed - Response: {'statusCode': -1, 'metaInfo': {'summary': {'recordSummary': {'added': 0, 'updated': 0, 'unchanged': 0, 'deleted': 0, 'invalid': 0, 'totalProcessed': 0}, 'processSummary': {'status': 'ERROR', 'message': 'Invalid data load. No record identifier found.', 'traceId': 'N/A'}, 'recordsStatus': []}}, 'message': 'Error while processing data load'}</msg>
+<msg time="2026-04-11T16:40:28.540438" level="ERROR">Calling method '_end_suite' of listener 'Browser' failed: ConnectionError: Playwright process has been terminated with code 3221225786</msg>
+</errors>
+</robot>

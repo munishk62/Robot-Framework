@@ -1,0 +1,11 @@
+{
+    "base_url": "https://knlofficedepotsb.reflexisinc.com/RWS4",
+    "domainId": "ODP",
+    "kernel_url": "https://knlofficedepotsb.reflexisinc.com/kernel/",
+    "app_url": "https://knlofficedepotsb.reflexisinc.com/kernel/views/authenticate/web/ODP.view",
+    "MYWORK_ENABLED": "False",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "ODP_SB",
+    "SWITCH_TO_ENGLISH": "True",
+    "RAR_GATEWAY_URI": "https://knlofficedepotsb.reflexisinc.com/rwsibmcognos/bi/v1/disp/"
+}

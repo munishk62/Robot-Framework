@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["DistributionListCriterionType","DistributionListCriterionOrgStructureType","DistributionListCriterionGeographicLocType"],
+  "description": "Entity configuration for distribution list tests",
+  "version": "1.0"
+}

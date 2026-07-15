@@ -1,0 +1,19 @@
+{
+  "default": {
+    "field_order": [
+      "record_id",
+      "employee_id",
+      "transaction_type",
+      "effective_date",
+      "termination_reason",
+      "employee_status"
+    ],
+    "record_id": "HRCI",
+    "employee_id": "EMP000000",
+    "transaction_type": "STATUS_CHANGE",
+    "effective_date": "20260101",
+    "termination_reason": "",
+    "employee_status": "T"
+  }
+}
+

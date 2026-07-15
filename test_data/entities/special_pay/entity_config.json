@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["PayCodeType","SpecialPayReasonCodes","StoreEntity","Department","SpecialPayUsage"],
+  "description": "Configuration for pay code entity data provider",
+  "version": "1.0"
+}

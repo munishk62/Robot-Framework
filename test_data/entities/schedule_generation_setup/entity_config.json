@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["StoreEntity"],
+  "description": "Configuration for schedule generation setup - unified template for schedule API tests",
+  "version": "1.0"
+}
+

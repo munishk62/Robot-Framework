@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["WeekplanType", "WeekplanOperation", "StoreGroup"],
+  "description": "Configuration for advanced settings weekplan generation data provider",
+  "version": "1.0"
+}

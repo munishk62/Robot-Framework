@@ -1,0 +1,12 @@
+{
+  "default": {
+    "store_id": "StoreEntity.MODEL_STORE1.UNIT_ID",
+    "store_name": "StoreEntity.MODEL_STORE1.UNIT_NAME",
+    "unit_skey": "StoreEntity.MODEL_STORE1.UNIT_SKEY"
+  },
+  "model_store2": {
+    "store_id": "StoreEntity.MODEL_STORE2.UNIT_ID",
+    "store_name": "StoreEntity.MODEL_STORE2.UNIT_NAME",
+    "unit_skey": "StoreEntity.MODEL_STORE2.UNIT_SKEY"
+  }
+}

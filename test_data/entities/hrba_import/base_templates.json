@@ -1,0 +1,9 @@
+{
+  "default": {
+    "unit_id": "StoreEntity.MODEL_STORE2.UNIT_ID",
+    "data_type": "RwsUploadDataType.HRBA",
+    "expected_records_processed": true,
+    "upload_timeout": 300,
+    "log_type": "RwsUploadDataType.HRBA"
+  }
+}

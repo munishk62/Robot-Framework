@@ -1,0 +1,13 @@
+{
+  "default": {
+    "start_date": "1_5",
+    "end_date": "1_5",
+    "request_type": "RequestType.LEAVE",
+    "department": "BulkRequestDepartmentFilterTypes.ALL",
+    "reason": "DayOffReasonType.PAID_VACATION",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "expected_status_after_approval":"RequestStatus.APPROVED",
+    "profile_type": "BulkRequestProfileFilterTypes.ASSOCIATE"
+  }
+}
+

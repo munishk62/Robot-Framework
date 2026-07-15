@@ -1,0 +1,5 @@
+{
+  "paid_dayoff": {
+    "reason": "DayOffReasonType.PAID_COMPANY_HOLIDAY"
+  }
+}

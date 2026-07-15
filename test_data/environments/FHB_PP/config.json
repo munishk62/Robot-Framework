@@ -1,0 +1,10 @@
+{
+    "base_url": "https://fhbpp.reflexisinc.com/RWS4",
+    "domainId": "FHB",
+    "kernel_url": "https://knlcl27pp.reflexisinc.com/kernel/",
+    "app_url": "https://fhbpp.reflexisinc.com/kernel/views/authenticate/W/FHB.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "FHB_PP",
+    "RAR_GATEWAY_URI": "https://fhbpp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

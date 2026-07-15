@@ -1,0 +1,6 @@
+{
+  "default": {
+    "request_type": "BulkRequestType.ALL",
+    "request_status": "BulkRequestStatus.ALL"
+  }
+}

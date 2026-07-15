@@ -1,0 +1,12 @@
+{
+  "default": {
+    "hrci_file_location": "HRCIFileConfiguration.HRCI_FILE_LOCATION",
+    "hrci_log_verify_file_name": "HRCIFileConfiguration.HRCI_LOG_VERIFY_FILE_NAME",
+    "long_leave": "HRCIFileConfiguration.LONG_LEAVE",
+    "active": "HRCIFileConfiguration.ACTIVE",
+    "terminate": "HRCIFileConfiguration.TERMINATE",
+    "inactive": "HRCIFileConfiguration.INACTIVE",
+    "day": "5"
+  }
+}
+

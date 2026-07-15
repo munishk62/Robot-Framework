@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["StoreEntity", "VDIImportMetricCategory", "VDIImportFeedLevel", "VDImportType"],
+  "date_fields": [],
+  "description": "Configuration for VDI Import entity tests",
+  "version": "1.0"
+}

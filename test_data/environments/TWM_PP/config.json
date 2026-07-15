@@ -1,0 +1,10 @@
+{
+    "base_url": "https://totalwinepp.reflexisinc.com/RWS4",
+    "domainId": "TWM",
+    "kernel_url": "https://knlcl23pp.reflexisinc.com/kernel/",
+    "app_url": "https://totalwinepp.reflexisinc.com/kernel/views/authenticate/W/TWR.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "TWM_PP",
+    "RAR_GATEWAY_URI": "https://totalwinepp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

@@ -1,0 +1,7 @@
+{
+  "constant_classes": ["TaskName", "ShiftStatus","TaskSegmentType"],
+  "date_fields": ["shift_date"],
+  "required_processing": ["time_validation", "location_lookup"],
+  "description": "Configuration for shift entity data provider",
+  "version": "1.0"
+}

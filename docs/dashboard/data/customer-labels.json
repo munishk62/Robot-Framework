@@ -1,0 +1,71 @@
+{
+  "environments": {
+    "QA27_B0": {
+      "displayName": "QA27 — Build 0",
+      "region": "QA27",
+      "purpose": "Build acceptance (BAT)"
+    },
+    "QA27_V1": {
+      "displayName": "QA27 — Variant 1",
+      "region": "QA27",
+      "purpose": "Build acceptance (BAT)"
+    },
+    "QA27_V3": {
+      "displayName": "QA27 — Variant 3",
+      "region": "QA27",
+      "purpose": "Build acceptance (BAT)"
+    },
+    "QA27_V1_SIT": {
+      "displayName": "QA27 — Release validation",
+      "region": "QA27",
+      "purpose": "System integration (SIT)"
+    },
+    "QA29_B0_SIT": {
+      "displayName": "QA29 — Release validation",
+      "region": "QA29",
+      "purpose": "System integration (SIT)"
+    },
+    "TWM": {
+      "displayName": "TWM — Test workspace",
+      "region": "TWM",
+      "purpose": "Build acceptance (BAT)"
+    },
+    "TWM_PP": {
+      "displayName": "TWM — Pre-production",
+      "region": "TWM",
+      "purpose": "Pre-prod validation"
+    }
+  },
+  "runTypes": {
+    "sanity": {
+      "toggleLabel": "BAT",
+      "customerLabel": "BAT (Build acceptance)",
+      "scope": "Core build acceptance and regression smoke tests",
+      "internalName": "Sanity"
+    },
+    "sit": {
+      "toggleLabel": "Release validation",
+      "customerLabel": "Release validation (SIT)",
+      "scope": "System integration and release validation before production",
+      "internalName": "SIT"
+    }
+  },
+  "metrics": {
+    "successRate": {
+      "label": "Success rate",
+      "definition": "Success rate = (passed + skipped) ÷ total tests. Treats skipped as non-failing."
+    },
+    "passRate": {
+      "label": "Pass rate",
+      "definition": "Pass rate = passed ÷ (total − skipped). Skipped tests are excluded from the denominator."
+    },
+    "skipRate": {
+      "label": "Skip rate",
+      "definition": "Skip rate = skipped ÷ total tests."
+    }
+  },
+  "thresholds": {
+    "good": 90,
+    "watch": 85
+  }
+}

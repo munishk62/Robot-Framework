@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwsaappp.reflexisinc.com/RWS4/",
+    "domainId": "AAP",
+    "kernel_url": "https://knlcl12pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlcl12pp.reflexisinc.com/kernel/views/sudo/web/AAP.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "AAP_PP",
+    "RAR_GATEWAY_URI": "https://knlaappp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

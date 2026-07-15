@@ -1,0 +1,6 @@
+{
+  "entity_name": "schedule_notes",
+  "entity_data_file": "base_templates.json",
+  "entity_lookup_key": "schedule_notes",
+  "constant_classes": ["ScheduleNotesCategory"]
+}

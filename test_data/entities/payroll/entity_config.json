@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["PayPeriodType"],
+  "date_fields": ["pay_period_start_date"],
+  "description": "Configuration for payroll entity data provider",
+  "version": "1.0"
+}

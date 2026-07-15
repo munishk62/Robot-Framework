@@ -1,0 +1,10 @@
+{
+    "base_url": "https://knlrrspp.reflexisinc.com/RWS4",
+    "domainId": "RACKROOM",
+    "kernel_url": "https://knlcl09pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlrrspp.reflexisinc.com/kernel/views/authenticate/W/RACKROOM.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "RACKROOM_PP",
+    "RAR_GATEWAY_URI": "https://knlrrspp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

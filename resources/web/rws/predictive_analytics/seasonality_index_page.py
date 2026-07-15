@@ -1,0 +1,2 @@
+SEASONALITY_INDEX_INITIALIZE_MODE_BTN = "span[ng-click*='initializeMode']"
+SEASONALITY_INDEX_INITIALIZE_MODE_INIT_BTN = "input#initBtn"

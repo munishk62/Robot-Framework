@@ -1,0 +1,7 @@
+{
+  "constant_classes": [],
+  "date_fields": [],
+  "time_fields": ["uiStartTime","uiEndTime"],
+  "description": "Shift time pattern entity - defines reusable shift timing in minutes templates. StartTime will be converted to display format based on TIME_FORMAT_12_HRS config.",
+  "version": "1.0"
+}

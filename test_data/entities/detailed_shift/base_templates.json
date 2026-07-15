@@ -1,0 +1,106 @@
+{
+  "default": {
+    "week_start_date": "6_0",
+    "day_offset": 1,
+    "task_segments": [
+      {
+        "start_time": 600,
+        "end_time": 840,
+        "task_name": "TaskSegmentType.CONTINUED_WORK"
+      },
+      {
+        "start_time": 840,
+        "end_time": 870,
+        "task_name": "TaskSegmentType.MEAL_BREAK"
+      },
+      {
+        "start_time": 870,
+        "end_time": 1020,
+        "task_name": "TaskSegmentType.CONTINUED_WORK"
+      }
+    ]
+  },
+  "day2_5_segments": {
+    "week_start_date": "6_0",
+    "day_offset": 2,
+    "task_segments": [
+      {
+        "start_time": 600,
+        "end_time": 720,
+        "task_name": "FIRST_PRIMARY_TASK"
+      },
+      {
+        "start_time": 720,
+        "end_time": 750,
+        "task_name": "TaskSegmentType.MEAL_BREAK"
+      },
+      {
+        "start_time": 750,
+        "end_time": 960,
+        "task_name": "FIRST_PRIMARY_TASK"
+      },
+      {
+        "start_time": 960,
+        "end_time": 975,
+        "task_name": "TaskSegmentType.REST_PERIOD"
+      },
+      {
+        "start_time": 975,
+        "end_time": 1200,
+        "task_name": "FIRST_PRIMARY_TASK"
+      }
+    ]
+  },
+  "day2_5_segments_hnm": {
+    "week_start_date": "6_0",
+    "day_offset": 2,
+    "task_segments": [
+      {
+        "start_time": 600,
+        "end_time": 720,
+        "task_name": "FIRST_PRIMARY_TASK"
+      },
+      {
+        "start_time": 720,
+        "end_time": 750,
+        "task_name": "TaskSegmentType.MEAL_BREAK"
+      },
+      {
+        "start_time": 750,
+        "end_time": 960,
+        "task_name": "FIRST_PRIMARY_TASK"
+      },
+      {
+        "start_time": 960,
+        "end_time": 975,
+        "task_name": "TaskSegmentType.REST_PERIOD"
+      },
+      {
+        "start_time": 975,
+        "end_time": 1080,
+        "task_name": "FIRST_PRIMARY_TASK"
+      }
+    ]
+  },
+  "day1_edited_3_segments": {
+    "week_start_date": "6_0",
+    "day_offset": 1,
+    "task_segments": [
+      {
+        "start_time": 600,
+        "end_time": 780,
+        "task_name": "TaskSegmentType.CONTINUED_WORK"
+      },
+      {
+        "start_time": 780,
+        "end_time": 810,
+        "task_name": "TaskSegmentType.MEAL_BREAK"
+      },
+      {
+        "start_time": 810,
+        "end_time": 1020,
+        "task_name": "TaskSegmentType.CONTINUED_WORK"
+      }
+    ]
+  }
+}

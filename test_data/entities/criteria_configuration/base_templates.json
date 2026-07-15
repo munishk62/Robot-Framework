@@ -1,0 +1,14 @@
+{
+  "default": {
+    "name": "Automation Share Criteria1",
+    "criteria_applied_on": "CriteriaAppliedOnEntity.UNIT",
+    "unit": "StoreEntity.MODEL_STORE2.UNIT_NAME",
+    "eff_date": "0_0",
+    "end_date": "6_6",
+    "criteria_type": "CriteriaTypeEntity.SHARE",
+    "status": "CriteriaStatusEntity.ACTIVE",
+    "condition_attribute": "ConditionAttributeEntity.UNIT_PROPERTIES",
+    "condition_attribute_id": "ConditionAttributeIdEntity.UNIT",
+    "condition_attribute_value": "StoreEntity.MODEL_STORE1.UNIT_ID"
+  }
+}

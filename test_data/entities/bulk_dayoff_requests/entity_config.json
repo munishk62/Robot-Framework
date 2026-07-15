@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["RequestType", "DayOffReasonType", "RequestStatus","BulkRequestProfileFilterTypes","BulkRequestDepartmentFilterTypes"],
+  "description": "Configuration for Bulk Day Off Requests",
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+    "base_url": "https://raleyspp.reflexisinc.com/RWS4",
+    "domainId": "RLY",
+    "kernel_url": "https://knlcl25pp.reflexisinc.com/kernel/",
+    "app_url": "https://raleyspp.reflexisinc.com/kernel/views/authenticate/W/RLY.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "RLY_PP",
+    "RAR_GATEWAY_URI": "https://raleyspp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

@@ -1,0 +1,38 @@
+{
+  "default": {
+    "start_date": "1_0",
+    "end_date": "1_0",
+    "reason": "DayOffReasonType.UNPAID_DAY_OFF",
+    "notes": "Automated test case",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "status_after_approval": "RequestStatus.APPROVED",
+    "holiday_hours": {"0": "8", "1": "8", "2": "8", "3": "8", "4": "8", "5": "8", "6": "8"}
+  },
+  "paid": {
+    "start_date": "1_0",
+    "end_date": "1_0",
+    "reason": "DayOffReasonType.PAID_VACATION",
+    "notes": "Automated test case",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "status_after_approval": "RequestStatus.APPROVED",
+    "holiday_hours": {"0": "8", "1": "8", "2": "8", "3": "8", "4": "8", "5": "8", "6": "8"}
+  },
+  "paid_approved": {
+    "start_date": "1_0",
+    "end_date": "1_0",
+    "reason": "DayOffReasonType.PAID_VACATION",
+    "notes": "Automated test case",
+    "status": "RequestStatus.APPROVED",
+    "status_after_approval": "RequestStatus.APPROVED",
+    "holiday_hours": {"0": "8", "1": "8", "2": "8", "3": "8", "4": "8", "5": "8", "6": "8"}
+  },
+  "unpaid_approved": {
+    "start_date": "1_0",
+    "end_date": "1_0",
+    "reason": "DayOffReasonType.UNPAID_DAY_OFF",
+    "notes": "Automated test case",
+    "status": "RequestStatus.APPROVED",
+    "status_after_approval": "RequestStatus.APPROVED",
+    "holiday_hours": {"0": "8", "1": "8", "2": "8", "3": "8", "4": "8", "5": "8", "6": "8"}
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwswawapp.reflexisinc.com/RWS4/",
+    "domainId": "WAWA",
+    "kernel_url": "https://knlcl01pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlwawapp.reflexisinc.com/kernel/views/authenticate/W/WAWA.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "WAWA_PP",
+    "RAR_GATEWAY_URI": "https://knlwawapp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

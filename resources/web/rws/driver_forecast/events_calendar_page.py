@@ -1,0 +1,3 @@
+EVENTS_CALENDAR_VIEW_REPORT_BTN = "input#viewEventReport"
+EVENTS_CALENDAR_PREVIOUS_BTN = "input#Previous"
+EVENTS_CALENDAR_ADD_EVENT_BTN = "input#addNew"

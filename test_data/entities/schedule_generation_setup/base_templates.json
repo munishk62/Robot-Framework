@@ -1,0 +1,340 @@
+{
+  "default": {
+    "week_start_date": "2_0",
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "ess_user_key": "ESS2_STORE1",
+    "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+    "days_to_unallocate_before_publish": [6],
+    "shifts_to_add": [
+      {"day": 6, "start_time": "08:00", "end_time": "17:00"}
+    ],
+    "publish_schedule": true,
+    "generate_schedule": true,
+    "pre_publish_un_allocation": false
+  },
+  "3_0_sm1_store1": {
+    "week_start_date": "3_0",
+    "week_offset": 3,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": true,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": true,
+    "users": [
+      {
+        "ess_user_key": "ESS5_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 1, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 2, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 3, "start_time": "08:00", "end_time": "17:00"}
+        ],
+        "required_un_allocation_before_publish": true,
+        "add_shift_to_be_unallocated": [
+          {"day": 6, "start_time": "08:00", "end_time": "17:00"}
+        ],
+        "days_to_unallocate_before_publish": [6]
+      },
+      {
+        "ess_user_key": "ESS6_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 0, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 1, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 2, "start_time": "08:00", "end_time": "17:00"}
+        ]
+      },
+      {
+        "ess_user_key": "ESS4_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 0, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 1, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 2, "start_time": "08:00", "end_time": "17:00"}
+        ]
+      }
+    ]
+  },
+  "5_0_sm1_store1": {
+    "week_start_date": "5_0",
+    "week_offset": 5,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": true,
+    "generate_schedule": true,
+    "pre_publish_un_allocation": false,
+    "modify_shifts_required": true,
+    "users": [
+      {
+        "ess_user_key": "ESS4_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 0, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 1, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 2, "start_time": "08:00", "end_time": "17:00"}
+        ]
+      }
+    ]
+  },
+  "2_0_sm1_store1": {
+    "week_start_date": "2_0",
+    "week_offset": 2,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": false,
+    "generate_schedule": false,
+    "modify_shifts_required": false,
+    "pre_publish_un_allocation": false,
+    "users": []
+  },
+  "7_0_sm1_store1": {
+    "week_start_date": "7_0",
+    "week_offset": 7,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": false,
+    "generate_schedule": true,
+    "modify_shifts_required": false,
+    "pre_publish_un_allocation": false,
+    "users": []
+  },
+  "1_0_sm1_store1": {
+    "week_start_date": "1_0",
+    "week_offset": 1,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": false,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": false,
+    "users": [
+      {
+        "ess_user_key": "ESS1_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      },
+      {
+        "ess_user_key": "ESS6_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      }
+    ]
+  },
+  "6_0_sm1_store1": {
+    "week_start_date": "6_0",
+    "week_offset": 6,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": false,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": false,
+    "users": [
+      {
+        "ess_user_key": "ESS5_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      },
+      {
+        "ess_user_key": "ESS6_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [2, 3, 4],
+        "shifts_to_add": []
+      },
+      {
+        "ess_user_key": "ESS4_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      },
+      {
+        "ess_user_key": "ESS2_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      },
+      {
+        "ess_user_key": "ESS1_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [4],
+        "shifts_to_add": []
+      },
+      {
+        "ess_user_key": "ESS3_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      }
+    ]
+  },
+  "8_0_sm1_store1": {
+    "week_start_date": "8_0",
+    "week_offset": 8,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": false,
+    "generate_schedule": false,
+    "modify_shifts_required": false,
+    "pre_publish_un_allocation": false,
+    "users": []
+  },
+  "0_0_sm1_store1": {
+    "week_start_date": "0_0",
+    "week_offset": 0,
+    "store_template": "default",
+    "store_manager_user_key": "SM1_STORE1",
+    "publish_schedule": true,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": false,
+    "users": [
+     {
+        "ess_user_key": "ESS4_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 6, "start_time": "09:00", "end_time": "13:00"}
+        ]
+      },
+
+      {
+        "ess_user_key": "ESS2_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": "today", "start_time": "09:00", "end_time": "13:00"}
+        ]
+      },
+      {
+        "ess_user_key": "ESS1_STORE1",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      }
+
+    ]
+  },
+  "0_0_sm1_store2": {
+    "week_start_date": "0_0",
+    "week_offset": 0,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2"
+  },
+    "1_0_sm1_store2": {
+    "week_start_date": "1_0",
+    "week_offset": 1,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2",
+    "publish_schedule": true,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": true,
+    "users": [
+      {
+        "ess_user_key": "ESS5_STORE2",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 1, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 2, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 3, "start_time": "08:00", "end_time": "17:00"}
+        ],
+        "required_un_allocation_before_publish": true,
+        "add_shift_to_be_unallocated": [
+          {"day": 6, "start_time": "08:00", "end_time": "17:00"}
+        ],
+        "days_to_unallocate_before_publish": [6]
+      },
+      {
+        "ess_user_key": "ESS6_STORE2",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 0, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 1, "start_time": "08:00", "end_time": "17:00"},
+          {"day": 2, "start_time": "08:00", "end_time": "17:00"}
+        ]
+      }
+    ]
+  },
+  "4_0_sm1store2": {
+    "week_start_date": "4_0",
+    "week_offset": 4,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2",
+    "publish_schedule": false,
+    "generate_schedule": false,
+    "modify_shifts_required": false,
+    "pre_publish_un_allocation": false,
+    "users": []
+  },
+  "8_0_sm1store2": {
+    "week_start_date": "8_0",
+    "week_offset": 8,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2",
+    "publish_schedule": false,
+    "generate_schedule": false,
+    "modify_shifts_required": false,
+    "pre_publish_un_allocation": false,
+    "users": []
+  },
+    "0_0_store2": {
+    "week_start_date": "0_0",
+    "week_offset": 0,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2",
+    "publish_schedule": true,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": true,
+    "users": [
+      {
+        "ess_user_key": "ESSNH1_STORE2",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": [
+          {"day": 6, "start_time": "08:00", "end_time": "17:00"}
+        ]
+      }
+    ]
+  },
+  "2_0_sm1_store2": {
+    "week_start_date": "2_0",
+    "week_offset": 2,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2",
+    "publish_schedule": false,
+    "generate_schedule": true,
+    "modify_shifts_required": false,
+    "pre_publish_un_allocation": false,
+    "users": []
+  },
+  "3_0_sm1_store2": {
+    "week_start_date": "3_0",
+    "week_offset": 3,
+    "store_template": "model_store2",
+    "store_manager_user_key": "SM1_STORE2",
+    "publish_schedule": false,
+    "generate_schedule": true,
+    "modify_shifts_required": true,
+    "pre_publish_un_allocation": false,
+    "users": [
+      {
+        "ess_user_key": "ESS4_STORE2",
+        "edit_shift": true,
+        "days_to_unallocate": [0, 1, 2, 3, 4, 5, 6],
+        "shifts_to_add": []
+      }
+    ]
+  }
+}

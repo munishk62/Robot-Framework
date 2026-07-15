@@ -1,0 +1,2 @@
+JOB_MAPPING_PAGE_ADD_JOB_CODE_BTN = "input#addDeptGroup"
+JOB_MAPPING_PAGE_JOB_CODE_SAVE_BTN = "input#save"

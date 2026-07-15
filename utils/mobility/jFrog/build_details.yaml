@@ -1,0 +1,73 @@
+# JFrog build details for various applications, including configurations
+# for Android and iOS platforms. This file specifies repository information,
+# file paths, application names, package names, and cloud device/platform requirements.
+
+# General JFrog repository details
+jfrog_detail:
+  REPO_NAME: ref-gen-dev  # Name of the JFrog repository
+  JFROG_URL: https://artifactory-apac.zebra.com  # URL of the JFrog Artifactory
+
+# Configuration details for the WorkCloudShift Android application
+workcloudshift_android:
+  BASE_PATH: WFM-MOBILITY/development/NG_ESS/OneApp/enterprise/Android/  # Base path in the repository
+  DOWNLOAD_DIR_PATH: NextGenESS  # Directory path for downloading the build
+  APP_NAME: app-enterprise-release.apk  # Name of the Android application file
+  PACKAGE_NAME: com.zebra.workcloud.shift.enterprise  # Android package name
+  CLOUD_DEVICE_NAME: ^.*Galaxy (S|A|M).*$  # Regex for matching cloud device names
+  CLOUD_PLATFORM_VERSION: 14  # Minimum required Android platform version
+  BUILD_ID: lt://APP10160322491783952754014338 # Shift app 13 July dev branch build.
+  ZTEST_APP_FILE: file-1783953285366.apk # Shift App 13 july dev branch build.
+
+# Configuration details for the WorkCloudShift iOS application
+workcloudshift_ios:
+  BASE_PATH: WFM-MOBILITY/development/NG_ESS/OneApp/enterprise/iOS/  # Base path in the repository
+  DOWNLOAD_DIR_PATH: NextGenESS  # Directory path for downloading the build
+  APP_NAME: shift.ipa  # Name of the iOS application file
+  PACKAGE_NAME: com.zebra.workcloud.shift  # iOS package name
+  CLOUD_DEVICE_NAME: iPhone.*  # Regex for matching cloud device names
+  CLOUD_PLATFORM_VERSION: 26  # Minimum required iOS platform version
+  BUILD_ID: lt://APP1016040991783952718478980 # Shift app 13 July dev branch enterprise build.
+  ZTEST_APP_FILE: file-1783953210192.ipa # Shift app 13 July dev branch enterprise build.
+
+# Configuration details for the Native Clock Android application
+native_clock_android:
+  BASE_PATH: WFM-MOBILITY/wfm-trunk/clock/Product/Release/Android/  # Base path in the repository
+  DOWNLOAD_DIR_PATH: NativeClock  # Directory path for downloading the build
+  APP_NAME: app.apk  # Name of the Android application file
+  PACKAGE_NAME: com.zebra.workcloud.clock.beta  # Android package name
+  CLOUD_DEVICE_NAME: (?i).*tab.*  # Regex for matching cloud device names
+  CLOUD_PLATFORM_VERSION: 14  # Minimum required Android platform version
+  BUILD_ID: lt://APP10160422151774284346904587 # Build ID for the application - clock with transaction changes
+  ZTEST_APP_FILE: file-1774431017892.apk
+
+# Configuration details for the Native Clock iOS application
+native_clock_ios:
+  BASE_PATH: WFM-MOBILITY/wfm-trunk/clock/Product/Enterprise/iOS/  # Base path in the repository
+  DOWNLOAD_DIR_PATH: NativeClock  # Directory path for downloading the build
+  APP_NAME: Reflexis_Clock.ipa  # Name of the iOS application file
+  PACKAGE_NAME: com.zebra.workcloud.clock.enterprise  # iOS package name
+  CLOUD_DEVICE_NAME: iPad.*  # Regex for matching cloud device names
+  CLOUD_PLATFORM_VERSION: 18  # Minimum required iOS platform version
+  BUILD_ID: lt://APP10160371831756188747995560 # Build ID for the application - clock with transaction changes
+
+# Configuration details for the Native SM Android application
+native_sm_android:
+  BASE_PATH: WFM-MOBILITY/wfm-trunk/sm/Product/Release/Android/  # Base path in the repository
+  DOWNLOAD_DIR_PATH: NativeSM  # Directory path for downloading the build
+  APP_NAME: app.apk  # Name of the Android application file
+  PACKAGE_NAME: com.reflexisinc.reflexissm43.beta  # Android package name
+  CLOUD_DEVICE_NAME: ^.*Galaxy (S|A|M).*$  # Regex for matching cloud device names
+  CLOUD_PLATFORM_VERSION: 14  # Minimum required Android platform version
+  BUILD_ID: lt://APP1016023511783668603520491 # SM 45 app 20 July dev branch build.
+  ZTEST_APP_FILE: file-1783668455663.apk # SM app 10 July dev branch build.
+
+# Configuration details for the Native SM iOS application
+native_sm_ios:
+  BASE_PATH: WFM-MOBILITY/wfm-trunk/sm/Product/Enterprise/iOS/  # Base path in the repository
+  DOWNLOAD_DIR_PATH: NativeSM  # Directory path for downloading the build
+  APP_NAME: Reflexis_SM.ipa  # Name of the iOS application file
+  PACKAGE_NAME: com.reflexisinc.rflxstoremanager  # iOS  package name
+  CLOUD_DEVICE_NAME: (?i).*tab.*  # Regex for matching cloud device names
+  CLOUD_PLATFORM_VERSION: 14  # Minimum required Android platform version
+  BUILD_ID: lt://APP1016029481781156235561798 # SM 45 app 11 June dev branch build.
+  ZTEST_APP_FILE: file-1779899793543.ipa  # ZTest application with calendar locator change file name

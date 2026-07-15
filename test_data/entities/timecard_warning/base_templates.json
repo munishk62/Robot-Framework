@@ -1,0 +1,6 @@
+{
+  "default": {
+    "description": "Unscheduled Shift",
+    "status": "AuditStatus.NOT_REVIEWED"
+  }
+}

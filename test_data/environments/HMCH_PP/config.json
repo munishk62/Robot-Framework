@@ -1,0 +1,10 @@
+{
+    "base_url": "https://knlhmpp.scheduling.hmchina.cn/RWS4",
+    "domainId": "HNM",
+    "kernel_url": "https://knlhmpp.scheduling.hmchina.cn/kernel/",
+    "app_url": "https://knlhmpp.scheduling.hmchina.cn/kernel/views/authenticate/W/HMCH.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "HMCH_PP",
+    "RAR_GATEWAY_URI": "https://knlhmpp.scheduling.hmchina.cn:443/rwsibmcognos/bi/v1/disp"
+}

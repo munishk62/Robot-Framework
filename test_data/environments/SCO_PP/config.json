@@ -1,0 +1,10 @@
+{
+    "base_url": "https://scopp.reflexisinc.co.uk/RWS4/",
+    "domainId": "SCO",
+    "kernel_url": "https://knlcl52pp.reflexisinc.co.uk/kernel/",
+    "app_url": "https://scopp.reflexisinc.co.uk/kernel/views/authenticate/W/SCO.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "SCO_PP",
+    "RAR_GATEWAY_URI": "https://scopp.reflexisinc.co.uk:443/rwsibmcognos/bi/v1/disp"
+}

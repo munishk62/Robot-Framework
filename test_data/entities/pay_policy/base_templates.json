@@ -1,0 +1,13 @@
+{
+  "default": {
+    "policy_id": "Auto45",
+    "policy_name": "Auto45Test",
+    "description": "Auto_45_Desc",
+    "version_name": "PPV1",
+    "policy_checkset_id": "PLCHECKSET1",
+    "policy_checkset_name": "PL Checkset Name1",
+    "policy_checkset_description": "PL Check Set Description1",
+    "edited_policy_checkset_name": "PL Checkset Name Updated1",
+    "edited_policy_checkset_description": "PL Check Set Description Updated1"
+  }
+}

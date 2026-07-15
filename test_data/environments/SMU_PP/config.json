@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwssmupp.reflexisinc.com/RWS4/",
+    "domainId": "SMU",
+    "kernel_url": "https://knlcl03pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlgestiondeturnospp.reflexisinc.com/kernel/views/authenticate/W/SMU.view",
+    "MYWORK_ENABLED": "False",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "SMU_PP",
+    "RAR_GATEWAY_URI": "https://rwssmupp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

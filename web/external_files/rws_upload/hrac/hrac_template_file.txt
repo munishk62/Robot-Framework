@@ -1,0 +1,3 @@
+HH							
+HRAC,RFLX,"placeholder_emp_id","placeholder_current_date",I,"placeholder_leave_type","placeholder_no_of_days",D,,
+TT,,3408,,,,,

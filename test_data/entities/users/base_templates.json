@@ -1,0 +1,10 @@
+{
+  "default": {
+    "user_name": "AutoTest User",
+    "password": "WFMAutomation@2025",
+    "reset_password": "WFMAutomation@1234",
+    "recovery_email": "wfmtestautomation@reflexisinc.com",
+    "user_status": "UserStatusValue.ACTIVE",
+    "user_work_in": "UserWorkInValue.CORP"
+  }
+}

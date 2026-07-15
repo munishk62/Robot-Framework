@@ -1,0 +1,14 @@
+{
+  "default": {
+    "planning_week_date": "3_0",
+    "week_trade_day": "3_3",
+    "extra_work_start_time": "1:00",
+    "extra_work_end_time": "23:00",
+    "extra_work_shift_length": "08:00",
+    "extra_work_request_notes": "Automation Notes for Extra Work Request",
+    "extra_work_response_notes": "Automation Notes for Extra Work Request - Response Scenario",
+    "shift_start_time": "08:00",
+    "shift_end_time": "16:00",
+    "approves_extra_work": "Approve"
+  }
+}

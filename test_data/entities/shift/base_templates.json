@@ -1,0 +1,74 @@
+{
+  "default": {
+    "shift_date": "1_1",
+    "start_time": "10:00",
+    "end_time": "17:00",
+    "edit_time": "18:00",
+    "task_name": "TaskName.CASHIER",
+    "status": "ShiftStatus.SCHEDULED"
+  },
+  "morning_shift": {
+    "start_time": "06:00",
+    "end_time": "14:00",
+    "task_name": "TaskName.STOCKER",
+    "status": "ShiftStatus.SCHEDULED"
+  },
+  "evening_shift": {
+    "start_time": "14:00",
+    "end_time": "22:00",
+    "task_name": "TaskName.CASHIER",
+    "status": "ShiftStatus.SCHEDULED"
+  },
+  "weekend_shift": {
+    "start_time": "09:00",
+    "end_time": "18:00",
+    "task_name": "TaskName.FLOOR_ASSOCIATE",
+    "status": "ShiftStatus.SCHEDULED"
+  },
+  "ess_store_schedule_shift": {
+    "fifth_week": "5_0",
+    "sixth_week": "6_0",
+    "eighth_week": "8_0",
+    "current_week_days": [6],
+    "future_week_days": [0, 1, 2]
+  },
+  "edit_schedule_shift": {
+    "shift_day": "6_0",
+    "edit_shift_day": "6_2",
+    "start_time": "12:00",
+    "end_time": "19:00",
+    "edit_time": "19:30"
+  },
+  "verify_alert_schedule_shift": {
+    "week_start_date": "6_0",
+    "shift_week_sixth_day": "6_5",
+    "shift_week_seventh_day": "6_6",
+    "shift_sixth_day": "6",
+    "shift_seventh_day": "7",
+    "add_first_shift_start_time": "10:00",
+    "add_first_shift_end_time": "18:00",
+    "edit_first_shift_start_time": "14:00",
+    "edit_first_shift_end_time": "22:00",
+    "add_second_shift_start_time": "09:00",
+    "add_second_shift_end_time": "17:00"
+    },
+    "verify_shift_operations" : {
+      "week_start_date": "9_0",
+      "task_name": "TaskSegmentType.CONTINUED_WORK",
+      "add_first_shift_start_date": "9_2",
+      "add_first_shift_start_time": "12:00",
+      "add_first_shift_end_time": "19:00",
+      "add_second_shift_start_date": "9_4",
+      "add_second_shift_start_time": "13:00",
+      "add_second_shift_end_time": "17:00",
+      "copy_shift_from_date": "9_2",
+      "copy_shift_to_date_first": "9_3",
+      "copy_shift_to_date_second": "9_4",
+      "move_shift_from_date": "9_4",
+      "move_shift_to_date": "9_2",
+      "reassign_shift_from_date": "9_3",
+      "reassign_shift_to_date": "9_3",
+      "swap_shift_from_date": "9_2",
+      "swap_shift_to_date": "9_2"
+    }
+}

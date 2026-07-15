@@ -1,0 +1,263 @@
+{
+  "default": {
+    "start_date": "1_0",
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotation_number": "1",
+    "split_availability_row_number": "1",
+    "availability_rotation_number": "1",
+    "days_availability_hours": [
+      {
+        "day_number": "1",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "2",
+        "start_time": "01:00",
+        "end_time": "23:00"
+      },
+      {
+        "day_number": "3",
+        "start_time": "02:00",
+        "end_time": "22:00"
+      },
+      {
+        "day_number": "4",
+        "start_time": "03:00",
+        "end_time": "21:00"
+      },
+      {
+        "day_number": "5",
+        "start_time": "04:00",
+        "end_time": "20:00"
+      },
+      {
+        "day_number": "6",
+        "start_time": "05:00",
+        "end_time": "19:00"
+      },
+      {
+        "day_number": "7",
+        "availability": "Not Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      }
+    ]
+  },
+  "edit_availability": {
+    "start_date": "1_0",
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotation_number": "1",
+    "days_availability_hours": [
+      {
+        "day_number": "6",
+        "start_time": "22:00",
+        "end_time": "23:00"
+      }
+    ],
+    "split_availability_row_number": "2",
+    "availability_rotation_number": "1"
+  },
+  "add_availability_rotation_1": {
+    "start_date": "2_0",
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotation_number": "1",
+    "split_availability_row_number": "1",
+    "availability_rotation_number": "1",
+    "days_availability_hours": [
+      {
+        "day_number": "1",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "2",
+        "start_time": "00:00",
+        "end_time": "12:00"
+      },
+      {
+        "day_number": "3",
+        "start_time": "00:00",
+        "end_time": "12:00"
+      },
+      {
+        "day_number": "4",
+        "start_time": "00:00",
+        "end_time": "12:00"
+      },
+      {
+        "day_number": "5",
+        "start_time": "00:00",
+        "end_time": "12:00"
+      },
+      {
+        "day_number": "6",
+        "start_time": "00:00",
+        "end_time": "12:00"
+      },
+      {
+        "day_number": "7",
+        "availability": "Not Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      }
+    ]
+  },
+  "add_availability_rotation_2": {
+    "start_date": "2_0",
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotation_number": "1",
+    "split_availability_row_number": "1",
+    "availability_rotation_number": "2",
+    "days_availability_hours": [
+      {
+        "day_number": "1",
+        "availability": "Not Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "2",
+        "start_time": "12:00",
+        "end_time": "00:00"
+      },
+      {
+        "day_number": "3",
+        "start_time": "12:00",
+        "end_time": "00:00"
+      },
+      {
+        "day_number": "4",
+        "start_time": "12:00",
+        "end_time": "00:00"
+      },
+      {
+        "day_number": "5",
+        "start_time": "12:00",
+        "end_time": "00:00"
+      },
+      {
+        "day_number": "6",
+        "start_time": "12:00",
+        "end_time": "00:00"
+      },
+      {
+        "day_number": "7",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      }
+    ]
+  },
+  "temporary_availability": {
+    "start_date": "6_0",
+    "request_preference": "AvailabilityPreference.TEMPORARY",
+    "reason": "AvailabilityReasonType.COMMON_REASON",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotation_number": "1",
+    "split_availability_row_number": "1",
+    "availability_rotation_number": "1",
+    "days_availability_hours": [
+      {
+        "day_number": "1",
+        "availability": "AvailabilityDayStatus.NOT_AVAILABLE",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "2",
+        "start_time": "10:00",
+        "end_time": "22:00"
+      },
+      {
+        "day_number": "3",
+        "start_time": "10:00",
+        "end_time": "22:00"
+      },
+      {
+        "day_number": "4",
+        "start_time": "10:00",
+        "end_time": "22:00"
+      },
+      {
+        "day_number": "5",
+        "start_time": "10:00",
+        "end_time": "22:00"
+      },
+      {
+        "day_number": "6",
+        "start_time": "10:00",
+        "end_time": "22:00"
+      },
+      {
+        "day_number": "7",
+        "availability": "AvailabilityDayStatus.NOT_AVAILABLE",
+        "start_time": "Null",
+        "end_time": "Null"
+      }
+    ]
+  },
+  "availability_fully_available": {
+    "start_date": "1_0",
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotation_number": "1",
+    "split_availability_row_number": "1",
+    "availability_rotation_number": "1",
+    "days_availability_hours": [
+      {
+        "day_number": "1",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "2",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "3",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "4",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "5",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "6",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      },
+      {
+        "day_number": "7",
+        "availability": "Totally Available",
+        "start_time": "Null",
+        "end_time": "Null"
+      }
+    ]
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "default": {
+    "ess_user_key": "ESS2_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "add012_standard9": {
+    "ess_user_key": "ESS1_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "standard_9hr"
+      },
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_9hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_9hr"
+      }
+    ]
+  },
+  "add123_standard9_addunallocate6": {
+    "ess_user_key": "ESS5_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_9hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_9hr"
+      },
+      {
+        "dayNo": "3",
+        "shift_pattern": "standard_9hr"
+      }
+    ],
+    "shifts_to_add_and_unallocate": [
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_9hr"
+      }
+    ]
+  },
+  "add012_standard8": {
+    "ess_user_key": "ESS1_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "add123_standard8_addunallocate6": {
+    "ess_user_key": "ESS5_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "3",
+        "shift_pattern": "standard_8hr"
+      }
+    ],
+    "shifts_to_add_and_unallocate": [
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "addtoday_standard8": {
+    "ess_user_key": "ESS4_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "today",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "addlastday_standard8": {
+    "ess_user_key": "ESS4_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "addtoday_lastday_standard8": {
+    "ess_user_key": "ESS2_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "today",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "no_shifts_assigned": {
+    "ess_user_key": "ESS3_STORE1",
+    "shifts_to_add": []
+  },
+  "addtoday_standard7": {
+    "ess_user_key": "ESS3_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "today",
+        "shift_pattern": "morning_7hr"
+      }
+    ]
+  },
+  "add01356_standard7": {
+    "ess_user_key": "ESS3_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "morning_7hr"
+      },
+      {
+        "dayNo": "1",
+        "shift_pattern": "morning_7hr"
+      },
+      {
+        "dayNo": "3",
+        "shift_pattern": "morning_7hr"
+      },
+      {
+        "dayNo": "5",
+        "shift_pattern": "morning_7hr"
+      },
+      {
+        "dayNo": "6",
+        "shift_pattern": "morning_7hr"
+      }
+    ]
+  },
+  "add6_standard8": {
+    "ess_user_key": "ESS3_STORE1",
+    "shifts_to_add": [
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "add012_standard8_addunallocate3": {
+    "ess_user_key": "ESS6_STORE2",
+    "shifts_to_add": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_8hr"
+      }
+    ],
+    "shifts_to_add_and_unallocate": [
+      {
+        "dayNo": "3",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "add12_standard8_addunallocate06": {
+    "ess_user_key": "ESS5_STORE2",
+    "shifts_to_add": [
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_8hr"
+      }
+    ],
+    "shifts_to_add_and_unallocate": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "add123_standard8_addunallocate06": {
+    "ess_user_key": "ESS5_STORE2",
+    "shifts_to_add": [
+      {
+        "dayNo": "1",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "2",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "3",
+        "shift_pattern": "standard_8hr"
+      }
+    ],
+    "shifts_to_add_and_unallocate": [
+      {
+        "dayNo": "0",
+        "shift_pattern": "standard_8hr"
+      },
+      {
+        "dayNo": "6",
+        "shift_pattern": "standard_8hr"
+      }
+    ]
+  },
+  "sit_mobile_ess1_store12": {
+    "ess_user_key": "ESS1_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "5", "shift_pattern": "morning_7hr" },
+      { "dayNo": "6", "shift_pattern": "morning_7hr" }
+    ]
+  },
+  "sit_mobile_ess2_store12": {
+    "ess_user_key": "ESS2_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "5", "shift_pattern": "standard_8hr" }
+    ],
+    "shifts_to_add_and_unallocate": [
+      { "dayNo": "3", "shift_pattern": "standard_8hr" },
+      { "dayNo": "6", "shift_pattern": "standard_8hr" }
+    ]
+  },
+  "sit_mobile_ess3_store12": {
+    "ess_user_key": "ESS3_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "2", "shift_pattern": "morning_7hr" },
+      { "dayNo": "3", "shift_pattern": "morning_7hr" }
+    ]
+  },
+  "sit_mobile_ess4_store12": {
+    "ess_user_key": "ESS4_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "3", "shift_pattern": "standard_8hr" }
+    ]
+  },
+  "sit_mobile_ess5_store12": {
+    "ess_user_key": "ESS5_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "6", "shift_pattern": "morning_7hr" }
+    ]
+  },
+  "sit_mobile_ess6_store12": {
+    "ess_user_key": "ESS6_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "2", "shift_pattern": "standard_8hr" },
+      { "dayNo": "3", "shift_pattern": "standard_8hr" },
+      { "dayNo": "4", "shift_pattern": "standard_8hr" },
+      { "dayNo": "5", "shift_pattern": "standard_8hr" },
+      { "dayNo": "6", "shift_pattern": "standard_8hr" }
+    ]
+  },
+  "sit_mobile_ess7_store12": {
+    "ess_user_key": "ESS7_STORE12",
+    "shifts_to_add": [
+      { "dayNo": "1", "shift_pattern": "morning_7hr" },
+      { "dayNo": "2", "shift_pattern": "morning_7hr" },
+      { "dayNo": "3", "shift_pattern": "morning_7hr" },
+      { "dayNo": "4", "shift_pattern": "morning_7hr" },
+      { "dayNo": "6", "shift_pattern": "morning_7hr" }
+    ]
+  },
+  "add_weekdays_late_morning_7hr": {
+    "ess_user_key": "ESS7_STORE1_SIT",
+    "shifts_to_add": [
+      { "dayNo": "1", "shift_pattern": "late_morning_7hr" },
+      { "dayNo": "2", "shift_pattern": "late_morning_7hr" },
+      { "dayNo": "3", "shift_pattern": "late_morning_7hr" },
+      { "dayNo": "4", "shift_pattern": "late_morning_7hr" },
+      { "dayNo": "5", "shift_pattern": "late_morning_7hr" },
+      { "dayNo": "6", "shift_pattern": "late_morning_7hr" }
+    ]
+  },
+  "add_weekdays_until_evening_7hr": {
+    "ess_user_key": "ESS8_STORE1_SIT",
+    "shifts_to_add": [
+      { "dayNo": "1", "shift_pattern": "until_evening_7hr" },
+      { "dayNo": "2", "shift_pattern": "until_evening_7hr" },
+      { "dayNo": "3", "shift_pattern": "until_evening_7hr" },
+      { "dayNo": "4", "shift_pattern": "until_evening_7hr" },
+      { "dayNo": "5", "shift_pattern": "until_evening_7hr" },
+      { "dayNo": "6", "shift_pattern": "until_evening_7hr" }
+    ]
+  },
+  "add_weekdays_afternoon_7hr": {
+    "ess_user_key": "ESS16_STORE1_SIT",
+    "shifts_to_add": [
+      { "dayNo": "1", "shift_pattern": "afternoon_7hr" },
+      { "dayNo": "2", "shift_pattern": "afternoon_7hr" },
+      { "dayNo": "3", "shift_pattern": "afternoon_7hr" },
+      { "dayNo": "4", "shift_pattern": "afternoon_7hr" },
+      { "dayNo": "5", "shift_pattern": "afternoon_7hr" },
+      { "dayNo": "6", "shift_pattern": "afternoon_7hr" }
+    ]
+  },
+   "add_weekdays_evening_7hr": {
+     "ess_user_key": "ESS17_STORE1_SIT",
+     "shifts_to_add": [
+       { "dayNo": "1", "shift_pattern": "evening_7hr" },
+       { "dayNo": "2", "shift_pattern": "evening_7hr" },
+       { "dayNo": "3", "shift_pattern": "evening_7hr" },
+       { "dayNo": "4", "shift_pattern": "evening_7hr" },
+       { "dayNo": "5", "shift_pattern": "evening_7hr" },
+       { "dayNo": "6", "shift_pattern": "evening_7hr" }
+     ]
+   },
+   "vdi_pre_state_days125_late_morning_8hr": {
+     "ess_user_key": "ESS1_STORE6_SIT",
+     "shifts_to_add": [
+       { "dayNo": "1", "shift_pattern": "late_morning_8hr" },
+       { "dayNo": "2", "shift_pattern": "late_morning_8hr" },
+       { "dayNo": "3", "shift_pattern": "late_morning_8hr" },
+       { "dayNo": "4", "shift_pattern": "late_morning_8hr" },
+       { "dayNo": "5", "shift_pattern": "late_morning_8hr" }
+     ],
+     "description": "VDI workload test pre-state: shifts on days 1-5 with 10am-6pm pattern (late_morning_8hr). Used for initial schedule verification before VDI import regeneration."
+   },
+   "vdi_post_state_days0246_closing_shift": {
+     "ess_user_key": "ESS1_STORE6_SIT",
+     "shifts_to_add": [
+       { "dayNo": "0", "shift_pattern": "closing_shift" },
+       { "dayNo": "2", "shift_pattern": "closing_shift" },
+       { "dayNo": "3", "shift_pattern": "closing_shift" },
+       { "dayNo": "4", "shift_pattern": "closing_shift" },
+       { "dayNo": "6", "shift_pattern": "closing_shift" }
+     ],
+     "description": "VDI workload test post-state: shifts on days 0,2,3,4,6 with 2pm-10pm pattern (closing_shift). Used for schedule verification after VDI import regeneration with 2pm-10pm demand window."
+   },
+  "sit_mobile_ess17_store14": {
+    "ess_user_key": "ESS17_STORE14",
+    "shifts_to_add": [
+      { "dayNo": "1", "shift_pattern": "morning_7hr" }
+    ],
+    "shifts_to_add_and_unallocate": [
+      { "dayNo": "6", "shift_pattern": "morning_7hr" }
+    ]
+  }
+ }

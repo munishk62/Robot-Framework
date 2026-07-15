@@ -1,0 +1,23 @@
+{
+  "default": {
+    "shift_day": "-1_3",
+    "start_time": "13:00",
+    "end_time": "17:00",
+    "reason_code": "TimeCardReasonCodes.TIMECARD_REASON_CODE",
+    "department": "Department.DEPT2",
+    "activity_code": "ActivityCode.ACTCODE1_HS"
+  },
+  "lunch": {
+    "start_date": "-1_0",
+    "lunch_day": "-1_2",
+    "lunch_start_time": "15:00",
+    "lunch_end_time": "15:30",
+    "reason_code": "TimeCardReasonCodes.TIMECARD_REASON_CODE"
+  },
+  "break": {
+    "break_day": "-1_3",
+    "break_start_time": "03:00",
+    "break_end_time": "03:30",
+    "reason_code": "TimeCardReasonCodes.TIMECARD_REASON_CODE"
+  }
+}

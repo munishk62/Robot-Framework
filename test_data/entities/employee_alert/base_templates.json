@@ -1,0 +1,98 @@
+{
+    "default": {
+        "week_start_date": "1_0",
+        "week_end_date": "1_6",
+        "shifts_to_add": [
+            {
+                "day_offset": "0",
+                "day_offset_with_week": "1_0",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            },
+            {
+                "day_offset": "1",
+                "day_offset_with_week": "1_1",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            },
+            {
+                "day_offset": "2",
+                "day_offset_with_week": "1_2",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            },
+            {
+                "day_offset": "3",
+                "day_offset_with_week": "1_3",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            },
+            {
+                "day_offset": "4",
+                "day_offset_with_week": "1_4",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            },
+            {
+                "day_offset": "5",
+                "day_offset_with_week": "1_5",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            },
+            {
+                "day_offset": "6",
+                "day_offset_with_week": "1_6",
+                "start_time": "10:00",
+                "end_time": "19:00"
+            }
+        ]
+    },
+    "alerts_report_with_min_shift_length": {
+        "week_start_date": "6_0",
+        "week_end_date": "6_6",
+        "shifts_to_add": [
+            {
+                "day_offset": "0",
+                "day_offset_with_week": "6_0",
+                "start_time": "10:00",
+                "end_time": "10:30",
+                "comment": "30-minute shift - violates minimum shift length of 1 hour"
+            },
+            {
+                "day_offset": "1",
+                "day_offset_with_week": "6_1",
+                "start_time": "09:00",
+                "end_time": "21:00",
+                "comment": "12-hour shift"
+            },
+            {
+                "day_offset": "2",
+                "day_offset_with_week": "6_2",
+                "start_time": "09:00",
+                "end_time": "21:00",
+                "comment": "12-hour shift"
+            },
+            {
+                "day_offset": "3",
+                "day_offset_with_week": "6_3",
+                "start_time": "09:00",
+                "end_time": "21:00",
+                "comment": "12-hour shift"
+            },
+            {
+                "day_offset": "4",
+                "day_offset_with_week": "6_4",
+                "start_time": "09:00",
+                "end_time": "21:00",
+                "comment": "12-hour shift"
+            },
+            {
+                "day_offset": "5",
+                "day_offset_with_week": "6_5",
+                "start_time": "09:00",
+                "end_time": "21:00",
+                "comment": "12-hour shift - total exceeds 50 hours max"
+            }
+        ]
+    }
+}

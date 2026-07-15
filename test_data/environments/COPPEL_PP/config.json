@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwscoppelpp.reflexisinc.com/RWS4",
+    "domainId": "COPPEL",
+    "kernel_url": "https://knlcl12pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlcoppelpp.reflexisinc.com/kernel/views/authenticate/W/COPPEL.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "COPPEL_PP",
+    "RAR_GATEWAY_URI": "https://knlcoppelpp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

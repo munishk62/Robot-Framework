@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["SanityCheck","EditShiftWeekSchedule"],
+  "description": "Configuration for fixed shift entity data provider",
+  "version": "1.0"
+}

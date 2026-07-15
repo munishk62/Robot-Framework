@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["AvailabilityReasonType","RequestStatus","AvailabilityDayStatus","AvailabilityPreference"],
+  "description": "Configuration for Availability Request entity tests",
+  "version": "1.0"
+}
+

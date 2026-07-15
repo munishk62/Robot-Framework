@@ -1,0 +1,5 @@
+{
+  "leave_balance": {
+    "LEAVE_BALANCE_PAGE_BALANCE_VALUE": "(//span[contains(text(), '{REASON}')]//parent::div//following-sibling::div[5])/span[1]"
+  }
+}

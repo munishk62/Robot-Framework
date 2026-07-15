@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwssfcpp.reflexisinc.co.uk/RWS4",
+    "domainId": "SFC",
+    "kernel_url": "https://knlcl52pp.reflexisinc.co.uk/kernel/",
+    "app_url": "https://knlsfcpp.reflexisinc.co.uk/kernel/views/authenticate/W/SFC.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "SFC_PP",
+    "RAR_GATEWAY_URI": "https://knlsfcpp.reflexisinc.co.uk:443/rwsibmcognos/bi/v1/disp"
+}

@@ -1,0 +1,2 @@
+ACKNOWLEDGEMENTS_ADD_ACKNOWLEDGEMENT_BTN = "span#addAcknowledgement"
+ACKNOWLEDGEMENTS_ADD_ACKNOWLEDGEMENT_SAVE_BTN = "button[ng-click*='addCertification']"

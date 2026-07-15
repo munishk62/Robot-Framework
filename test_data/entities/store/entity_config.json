@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["StoreEntity"],
+  "description": "Configuration for store entity with environment-specific store mapping - single source of truth",
+  "version": "1.0"
+}

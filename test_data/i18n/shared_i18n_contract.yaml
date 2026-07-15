@@ -1,0 +1,20 @@
+# Optional shared contract for suites under ``tests/web/internationalization`` (and similar flows).
+#
+# This file does **not** set locale or bundle directory. Use:
+#   - Locale: env ``I18N_LOCALE``, Robot ``${I18N_LOCALE}`` / ``--variable``, resource default ``en_US``,
+#     optional ``${I18N_LOCALE_SUITE_FALLBACK}``.
+#   - Bundle root: process env ``BUNDLES_DIR`` or ``WFM_RESOURCE_BUNDLES_DIR`` only.
+#
+# Use this YAML for optional defaults that stay in repo:
+#   - ``menu_json_paths``: merged with env ``I18N_MENU_JSON_PATHS`` and ``@{I18N_MENU_JSON_PATHS}`` in
+#     ``Get Merged Menu Json Paths For I18n Save`` (see ``i18n_pabot_shared.resource``).
+#   - ``db2_locale_sources_file``: path to DB2 locale query list YAML (overridable by env ``I18N_DB2_LOCALE_SOURCES_FILE``).
+#
+# Alternate file: env ``I18N_SHARED_CONTRACT_PATH`` (absolute path; forward slashes OK).
+#
+# Optional: env ``I18N_PABOT_CACHE_STAMP`` overrides the default directory stamp from
+# ``Get I18n Web Directory Shared Cache Stamp`` (otherwise stamp includes resolved locale).
+
+version: 1
+menu_json_paths: []
+db2_locale_sources_file: ""

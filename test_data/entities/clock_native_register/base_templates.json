@@ -1,0 +1,6 @@
+{
+  "default": {
+    "device_location": "Front End",
+    "enable_location_services": false
+  }
+}

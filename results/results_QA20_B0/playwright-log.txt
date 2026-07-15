@@ -1,0 +1,169 @@
+{"level":30,"time":"2026-04-11T11:10:03.052Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Listening on 127.0.0.1:51009"}
+{"level":30,"time":"2026-04-11T11:10:03.307Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method initializeExtension"}
+{"level":30,"time":"2026-04-11T11:10:03.307Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Initializing extension: C:\\Users\\MK6843\\PycharmProjects\\sws_wfm_test_automation\\.venv\\Lib\\site-packages\\robotframework_playwright_helper\\helper.js"}
+{"level":30,"time":"2026-04-11T11:10:04.439Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Adding 7 keywords from JS Extension"}
+{"level":30,"time":"2026-04-11T11:10:04.442Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method initializeExtension"}
+{"level":30,"time":"2026-04-11T11:10:10.772Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-11T11:10:10.772Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-11T11:10:11.428Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-11T11:10:11.428Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-04-11T11:10:16.436Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-11T11:10:16.436Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-04-11T11:10:16.993Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13626:24)
+    at PlaywrightServer.evaluateJavascript (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13678:75)
+    at Object.onReceiveHalfClose (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-04-11T11:10:16.993Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:16.998Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13626:24)
+    at PlaywrightServer.evaluateJavascript (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13678:75)
+    at Object.onReceiveHalfClose (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-04-11T11:10:16.998Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:17.002Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-04-11T11:10:17.584Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Adding browser to stack: chromium, version: 143.0.7499.4"}
+{"level":30,"time":"2026-04-11T11:10:17.585Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-04-11T11:10:17.585Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-04-11T11:10:17.600Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+================= Original suppressed error =================
+Error: No page open.
+    at PlaywrightServer.getActivePage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13626:24)
+    at PlaywrightServer.evaluateJavascript (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\index.js:13678:75)
+    at Object.onReceiveHalfClose (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\MK6843\PycharmProjects\sws_wfm_test_automation\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:22)
+    at endReadableNT (node:internal/streams/readable:1729:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2026-04-11T11:10:17.600Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Error of node method  evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:17.611Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-04-11T11:10:17.613Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@97d28af9ac07b9e3192cafd0dfe74464\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=7ad85723-1240-4d15-86d6-8cf7482aea8e\"}"}
+{"level":30,"time":"2026-04-11T11:10:17.637Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Setting default timeout for context context=01fc543b-b14a-4d4c-b9f3-dabddb2a73c5 to 30000"}
+{"level":30,"time":"2026-04-11T11:10:17.637Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Changed active context: context=01fc543b-b14a-4d4c-b9f3-dabddb2a73c5"}
+{"level":30,"time":"2026-04-11T11:10:17.904Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Video path: undefined"}
+{"level":30,"time":"2026-04-11T11:10:17.904Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Changed active page"}
+{"level":30,"time":"2026-04-11T11:10:21.268Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method newPage"}
+{"level":30,"time":"2026-04-11T11:10:21.275Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.284Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.287Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method getElementStates"}
+{"level":30,"time":"2026-04-11T11:10:21.288Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //input[@type='text' and @spellcheck='false'] in page."}
+{"level":30,"time":"2026-04-11T11:10:21.367Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Element //input[@type='text' and @spellcheck='false'] is editable: true"}
+{"level":30,"time":"2026-04-11T11:10:21.367Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Checking checked state"}
+{"level":30,"time":"2026-04-11T11:10:21.401Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method getElementStates"}
+{"level":30,"time":"2026-04-11T11:10:21.406Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.409Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.413Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:21.413Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"timeout: 30000 state: domcontentloaded"}
+{"level":30,"time":"2026-04-11T11:10:21.414Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:21.417Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.419Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.421Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:21.421Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"timeout: 30000 state: load"}
+{"level":30,"time":"2026-04-11T11:10:21.422Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:21.425Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.428Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:21.430Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:21.430Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"timeout: 30000 state: networkidle"}
+{"level":30,"time":"2026-04-11T11:10:23.660Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:23.664Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:23.769Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:23.772Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:23.772Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //input[@type='text' and @spellcheck='false'] in page."}
+{"level":30,"time":"2026-04-11T11:10:23.799Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:23.802Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:23.803Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is disabled, return Locator: //input[@type='text' and @spellcheck='false'] in page."}
+{"level":30,"time":"2026-04-11T11:10:23.805Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Locator count is 1"}
+{"level":30,"time":"2026-04-11T11:10:23.812Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:23.818Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-04-11T11:10:23.818Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //input[@type='text' and @spellcheck='false'] in page."}
+{"level":30,"time":"2026-04-11T11:10:23.900Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method typeText"}
+{"level":30,"time":"2026-04-11T11:10:23.904Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:23.906Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:23.911Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:23.911Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //input[@type='password' and @placeholder] in page."}
+{"level":30,"time":"2026-04-11T11:10:23.965Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:23.968Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:23.968Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is disabled, return Locator: //input[@type='password' and @placeholder] in page."}
+{"level":30,"time":"2026-04-11T11:10:23.972Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Locator count is 1"}
+{"level":30,"time":"2026-04-11T11:10:23.978Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:23.982Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method typeText"}
+{"level":30,"time":"2026-04-11T11:10:23.982Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //input[@type='password' and @placeholder] in page."}
+{"level":30,"time":"2026-04-11T11:10:24.038Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method typeText"}
+{"level":30,"time":"2026-04-11T11:10:24.043Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.046Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.051Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:24.051Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //span[@class='login-big-font login-button-fix'] in page."}
+{"level":30,"time":"2026-04-11T11:10:24.084Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:24.088Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:24.088Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is disabled, return Locator: //span[@class='login-big-font login-button-fix'] in page."}
+{"level":30,"time":"2026-04-11T11:10:24.092Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Locator count is 1"}
+{"level":30,"time":"2026-04-11T11:10:24.100Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:24.104Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method click"}
+{"level":30,"time":"2026-04-11T11:10:24.105Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with //span[@class='login-big-font login-button-fix'] in page."}
+{"level":30,"time":"2026-04-11T11:10:24.607Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method click"}
+{"level":30,"time":"2026-04-11T11:10:24.617Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.630Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.638Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:24.638Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"timeout: 30000 state: domcontentloaded"}
+{"level":30,"time":"2026-04-11T11:10:24.639Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:24.646Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.650Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.656Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:24.656Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"timeout: 30000 state: load"}
+{"level":30,"time":"2026-04-11T11:10:24.657Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:24.664Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.669Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:24.676Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:24.676Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"timeout: 30000 state: networkidle"}
+{"level":30,"time":"2026-04-11T11:10:25.117Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method WaitForPageLoadState"}
+{"level":30,"time":"2026-04-11T11:10:25.126Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:25.132Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:25.139Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:25.139Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2026-04-11T11:10:25.251Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method scrollToElement"}
+{"level":30,"time":"2026-04-11T11:10:25.256Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:25.257Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is disabled, return Locator: css=body in page."}
+{"level":30,"time":"2026-04-11T11:10:25.262Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Locator count is 1"}
+{"level":30,"time":"2026-04-11T11:10:25.273Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method highlightElements"}
+{"level":30,"time":"2026-04-11T11:10:25.278Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method getDomProperty"}
+{"level":30,"time":"2026-04-11T11:10:25.279Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Strict mode is enabled, find Locator with css=body in page."}
+{"level":30,"time":"2026-04-11T11:10:25.309Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Retrieved dom property for element css=body containing { \"authToken\":\"eMzM1NTU3MDQtMTExMTEwMDUxLTE2MzY5MjM0MDYtMzc5ODE0NTk5Mi1fMF93Zm1wcm9kdWN0cWEyMF8zX180XyUwOTliYWZiMC1iZDVjLTRhMmYtOTFlOC1lNGU5NDc0MTY5Nzg\", \"expiresOn\":\"20260411114024\" ,\"localeCode\":\"en_US\" , \"message\":\"User Authenticated Successfully\" ,\"status\":\"SUCCESS\" }"}
+{"level":30,"time":"2026-04-11T11:10:25.309Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method getDomProperty"}
+{"level":30,"time":"2026-04-11T11:10:25.318Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:25.323Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:25.330Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:25.335Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"End of node method evaluateJavascript"}
+{"level":30,"time":"2026-04-11T11:10:25.342Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-04-11T11:10:25.352Z","pid":13676,"hostname":"ZBR-9x5Z6LucmWG","msg":"Removed page=999ca85e-c19b-4e4c-9bfc-4ede83e38d21 from context=01fc543b-b14a-4d4c-b9f3-dabddb2a73c5 page stack"}

@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["RwsUploadDataType", "StoreEntity"],
+  "date_fields": [],
+  "description": "Configuration for HRBA (HR Associate Basic Details Import) file upload entity data provider",
+  "version": "1.0"
+}

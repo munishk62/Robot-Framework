@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["DayOffReasonType", "RequestStatus", "AccrualBalanceReason"],
+  "description": "Configuration to Day Off data provider",
+  "version": "1.0"
+}
+

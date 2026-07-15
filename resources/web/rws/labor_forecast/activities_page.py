@@ -1,0 +1,2 @@
+ACTIVITIES_ADD_TASK_BTN = "span#addTask"
+ACTIVITIES_ADD_TASK_PREVIOUS_BTN = "input#previous"

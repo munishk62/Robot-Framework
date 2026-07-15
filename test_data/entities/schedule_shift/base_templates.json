@@ -1,0 +1,26 @@
+{
+    "default": {
+        "week_start_date": "SanityCheck.PLANNING_WEEK_START_DATE",
+        "shift_add_day": "5",
+        "shift_start_time": "11:00",
+        "shift_end_time":"18:30",
+        "edit_shift_start_time":"10.15 AM",
+        "edit_shift_end_time":"5.45 PM"
+    },
+    "copy_shift_data": {
+        "shift_copy_day": "3",
+        "target_shift_day": [4, 5]
+    },
+    "drag_and_drop_shift_data_1": {
+        "source_shift_dayoffset": "4",
+        "target_shift_dayoffset": "4"
+    },
+    "reassign_shift_data": {
+        "day_offset": "3"
+    },
+    "unallocate_days_data": {
+        "day_offset_wed": "2",
+        "day_offset_thu": "3",
+        "day_offset_fri": "4"
+    }
+}

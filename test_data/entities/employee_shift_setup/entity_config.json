@@ -1,0 +1,11 @@
+{
+  "constant_classes": [],
+  "date_fields": [],
+  "time_fields": ["uiStartTime","uiEndTime"],
+  "template_references": {
+    "shift_pattern": "shift_time_pattern"
+  },
+  "description": "Configuration for employee shift setup. References shift_time_pattern templates. Time fields will be converted after template resolution based on TIME_FORMAT_12_HRS config.",
+  "version": "1.0"
+}
+

@@ -1,0 +1,11 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "QA27_V1",
+    "testPath": "tests/sit",
+    "includeTags": "sit_v1",
+    "excludeTags": "sit_r23",
+    "resultsFolderName":"qa27_v1_sit_r22",
+    "testRayPlan": "WFM-135686",
+    "testRayCycle": "WFM 451 R22 - BAT QAV1",
+    "jobTimeout":"8"
+])

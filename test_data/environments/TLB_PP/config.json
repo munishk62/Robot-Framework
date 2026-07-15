@@ -1,0 +1,10 @@
+{
+    "base_url": "https://knltailoredbrandspp.reflexisinc.com/RWS4/",
+    "domainId": "TB",
+    "kernel_url": "https://knlcl12pp.reflexisinc.com/kernel/",
+    "app_url": "https://knltailoredbrandspp.reflexisinc.com/kernel/views/timeout/WEB/TB.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "TLB_PP",
+    "RAR_GATEWAY_URI": "https://knltailoredbrandspp.reflexisinc.com/rwsibmcognos/bi/v1/disp/"
+}

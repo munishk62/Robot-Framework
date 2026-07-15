@@ -1,0 +1,14 @@
+{
+  "default": {
+    "planning_week_date": "3_0",
+    "week_trade_day": "3_1",
+    "week_swap_day": "3_2",
+    "swap_request_notes": "Automation Notes for Shift Swap",
+    "swap_response_notes": "Automation sample respond note",
+    "shift_start_time": "08:00",
+    "shift_end_time": "16:00",
+    "swap_shift_start_time": "08:00",
+    "swap_shift_end_time": "16:00",
+    "approves_swap_shift": "Approve"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "base_url": "https://knltailoredbrandssb.reflexisinc.com//RWS4",
+    "domainId": "TLB",
+    "kernel_url": "https://knlcl12sb.reflexisinc.com/kernel/",
+    "app_url": "https://knltailoredbrandssb.reflexisinc.com/kernel/views/authenticate/web/TB.view",
+    "MYWORK_ENABLED": "False",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "TLB_SB",
+    "RAR_GATEWAY_URI": "https://rwstailoredbrandssb.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

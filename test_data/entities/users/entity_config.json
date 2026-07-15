@@ -1,0 +1,8 @@
+{
+  "constant_classes": [
+    "UserStatusValue",
+    "UserWorkInValue"
+  ],
+  "description": "Configuration for user data provider",
+  "version": "1.0"
+}

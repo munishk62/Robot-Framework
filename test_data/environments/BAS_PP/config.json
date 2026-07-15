@@ -1,0 +1,10 @@
+{
+    "base_url": "https://bashaspp.reflexisinc.com/RWS4",
+    "domainId": "BAS",
+    "kernel_url": "https://knlcl25pp.reflexisinc.com/kernel/",
+    "app_url": "https://bashaspp.reflexisinc.com/kernel/views/authenticate/W/BAS.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "BAS_PP",
+    "RAR_GATEWAY_URI": "https://bashaspp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

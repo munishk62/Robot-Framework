@@ -1,0 +1,13 @@
+{
+  "default": {
+    "schedule_notes": "Schedule Level Web Notes added by SM",
+    "employee_notes": "Employee Level note added by SM for ESS2_STORE1",
+    "shift_notes": "Shift Level Notes added by SM",
+    "shift_start_time": "12:00",
+    "shift_end_time": "19:00",
+    "day_offset":"0",
+    "category_schedule": "ScheduleNotesCategory.SCHEDULE",
+    "category_associate": "ScheduleNotesCategory.ASSOCIATE",
+    "category_shift": "ScheduleNotesCategory.SHIFT"
+  }
+}

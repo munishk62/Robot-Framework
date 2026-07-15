@@ -1,0 +1,3 @@
+{
+  "excluded": ["TB_SB","WAG_SB","QA08_V1", "HNM_DRYRUN","TEST_ENV","BSP_SB"]
+}

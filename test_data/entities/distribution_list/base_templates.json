@@ -1,0 +1,23 @@
+{
+  "default": {
+    "name": "DistributionListStore2",
+    "description": "Distribution List for Store2",
+    "frozen": "No",
+    "criterion_type": "DistributionListCriterionType.ORGANIZATION_STRUCTURE",
+    "criterion": "DistributionListCriterionOrgStructureType.STORE"
+  },
+  "org_structure": {
+    "name": "DL1",
+    "description": "Distribution List1 for",
+    "frozen": "Yes",
+    "criterion_type": "DistributionListCriterionType.ORGANIZATION_STRUCTURE",
+    "criterion": "DistributionListCriterionOrgStructureType.STORE"
+  },
+  "geographic_location": {
+    "name": "DL2",
+    "description": "Distribution List2 for",
+    "frozen": "No",
+    "criterion_type": "DistributionListCriterionType.GEOGRAPHIC_LOCATION",
+    "criterion": "DistributionListCriterionGeographicLocType.COUNTRY"
+  }
+}

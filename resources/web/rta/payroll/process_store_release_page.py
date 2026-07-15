@@ -1,0 +1,16 @@
+# Process Store Release Page Locators
+
+PROCESS_STORE_RELEASE_PAGE_ACTION_DROPDOWN = "//span[@class='menu-wrapper-dropdown'][@ng-class='{active:payrollReleaseCtrl.onOtherActionsClick}']"
+PROCESS_STORE_RELEASE_PAGE_RELEASE_OPTION = "//a[@ng-click='payrollReleaseCtrl.onPayrollReleaseBtnClick()']//span[@class='option ng-binding']"
+PROCESS_STORE_RELEASE_PAGE_REOPEN_OPTION = "//a[@ng-click='payrollReleaseCtrl.processPayrollOpen()']//span[@class='option ng-binding']"
+PROCESS_STORE_RELEASE_PAGE_CURRENT_WEEK_BUTTON="//span[@class='pointer ng-binding' and @ng-bind='payrollReleaseCtrl.selectedWeekDateUILabel' and contains(text(), 'Week Of')]"
+PROCESS_STORE_RELEASE_PAGE_CALENDAR_MONTH_YEAR_HEADER = "//button[contains(@class, 'datePickerDayHeader')]"
+PROCESS_STORE_RELEASE_PAGE_YEAR_BUTTON_BY_YEAR = "//button[contains(normalize-space(@aria-label), '{TARGET_YEAR}')]"
+PROCESS_STORE_RELEASE_PAGE_YEAR_BUTTON_DYNAMIC_BY_YEAR = "//button[contains(@class,'datePickerMonthHeader')]"
+PROCESS_STORE_RELEASE_PAGE_YEAR_DIGITS_BY_LAST_TWO = "//button[contains(@class, 'btn-default')]//span[text()='{YEAR_LAST_2_DIGITS}']"
+PROCESS_STORE_RELEASE_PAGE_MONTH_BUTTON_BY_NAME = "//button[contains(@class, 'btn-default')]//span[text()='{MONTH_NAME}'] | //span[normalize-space()='{MONTH_NAME}']"
+PROCESS_STORE_RELEASE_PAGE_DAY_BUTTON_BY_FORMATTED_DATE = "//button[contains(normalize-space(@aria-label), '{FORMATTED_DATE}')]"
+PROCESS_STORE_RELEASE_PAGE_WEEK_NUMBER_BUTTON = "{DAY_LOCATOR}/preceding::td[@ng-if='showWeeks'][1]/button"
+PROCESS_STORE_RELEASE_PAGE_CALENDAR_POP_UP="//ul[@role='button']"
+PROCESS_STORE_RELEASE_PAGE_HEADER_WEEK_LABEL = "//*[contains(@class,'calendarNav')]//span[contains(text(),'{WEEK}')]"
+PROCESS_STORE_RELEASE_PAGE_ASSOCIATE_ICONS = "//img[contains(@class, 'circular-img')]"

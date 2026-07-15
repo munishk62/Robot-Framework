@@ -1,0 +1,8 @@
+{
+  "constant_classes": [],
+  "date_fields": [
+    "week_start_date"
+  ],
+  "description": "Configuration for schedule workflow setup data provider",
+  "version": "1.0"
+}

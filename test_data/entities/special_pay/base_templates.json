@@ -1,0 +1,11 @@
+{
+  "default": {
+    "sp_date": "-1_1",
+    "pay_code": "PayCodeType.PAID_VACATION",
+    "usage": "SpecialPayUsage.USAGE1",
+    "charge_loc_type": "1",
+    "location": "StoreEntity.MODEL_STORE1.UNIT_ID",
+    "department": "Department.DEPT2",
+    "reason_code": "SpecialPayReasonCodes.CODE1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "default":{
+        "week_start_date": "1_0",
+        "week_offset": "1_0",
+        "generate_schedule": true,
+        "publish_schedule": true,
+        "vdi_schedule_regeneration": "NA"
+    },
+    "wip_generate_and_publish_schedule": {
+        "week_start_date": "0_0",
+        "week_offset": "0_0",
+        "generate_schedule": true,
+        "publish_schedule": true,
+        "vdi_schedule_regeneration": "NA"
+    },
+    "generate_and_publish_schedule": {
+        "week_start_date": "1_0",
+        "week_offset": "1_0",
+        "generate_schedule": true,
+        "publish_schedule": true,
+        "vdi_schedule_regeneration": "NA"
+    },
+    "only_generate_schedule": {
+        "week_start_date": "1_0",
+        "week_offset": "1_0",
+        "generate_schedule": true,
+        "publish_schedule": false,
+        "vdi_schedule_regeneration": "NA"
+    },
+    "no_schedule_generation": {
+        "week_start_date": "1_0",
+        "week_offset": "1_0",
+        "generate_schedule": false,
+        "publish_schedule": false,
+        "vdi_schedule_regeneration": "NA"
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "default": {
+    "description": "Driver Forecast weekplan with delete & generate operation",
+    "type": "WeekplanType.FORECAST",
+    "store_group": "StoreGroup.STORE_GROUP_NAME",
+    "week_offset": "6_0",
+    "operation": "WeekplanOperation.DELETE_AND_GENERATE"
+  }
+}

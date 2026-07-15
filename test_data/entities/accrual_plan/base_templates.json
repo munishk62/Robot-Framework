@@ -1,0 +1,15 @@
+{
+  "default": {
+    "id":"Robot_Automation_id",
+    "name":"Robot_Automation_name",
+    "status":"AccrualPlanStatus.DRAFT",
+    "term_type":"AccrualPlanTermType.CAL_YEAR_ANNIVERSARY",
+    "plan_accrual_frequency":"AccrualPlanPlanFrequency.START_OF_CALENDAR",
+    "description":"Robot_Automation_name_desc",
+    "created_status_code": "HttpStatusCode.CREATED",
+    "ok_status_code": "HttpStatusCode.OK",
+    "edit_description":"Robot_Automation_name_desc_edited",
+    "new_accrual_plan_id":"Robot_Automation_new",
+    "new_accrual_plan_name":"Robot_Automation_name_copy"
+  }
+}

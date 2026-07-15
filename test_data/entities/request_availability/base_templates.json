@@ -1,0 +1,109 @@
+{
+  "default": {
+    "first_rotation_date": "2_0",
+    "second_rotation_date": "2_0",
+    "preference": "Permanent",
+    "reason": "AvailabilityReasonType.COMMON_REASON",
+    "rotations": {
+      "1": {
+        "7": {"not_available": true},
+        "availabilities": [
+          {
+            "availability_number": 1,
+            "1": {"totally_available": true},
+            "2": {"start": "01:00a", "end": "11:00p"},
+            "3": {"start": "02:00a", "end": "10:00p"},
+            "4": {"start": "03:00a", "end": "09:00p"},
+            "5": {"start": "04:00a", "end": "08:00p"},
+            "6": {"start": "05:00a", "end": "07:00p"}
+          }
+        ]
+      }
+    },
+    "edit_availability_request": {
+      "rotations": {
+        "1": {
+          "availabilities": [
+            {
+              "availability_number": 2,
+              "6": {"start": "10:00p", "end": "11:00p"}
+            }
+          ]
+        }
+      }
+    }
+  },
+  "add_edit_2_rotation": {
+    "second_rotation_date": "2_0",
+    "preference": "Permanent",
+    "reason": "AvailabilityReasonType.COMMON_REASON",
+    "rotations": {
+      "1": {
+        "7": {"not_available": true},
+        "availabilities": [
+          {
+            "availability_number": 2,
+            "1": {"totally_available": true},
+            "2": {"start": "12:00a", "end": "12:00p"},
+            "3": {"start": "12:00a", "end": "12:00p"},
+            "4": {"start": "12:00a", "end": "12:00p"},
+            "5": {"start": "12:00a", "end": "12:00p"},
+            "6": {"start": "12:00a", "end": "12:00p"}
+          }
+        ]
+      },
+      "2": {
+        "1": {"not_available": true},
+        "availabilities": [
+          {
+            "availability_number": 2,
+            "2": {"start": "12:00p", "end": "12:00a"},
+            "3": {"start": "12:00p", "end": "12:00a"},
+            "4": {"start": "12:00p", "end": "12:00a"},
+            "5": {"start": "12:00p", "end": "12:00a"},
+            "6": {"start": "12:00p", "end": "12:00a"},
+            "7": {"totally_available": true}
+          }
+        ]
+      }
+    }
+  },
+  "add_my_availability": {
+    "week_date": "8_0",
+    "preference": "Temporary",
+    "reason": "AvailabilityReasonType.COMMON_REASON",
+    "rotations": {
+      "1": {
+        "1": {"not_available": true},
+        "7": {"not_available": true},
+        "availabilities": [
+          {
+            "availability_number": 1,
+            "2": {"start": "10:00a", "end": "10:00p"},
+            "3": {"start": "10:00a", "end": "10:00p"},
+            "4": {"start": "10:00a", "end": "10:00p"},
+            "5": {"start": "10:00a", "end": "10:00p"},
+            "6": {"start": "10:00a", "end": "10:00p"}
+          }
+        ]
+      }
+    },
+    "edit_my_availability": {
+      "rotations": {
+        "1": {
+          "availabilities": [
+            {
+              "availability_number": 1,
+              "6": {"start": "10:00p", "end": "12:00a"}
+            },
+            {
+              "availability_number": 2,
+              "5": {"start": "12:00a", "end": "12:00p"},
+              "6": {"start": "12:00p", "end": "12:00a"}
+            }
+          ]
+        }
+      }
+    }
+  }
+}

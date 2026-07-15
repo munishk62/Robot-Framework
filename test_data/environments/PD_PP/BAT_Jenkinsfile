@@ -1,0 +1,14 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "PD_PP",
+    "testPath": "tests/web/l2_suite tests/mobile",
+    "includeTags": "bat_phase1,bat_phase2",
+    "excludeTags":"obsolete,payroll_execution,mobile",
+    "testRayPlan": "WFM-122365",
+    "testRayCycle": "WFM 451 R21 - BAT PD_PP",
+    "extraRobotArgs": "--variable PAGE_LOAD_TIMEOUT:120s --variable MEDIUM_TIMEOUT:120s --variable LONG_TIMEOUT:180s",
+    "jobTimeout":"10",
+    "healthCheckTimeout": "10",
+    "skipDatabaseHealthCheck": false,
+    "queuePendingThreshold": "100"
+])

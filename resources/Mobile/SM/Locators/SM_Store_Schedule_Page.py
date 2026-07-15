@@ -1,0 +1,31 @@
+SM_STORE_SCHEDULE_PAGE_TITLE = '//android.widget.TextView[contains(@resource-id,"tv_title_request")]'
+SM_STORE_DYNAMIC_PAGE_TITLE = '//android.widget.TextView[contains(@resource-id,"tv_title_request") and @text="{0}"]'
+SM_STORE_SCHEDULE_PAGE_ASSOCIATE_SCHEDULE_LIST = '//androidx.recyclerview.widget.RecyclerView[contains(@resource-id,"sch_list")]'
+SM_STORE_SCHEDULE_PAGE_NEXT_WEEK_BUTTON = '//android.widget.ImageButton[contains(@resource-id,"btn_next")]'
+SM_STORE_SCHEDULE_PAGE_PREVIOUS_WEEK_BUTTON = '//android.widget.ImageButton[contains(@resource-id,"btn_prev")]'
+SM_STORE_SCHEDULE_PAGE_WEEK_LABEL = '//android.widget.Button[contains(@resource-id,"btn_cal_date")]'
+SM_STORE_SCHEDULE_PAGE_DATE_WINDOW_MONTH = '//android.widget.TextView[contains(@resource-id,"title_month")]'
+SM_STORE_SCHEDULE_PAGE_DATE_WINDOW_YEAR = '//android.widget.TextView[contains(@resource-id,"title_year")]'
+SM_STORE_SCHEDULE_PAGE_OUTSIDE_AREA = '//android.view.View[contains(@resource-id,"touch_outside")]'
+SEARCH_ASSOCIATE_ICON = '//android.widget.ImageButton[contains(@resource-id,"btn_legend_search")]'
+SEARCH_ASSOCIATE_EDIT_TEXT = '//android.widget.EditText[contains(@resource-id,"edt_search")]'
+HORIZONTAL_CALENDAR_DAY_LOCATOR = '//android.widget.TextView[contains(@resource-id,"tv_date") and @text="{0}"]'
+ASSOCIATE_SHIFT_LOCATOR = '//android.widget.LinearLayout[contains(@resource-id,"ll_shift")]'
+SM_STORE_SCHEDULE_PAGE_ASSOCIATE_SHIFT = '//android.widget.TextView[contains(@resource-id,"tv_associate_name") and @text="{0}"]//parent::android.widget.LinearLayout//following-sibling::*//android.widget.TextView[contains(@text,"{1}")]'
+SM_STORE_SCHEDULE_PAGE_SHIFT_MORE_ICON = '//android.widget.ImageButton[contains(@resource-id,"ibMoreTabs")]'
+SM_STORE_SCHEDULE_PAGE_SHIFT_MORE_OPTION = '//android.widget.LinearLayout[contains(@resource-id,"positiveButtonSpace")]//*[@text="{0}"]'
+SM_STORE_SCHEDULE_PAGE_CONFIRM_BUTTON = '//android.widget.Button[contains(@resource-id,"btnPositive")]'
+SM_STORE_SCHEDULE_PAGE_GENERIC_NOTIFICATION = '//android.widget.TextView[contains(@resource-id,"snackBarTitle")]'
+
+# semantics keys
+SM_STORE_SCHEDULE_PAGE_SHIFT_ITEM = "1000000004323"
+SM_STORE_SCHEDULE_MENU = '1000000000006'
+SM_STORE_SCHEDULE_SELECTED_WEEK_DATE = '1000000000785'
+SM_STORE_SCHEDULE_PAGE_UNALLOCATE_LABEL = '1000000000101'
+SM_STORE_SCHEDULE_PAGE_UNASSIGN_LABEL = '1000000000086'
+
+SM_STORE_SCHEDULE_OPTION_BUTTON = '//android.widget.ImageButton[contains(@resource-id,"btn_sch_options")]'
+SM_STORE_SCHEDULE_GENERATE_BUTTON = '//android.widget.TextView[contains(@resource-id,"btn_build_opt_sch")]'
+SM_STORE_SCHEDULE_REGENERATE_BUTTON = '//android.widget.TextView[contains(@resource-id,"btn_regenerate_opt_sch")]'
+SM_STORE_SCHEDULE_PUBLISH_BUTTON = '//android.widget.Button[contains(@resource-id,"btn_publish")]'
+

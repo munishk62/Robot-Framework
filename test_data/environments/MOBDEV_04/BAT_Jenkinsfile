@@ -1,0 +1,7 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "MOBDEV_04",
+    "testPath": "tests/",
+    "includeTags": "sit",
+    "jobTimeout":"6"
+])

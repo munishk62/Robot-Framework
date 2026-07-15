@@ -1,0 +1,8 @@
+{
+  "default": {
+    "work_pattern_name": "new_automation_work_pattern",
+    "store_id": "StoreEntity.MODEL_STORE1.UNIT_ID",
+    "planning_week_start_date": "SanityCheck.PLANNING_WEEK_START_DATE",
+    "planning_week_end_date": "SanityCheck.PLANNING_WEEK_END_DATE"
+  }
+}

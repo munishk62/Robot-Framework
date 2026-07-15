@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["PunchImportTransactionType", "PunchImportStatusFlag", "PunchImportBiometricFlag", "PunchImportEntryMode"],
+  "description": "Configuration for punch import",
+  "version": "1.0"
+}

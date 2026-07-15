@@ -1,0 +1,2 @@
+SYSTEM_CODES_ADD_CODE_SET_BTN = "span#addBtnId"
+SYSTEM_CODES_ADD_CODE_SET_SAVE_BTN = "input#bottomSaveButtonId"

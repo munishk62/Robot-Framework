@@ -1,0 +1,12 @@
+{"sample_sm1_create_day_off": {
+    "start_date": "5_5",
+    "end_date": "5_5",
+    "reason": "DayOffReasonType.UNPAID_DAY_OFF",
+    "status": "RequestStatus.NOT_REVIEWED"
+},
+"sample_sm1_create_day_off_60001_1": {
+    "start_date": "6_3",
+    "end_date": "6_3",
+    "reason": "DayOffReasonType.UNPAID_DAY_OFF",
+    "status": "RequestStatus.NOT_REVIEWED"
+}}

@@ -1,0 +1,5 @@
+FISCAL_CALENDAR_FIRST_CALENDAR_GROUP = "a[ng-bind='calGrp.groupName'] >> nth=0"
+FISCAL_CALENDAR_GROUP_DETAILS_SAVE_BTN = "button[ng-click*='SaveCalendarGroupDetails']"
+FISCAL_CALENDAR_GROUP_FIS_CAL_TAB = "div[ng-click*='tabId.FISCAL_CALENDAR']"
+FISCAL_CALENDAR_GROUP_ADD_FISCAL_YEAR_BTN = "span[ng-click*='addNewEntity']"
+FISCAL_CALENDAR_GROUP_FISCAL_YEAR_SAVE_BTN = "button[ng-click*='SaveCalendarFiscalYear']"

@@ -1,0 +1,329 @@
+{
+  "default": {
+    "start_date": "2_0",
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "total_rotations": "1",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [6],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "00:00",
+            "applicable_days": [0, 2, 4]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "10:00",
+            "end_time": "18:00",
+            "applicable_days": [1, 3 ,5]
+          }
+        ]
+      }
+    ]
+  },
+  "add_availability_#1": {
+    "start_date": "6_0",
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "total_rotations": "1",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [6],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "00:00",
+            "applicable_days": [0]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "1:00",
+            "end_time": "23:00",
+            "applicable_days": [1]
+          },
+            {
+                "availability_option": "BA",
+                "start_time": "2:00",
+                "end_time": "22:00",
+                "applicable_days": [2]
+            },
+            {
+                "availability_option": "BA",
+                "start_time": "3:00",
+                "end_time": "21:00",
+                "applicable_days": [3]
+            },
+            {
+                "availability_option": "BA",
+                "start_time": "4:00",
+                "end_time": "20:00",
+                "applicable_days": [4]
+            },
+            {
+                "availability_option": "BA",
+                "start_time": "5:00",
+                "end_time": "19:00",
+                "applicable_days": [5]
+            }
+        ]
+      }
+    ]
+  },
+  "edit_availability_#1": {
+    "start_date": null,
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "total_rotations": "1",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "22:00",
+            "end_time": "23:00",
+            "applicable_days": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "add_availability_#2": {
+    "start_date": "6_0",
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "total_rotations": "2",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "00:00",
+            "applicable_days": [0]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "12:00",
+            "applicable_days": [1,2,3,4,5]
+          }
+        ]
+      },
+      {
+        "rotation_number": "2",
+        "non_working_days": [],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "12:00",
+            "end_time": "00:00",
+            "applicable_days": [1,2,3,4,5]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "12:00",
+            "applicable_days": [6]
+          }
+        ]
+      }
+    ]
+  },
+  "add_availability#3": {
+    "start_date": "2_0",
+    "end_date": "2_6",
+    "request_preference": "Temporary",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "00:00",
+            "applicable_days": [0]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "1:00",
+            "end_time": "23:00",
+            "applicable_days": [1]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "2:00",
+            "end_time": "22:00",
+            "applicable_days": [2]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "3:00",
+            "end_time": "21:00",
+            "applicable_days": [3]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "4:00",
+            "end_time": "20:00",
+            "applicable_days": [4]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "5:00",
+            "end_time": "19:00",
+            "applicable_days": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "edit_availability_#3": {
+    "start_date": null,
+    "end_date": null,
+    "request_preference": "Temporary",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "22:00",
+            "end_time": "23:00",
+            "applicable_days": [5]
+          }
+        ]
+      }
+    ]
+  },
+  "sm_add_temp_availability": {
+    "start_date": "9_0",
+    "end_date": "9_6",
+    "request_preference": "Temporary",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [0,6],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "10:00",
+            "end_time": "22:00",
+            "applicable_days": [1,2,3,4,5]
+          }
+        ]
+      }
+    ]
+  },
+  "sm_edit_temp_availability": {
+    "start_date": "9_0",
+    "end_date": "9_6",
+    "request_preference": "Temporary",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.APPROVED",
+    "rotations": []
+  },
+  "sm_add_perm_availability": {
+    "start_date": "4_0",
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [6],
+        "availability_hours": [
+          {
+            "availability_option": "BA",
+            "start_time": "00:00",
+            "end_time": "24:00",
+            "applicable_days": [0]
+          },
+          {
+            "availability_option": "BA",
+            "start_time": "1:00",
+            "end_time": "23:00",
+            "applicable_days": [1]
+          },
+            {
+                "availability_option": "BA",
+                "start_time": "2:00",
+                "end_time": "22:00",
+                "applicable_days": [2]
+            },
+            {
+                "availability_option": "BA",
+                "start_time": "3:00",
+                "end_time": "21:00",
+                "applicable_days": [3]
+            },
+            {
+                "availability_option": "BA",
+                "start_time": "4:00",
+                "end_time": "20:00",
+                "applicable_days": [4]
+            },
+            {
+                "availability_option": "BA",
+                "start_time": "5:00",
+                "end_time": "19:00",
+                "applicable_days": [5]
+            }
+        ]
+      }
+    ]
+  },
+  "sm_add_perm_availability_with_rotations": {
+    "start_date": "4_0",
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.NOT_REVIEWED",
+    "rotations": [
+      {
+        "rotation_number": "1",
+        "non_working_days": [6],
+        "availability_hours": []
+      },
+      {
+        "rotation_number": "2",
+        "non_working_days": [0],
+        "availability_hours": []
+      }
+    ]
+  },
+  "sm_add_perm_availability_3": {
+    "start_date": "4_0",
+    "end_date": null,
+    "request_preference": "Permanent",
+    "reason": "AvailabilityReasonType.BUSY_WEEK",
+    "status": "RequestStatus.APPROVED",
+    "rotations": []
+  }
+}

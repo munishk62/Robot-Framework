@@ -1,0 +1,3 @@
+REPORTING_HIERARCHY_ADD_REPORTING_HIERARCHY_BTN = "span#addRepHierarchyRecord"
+REPORTING_HIERARCHY_ADD_REPORTING_HIERARCHY_NEXT_BTN = "button[ng-click*='ReportingHierarchyRecordTabClick']"
+REPORTING_HIERARCHY_ADD_REPORTING_HIERARCHY_SAVE_BTN = "button[ng-click*='SaveReportingHierarchy']"

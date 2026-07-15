@@ -1,0 +1,6 @@
+LABOR_LAW_ADD_LABOR_LAW_BTN = "span#addImg"
+LABOR_LAW_ADD_LABOR_LAW_SAVE_BTN = "button#btn-validateAndSubmitA"
+LABOR_LAW_ADD_LABOR_LAW_BASIC_DETAILS_TAB = "li#basicDetailsTab"
+LABOR_LAW_ADD_LABOR_LAW_BASIC_DETAILS_ACTIVE = "li#basicDetailsTab.active-tab"
+LABOR_LAW_ADD_LABOR_LAW_MEAL_BREAK_TAB = "li#mealBreakTab"
+LABOR_LAW_ADD_LABOR_LAW_MEAL_BREAK_ACTIVE = "li#mealBreakTab.active-tab"

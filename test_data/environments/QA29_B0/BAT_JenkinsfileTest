@@ -1,0 +1,13 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "QA29_B0", 
+    "testPath": "tests/web/examples/test_sample.robot",
+    "includeTags": "",
+    "testRayPlan": "",
+    "testRayCycle": "",
+    "defaultEmailRecipient":"",
+    "repoDirName":"sws_wfm_test_automation_jenkinslib_dashboard",
+    "dashboardUpdateEnabled": "false",
+    "ccRecipient":"cc:kg9078@zebra.com"
+
+])

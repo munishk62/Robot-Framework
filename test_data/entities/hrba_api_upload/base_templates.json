@@ -1,0 +1,7 @@
+{
+  "default": {
+    "_description": "Base template for HRBA API upload - environment-specific configs override this",
+    "_note": "This is a placeholder. Actual templates are loaded from environment-specific config files (e.g., qa29_b0_config.json, bmr_config.json)"
+  }
+}
+

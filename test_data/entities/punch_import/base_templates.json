@@ -1,0 +1,17 @@
+{
+  "default": {
+    "file_path": "web/external_files/punch_import/Punch_Import_File.xls",
+    "clock_in_time": "100000",
+    "meal_in_time": "130000",
+    "meal_out_time": "133000",
+    "clock_out_time": "170000",
+    "transaction_type_clock_in": "PunchImportTransactionType.CLOCK_IN",
+    "transaction_type_clock_out": "PunchImportTransactionType.CLOCK_OUT",
+    "transaction_type_meal_in": "PunchImportTransactionType.MEAL_IN",
+    "transaction_type_meal_out": "PunchImportTransactionType.MEAL_OUT",
+    "status_flag": "PunchImportStatusFlag.ACCEPTED",
+    "biometric_flag": "PunchImportBiometricFlag.YES",
+    "entry_mode": "PunchImportEntryMode.BADGE_READER",
+    "device_id": "PunchImportDevice.DVCSTORE1"
+  }
+}

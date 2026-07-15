@@ -1,0 +1,7 @@
+{
+  "constant_classes": ["HRCIFileConfiguration", "StoreEntity"],
+  "date_fields": ["effective_date", "end_date"],
+  "description": "Configuration for HRCI Store Transfer entity data provider",
+  "version": "1.0"
+}
+

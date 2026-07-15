@@ -1,0 +1,9 @@
+{
+  "default": {
+    "start_time": "13:00",
+    "shift_start_date": "-2_1",
+    "audit_changelog_type": "AuditChangelogType.PUNCH",
+    "audit_action": "AuditAction.ADDED",
+    "audit_status": "AuditStatus.NOT_REVIEWED"
+  }
+}

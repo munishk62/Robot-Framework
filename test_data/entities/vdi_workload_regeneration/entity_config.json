@@ -1,0 +1,9 @@
+{
+  "constant_classes": [],
+  "date_fields": [],
+  "time_fields": [],
+  "template_references": {},
+  "description": "Configuration for reusable VDI workload regeneration setup data.",
+  "version": "1.0"
+}
+

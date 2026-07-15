@@ -1,0 +1,6 @@
+{
+    "start_date": "5_0",
+    "end_date": "5_0",
+    "reason": "DayOffReasonType.UNPAID_DAY_OFF",
+    "status": "RequestStatus.NOT_REVIEWED"
+}

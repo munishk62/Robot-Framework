@@ -1,0 +1,10 @@
+{
+    "base_url": "https://knlmcddepp.reflexissystems.de/RWS4",
+    "domainId": "MCDDE",
+    "kernel_url": "https://knlcl75pp.reflexissystems.de/kernel/",
+    "app_url": "https://knlmcddepp.reflexissystems.de/kernel/views/authenticate/W/MCDDE.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "MCDDE_PP",
+    "RAR_GATEWAY_URI": "https://knlmcddepp.reflexissystems.de/rwsibmcognos/bi/v1/disp"
+}

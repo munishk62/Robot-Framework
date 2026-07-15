@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["ForecastDriverType", "DriverGroup", "DriverGranularity", "DriverAdjustmentMode", "DriverAggregateRule", "DriverDisplayFormat"],
+  "description": "Configuration to add driver forecast driver data provider",
+  "version": "1.0"
+}
+

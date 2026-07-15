@@ -1,0 +1,10 @@
+{
+    "base_url": "https://hnmdepp.reflexissystems.de/RWS4",
+    "domainId": "HNMDE",
+    "kernel_url": "https://knlcl77pp.reflexissystems.de/kernel/",
+    "app_url": "https://hnmdepp.reflexissystems.de/kernel/views/authenticate/W/HNMDE.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "HNMDE_PP",
+    "RAR_GATEWAY_URI": "https://hnmdepp.reflexissystems.de:443/rwsibmcognos/bi/v1/disp"
+}

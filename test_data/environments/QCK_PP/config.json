@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwsqck4pp.reflexisinc.com/RWS4",
+    "domainId": "QCK",
+    "kernel_url": "https://knlcl01pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlqck4pp.reflexisinc.com/kernel/views/authenticate/W/QCK.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "QCK_PP",
+    "RAR_GATEWAY_URI": "https://knlqck4pp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

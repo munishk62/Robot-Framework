@@ -1,0 +1,2 @@
+BUDGET_HEADS_ADD_BUDGET_HEAD_BTN = "input#addBudgetHeadButtonId"
+BUDGET_HEADS_ADD_BUDGET_HEAD_PREVIOUS_BTN = "input#previousBtnId"

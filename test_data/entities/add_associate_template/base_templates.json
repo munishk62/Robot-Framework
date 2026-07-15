@@ -1,0 +1,57 @@
+{
+  "default": {
+    "week_start_date": "SanityCheck.PLANNING_WEEK_START_DATE",
+    "shift_days": [
+      {
+        "day_number": "1",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      },
+      {
+        "day_number": "3",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      },
+      {
+        "day_number": "4",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      },
+      {
+        "day_number": "5",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      }
+    ],
+    "copy_shift_config": {
+      "shift_index": "1",
+      "source_day": "0",
+      "copy_to_days": ["6"]
+    }
+  },
+  "associate2_shift_details": {
+    "week_start_date": "SanityCheck.PLANNING_WEEK_START_DATE",
+    "shift_days": [
+      {
+        "day_number": "1",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      },
+      {
+        "day_number": "2",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      },
+      {
+        "day_number": "3",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      },
+      {
+        "day_number": "4",
+        "start_time": "10a",
+        "end_time": "05:30p"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "DEV16_V1",
+    "testPath": "tests/web/l2_suite",
+    "includeTags": "bat_phase1,bat_phase2",
+    "defaultEmailRecipient": "sachin.buchude@zebra.com,munish.kumar@zebra.com",
+    "jobTimeout":"8",
+    "healthCheckTimeout": "10",
+    "skipDatabaseHealthCheck": false,
+    "queuePendingThreshold": "100"
+])

@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["AvailabilityReasonType"],
+  "description": "Configuration for Availability Request templates",
+  "version": "1.0"
+}
+

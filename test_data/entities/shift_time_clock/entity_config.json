@@ -1,0 +1,6 @@
+{
+  "constant_classes": ["ActivityCode"],
+  "description": "Configuration for Shift apps time clock module entity tests",
+  "version": "1.0"
+}
+

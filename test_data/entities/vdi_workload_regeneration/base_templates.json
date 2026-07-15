@@ -1,0 +1,21 @@
+{
+  "default": {
+	"week_start_date": "1_0",
+	"associate_user_key": "ESS1_STORE6_SIT",
+	"post_shift_days": [0, 2, 3, 4, 6],
+	"pre_shift_days": [1, 2, 3, 4, 5],
+	"pre_no_shift_days": [0, 6],
+	"post_no_shift_days": [1, 5],
+	"partial_unfilled_days": [2, 3, 4],
+	"hours_full_day": "8:00",
+	"hours_zero": "0:00",
+	"scheduled_min_hours": 7.5,
+	"scheduled_max_hours": 8.0,
+	"pre_unfilled_min_hours": 0.0,
+	"pre_unfilled_max_hours": 0.75,
+	"post_unfilled_min_hours": 0.0,
+	"post_unfilled_max_hours": 0.75,
+	"description": "Reusable VDI workload regeneration baseline for SIT schedule setup and validation. Use overrides for week_start_date, associate_user_key, and regeneration option."
+  }
+}
+

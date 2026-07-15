@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["TimeCardReasonCodes","ActivityCode","Department"],
+  "description": "Configuration for timecard entity data provider",
+  "version": "1.0"
+}

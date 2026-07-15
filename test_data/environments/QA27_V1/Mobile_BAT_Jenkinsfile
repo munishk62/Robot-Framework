@@ -1,0 +1,15 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "QA27_V1",
+    "agentLabel": "wfm-qa-agent",
+    "noOfParallelProcesses": "2",
+    "testPath": "tests/mobile",
+    "includeTags": "mobile",
+    "testRayPlan": "WFM-122365",
+    "testRayCycle": "WFM 451 R21 - BAT QAV1",
+    "dashboardUpdateEnabled": "false",
+    "jobTimeout":"3",
+    "healthCheckTimeout": "10",
+    "skipDatabaseHealthCheck": false,
+    "queuePendingThreshold": "100"
+])

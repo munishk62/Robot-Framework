@@ -1,0 +1,64 @@
+{
+  "default": {
+    "sm_user_key": "SM1_STORE1",
+    "store_template": "default",
+    "ft_employee_key": "ESS4_STORE1",
+    "pt_employee_key": "ESS3_STORE1",
+    "ft_employee_type": "AssociateTypeForTA.FULL_TIME",
+    "pt_employee_type": "AssociateTypeForTA.PART_TIME",
+    "self_user_key": "ESS1_STORE1",
+    "my_location_users": ["ESS1_STORE1", "ESS3_STORE1", "ESS4_STORE1"],
+    "direct_reports": ["ESS3_STORE1", "ESS4_STORE1"],
+    "indirect_reports": ["ESS3_STORE1", "ESS4_STORE1"],
+    "filter_criteria_1": {
+      "description": "Filter by FT Employee ID, Full Time, Active",
+      "associate_id": "derived_from_ft_employee",
+      "associate_type": "AssociateType.FULL_TIME",
+      "status": "EmploymentStatus.ACTIVE",
+      "reportee_type": ""
+    },
+    "filter_criteria_2": {
+      "description": "Filter by PT Employee ID, Part Time, Active",
+      "associate_id": "derived_from_pt_employee",
+      "associate_type": "AssociateType.PART_TIME",
+      "status": "EmploymentStatus.ACTIVE",
+      "reportee_type": ""
+    },
+    "filter_criteria_3": {
+      "description": "Filter by Full Time only",
+      "associate_id": "",
+      "associate_type": "AssociateType.FULL_TIME",
+      "status": "",
+      "reportee_type": ""
+    },
+    "filter_criteria_4": {
+      "description": "Filter by Full Time and Inactive",
+      "associate_id": "",
+      "associate_type": "AssociateType.FULL_TIME",
+      "status": "EmploymentStatus.INACTIVE",
+      "reportee_type": ""
+    },
+    "filter_criteria_5": {
+      "description": "Filter by Direct Reportees",
+      "associate_id": "",
+      "associate_type": "",
+      "status": "",
+      "reportee_type": "ReporteeType.DIRECT"
+    },
+    "filter_criteria_6": {
+      "description": "Filter by Indirect Reportees",
+      "associate_id": "",
+      "associate_type": "",
+      "status": "",
+      "reportee_type": "ReporteeType.INDIRECT"
+    },
+    "filter_criteria_7": {
+      "description": "Filter by My Location",
+      "associate_id": "",
+      "associate_type": "",
+      "status": "",
+      "reportee_type": "ReporteeType.MY_LOCATION"
+    }
+  }
+}
+

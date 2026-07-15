@@ -1,0 +1,12 @@
+{
+  "default": {
+    "description": "Shared to Alternate Store",
+    "edit_description": "Shared to Alternate Store Edited",
+    "unit": "StoreEntity.MODEL_STORE1.UNIT_ID",
+    "unit_ids": ["StoreEntity.MODEL_STORE1.UNIT_ID"],
+    "status": "RequestStatus.PENDING",
+    "note": null,
+    "start_date": "6_0",
+    "end_date": "7_6"
+  }
+}

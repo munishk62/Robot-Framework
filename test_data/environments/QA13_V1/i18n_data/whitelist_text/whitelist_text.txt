@@ -1,0 +1,5068 @@
+01_All Jurisdictions
+01_CA State
+01_CA/CO States
+01_LOVES_Hours for Vacation Accumulator
+01_Vacation_Field Hourly
+02_IL/ID States
+02_LOVES_Hours for Personal Accumulator
+02_OR State
+02_Vacation_Field Salaried
+03_ALS_BATHEL_TUNTUTULIAK
+03_HA State
+03_LOVES_Hours for Sick Accumulator
+03_Vacation_Corporate Salaried
+04_AZ State
+04_LOVES_Hours for Add. Sick_California
+04_Remaining States
+04_Vacation_Gemini Drivers
+05_LOVES_Hours for Add. Sick_Connecticut
+05_Personal_Field Salaried
+06_LOVES_Hours for Add. Sick_Alaska_Tuntutuliak
+06_Personal_Corporate Salaried
+07_LOVES_Hours for Add. Sick_Arizona
+07_Personal_Gemini Drivers
+08_Sick_Field Salaried
+09_Sick_Corporate Salaried
+10_Sick_Gemini Drivers
+11_Additional_Sick
+125 Townpark Dr NW
+1325 Clarinbridge Pkwy NW
+24 Hour Stores
+24HRSTORES
+A
+A_ACTUALS
+A_SCH
+Absence Mode of the employee for dayToHour conversion
+ABSENCE_MODE
+ACC_HRS_ADDSICK_ALS
+ACC_HRS_ADDSICK_ARI
+ACC_HRS_ADDSICK_CAL
+ACC_HRS_ADDSICK_CON
+ACC_HRS_PERSONAL
+ACC_HRS_SICK
+ACC_HRS_VACATION
+ACCR_BAL
+ACCRUALPOLICY1
+ACCRUALPOLICY1_DESC
+ACCRUALPOLICY2
+ACCRUALPOLICY2_DESC
+ACCRUALPOLICY3
+ACCRUALPOLICY3_STATIC
+ACCRUALPOLICY4
+ACCRUALPOLICY4_DYNAMIC
+ACCUMULATOR1
+ACCUMULATOR1_NAME
+ACCUMULATOR2
+ACCUMULATOR2_HRSILL
+ACCUMULATOR3
+ACCUMULATOR3_DAYSILL
+ACCUMULATOR4
+ACCUMULATOR4_PAYILL
+ACP1
+ACP2_ILLSTATIC
+ACP3_ILLDYNAMIC
+ACPDESC1
+ACPNAME1
+ACTCODE1_HS
+ACTCODE1_HS_DESC
+ACTCODE2_WS
+ACTCODE2_WS_DESC
+ACTCODEGROUP1
+ACTIVITY1 FIXED
+ACTIVITY10_P1CHILD1
+ACTIVITY11_P1CHILD2
+ACTIVITY12_PARENT2
+ACTIVITY13_P2CHILD1
+ACTIVITY14_P2CHILD2
+ACTIVITY15_PARENT3
+ACTIVITY16_P3CHILD1
+ACTIVITY17_P3CHILD2
+ACTIVITY18_PARENT4
+ACTIVITY19_P4CHILD1
+ACTIVITY1_FIXED
+ACTIVITY2 VOLUMEDRIVEN
+ACTIVITY20_P4CHILD2
+ACTIVITY21_DISTRICT5
+ACTIVITY22_DISTRICT5
+ACTIVITY23 FIXED
+ACTIVITY23_FIXED
+ACTIVITY24 FIXED
+ACTIVITY24_FIXED
+ACTIVITY25 FIXED
+ACTIVITY25_FIXED
+ACTIVITY26 VOLUMEDRIVEN
+ACTIVITY26_VDI
+ACTIVITY27 VOLUMEDRIVEN
+ACTIVITY27_VDI
+ACTIVITY28 MINCOVERAGE
+ACTIVITY28_MINCOV
+ACTIVITY29_RATING_1TO5
+ACTIVITY2_VD
+ACTIVITY3 BUDGET
+ACTIVITY30_RATING_9
+ACTIVITY31_PHARM1
+ACTIVITY32_PHARM2
+ACTIVITY33_TECH1
+ACTIVITY34_TECH2
+ACTIVITY35_RTM
+ACTIVITY36_OUTSIDESTORE
+ACTIVITY37_DNTSPRD_NORND
+ACTIVITY38_DNTSPRD_RND0.5
+ACTIVITY39_DNTSPRDSMT_NORND
+ACTIVITY3_BDGT
+ACTIVITY4 STORESPECIFIC
+ACTIVITY40_DNTSPRDSMT_RND0.5
+ACTIVITY41_SPRDEVN_NORND
+ACTIVITY42_SPRDEVN_RND0.5
+ACTIVITY43_STKSPRD_NORND
+ACTIVITY44_STKSPRD_RND0.5
+ACTIVITY45_STKSPRDSMT_NORND
+ACTIVITY46_STKSPRDSMT_RND0.5
+ACTIVITY47_SPRDINTDR_NORND
+ACTIVITY48_SPRDINTDR_RND0.5
+ACTIVITY49_SPRDINTDRSMT_NORND
+ACTIVITY4_STORESPECIFIC
+ACTIVITY5 VOLUMEDRIVEN
+ACTIVITY50_SPRDINTDRSMT_RND0.5
+ACTIVITY51_ENGINE1
+ACTIVITY52_ENGINE2
+ACTIVITY53_ENGINE3
+ACTIVITY54_ENGINE4
+ACTIVITY55_ENGINE5
+ACTIVITY56_ENGINE6
+ACTIVITY57_ENGINE7
+ACTIVITY58_ENGINE8
+ACTIVITY59_ENGINE9
+ACTIVITY5_VD
+ACTIVITY6 VOLUMEDRIVEN
+ACTIVITY60_ENGINE10
+ACTIVITY6_VD
+ACTIVITY7 FIXED
+ACTIVITY7_FIXED
+ACTIVITY8 STORESPECIFIC
+ACTIVITY8_STORESPECIFIC
+ACTIVITY9_PARENT1
+Additional Sick
+ADDITIONAL_SICK
+AdditionalSick
+Adjusted Weekly Budget For schedule Restraint
+Agreement based on dynamic accrual generation
+Agreement based on static accrual generation
+AHR($)
+AL Labor Law
+Alabama
+Alaska
+All Days
+ALL_EMP_GROUP
+ALLEMPCERT2_GROUP
+Allow adding multiple shifts belonging to same unit on same day
+ALLOW_SAME_STORE_SPLIT_SHIFTS
+ALS_TUNTUTULIAK Jurisdiction
+Annual contract hours
+Annual Model
+ANNUAL_HOURS
+ANNUAL_MODEL
+Application
+Approach minor violation
+Approaching OT
+Area Floater
+ARI Jurisdiction
+ARIMA
+ARIMA_SEASONAL
+Arizona
+Arkansas
+AS
+Assistant Store Admin
+ASSOCIATE
+ASSOCIATE_CONSENT
+ASTR_ADM
+ATS_MAXIMUS
+ATTR1
+ATTR2
+ATTR3
+ATTR4
+ATTR5
+ATTR6
+ATTR7
+Attribute1
+Attribute2
+Attribute3
+Attribute4
+Attribute5
+Attribute6
+Attribute7
+Auto Leave Approval
+AUTO_LEAVE_APPROVAL
+AVERAGE
+Average Model
+Average transaction duration in seconds
+B1Division 1
+B2Division 2
+B2Division 3
+B_ACTUALS
+B_SCH
+BAC Secure touch
+BAC_CMD_TIMEOUT
+BAC_FINGERPRINT_QUALITY
+BAC_GATEWAY_IP
+BAC_NETWORK_MASK
+BAC_SECURETOUCH
+BAC_SERVER_IP
+BAC_SERVER_PORT
+Back End
+Banner 1
+Banner 2
+Banner 3
+Banner 4
+Banner Associate
+Banner Manager
+BANNER1
+BANNER2
+BANNER3
+Banner3 Group
+BANNER3GROUP
+BANNER4
+Banner4 Group
+BANNER4GROUP
+BANNER_ASSOC
+BANNER_MGR
+Base Drivers
+BASEWED_S10FIRST
+BASEWED_S37FIRST
+BDGT_HRS_CALC
+Billing Period Cycle Start Month
+BILLING_PERIOD_CYCLE_START
+Black Friday
+BROWN
+Browns Double Exponential
+BROWNS_DOUBLE_EXPONENTIAL
+BUD_HRS
+Budget for demand capping for Publish
+Budget for Minimum demand capping for Publish
+Budget Hours
+BUDGETED HOURS
+BUDGETHEAD_CUMULATIVE1
+BUDGETHEAD_FIXED1_CHILD
+BUDGETHEAD_FIXED2_DEPT
+BUDGETHEAD_FIXED3_STORE
+BUDGETHEAD_FIXED4_STORE
+BUDGETHEAD_WORK1_CHILD
+BUDGETHEAD_WORK4_STORE
+BUDGT_HRS_PUB
+C
+CAL Jurisdiction
+CALCMETHOD1
+CALCMETHOD10
+CALCMETHOD11
+CALCMETHOD12
+CALCMETHOD13
+CALCMETHOD14
+CALCMETHOD15
+CALCMETHOD16
+CALCMETHOD17
+CALCMETHOD18
+CALCMETHOD19
+CALCMETHOD2
+CALCMETHOD20
+CALCMETHOD21
+CALCMETHOD22
+CALCMETHOD23
+CALCMETHOD24
+CALCMETHOD25
+CALCMETHOD26
+CALCMETHOD27
+CALCMETHOD28
+CALCMETHOD29
+CALCMETHOD3
+CALCMETHOD30
+CALCMETHOD31
+CALCMETHOD32
+CALCMETHOD33
+CALCMETHOD34
+CALCMETHOD35
+CALCMETHOD36
+CALCMETHOD37
+CALCMETHOD38
+CALCMETHOD39
+CALCMETHOD4
+CALCMETHOD40
+CALCMETHOD41
+CALCMETHOD42
+CALCMETHOD43
+CALCMETHOD44
+CALCMETHOD45
+CALCMETHOD46
+CALCMETHOD47
+CALCMETHOD48
+CALCMETHOD5
+CALCMETHOD6
+CALCMETHOD7
+CALCMETHOD8_ZERO
+CALCMETHOD9
+Calculation_Method1
+Calculation_Method10
+Calculation_Method11
+Calculation_Method12
+Calculation_Method13
+Calculation_Method14
+Calculation_Method15
+Calculation_Method16
+Calculation_Method17
+Calculation_Method18
+Calculation_Method19
+Calculation_Method2
+Calculation_Method20
+Calculation_Method21
+Calculation_Method22
+Calculation_Method23
+Calculation_Method24
+Calculation_Method25
+Calculation_Method26
+Calculation_Method27
+Calculation_Method28
+Calculation_Method29
+Calculation_Method3
+Calculation_Method30
+Calculation_Method31
+Calculation_Method32
+Calculation_Method33
+Calculation_Method34
+Calculation_Method35
+Calculation_Method36
+Calculation_Method37
+Calculation_Method38
+Calculation_Method39
+Calculation_Method4
+Calculation_Method40
+Calculation_Method41
+Calculation_Method42
+Calculation_Method43
+Calculation_Method44
+Calculation_Method45
+Calculation_Method46
+Calculation_Method47
+Calculation_Method48
+Calculation_Method5
+Calculation_Method6
+Calculation_Method7
+Calculation_Method8 for Zero
+Calculation_Method9
+California
+Can take day off on a blackoutday
+Can take time off on a blackoutday
+CANCEL_MIN_LEAD_TIME
+CAP_STF_GRP
+CEO
+CERT2SGRP4_GROUP
+CERTGROUPA
+CERTGROUPB
+CERTGROUPC
+CERTGROUPD
+CERTIFICATE1
+CERTIFICATE2
+CERTIFICATE_LEVELA1
+CERTIFICATE_LEVELA2
+CERTIFICATE_LEVELA3
+CERTIFICATE_LEVELAC4
+CERTIFICATE_LEVELB1
+CERTIFICATE_LEVELB2
+CERTIFICATE_LEVELB3
+CERTIFICATE_LEVELBC4
+CERTIFICATEDESC1
+CERTIFICATEDESC2
+CERTIFICATEDESC_LEVELA1
+CERTIFICATEDESC_LEVELA2
+CERTIFICATEDESC_LEVELA3
+CERTIFICATEDESC_LEVELAC4
+CERTIFICATEDESC_LEVELB1
+CERTIFICATEDESC_LEVELB2
+CERTIFICATEDESC_LEVELB3
+CERTIFICATEDESC_LEVELBC4
+Certification Group A
+Certification Group B
+Certification Group C
+Certification Group D
+Christmas
+CLOSER_ADJ
+CLOSER_TASK
+Colorado
+Command Timeout Interval
+Compatible Activity Option
+COMPATIBLE_ACTIVITY_OPTION
+CON Jurisdiction
+Configuration
+Connecticut
+CONSDAYS
+Consecutive Days
+Consecutive Days within week
+Contract Hours Factor
+Copy From Temp Policy_1
+CORP
+Corp Salaried Profile Mapping
+CORP_ASSOC
+Corporate
+Corporate Associate
+CORPSALARIED
+Covid vaccination status of Employee
+COVID19_LOCKDOWN_PERIOD
+COVID_VACCINATION_STATUS
+CRITERIA1
+CRITERIA10
+CRITERIA11
+CRITERIA12
+CRITERIA13
+CRITERIA14
+CRITERIA2
+CRITERIA3
+CRITERIA4
+CRITERIA5
+CRITERIA6
+CRITERIA7
+CRITERIA8
+CRITERIA9
+CROSTON
+CSG1_GENERICTEMPLATE1
+CSG1_GENERICTEMPLATE2
+CSG1_GENERICTEMPLATE3
+CSG1_GENERICTEMPLATE4
+CSG1_GENERICTEMPLATE5
+CSG1_GENERICTEMPLATE6
+CSG1_GENERICTEMPLATE7
+CSG1_GENERICTEMPLATE8
+CSG1_SHIFTTEMP1
+CSG1_SHIFTTEMPLATE1
+CSG1_SHIFTTEMPLATE2
+CSG1_SHIFTTEMPLATE3
+CSG1_SHIFTTEMPLATE4
+CSG1_SHIFTTEMPLATE5
+CSG2_SHIFTTEMP2
+CSG3_CRITERIATEMP1
+CSG4_SHIFTTEMP3
+CSG4_SHIFTTEMP4
+CSG4_SHIFTTEMP6
+CSG4_SHIFTTEMPLATE6
+CSG5_GENERICTEMPLATE10
+CSG5_GENERICTEMPLATE11
+CSG5_GENERICTEMPLATE9
+CSG5_SHIFTTEMP5
+CSG5_SHIFTTEMPLATE7
+CUSTEEATTR
+Custom Sytem Forecast Spread
+Custom1
+Custom2
+Custom3
+Custom4
+Custom5
+D10Store 30
+D10Store 41
+D10Store 42
+D10Store 43
+D10Store 44
+D10Store 45
+D10Store 46
+D10Store 47
+D10Store 48
+D10Store 49
+D10Store 50
+D10Store 51
+D10Store 52
+D10Store 53
+D10Store 54
+D10Store 55
+D10Store 56
+D10Store 57
+D10Store 58
+D10Store 59
+D10Store 60
+D1Region 1
+D1Store 1
+D1Store 24
+D1Store 25
+D2Region 2
+D2Region 3
+D2Store 2
+D3Region 4
+D3Region 5
+D3Region 6
+D3Region 7
+D3Store 11
+D3Store 12
+D3Store 13
+D3Store 14
+D3Store 15
+D3Store 16
+D3Store 17
+D3Store 3
+D4Store 4
+D5Store 10
+D5Store 31
+D5Store 32
+D5Store 33
+D5Store 34
+D5Store 35
+D5Store 36
+D5Store 37
+D5Store 38
+D5Store 39
+D5Store 40
+D5Store 5
+D5Store 6
+D5Store 7
+D5Store 8
+D5Store 9
+D6Store 18
+D6Store 19
+D6Store 20
+D7Store 21
+D7Store 22
+D7Store 23
+D8Store 26
+D8Store 27
+D9Store 28
+D9Store 29
+Daily
+Daily Over Time
+Date of last negative covid test taken by the employee
+DAY_PART
+DAY_SCHD_ORDER
+DAYOFF_ON_BLACKOUT_DAY
+Deep Learning
+DEEP_LEARNING
+DEF_WL_CALC_INT
+DEF_WL_SCHD_INT
+DEFAULT
+Default Policy
+Default schedule delete-and-generate behavior for the store
+default standard deviation model
+Default Trend
+Delaware
+Delayed Job Code1
+DELAYED_GROUP
+Department Workload Distribution Exclusion Option
+Department1
+Department2
+Department3
+Department4
+Department5
+Department6
+DEPT1
+DEPT2
+DEPT2_GROUP
+DEPT3
+DEPT4
+DEPT5
+DEPT6
+DEPT_WL_DIST_EXCL_OPTION
+Device used for clock app on tablet device
+DEVICE_LOCK
+Diagnostic Server Address
+DIAGNOSTIC_SERVER_IP
+DISAPPROVEDEDITS
+Display of scheduled shift times
+Dist Job Code1
+DIST_SUPERVISOR
+DISTASSOCIATE
+DISTLIST1_ATTR7Y
+DISTLIST2_ATTR7N
+DISTLIST3_ATTR7YB3
+DISTLIST4_ATTR7YB4
+DISTLIST5_ATTR7NB3
+DISTLIST6_ATTR7NB4
+DISTMGR
+District Admin
+District of Columbia
+District Supervisor
+DISTRICT1
+DISTRICT10
+DISTRICT2
+DISTRICT3
+DISTRICT4
+DISTRICT5
+DISTRICT6
+DISTRICT7
+DISTRICT8
+DISTRICT9
+DISTRICT_ADM
+Division Associate
+Division Manager
+DIVISION1
+DIVISION2
+DIVISION3
+DIVISION_ASSOC
+DIVISION_MGR
+DJCODE1
+DL Labor Law
+DLCODE1
+Dld
+Does this unit conduct Covid Vaccination?
+DOM_AVERAGE
+DOM_BROWNS_DOUBLE_EXPONENTIAL
+DOM_CROSTON
+DOM_DRIVERMODEL1_AVG
+DOM_DRIVERMODEL2_AVG
+DOM_DRIVERMODEL3_AVG
+DOM_DRIVERMODEL4_VAR
+DOM_DRIVERMODEL5_AVG
+DOM_HOLTS_DOUBLE_EXPONENTIAL
+DOM_HOLTS_WINTER_ADDITIVE
+DOM_HW_MULTIPLICATIVE
+DOM_LINEAR_REGRESSION
+DOM_ML_GRADIENT_BOOST
+DOM_ML_LINEAR_REGRESSION
+DOM_ML_RANDOM_FOREST
+DOM_MOVING_AVERAGE
+DOM_MULTIPLELR
+DOM_POLYNOMIAL_REGRESSION
+DOM_ROBERT
+DOM_TREND_VARIANCE
+DOM_WEIGHT_MOV_AVG
+DOT
+Driver Model1 AVG : #2, C(1,2,3,4,5,6)
+Driver Model2 AVG : #1, L(0)
+Driver Model3 AVG : #1, C(4)
+Driver Model4 VAR : #1, L(0)
+Driver Model5 AVG : #1, L(0)
+Driver Seniority
+Driver1 for Actuals
+Driver10 for Forecast
+DRIVER10_F
+Driver11 for Forecast
+DRIVER11_F
+Driver12 for Forecast
+DRIVER12_F
+Driver13 for Derived
+DRIVER13_D
+Driver14 for Derived
+DRIVER14_D
+Driver15 for Derived
+DRIVER15_D
+Driver16 for Derived
+DRIVER16_D
+Driver17 for Forecast
+DRIVER17_F
+Driver18 for Forecast
+DRIVER18_F
+Driver19 for Forecast
+DRIVER19_F
+DRIVER1_A
+Driver2 for Forecast
+Driver20 for Forecast
+DRIVER20_F
+Driver21 for Forecast
+DRIVER21_F
+Driver22 for Forecast
+DRIVER22_F
+Driver23 for Forecast
+DRIVER23_F
+Driver24 for Forecast
+DRIVER24_F
+Driver25 for Forecast
+DRIVER25_F
+Driver26 for Forecast
+DRIVER26_F
+Driver27 for Forecast
+DRIVER27_F
+DRIVER2_F
+Driver3 for Forecast
+DRIVER3_F
+Driver4 for Calculated
+DRIVER4_C
+Driver5 for Actuals
+DRIVER5_A
+Driver6 for Lab Budget
+DRIVER6_B
+Driver7 for Forecast
+DRIVER7_F
+Driver8 for Forecast
+DRIVER8_F
+Driver9 for Forecast
+DRIVER9_F
+DRIVER_SENIORITY
+DRIVERMODEL1_AVG
+DRIVERMODEL2_AVG
+DRIVERMODEL3_AVG
+DRIVERMODEL4_VAR
+DRIVERMODEL5_AVG
+DVCSTORE1
+DVCSTORE10
+DVCSTORE11
+DVCSTORE12
+DVCSTORE13
+DVCSTORE14
+DVCSTORE15
+DVCSTORE16
+DVCSTORE17
+DVCSTORE18
+DVCSTORE19
+DVCSTORE2
+DVCSTORE20
+DVCSTORE21
+DVCSTORE22
+DVCSTORE23
+DVCSTORE24
+DVCSTORE25
+DVCSTORE26
+DVCSTORE27
+DVCSTORE28
+DVCSTORE29
+DVCSTORE3
+DVCSTORE30
+DVCSTORE31
+DVCSTORE32
+DVCSTORE33
+DVCSTORE34
+DVCSTORE35
+DVCSTORE36
+DVCSTORE37
+DVCSTORE38
+DVCSTORE39
+DVCSTORE4
+DVCSTORE40
+DVCSTORE5
+DVCSTORE6
+DVCSTORE7
+DVCSTORE8
+DVCSTORE9
+Dynamicaccrual
+EARNCODEGROUP1
+EARNCODEGROUP1_DESC
+EARNCODEGROUP1_NAME
+Embargo Lock Period
+EMBARGO_PERIOD
+EMP_CONTRACT_HRS_FACTOR
+EMP_DISABILITY
+EMP_SENIORITY_DATE
+EMPATTRN1_GROUP
+EMPATTRY1_GROUP
+EMPBASERATE
+EMPCLASS
+EMPHOLELIG
+Employee Disability
+Employee Seniority Date (yyyyMMddHHmm)
+Employee Type based Group Type
+EMPPAYTYPE
+EMPSTATUS
+Engine Group1
+Engine Group2
+ENGINEGROUP1
+ENGINEGROUP2
+ERROR
+ERROR_CODE
+ERRORCOUNT
+ERRORREASON
+Expected wait time in seconds
+Extreme Gradient Boost
+FieldHourly
+FieldSalaried
+First Weekdays
+Fixed Store Group1
+Fixed Store Group2
+Fixed Store Group3
+Fixed Store Group4
+Fixed Store Group5
+Fixed Store Group6
+FIXED_WORK_ACTIVITY
+FIXEDGROUP1
+FIXEDGROUP2
+FIXEDGROUP3
+FIXEDGROUP4
+FIXEDGROUP5
+FIXEDGROUP6
+Flash
+Florida
+FORECAST_YEAR_GROWTH_FACTOR
+FRAMEWORKSTORES
+Fri to Tue
+Friday
+Front End
+FT_GROUP
+Full Time Associates
+FULLTIMEDATE
+GA Labor Law
+GAMES1
+GAMES2
+GAMES3
+Gateway Address
+GeminiDriver
+Generalstore
+GENERALSTORES
+Generation of ILL from dynamic
+Generation of ILL from static expressions
+Georgia
+GROUP_DISTRICT5
+GUAM
+Hawaii
+Healthcare 1Week B3 Cal
+Healthcare 1Week B4 Cal
+Healthcare 3Week
+Healthcare 4Week
+Healthcare 5Week B3 Cal
+Healthcare 5Week B4 Cal
+Healthcare Group
+Healthcare Stores
+HEALTHCARE1WB3
+HEALTHCARE1WB4
+HEALTHCARE3W
+HEALTHCARE4W
+HEALTHCARE5WB3
+HEALTHCARE5WB4
+HEALTHCARESTORES
+HIREDATE
+HOL
+HOL_DAY_HRS
+HOL_ESHIFT_WIN_HRS
+HOL_FSHIFT_WIN_HRS
+HOL_WEEK_CONS_DAYS
+HOL_WEEK_DAYS
+HOL_WEEK_HRS
+Holiday
+Holiday Every Shift Window Hours
+Holiday First Shift Window Hours
+Holiday Hours
+Holiday Week Consecutive Days
+Holiday Week Days
+Holiday Week Hours
+Holiday1
+HOLT
+Holts Double Exponential
+Holts Winter Additive
+Holts Winter Multiplicative
+HOLTS_DOUBLE_EXPONENTIAL
+HOLTS_WINTER_ADDITIVE
+HOMEDEPT
+HOMEJOB
+HOMESTORE
+HOMESTORESTATE
+Hours
+HR Super User
+HR_SUPERUSER
+Hunter
+HW_MULTIPLICATIVE
+HWADDITIVE
+HWMULTIPLICATIVE
+Idaho
+Ignore Non BlackOutDay Violation
+IGNR_NON_BLACKOUT_HOLIDAY
+ILL
+ILL_PROFILE
+Illinois
+Implied Contract Validation
+IMPLIED_CONTRACT_VALIDATION
+IMPLIED_CONTRACT_WEEKS
+Indian Bank Special Days
+Indiana
+INDUSTRYDATE
+INFO
+Inter quartile range
+INTER_QUART_RANGE
+Iowa
+is activity a closer task (Y/N)?
+is activity an opener task (Y/N)?
+Is activity performed outside store (Y/N)?
+Is earned task activity? (Y/N)?
+Is employee part of Voluntary Standby List
+is fixed work activity (Y/N)?
+Is it a light duty task?
+is it workers comp?
+IS_EARNED_TASK_ACTIVITY
+IS_FLOATER
+IS_VOLUNTARY_FOR_PREDICTABILITY_PAY
+JCODE1
+JCODE10
+JCODE2
+JCODE2_GROUP
+JCODE3
+JCODE4
+JCODE5
+JCODE5_GROUP
+JCODE6
+JCODE7
+JCODE8
+JCODE9
+Job Code1
+Job Code10
+Job Code2
+Job Code3
+Job Code4
+Job Code5
+Job Code6
+Job Code7
+Job Code8
+Job Code9
+JOBSTARTDATE
+JUR_ALS
+JUR_ARI
+JUR_CAL
+JUR_CON
+JUR_USA
+JURS1
+JURSNAME1
+Kansas
+Kentucky
+LAB_HRS_UPPH_ADJ
+Last Weekend
+LAST_COVID_TEST_DATE
+Leap Year Day
+Leave Hours Per Day
+LEAVE_HRS_PER_DAY
+LF BATCH CONFIG1
+LIGHT_DUTY_TASK
+Like Store
+LIKE_UNIT
+Linear Regression
+LINEAR_REGRESSION
+Lock the device if payroll is not closed
+Lockdown Period
+Log Staff Group10A
+Log Staff Group10B
+Log Staff Group1A
+Log Staff Group1B
+Log Staff Group2A
+Log Staff Group2B
+Log Staff Group3A
+Log Staff Group3B
+Log Staff Group4A
+Log Staff Group4B
+Log Staff Group5A
+Log Staff Group5B
+Log Staff Group5C
+Log Staff Group6A
+Log Staff Group6B
+Log Staff Group7A
+Log Staff Group7B
+Log Staff Group8A
+Log Staff Group8B
+Log Staff Group9A
+Log Staff Group9B
+Log ZStaff Group1A
+Log ZStaff Group2A
+Log ZStaff Group2B
+Log ZStaff Group2C
+Log ZStaff Group3A
+Log ZStaff Group4A
+Log ZStaff Group4B
+Log ZStaff Group4C
+LOSFULLTIME
+LOSHIRE
+LOSINDUSTRY
+LOSJOBSTART
+LOSREHIRE
+LOSSENIOR
+LOSUNIONSENIOR
+Louisiana
+LOVES - Agreement for Corporate employees
+LOVES - Agreement for Field Hourly employees
+LOVES - Agreement for Gemini Drivers
+LOVES - Agreement forField salaried employees
+LOVES_ACCRUALPOLICY_CORPSALARIED
+LOVES_ACCRUALPOLICY_FIELDHOURLY
+LOVES_ACCRUALPOLICY_FIELDSALARIED
+LOVES_ACCRUALPOLICY_GEMINIDRIVER
+LOVES_Additional_Sick
+LOVES_Personal_Corporate Salaried
+LOVES_Personal_Field Salaried
+LOVES_Personal_Gemini Drivers
+LOVES_Sick_Corporate Salaried
+LOVES_Sick_Field Salaried
+LOVES_Sick_Gemini Drivers
+LOVES_Vacation_Corporate Salaried
+LOVES_Vacation_Field Hourly
+LOVES_Vacation_Field Salaried
+LOVES_Vacation_Gemini Drivers
+LSGRP10A
+LSGRP10B
+LSGRP1A
+LSGRP1B
+LSGRP2A
+LSGRP2B
+LSGRP3A
+LSGRP3B
+LSGRP4A
+LSGRP4B
+LSGRP5A
+LSGRP5B
+LSGRP5C
+LSGRP6A
+LSGRP6B
+LSGRP7A
+LSGRP7B
+LSGRP8A
+LSGRP8B
+LSGRP9A
+LSGRP9B
+LVAC
+LVacation
+LZSGRP1A
+LZSGRP2A
+LZSGRP2B
+LZSGRP2C
+LZSGRP3A
+LZSGRP4A
+LZSGRP4B
+LZSGRP4C
+Machine Learning
+Machine Learning - Gradient Boost
+Machine Learning - Linear Regression
+Machine Learning - Random Forest
+Machine Learning Linear Regression
+MACHINE_LEARNING
+Maine
+Maryland
+Massachusetts
+Max continuous hours of work on a task
+max no of associates can take day off on a given day in a store
+max no of associates can take time off on a given day in a store
+MAX_CONSEC_DAYS
+MAX_CONTINUOUS_WORK_ON_TASK
+MAX_DAILY_DURATION
+MAX_DAYS_IN_PERIOD
+MAX_E37_GROUP
+MAX_E38_GROUP
+MAX_E39_GROUP
+MAX_G36_GROUP
+MAX_LE36_GROUP
+MAX_NO_OF_DAYOFFS_IN_STORE
+MAX_NO_OF_TIMEOFFS_IN_STORE
+MAX_OT_HRS_PER_DAY
+MAX_OT_HRS_PER_WEEK
+MAX_SHIFTS_PER_DAY
+MAX_WORKING_DAYS
+MAXCRNTHRS
+Maximum FTE available for a branch
+Maximum Number of Leave Days that can be availed by an Employee at a Stretch
+Maximum number of staff groups allowed for an associate in store
+Maximum tellers available at a branch
+Maximum timeoff (minutes) that can be availed by an Employee at a Stretch
+Maximum work hours allowed per week
+MEAL COMPENSATION
+Median absolute deviation
+MEDIAN_ABSOLUTE_DEVIATION
+Memorial Day
+Michigan
+MICROS POS Clock
+MIDWEEKSTORES
+Min continuous hours of work on a task
+MIN_BREAK_DAYS
+MIN_BREAK_SHIFT
+MIN_BRK_BET_SHIFTS
+MIN_BRK_BET_SHIFTS_MINOR
+MIN_BUDGT_HRS
+MIN_CONTINUOUS_WORK_ON_TASK
+MIN_DAILY_DURATION
+MIN_GE32.5_GROUP
+MIN_GE32_GROUP
+MIN_L32_GROUP
+MIN_WORKING_DAYS
+MINCRNTHRS
+Minimum Break Between shifts Adult
+Minimum Break Between shifts for Minors
+Minimum FTE available for a branch
+Minimum leave hours employee can avail
+Minimum tellers available at a branch
+Minnesota
+MINUTE_SCHD_RDING_TSHLD
+MISDPUNCHCOUNT
+MISS_MEAL_1_PREM_WAIVER
+MISS_MEAL_2_PREM_WAIVER
+MISSED
+Missed meal notification
+Missed punch notification
+Mississippi
+Missouri
+ML Gradient Boost
+ML Random Forest
+ML_EXTREME_GRADIENT_BOOST
+ML_GRAD_BOOST
+ML_GRADIENT_BOOST
+ML_LINEAR_REGRESSION
+ML_LR
+ML_RANDOM_FOREST
+MLR
+Mobile Clock Geofence Radius
+MOBILE_CLK_GEOFENCE_RADIUS
+Monday
+Montana
+Monthly Average
+Moving Average
+Moving Average Model
+MOVING_AVERAGE
+Multiple Linear Regression
+MULTIPLELR
+MWADMIN
+Nebraska
+Network Mask
+Nevada
+New Hampshire
+New Jersey
+New Mexico
+New Year
+New Year Eve
+New York
+NJCODE1
+No Of Days Before The Shift Date Route Bidding Starts
+no of days before we cannot apply for a day off
+no of days before we cannot apply for a time off
+no of days out in future for applying a day off
+no of days out in future for applying a time of
+no of over time hours allowed per day
+no of over time hours allowed per week
+NO_OF_DAYS_BEFORE_WE_CANNOT_APPLY_DAYOFF
+NO_OF_DAYS_BEFORE_WE_CANNOT_APPLY_TIMEOFF
+NO_OF_DAYS_OUT_IN_FUTURE_FOR_APPLY_DAYOFF
+NO_OF_DAYS_OUT_IN_FUTURE_FOR_APPLY_TIMEOFF
+NO_OF_MONTHS
+NO_OF_PPA_HOURS
+Non 24 Hour Stores
+Non Excluded Stores
+Non Healthcare Stores
+NON24HRSTORES
+NON_WORKING_TIME_DIRECTIVE
+NONEXCLUDEDSTORES
+NONHCARESTORES
+NONPHARMCSTORES
+North Carolina
+North Dakota
+Null Job Code1
+Number of hours under PP A
+Number Of Months Period
+NV Labor Law
+NWAMOUNT
+NWDURATION
+OH Labor Law
+Ohio
+Oklahoma
+On Duty Meal Agreement
+ON_DUTY_MEAL_AGREEMENT
+ONCODE1
+OPENER_ADJ
+OPENER_TASK
+Opt in max wkly hrs rule
+OPT_IN_AVG_WKLY
+OR Labor Law
+Oregon
+OTHUNSIGNEDTCS
+OUTSIDE_STORE_ACTIVITY
+Over Nighters Job Code1
+Override geo fence check
+OVERRIDE_GEO_FENCE
+OVERTIME
+Paid Sick
+Paid Vacation
+Part Time Associates
+partial Open shift window will be only allowed before N days of scheduled week
+PARTIAL_OPENSHIFT_THRESHOLD
+PAY
+Pay Codes that will contribute to premium calculation in Norway
+PAY_CODES_CONTRIBUTE_PREMIUM
+PAYCATAMOUNT
+PAYCATDUR
+PAYCATGROUP1
+PAYCATGROUP1_DESC
+PAYCATGROUP1_NAME
+PAYCODEGROUP1
+PAYCODEGROUP1_DESC
+PAYCODEGROUP1_NAME
+PAYPOLICY1
+PAYPOLICY1_DESC
+PAYPOLICY1_NAME
+Payroll($)
+PAYROLLCHECKSET1
+PAYROLLCHECKSET1_DESC
+PAYROLLCHECKSET1_NAME
+PAYTYPE1_REG    
+PAYTYPE1_REG_DESC
+PAYTYPE2_HOL    
+PAYTYPE2_HOL_DESC
+PAYTYPE3_OT    
+PAYTYPE3_OT_DESC
+PAYTYPE4_MISC    
+PAYTYPE4_MISC_DESC
+PAYUNITSUSED
+PC Clock
+Pennsylvania
+PER
+PER_CORP_SALARIED
+PER_FIELD_SALARIED
+PER_GEMINI_DRIVERS
+Percent to Payroll
+PERCENTAGE
+PERCNT_DISC_HRS
+Period Model
+Period Trend Variance Model
+PERIOD_MODEL
+Personal
+Pharmacy Law
+PHARMSTORES
+POLICYCHECKSET1
+POLICYCHECKSET1_DESC
+POLICYCHECKSET1_NAME
+Polynomial Regression
+POLYNOMIAL_REGRESSION
+POS_MICROS
+POSITION_CODE
+PP-PAID
+PP-UNPAID
+PP1_RULESET1_FT
+PP1_RULESET1_FT_DESC
+PP1_RULESET2_PT
+PP1_RULESET2_PT_DESC
+PP1VERSION1
+Predictability Pay A (Actuals)
+Predictability Pay A (Schedule)
+Predictability Pay A (Schedules)
+Predictability Pay B (Actuals)
+Predictability Pay B (Schedule)
+Predictability Pay B (Schedules)
+Predictive Pay - Paid
+Predictive Pay - Unpaid
+PRIORADJCOST
+PRIORADJDURATION
+PRIORITY_GROUP
+Pseudo store indicator
+PSEUDO_STORE_INDICATOR
+PT_GROUP
+Puerto Rico
+PUNCH
+Punch Time Adjustment
+R1District 1
+R2District 2
+R3District 3
+R4District 4
+R4District 5
+R5District 6
+R5District 7
+R6District 8
+R6District 9
+R7District 10
+RATEC2_AL_ILL_NOROUND
+RATEC3_AL_ILL_ROUNDUP
+RATEC4_AL_ILL_ROUNDDOWN
+RATEC5_GA_ILL_NOROUND
+RATEC6_AL_ILL_SUMOFDAYS
+RATEC7_AL_ILL_SUMOFHOURS
+RATEC8_AL_ILL_SUMOFPAY
+RATECRITERIANAME1
+REASONCODE
+REFERENCE_ONLY_TEMPLATE
+Reflexis PC Clock
+REG
+REG_DAY_HRS
+REG_ESHIFT_WIN_HRS
+REG_FSHIFT_WIN_HRS
+REG_WEEK_CONS_DAYS
+REG_WEEK_DAYS
+REG_WEEK_HRS
+REGDAYSCHHOURS
+Region Associate
+REGION1
+REGION2
+REGION3
+REGION4
+REGION5
+REGION6
+REGION7
+REGION_ASSOC
+REGION_MGR
+Regular
+Regular Day Hours
+Regular Every Shift Window Hours
+Regular First Shift Window Hours
+Regular Week Consecutive Days
+Regular Week Days
+Regular Week Hours
+REGWKSCHHOURS
+REHIREDATE
+Required Finger Print Quality.
+Resource Scheduling Weekday Order
+Restrict employee to work more than defined maximum weekly hours
+REVIEWREASON
+RFLXADMIN
+Rhode Island
+ROBERT
+RODEPT_GROUP
+ROJCODE_GROUP
+Rolling weeks for implied contract
+ROSGRP_FT_GROUP
+ROSGRP_GROUP
+ROSGRP_PT_GROUP
+Route Bidding Duration (Minutes)
+Route Bidding Start Time (Minutes)
+ROUTE_BID_START_DAY
+ROUTE_BIDG_DURATION
+ROUTE_BIDG_START_TIME
+RTM_Calculation_Method1
+RTMCALCMETHOD1
+RULE10_FT_UNPAIDAYOFF
+RULE10_PT_UNPAIDAYOFF
+RULE11_FT_UNPAITIMEOFF
+RULE11_PT_UNPAITIMEOFF
+RULE1_FT_REGPAY
+RULE1_PT_REGPAY
+RULE2_FT_DOTPAY
+RULE2_PT_DOTPAY
+RULE3_FT_WOTPAY
+RULE3_PT_WOTPAY
+RULE4_FT_CONSECDAY
+RULE4_PT_CONSECDAY
+RULE5_FT_HOLPAY
+RULE5_PT_HOLPAY
+RULE6_FT_SUNPREM
+RULE6_PT_SUNPREM
+RULE7_FT_HOLPAYDIRECT
+RULE7_PT_HOLPAYDIRECT
+RULE8_FT_SICKPAY
+RULE8_PT_SICKPAY
+RULE9_FT_VACPAY
+RULE9_PT_VACPAY
+RULECALC
+S10A2_REQUEST1
+S10SG5_SHIFTTEMPLATE1
+S10SG5_SHIFTTEMPLATE2
+S12SG2_GENERICTEMPLATE1
+S12SG2_GENERICTEMPLATE2
+S12SG4_GENERICTEMPLATE3
+S12SG4_GENERICTEMPLATE4
+S12SG4_GENERICTEMPLATE5
+S12SG4_SHIFTTEMP1
+S12SG4_SHIFTTEMP2
+S12SG4_SHIFTTEMP3
+S14A16_REQUEST1
+S14A17_REQUEST1
+S14A18_REQUEST1
+S15A16_REQUEST1
+S15A17_REQUEST1
+S15A18_REQUEST1
+S15A19_REQUEST1
+S15A20_REQUEST1
+S15A21_REQUEST1
+S15A22_REQUEST1
+S15A23_REQUEST1
+S15A24_REQUEST1
+S15A25_REQUEST1
+S17SG4_CLUSTER1
+S18A18_REQUEST1
+S18SG4_GENERICTEMPLATE1
+S18SG4_GENERICTEMPLATE2
+S18SG5_GENERICTEMPLATE1
+S18SG5_GENERICTEMPLATE2
+S18SG5_GENERICTEMPLATE3
+S18SG5_GENERICTEMPLATE4
+S18SG5_GENERICTEMPLATE5
+S18SG6_GENERICTEMPLATE6
+S18SG6_GENERICTEMPLATE7
+S18SG6_GENERICTEMPLATE8
+S19A12_REQUEST1
+S19SG5_GENERICTEMPLATE1
+S19SG5_GENERICTEMPLATE2
+S19SG5_GENERICTEMPLATE3
+S19SG5_GENERICTEMPLATE4
+S19SG5_GENERICTEMPLATE5
+S19SG5_GENERICTEMPLATE6
+S19SG5_GENERICTEMPLATE7
+S1D1SG1_GENERICTEMPLATE1
+S1SG3_CRITERIATEMP1
+S20A12_REQUEST1
+S20G5_GENERICTEMPLATE1
+S20G5_GENERICTEMPLATE10
+S20G5_GENERICTEMPLATE11
+S20G5_GENERICTEMPLATE2
+S20G5_GENERICTEMPLATE3
+S20G5_GENERICTEMPLATE4
+S20G5_GENERICTEMPLATE5
+S20G5_GENERICTEMPLATE6
+S20G5_GENERICTEMPLATE7
+S20G5_GENERICTEMPLATE8
+S20G5_GENERICTEMPLATE9
+S22SG5_GENERICTEMPLATE1
+S22SG5_GENERICTEMPLATE2
+S22SG5_GENERICTEMPLATE3
+S22SG5_GENERICTEMPLATE4
+S24A2_REQUEST1
+S26A2_REQUEST1
+S28A2_REQUEST1
+S2SG1_GENERICTEMPLATE1
+S2SG1_SHIFTTEMPLATE1
+S2SG1_SHIFTTEMPLATE2
+S2SG1_SHIFTTEMPLATE3
+S3SG1_GENERICTEMPLATE1
+S3SG1_GENERICTEMPLATE2
+S3SG1_GENERICTEMPLATE3
+S3SG1_GENERICTEMPLATE4
+S3SG1_SHIFTTEMPLATE1
+S3SG1_SHIFTTEMPLATE2
+S4A2_REQUEST1
+S5SG5_GENERICTEMPLATE1
+S5SG5_SHIFTTEMPLATE1
+S5SG5_SHIFTTEMPLATE2
+S6A2_REQUEST1
+S6SG5_GENERICTEMPLATE1
+S6SG5_SHIFTTEMPLATE1
+S6SG5_SHIFTTEMPLATE2
+S7A2_REQUEST1
+S8A4_REQUEST1
+S9A4_REQUEST1
+SANITYTESTSTORES260519
+Saturday
+SC Labor Law
+Scenario Group1
+Scenario Group2
+Scenario Group3
+Scenario Group4
+Scenario Group5
+Scenario Group6
+Scenario Group7
+Scenario Group8
+SCENARIOGROUP1
+SCENARIOGROUP2
+SCENARIOGROUP3
+SCENARIOGROUP4
+SCENARIOGROUP5
+SCENARIOGROUP6
+SCENARIOGROUP7
+SCENARIOGROUP8
+SCENARIOGROUP9
+SCENARIOGROUP9 for STORE25 (PP Capped)
+SCHEDULE_DEL_GEN_OPTION
+SD Labor Law
+Seasonal Arima
+SENIORDATE
+Server IP Address
+Server Listen Port
+SG2_FT_GROUP
+SG2_PT_GROUP
+SG2LOCAL1
+SG4LOCAL2
+SG_NOT_CONS_FOR_FS
+SGRP1
+SGRP10
+SGRP10_GROUP
+SGRP2
+SGRP2_GROUP
+SGRP2CERT1_GROUP
+SGRP3
+SGRP3_GROUP
+SGRP4
+SGRP4_GROUP
+SGRP5
+SGRP5_GROUP
+SGRP6
+SGRP6_GROUP
+SGRP7
+SGRP7_GROUP
+SGRP8
+SGRP8_GROUP
+SGRP9
+SGRP9_GROUP
+SHARE_S18_TO_S23
+Shift Generation LaborLaw Template
+SHIFT_GEN_LABORLAW
+Sick
+SICK_CORP_SALARIED
+SICK_FIELD_SALARIED
+SICK_GEMINI_DRIVERS
+Simple Exponential Smoothing Model
+SIMPLE_EXPONENTIAL_SMOOTHING
+SLICE_HOLIDAY_SEGMENTS
+SLO_MAX_AGENTS_BRANCH
+SLO_MAX_FTE_BRANCH
+SLO_MIN_AGENTS_BRANCH
+SLO_MIN_FTE_BRANCH
+SLO_TRANSACTION_TIME
+SLO_WAITING_TIME
+South Carolina
+South Dakota
+Special Day1
+Special Gregorian Days
+SPPH
+SS:Default Schedule Interval
+SS:Workload Calculation Interval
+Staff Group1
+Staff Group10
+Staff Group2
+Staff Group3
+Staff Group4
+Staff Group5
+Staff Group6
+Staff Group7
+Staff Group8
+Staff Group9
+Staff groups to be excluded from open shift generation
+Staff rota in weeks
+Standard
+Standard Agreement1
+Standard deviation
+Standard Device Group
+Standard Exception Management Policy
+Standard Policy
+STANDARD_DEVIATION
+STARTC2_AL_ILL_363RECENTHIRE
+STARTC3_AL_ILL_370DRECENTHIRE
+STARTC4_AL_ILL_370DRECENTHIRE
+STARTC5_US_ILL_RECENTHIRE
+STARTC6_AL_ILL_ACCMBASED
+STARTC7_AL_ILL_EMPATTRBASED
+STARTC8_GA_ILL_IMMEDIATE
+STARTCRITERIANAME1
+State Labor Law to Apply
+STATE_LABOR_STD
+Staticaccrual
+Store 10 Policy
+Store 14 Policy
+Store 15 Policy
+STORE 24 25 POLICY
+Store 37 Policy
+Store 64 Policy_1
+Store 64 Policy_2
+Store 64 Policy_3
+Store 64 Policy_4
+Store 64 Policy_5
+Store 64 Policy_6
+Store 65 Policy_1
+Store 65 Policy_2
+Store 65 Policy_3
+Store 65 Policy_4
+Store 65 Policy_5
+Store 65 Policy_6
+Store Admin
+Store All Employees
+Store closer punch adjustment
+Store Coordinator
+Store Employee Group1
+Store FT Employees
+Store opener punch adjustment
+Store PT Employees
+Store Supervisor
+STORE1
+STORE10
+STORE10 POLICY
+STORE11
+STORE12
+STORE13
+STORE14
+STORE14 Law
+STORE14 POLICY
+STORE15
+STORE15 Law
+STORE15 POLICY
+STORE16
+STORE16 NY Law
+STORE17
+STORE18
+STORE19
+STORE2
+STORE20
+STORE21
+STORE22
+STORE23
+STORE24
+STORE25
+STORE25 Labor Law
+STORE26
+STORE27
+STORE28
+STORE29
+STORE3
+STORE30
+STORE31
+STORE32
+STORE33
+STORE34
+STORE35
+STORE36
+STORE37
+STORE37 POLICY
+STORE38
+STORE39
+STORE4
+STORE40
+STORE41
+STORE42
+STORE43
+STORE44
+STORE45
+STORE46
+STORE47
+STORE48
+STORE49
+STORE5
+STORE50
+STORE51
+STORE52
+STORE53
+STORE54
+STORE55
+STORE56
+STORE57
+STORE58
+STORE59
+STORE6
+STORE60
+STORE64 POLICY_1
+STORE64 POLICY_2
+STORE64 POLICY_3
+STORE64 POLICY_4
+STORE64 POLICY_5
+STORE64 POLICY_6
+STORE65 POLICY_1
+STORE65 POLICY_2
+STORE65 POLICY_3
+STORE65 POLICY_4
+STORE65 POLICY_5
+STORE65 POLICY_6
+STORE7
+STORE8
+STORE9
+STR_ADM
+STR_COORDINATOR
+STR_SUPERVISOR
+STRAD
+STRDEPTMGR
+Sun to Thu
+Sunday
+Sunday Premium
+SUNPREM
+SURCHARGE_RULE
+SYNC_WITH_TEAMS
+SYS_ WKLD_RTM
+SYS_ACT_DOLRS
+SYS_ACT_PT_AHRS
+SYS_AUDIT_HRS
+SYS_BDGT_AHR_1
+SYS_BDGT_AHR_2
+SYS_BDGT_AHR_3
+SYS_BDGT_AHR_4
+SYS_BDGT_AHR_5
+SYS_BDGT_AHR_6
+SYS_BDGT_AHR_7
+SYS_BDGT_AMT_1
+SYS_BDGT_AMT_2
+SYS_BDGT_AMT_3
+SYS_BDGT_AMT_4
+SYS_BDGT_AMT_5
+SYS_BDGT_AMT_6
+SYS_BDGT_AMT_7
+SYS_BDGT_COST
+SYS_BDGT_DLRS
+SYS_BDGT_HRS
+SYS_BDGT_HRS_1
+SYS_BDGT_HRS_2
+SYS_BDGT_HRS_3
+SYS_BDGT_HRS_4
+SYS_BDGT_HRS_5
+SYS_BDGT_HRS_6
+SYS_BDGT_HRS_7
+SYS_BDGT_PTP_1
+SYS_BDGT_PTP_2
+SYS_BDGT_PTP_3
+SYS_BDGT_PTP_4
+SYS_BDGT_PTP_5
+SYS_BDGT_PTP_6
+SYS_BDGT_PTP_7
+SYS_BDGT_SPPH_1
+SYS_BDGT_SPPH_2
+SYS_BDGT_SPPH_3
+SYS_BDGT_SPPH_4
+SYS_BDGT_SPPH_5
+SYS_BDGT_SPPH_6
+SYS_BDGT_SPPH_7
+SYS_CSS_DEF_MAX_DAYS
+SYS_CSS_DEF_MAX_HOURS
+SYS_EARNED_HRS
+SYS_FCST_SPREAD
+SYS_FIXED_HRS
+SYS_FT_HEAD_CNT
+SYS_LEAVE_COST
+SYS_MAX_CONSEC_DAYS_OFF
+SYS_MAX_CONSEC_TIME_OFF
+SYS_MAX_LEAD_TIME
+SYS_MGR_SCHD
+SYS_MIN_AVAIL_LEAD_TIME
+SYS_MIN_LEAD_TIME
+SYS_MIN_LEAVE_HOURS
+SYS_OT_HRS
+SYS_OT_WAGES
+SYS_PT_HEAD_CNT
+SYS_SCHD_AHR
+SYS_SCHD_BC
+SYS_SCHD_DOLRS
+SYS_SCHD_EDIT
+SYS_SCHD_EFF
+SYS_SCHD_RTM
+SYS_SCHD_RWS
+SYS_STAFF_ROTA
+SYS_SYS_SCHD
+SYS_TRNG_DOLRS
+SYS_UNAUDIT_HRS
+SYS_WAGE_RATE
+SYS_WKLD_BC
+SYS_WKLD_RWS
+SYSADMIN
+System Device
+TA_PUNCH_TIME_ADJ
+Tablet Clock
+Task Group1
+Task Group10
+Task Group2
+Task Group3
+Task Group4
+Task Group5
+Task Group6
+Task Group7
+Task Group8
+Task Group9
+Task Rounding Threshold
+TCARDSEDITSIGNED
+TCSEDITOTHSIGNED
+Temp Policy_1
+TEMP  POLICY_1
+TEMPLATE10_NUT2
+TEMPLATE11_NUT3
+TEMPLATE1_F
+TEMPLATE2_R2
+TEMPLATE3_F_DIST5
+TEMPLATE4_F_DIST5
+TEMPLATE5_F_MIDWEEK
+TEMPLATE6_F_STORE12
+TEMPLATE7_ZONAL
+TEMPLATE8_HC
+TEMPLATE9_NUT1
+Tennessee
+Test Criteria
+Test Criteria No Distlist
+Texas
+TGROUP1
+TGROUP10
+TGROUP2
+TGROUP3
+TGROUP4
+TGROUP5
+TGROUP6
+TGROUP7
+TGROUP8
+TGROUP9
+Thanks Giving Day
+This attribute will indicate consent of the employee
+This attribute will indicate position code of employee
+This is a virtual clock used to register punches from mobile devices
+Thursday
+TIME
+TIMECOLLECTIONPOLICY1
+TIMECOLLECTIONPOLICY1_DESC
+TIMEOFF_ON_BLACKOUT_DAY
+TIMEROUNDINGPOLICY1
+TIMEROUNDINGPOLICY1_DESC
+TN Labor Law
+To calculate Budget Hours in New Schedule View
+Total Stores
+TOTALAMOUNT
+TOTALDURATION
+TOTALSTORES
+Trend Variance
+Trend Variance Model
+TREND_VARIANCE
+Tue to Sat
+Tuesday
+UC2_STATIC_POST800D
+UC3_STATIC_POST363D
+UC4_STATIC_IMMEDIATE
+UC5_STATIC_IMM_US
+UC6_DYN_IMMEDIATE
+Unapproved manager timecard edits/changes notification
+UNAPPROVEDEDITS
+UNIONSENIORDATE
+UNITTOTAL
+Unpaid Day Off
+Unpaid Time Off
+UNSCHABSENCE
+UNSCHWORK
+UNSIGNEDTCARDS
+US Labor Law
+USA Jurisdiction
+USAGECRITERIANAME1
+Use workload while generating schedule(Y/N/A)
+USE_WORKLOAD
+UT Labor Law
+Utah
+VA Labor Law
+VAC
+VAC_CORP_SALARIED
+VAC_FIELD_HOURLY
+VAC_FIELD_SALARIED
+VAC_GEMINI_DRIVERS
+Vacation
+VACCINATION_COVID19
+Variance Extrapolation (Custom Model)
+Vermont
+Virginia
+VT Labor Law
+WARN
+WARNCOUNT
+Washington
+WDVCSTORE1
+WDVCSTORE10
+WDVCSTORE11
+WDVCSTORE12
+WDVCSTORE13
+WDVCSTORE14
+WDVCSTORE15
+WDVCSTORE16
+WDVCSTORE17
+WDVCSTORE18
+WDVCSTORE19
+WDVCSTORE2
+WDVCSTORE20
+WDVCSTORE21
+WDVCSTORE22
+WDVCSTORE23
+WDVCSTORE24
+WDVCSTORE3
+WDVCSTORE4
+WDVCSTORE5
+WDVCSTORE6
+WDVCSTORE7
+WDVCSTORE8
+WDVCSTORE9
+WebClock
+Wed to Sun
+WED_S10FIRST
+WED_S37FIRST
+Wednesday
+Weekday
+WEEKDAYATTR1
+WEEKDAYATTR1CALCMETHOD
+Weekdayattribute1
+Weekend
+Weekly Contracted Hours
+Weekly Over Time
+Weekly Trend Variance Model (Custom Model)
+WEEKS_CONS_DAYS
+WEIGHT_MOV_AVG
+Weighted Moving Average
+Weighted Moving Average Model
+WEIGHTED_MOVING_AVERAGE
+West Virginia
+Wisconsin
+WK_CONTRACT_HOURS
+WKLD_BUDGT_HRS
+WORKERS_COMP
+WORKMEET1
+WORKMEET2
+WORKMEET3
+WORKMEET4
+WORKPATTERN260519
+WOT
+WR:Maximum duration staff can work in a day
+WR:Maximum shifts per day
+WR:Maximum work days without break
+WR:Maximum Working Days
+WR:Maximum working days in a schedule period
+WR:Minimum break between consecutive days
+WR:Minimum break duration between shifts
+WR:Minimum hours a staff can work in a day
+WR:Minimum Working Days
+Wyoming
+Z Autostore001_STORE1
+Z Autostore002_STORE1
+ZAUTOSTORE001
+ZAUTOSTORE001_SYS
+ZAUTOSTORE001_TAB
+ZAUTOSTORE001_WC
+ZAUTOSTORE002
+ZAUTOSTORE002_SYS
+ZAUTOSTORE002_TAB
+ZAUTOSTORE002_WC
+Zero Transitions for this activity ?
+ZERO_TRANSITIONS_ACTIVITY
+Zonal Staff Group1
+Zonal Staff Group2
+Zonal Staff Group3
+Zonal Staff Group4
+ZONE 1
+ZONE 2
+ZONE 3
+ZONE1
+ZONE2
+ZONE3
+ZSGRP1
+ZSGRP2
+ZSGRP3
+ZSGRP4
+ZTask Group1
+ZTGROUP1
+
+Store1, Associate01
+Store1, Associate02
+Store1, Associate03
+Store1, Associate04
+Store1, Associate05
+Store1, Associate06
+Store1, Associate07
+Store1, Associate08
+Store1, Associate09
+Store1, Associate10
+Store1, Associate11
+Store1, Associate12
+Store1, Associate13
+Store1, Associate14
+Store1, Associate15
+Store1, Associate16
+Store1, Associate17
+ZStore1, Associate001
+ZStore1, Associate002
+ZStore1, Associate003
+ZStore1, Associate004
+ZStore1, Associate005
+ZStore1, Associate006
+ZStore1, Associate007
+ZStore1, Associate008
+ZStore1, Associate009
+ZStore1, Associate010
+ZStore1, Associate011
+ZStore1, Associate012
+ZStore1, Associate013
+ZStore1, Associate014
+ZStore1, Associate015
+ZStore1, Associate016
+ZStore1, Associate017
+ZStore2, Associate001
+ZStore2, Associate002
+ZStore2, Associate003
+ZStore2, Associate004
+ZStore2, Associate005
+ZStore2, Associate006
+ZStore2, Associate007
+ZStore2, Associate008
+ZStore2, Associate009
+ZStore2, Associate010
+ZStore2, Associate011
+ZStore2, Associate012
+ZStore2, Associate013
+ZStore2, Associate014
+ZStore2, Associate015
+ZStore2, Associate016
+ZStore2, Associate017
+Store2, Associate01
+Store2, Associate02
+Store2, Associate03
+Store2, Associate04
+Store2, Associate05
+Store2, Associate06
+Store2, Associate07
+Store2, Associate08
+Store2, Associate09
+Store2, Associate10
+Store2, Associate11
+Store2, Associate12
+Store2, Associate13
+Store2, Associate14
+Store2, Associate15
+Store2, Associate16
+Store2, Associate17
+Store3, Associate01
+Store3, Associate02
+Store3, Associate03
+Store3, Associate04
+Store3, Associate05
+Store3, Associate06
+Store3, Associate07
+Store3, Associate08
+Store3, Associate09
+Store3, Associate10
+Store3, Associate11
+Store3, Associate12
+Store3, Associate13
+Store3, Associate14
+Store3, Associate15
+Store3, Associate16
+Store3, Associate17
+Store3, Associate18
+Store3, Associate19
+Store3, Associate20
+Store3, Associate21
+Store3, Associate22
+Store3, Associate23
+Store3, Associate24
+Store3, Associate25
+Store3, Associate26
+Store3, Associate27
+Store3, Associate28
+Store3, Associate29
+Store3, Associate30
+Store3, Associate31
+Store3, Associate32
+Store3, Associate33
+Store3, Associate34
+Store3, Associate35
+Store3, Associate36
+Store3, Associate37
+Store3, Associate38
+Store3, Associate39
+Store3, Associate40
+Store3, Associate41
+Store3, Associate42
+Store3, Associate43
+Store3, Associate44
+Store3, Associate45
+Store4, Associate01
+Store4, Associate02
+Store4, Associate03
+Store4, Associate04
+Store4, Associate05
+Store4, Associate06
+Store4, Associate07
+Store4, Associate08
+Store5, Associate01
+Store5, Associate02
+Store5, Associate03
+Store5, Associate04
+Store5, Associate05
+Store5, Associate06
+Store5, RHAssociate01
+Store5, RHAssociate10
+Store5, RHAssociate08
+Store5, RHAssociate09
+Store5, RHAssociate06
+Store5, RHAssociate07
+Store5, RHAssociate02
+Store5, RHAssociate03
+Store5, RHAssociate04
+Store5, RHAssociate05
+Store5, RHAssociate11
+Store5, RHAssociate12
+Store6, Associate01
+Store6, Associate02
+Store6, Associate03
+Store6, Associate04
+Store6, Associate05
+Store6, Associate06
+Store7, Associate01
+Store7, Associate02
+Store7, Associate03
+Store7, Associate04
+Store7, Associate05
+Store7, Associate06
+Store7, Associate07
+Store7, Associate08
+Store7, Associate09
+Store7, Associate10
+Store7, Associate11
+Store7, Associate12
+Store7, Associate13
+Store7, Associate14
+Store7, Associate15
+Store7, Associate16
+Store8, Associate01
+Store8, Associate02
+Store8, Associate05
+Store8, Associate03
+Store8, Associate04
+Store8, Associate06
+Store9, Associate01
+Store9, Associate02
+Store9, Associate05
+Store9, Associate06
+Store9, Associate07
+Store9, Associate03
+Store9, Associate04
+Store9, Associate08
+Store10, Associate01
+Store10, Associate02
+Store10, Associate03
+Store10, Associate04
+Store10, Associate05
+Store10, Associate06
+Store10, Associate07
+Store10, Associate08
+Store10, Associate09
+Store10, Associate10
+Store10, Associate11
+Store10, Associate12
+Store10, Associate13
+Store10, Associate14
+Store10, Associate15
+Store10, Associate16
+Store10, Associate17
+Store10, Associate18
+Store11, Associate01
+Store11, Associate02
+Store11, Associate03
+Store11, Associate04
+Store11, Associate05
+Store11, Associate06
+Store11, Associate07
+Store11, Associate08
+Store11, Associate09
+Store11, Associate10
+Store12, Associate01
+Store12, Associate02
+Store12, Associate03
+Store12, Associate04
+Store12, Associate05
+Store12, Associate06
+Store12, Associate07
+Store12, Associate08
+Store12, Associate09
+Store12, Associate10
+Store13, Associate01
+Store13, Associate02
+Store13, Associate03
+Store13, Associate04
+Store13, Associate05
+Store13, Associate06
+Store13, Associate07
+Store13, Associate08
+Store14, Associate01
+Store14, Associate02
+Store14, Associate03
+Store14, Associate04
+Store14, Associate05
+Store14, Associate06
+Store14, Associate07
+Store14, Associate08
+Store14, Associate09
+Store14, Associate10
+Store14, Associate11
+Store14, Associate12
+Store14, Associate13
+Store14, Associate14
+Store14, Associate15
+Store14, Associate16
+Store14, Associate17
+Store14, Associate18
+Store14, Associate19
+Store14, Associate20
+Store15, Associate01
+Store15, Associate02
+Store15, Associate03
+Store15, Associate04
+Store15, Associate05
+Store15, Associate06
+Store15, Associate07
+Store15, Associate08
+Store15, Associate09
+Store15, Associate10
+Store15, Associate11
+Store15, Associate12
+Store15, Associate13
+Store15, Associate14
+Store15, Associate15
+Store15, Associate16
+Store15, Associate17
+Store15, Associate18
+Store15, Associate19
+Store15, Associate20
+Store15, Associate21
+Store15, Associate22
+Store15, Associate23
+Store15, Associate24
+Store15, Associate25
+Store16, Associate01
+Store16, Associate02
+Store16, Associate03
+Store16, Associate04
+Store16, Associate05
+Store16, Associate06
+Store17, Associate01
+Store17, Associate02
+Store17, Associate03
+Store17, Associate04
+Store17, Associate05
+Store17, Associate06
+Store17, Associate07
+Store17, Associate08
+Store17, Associate09
+Store17, Associate10
+Store17, Associate11
+Store17, Associate12
+Store17, Associate13
+Store17, Associate14
+Store17, Associate15
+Store17, Associate16
+Store18, Associate01
+Store18, Associate02
+Store18, Associate03
+Store18, Associate04
+Store18, Associate05
+Store18, Associate06
+Store18, Associate07
+Store18, Associate08
+Store18, Associate09
+Store18, Associate10
+Store18, Associate11
+Store18, Associate12
+Store18, Associate13
+Store18, Associate14
+Store18, Associate15
+Store18, Associate16
+Store18, Associate17
+Store18, Associate18
+Store18, Associate19
+Store18, Associate20
+Store18, Associate21
+Store18, Associate22
+Store18, Associate23
+Store18, Associate24
+Store18, Associate25
+Store18, Associate26
+Store19, Associate01
+Store19, Associate02
+Store19, Associate03
+Store19, Associate04
+Store19, Associate05
+Store19, Associate06
+Store19, Associate07
+Store19, Associate08
+Store19, Associate09
+Store19, Associate10
+Store19, Associate11
+Store19, Associate12
+Store19, Associate13
+Store19, Associate14
+Store19, Associate15
+Store19, Associate16
+Store19, Associate17
+Store19, Associate18
+Store19, Associate19
+Store19, Associate20
+Store19, Associate21
+Store19, Associate22
+Store19, Associate23
+Store20, Associate01
+Store20, Associate02
+Store20, Associate03
+Store20, Associate04
+Store20, Associate05
+Store20, Associate06
+Store20, Associate07
+Store20, Associate08
+Store20, Associate09
+Store20, Associate10
+Store20, Associate11
+Store20, Associate12
+Store20, Associate13
+Store20, Associate14
+Store20, Associate15
+Store20, Associate16
+Store20, Associate17
+Store20, Associate18
+Store20, Associate19
+Store20, Associate20
+Store20, Associate21
+Store20, Associate22
+Store20, Associate23
+Store20, Associate24
+Store20, Associate25
+Store21, Associate01
+Store21, Associate02
+Store21, Associate03
+Store21, Associate04
+Store21, Associate05
+Store21, Associate06
+Store21, Associate07
+Store21, Associate08
+Store21, Associate09
+Store21, Associate10
+Store21, Associate11
+Store21, Associate12
+Store21, Associate13
+Store21, Associate14
+Store21, Associate15
+Store21, Associate16
+Store21, Associate17
+Store21, Associate18
+Store21, Associate19
+Store21, Associate20
+Store21, Associate21
+Store21, Associate22
+Store21, Associate23
+Store21, Associate24
+Store21, Associate25
+Store22, Associate01
+Store22, Associate02
+Store22, Associate03
+Store22, Associate04
+Store22, Associate05
+Store22, Associate06
+Store22, Associate07
+Store22, Associate08
+Store22, Associate09
+Store22, Associate10
+Store22, Associate11
+Store22, Associate12
+Store22, Associate13
+Store22, Associate14
+Store22, Associate15
+Store22, Associate16
+Store22, Associate17
+Store22, Associate18
+Store22, Associate19
+Store22, Associate20
+Store22, Associate21
+Store22, Associate22
+Store22, Associate23
+Store22, Associate24
+Store22, Associate25
+Store22, Associate26
+Store23, Associate01
+Store23, Associate02
+Store23, Associate03
+Store23, Associate04
+Store23, Associate05
+Store23, Associate06
+Store23, Associate07
+Store23, Associate08
+Store23, Associate09
+Store23, Associate10
+Store23, Associate11
+Store23, Associate12
+Store23, Associate13
+Store23, Associate14
+Store23, Associate15
+Store23, Associate16
+Store23, Associate17
+Store23, Associate18
+Store23, Associate19
+Store23, Associate20
+Store24, Associate01
+Store24, Associate02
+Store24, Associate03
+Store24, Associate04
+Store24, Associate05
+Store24, Associate06
+Store24, Associate07
+Store24, Associate08
+Store24, Associate09
+Store24, Associate10
+Store24, Associate11
+Store24, Associate12
+Store24, Associate13
+Store24, Associate14
+Store24, Associate15
+Store24, Associate16
+Store24, Associate17
+Store24, Associate18
+Store24, Associate19
+Store24, Associate20
+Store24, Associate21
+Store24, Associate22
+Store24, Associate23
+Store24, Associate24
+Store24, Associate25
+Store24, Associate26
+Store24, Associate27
+Store24, Associate28
+Store24, Associate29
+Store24, Associate30
+Store24, Associate31
+Store24, Associate32
+Store24, Associate33
+Store24, Associate34
+Store24, Associate35
+Store24, Associate36
+Store24, Associate37
+Store25, Associate01
+Store25, Associate02
+Store25, Associate03
+Store25, Associate04
+Store25, Associate05
+Store25, Associate06
+Store25, Associate07
+Store25, Associate08
+Store25, Associate09
+Store25, Associate10
+Store25, Associate11
+Store25, Associate12
+Store25, Associate13
+Store25, Associate14
+Store25, Associate15
+Store25, Associate16
+Store25, Associate17
+Store25, Associate18
+Store25, Associate19
+Store25, Associate20
+Store26, Associate01
+Store26, Associate02
+Store26, Associate03
+Store26, Associate04
+Store26, Associate05
+Store26, Associate06
+Store26, Associate07
+Store26, Associate08
+Store26, Associate09
+Store26, Associate10
+Store26, Associate11
+Store26, Associate12
+Store26, Associate13
+Store26, Associate14
+Store26, Associate15
+Store26, Associate16
+Store26, Associate17
+Store26, Associate18
+Store26, Associate19
+Store26, Associate20
+Store26, Associate21
+Store26, Associate22
+Store26, Associate23
+Store26, Associate24
+Store26, Associate25
+Store26, Associate26
+Store26, Associate27
+Store26, Associate28
+Store26, Associate29
+Store26, Associate30
+Store26, Associate31
+Store26, Associate32
+Store26, Associate33
+Store26, Associate34
+Store27, Associate01
+Store27, Associate02
+Store27, Associate03
+Store27, Associate04
+Store27, Associate05
+Store27, Associate06
+Store27, Associate07
+Store27, Associate08
+Store27, Associate09
+Store27, Associate10
+Store27, Associate11
+Store27, Associate12
+Store27, Associate13
+Store27, Associate14
+Store27, Associate15
+Store27, Associate16
+Store27, Associate17
+Store27, Associate18
+Store27, Associate19
+Store27, Associate20
+Store27, Associate21
+Store27, Associate22
+Store27, Associate23
+Store27, Associate24
+Store27, Associate25
+Store27, Associate26
+Store27, Associate27
+Store27, Associate28
+Store27, Associate29
+Store27, Associate30
+Store27, Associate31
+Store27, Associate32
+Store27, Associate33
+Store27, Associate34
+Store27, FAssociate01
+Store27, FAssociate02
+Store28, Associate01
+Store28, Associate02
+Store28, Associate03
+Store28, Associate04
+Store28, Associate05
+Store28, Associate06
+Store28, Associate07
+Store28, Associate08
+Store28, Associate09
+Store28, Associate10
+Store28, Associate11
+Store28, Associate12
+Store28, Associate13
+Store28, Associate14
+Store28, Associate15
+Store28, Associate16
+Store28, Associate17
+Store28, Associate18
+Store28, Associate19
+Store28, Associate20
+Store28, Associate21
+Store28, Associate22
+Store28, Associate23
+Store28, Associate24
+Store28, Associate25
+Store28, Associate26
+Store28, Associate27
+Store28, Associate28
+Store28, Associate29
+Store28, Associate30
+Store28, Associate31
+Store28, Associate32
+Store28, Associate33
+Store28, Associate34
+Store29, Associate01
+Store29, Associate02
+Store29, Associate03
+Store29, Associate04
+Store29, Associate05
+Store29, Associate06
+Store29, Associate07
+Store29, Associate08
+Store29, Associate09
+Store29, Associate10
+Store29, Associate11
+Store29, Associate12
+Store29, Associate13
+Store29, Associate14
+Store29, Associate15
+Store29, Associate16
+Store29, Associate17
+Store29, Associate18
+Store29, Associate19
+Store29, Associate20
+Store29, Associate21
+Store29, Associate22
+Store29, Associate23
+Store29, Associate24
+Store29, Associate25
+Store29, Associate26
+Store29, Associate27
+Store29, Associate28
+Store29, Associate29
+Store29, Associate30
+Store29, Associate31
+Store29, Associate32
+Store29, Associate33
+Store29, Associate34
+Store29, FAssociate01
+Store29, FAssociate02
+Store30, Associate01
+Store30, Associate02
+Store30, Associate03
+Store30, Associate04
+Store30, Associate05
+Store30, Associate06
+Store30, Associate07
+Store30, Associate08
+Store30, Associate09
+Store30, Associate10
+Store30, Associate11
+Store30, Associate12
+Store30, Associate13
+Store30, Associate14
+Store30, Associate15
+Store30, Associate16
+Store30, Associate17
+Store30, Associate18
+Store30, Associate19
+Store30, Associate20
+Store30, Associate21
+Store30, Associate22
+Store30, Associate23
+Store30, Associate24
+Store30, Associate25
+Store30, Associate26
+Store30, Associate27
+Store30, Associate28
+Store30, Associate29
+Store30, Associate30
+Store30, Associate31
+Store30, Associate32
+Store30, Associate33
+Store30, Associate34
+Store30, FAssociate01
+Store30, FAssociate02
+Store26, Avpassociate01
+Store26, Avpassociate02
+Store26, Avpassociate03
+Store26, Avpassociate04
+Store26, Avpassociate05
+Store26, Avpassociate06
+Store26, Avpassociate07
+Store26, Avpassociate08
+Store26, Avpassociate09
+Store26, Avpassociate10
+Store26, Avpassociate11
+Store26, Avpassociate12
+Store26, Avpassociate13
+Store26, Avpassociate14
+Store26, Avpassociate15
+Store26, Avpassociate16
+Store26, Avpassociate17
+Store26, Avpassociate18
+Store26, Avpassociate19
+Store26, Avpassociate20
+Store26, Avpassociate21
+Store26, Avpassociate22
+Store26, Avpassociate23
+Store26, Avpassociate24
+Store26, Avpassociate25
+Store27, Avpassociate01
+Store27, Avpassociate02
+Store27, Avpassociate03
+Store27, Avpassociate04
+Store27, Avpassociate05
+Store27, Avpassociate06
+Store27, Avpassociate07
+Store27, Avpassociate08
+Store27, Avpassociate09
+Store27, Avpassociate10
+Store27, Avpassociate11
+Store27, Avpassociate12
+Store27, Avpassociate13
+Store27, Avpassociate14
+Store27, Avpassociate15
+Store27, Avpassociate16
+Store27, Avpassociate17
+Store27, Avpassociate18
+Store27, Avpassociate19
+Store27, Avpassociate20
+Store27, Avpassociate21
+Store27, Avpassociate22
+Store27, Avpassociate23
+Store27, Avpassociate24
+Store27, Avpassociate25
+Store28, Avpassociate01
+Store28, Avpassociate02
+Store28, Avpassociate03
+Store28, Avpassociate04
+Store28, Avpassociate05
+Store28, Avpassociate06
+Store28, Avpassociate07
+Store28, Avpassociate08
+Store28, Avpassociate09
+Store28, Avpassociate10
+Store28, Avpassociate11
+Store28, Avpassociate12
+Store28, Avpassociate13
+Store28, Avpassociate14
+Store28, Avpassociate15
+Store28, Avpassociate16
+Store28, Avpassociate17
+Store28, Avpassociate18
+Store28, Avpassociate19
+Store28, Avpassociate20
+Store28, Avpassociate21
+Store28, Avpassociate22
+Store28, Avpassociate23
+Store28, Avpassociate24
+Store28, Avpassociate25
+Store29, Avpassociate01
+Store29, Avpassociate02
+Store29, Avpassociate03
+Store29, Avpassociate04
+Store29, Avpassociate05
+Store29, Avpassociate06
+Store29, Avpassociate07
+Store29, Avpassociate08
+Store29, Avpassociate09
+Store29, Avpassociate10
+Store29, Avpassociate11
+Store29, Avpassociate12
+Store29, Avpassociate13
+Store29, Avpassociate14
+Store29, Avpassociate15
+Store29, Avpassociate16
+Store29, Avpassociate17
+Store29, Avpassociate18
+Store29, Avpassociate19
+Store29, Avpassociate20
+Store29, Avpassociate21
+Store29, Avpassociate22
+Store29, Avpassociate23
+Store29, Avpassociate24
+Store29, Avpassociate25
+Store30, Avpassociate01
+Store30, Avpassociate02
+Store30, Avpassociate03
+Store30, Avpassociate04
+Store30, Avpassociate05
+Store30, Avpassociate06
+Store30, Avpassociate07
+Store30, Avpassociate08
+Store30, Avpassociate09
+Store30, Avpassociate10
+Store30, Avpassociate11
+Store30, Avpassociate12
+Store30, Avpassociate13
+Store30, Avpassociate14
+Store30, Avpassociate15
+Store30, Avpassociate16
+Store30, Avpassociate17
+Store30, Avpassociate18
+Store30, Avpassociate19
+Store30, Avpassociate20
+Store30, Avpassociate21
+Store30, Avpassociate22
+Store30, Avpassociate23
+Store30, Avpassociate24
+Store30, Avpassociate25
+District3, Manager01
+District5, Floater01
+District5, Floater02
+District5, Floater03
+District5, Floater04
+District5, Floater05
+District5, Floater06
+District5, Floater07
+District5, Floater08
+District6, Manager01
+District6, MgrFloater01
+District6, Floater01
+District6, Floater02
+District6, Floater03
+District6, Floater04
+District6, Floater05
+District6, Floater06
+District7, Manager01
+District7, MgrFloater01
+District7, Floater01
+District7, Floater02
+District7, Floater03
+District7, Floater04
+District7, Floater05
+District7, Floater06
+Corp, CEO1
+Corp, Superuser01
+Corp, Superuser02
+Corp, Associate01
+Corp, Associate02
+Banner2, Manager01
+Banner2, Associate01
+Banner2, Associate02
+Division3, Manager01
+Division3, Associate01
+Division3, Associate02
+Region5, Manager01
+Region5, Associate01
+Region5, Associate02
+Region5, Associate03
+District5, RHAssociate01
+District5, RHAssociate06
+District5, RHAssociate03
+District5, RHAssociate04
+District5, RHAssociate05
+District5, RHAssociate02
+District5, RHAssociate07
+Region4, RHAssociate01
+Region4, RHAssociate02
+Region4, RHAssociate03
+Region4, RHAssociate04
+Region4, RHAssociate05
+Division3, RHAssociate01
+Division3, RHAssociate02
+Division3, RHAssociate03
+Division3, RHAssociate04
+Division3, RHAssociate05
+Banner2, RHAssociate01
+Banner2, RHAssociate02
+Banner2, RHAssociate03
+Banner2, RHAssociate04
+Banner2, RHAssociate05
+CEO, RHAssociate01
+HR, RHAssociate01
+CORP, RHAssociate02
+CORP, RHAssociate03
+CORP, RHAssociate04
+CORP, RHAssociate05
+Store5, Associate07
+Store2, Associate47
+Store2, Associate48
+Store2, Associate49
+Store2, Associate50
+RFLX0120250704, NewAssociate01
+RFLX0220250704, NewAssociate02
+RFLX0120260519, NewAssociate01
+RFLX0220260519, NewAssociate02
+T-Mobile USA
+125 Townpark Dr NW, Kennesaw, Georgia, 77386
+678/685-1291
+XX-XX-XX
+XXXXXXXXX
+|
+DJCODE1 - Dist Job Code1
+DLCODE1 - Delayed Job Code1
+JCODE1 -  Job Code1
+JCODE2 -  Job Code2
+JCODE3 -  Job Code3
+JCODE4 -  Job Code4
+JCODE5 -  Job Code5
+NJCODE1 - Null Job Code1
+:
+SYS_SCHD_RWS : SYS_SCHD_RWS
+SYS_SCHD_RTM : SYS_SCHD_RTM
+SYS_WKLD_RWS : SYS_WKLD_RWS
+SYS_ WKLD_RTM : SYS_ WKLD_RTM
+SYS_SCHD_EFF : SYS_SCHD_EFF
+SYS_SCHD_EDIT : SYS_SCHD_EDIT
+SYS_FIXED_HRS : SYS_FIXED_HRS
+SYS_SCHD_DOLRS : SYS_SCHD_DOLRS
+SYS_SCHD_AHR : SYS_SCHD_AHR
+SYS_SYS_SCHD : SYS_SYS_SCHD
+SYS_MGR_SCHD : SYS_MGR_SCHD
+SYS_TRNG_DOLRS : SYS_TRNG_DOLRS
+SYS_UNAUDIT_HRS : SYS_UNAUDIT_HRS
+SYS_ACT_DOLRS : SYS_ACT_DOLRS
+SYS_EARNED_HRS : SYS_EARNED_HRS
+SYS_OT_HRS : SYS_OT_HRS
+SYS_OT_WAGES : SYS_OT_WAGES
+SYS_AUDIT_HRS : SYS_AUDIT_HRS
+SYS_WAGE_RATE : SYS_WAGE_RATE
+SYS_ACT_PT_AHRS : SYS_ACT_PT_AHRS
+SYS_FT_HEAD_CNT : SYS_FT_HEAD_CNT
+SYS_PT_HEAD_CNT : SYS_PT_HEAD_CNT
+SYS_WKLD_BC : SYS_WKLD_BC
+SYS_SCHD_BC : SYS_SCHD_BC
+SYS_BDGT_HRS : SYS_BDGT_HRS
+SYS_BDGT_DLRS : SYS_BDGT_DLRS
+SYS_BDGT_COST : SYS_BDGT_COST
+SYS_LEAVE_COST : SYS_LEAVE_COST
+LAB_HRS_UPPH_ADJ : Adjusted Weekly Budget For schedule Restraint
+BUD_HRS : Hours
+WKLD_BUDGT_HRS : BUDGETED HOURS
+PERCNT_DISC_HRS : PERCENTAGE
+SYS_FCST_SPREAD : Custom Sytem Forecast Spread
+BUDGT_HRS_PUB : Budget for demand capping for Publish
+MIN_BUDGT_HRS : Budget for Minimum demand capping for Publish
+SYS_BDGT_AMT_1 : Payroll($)
+SYS_BDGT_PTP_1 : Percent to Payroll
+SYS_BDGT_AHR_1 : AHR($)
+SYS_BDGT_HRS_1 : Budget Hours
+SYS_BDGT_SPPH_1 : SPPH
+SYS_BDGT_AMT_2 : Payroll($)
+SYS_BDGT_PTP_2 : Percent to Payroll
+SYS_BDGT_AHR_2 : AHR($)
+SYS_BDGT_SPPH_2 : SPPH
+SYS_BDGT_HRS_2 : Budget Hours
+SYS_BDGT_PTP_3 : Percent to Payroll
+SYS_BDGT_AMT_3 : Payroll($)
+SYS_BDGT_AHR_3 : AHR($)
+SYS_BDGT_SPPH_3 : SPPH
+SYS_BDGT_HRS_3 : Budget Hours
+SYS_BDGT_PTP_4 : Percent to Payroll
+SYS_BDGT_HRS_4 : Budget Hours
+SYS_BDGT_SPPH_4 : SPPH
+SYS_BDGT_AMT_4 : Payroll($)
+SYS_BDGT_AHR_4 : AHR($)
+SYS_BDGT_HRS_5 : Budget Hours
+SYS_BDGT_SPPH_5 : SPPH
+SYS_BDGT_PTP_5 : Percent to Payroll
+SYS_BDGT_AHR_5 : AHR($)
+SYS_BDGT_AMT_5 : Payroll($)
+SYS_BDGT_SPPH_6 : SPPH
+SYS_BDGT_HRS_6 : Budget Hours
+SYS_BDGT_PTP_6 : Percent to Payroll
+SYS_BDGT_AMT_6 : Payroll($)
+SYS_BDGT_AHR_6 : AHR($)
+SYS_BDGT_SPPH_7 : SPPH
+SYS_BDGT_HRS_7 : Budget Hours
+SYS_BDGT_PTP_7 : Percent to Payroll
+SYS_BDGT_AMT_7 : Payroll($)
+SYS_BDGT_AHR_7 : AHR($)
+DRIVER1_A : Driver1 for Actuals
+DRIVER2_F : Driver2 for Forecast
+DRIVER3_F : Driver3 for Forecast
+DRIVER4_C : Driver4 for Calculated
+DRIVER5_A : Driver5 for Actuals
+DRIVER6_B : Driver6 for Lab Budget
+DRIVER7_F : Driver7 for Forecast
+DRIVER8_F : Driver8 for Forecast
+DRIVER9_F : Driver9 for Forecast
+DRIVER10_F : Driver10 for Forecast
+DRIVER11_F : Driver11 for Forecast
+DRIVER12_F : Driver12 for Forecast
+DRIVER13_D : Driver13 for Derived
+DRIVER14_D : Driver14 for Derived
+DRIVER15_D : Driver15 for Derived
+DRIVER16_D : Driver16 for Derived
+DRIVER17_F : Driver17 for Forecast
+DRIVER18_F : Driver18 for Forecast
+DRIVER19_F : Driver19 for Forecast
+DRIVER20_F : Driver20 for Forecast
+DRIVER21_F : Driver21 for Forecast
+DRIVER22_F : Driver22 for Forecast
+DRIVER23_F : Driver23 for Forecast
+DRIVER24_F : Driver24 for Forecast
+DRIVER25_F : Driver25 for Forecast
+DRIVER26_F : Driver26 for Forecast
+DRIVER27_F : Driver27 for Forecast
+BANNER1 - Banner 1
+BANNER2 - Banner 2
+BANNER3 - Banner 3
+BANNER4 - Banner 4
+CORP - Corporate
+DISTRICT1 - R1District 1
+DISTRICT10 - R7District 10
+DISTRICT2 - R2District 2
+DISTRICT3 - R3District 3
+DISTRICT4 - R4District 4
+DISTRICT5 - R4District 5
+DISTRICT6 - R5District 6
+DISTRICT7 - R5District 7
+DISTRICT8 - R6District 8
+DISTRICT9 - R6District 9
+DIVISION1 - B1Division 1
+DIVISION2 - B2Division 2
+DIVISION3 - B2Division 3
+REGION1 - D1Region 1
+REGION2 - D2Region 2
+REGION3 - D2Region 3
+REGION4 - D3Region 4
+REGION5 - D3Region 5
+REGION6 - D3Region 6
+REGION7 - D3Region 7
+STORE1 - D1Store 1
+STORE10 - D5Store 10
+STORE11 - D3Store 11
+STORE12 - D3Store 12
+STORE13 - D3Store 13
+STORE14 - D3Store 14
+STORE15 - D3Store 15
+STORE16 - D3Store 16
+STORE17 - D3Store 17
+STORE18 - D6Store 18
+STORE19 - D6Store 19
+STORE2 - D2Store 2
+STORE20 - D6Store 20
+STORE21 - D7Store 21
+STORE22 - D7Store 22
+STORE23 - D7Store 23
+STORE24 - D1Store 24
+STORE25 - D1Store 25
+STORE26 - D8Store 26
+STORE27 - D8Store 27
+STORE28 - D9Store 28
+STORE29 - D9Store 29
+STORE3 - D3Store 3
+STORE30 - D10Store 30
+STORE31 - D5Store 31
+STORE32 - D5Store 32
+STORE33 - D5Store 33
+STORE34 - D5Store 34
+STORE35 - D5Store 35
+STORE36 - D5Store 36
+STORE37 - D5Store 37
+STORE38 - D5Store 38
+STORE39 - D5Store 39
+STORE4 - D4Store 4
+STORE40 - D5Store 40
+STORE41 - D10Store 41
+STORE42 - D10Store 42
+STORE43 - D10Store 43
+STORE44 - D10Store 44
+STORE45 - D10Store 45
+STORE46 - D10Store 46
+STORE47 - D10Store 47
+STORE48 - D10Store 48
+STORE49 - D10Store 49
+STORE5 - D5Store 5
+STORE50 - D10Store 50
+STORE51 - D10Store 51
+STORE52 - D10Store 52
+STORE53 - D10Store 53
+STORE54 - D10Store 54
+STORE55 - D10Store 55
+STORE56 - D10Store 56
+STORE57 - D10Store 57
+STORE58 - D10Store 58
+STORE59 - D10Store 59
+STORE6 - D5Store 6
+STORE60 - D10Store 60
+STORE7 - D5Store 7
+STORE8 - D5Store 8
+STORE9 - D5Store 9
+ZAUTOSTORE001 - Z Autostore001_STORE1
+ZAUTOSTORE002 - Z Autostore002_STORE1
+ACTCODEGROUP1_NAME
+ACTCODEGROUP1_DESC
+BANNER1 -Banner 1
+BANNER2 -Banner 2
+BANNER3 -Banner 3
+BANNER4 -Banner 4
+CORP -Corporate
+DISTRICT1 -R1District 1
+DISTRICT10 -R7District 10
+DISTRICT2 -R2District 2
+DISTRICT3 -R3District 3
+DISTRICT4 -R4District 4
+DISTRICT5 -R4District 5
+DISTRICT6 -R5District 6
+DISTRICT7 -R5District 7
+DISTRICT8 -R6District 8
+DISTRICT9 -R6District 9
+DIVISION1 -B1Division 1
+DIVISION2 -B2Division 2
+DIVISION3 -B2Division 3
+REGION1 -D1Region 1
+REGION2 -D2Region 2
+REGION3 -D2Region 3
+REGION4 -D3Region 4
+REGION5 -D3Region 5
+REGION6 -D3Region 6
+REGION7 -D3Region 7
+STORE1 -D1Store 1
+STORE10 -D5Store 10
+STORE11 -D3Store 11
+STORE12 -D3Store 12
+STORE13 -D3Store 13
+STORE14 -D3Store 14
+STORE15 -D3Store 15
+STORE16 -D3Store 16
+STORE17 -D3Store 17
+STORE18 -D6Store 18
+STORE19 -D6Store 19
+STORE2 -D2Store 2
+STORE20 -D6Store 20
+STORE21 -D7Store 21
+STORE22 -D7Store 22
+STORE23 -D7Store 23
+STORE24 -D1Store 24
+STORE25 -D1Store 25
+STORE26 -D8Store 26
+STORE27 -D8Store 27
+STORE28 -D9Store 28
+STORE29 -D9Store 29
+STORE3 -D3Store 3
+STORE30 -D10Store 30
+STORE31 -D5Store 31
+STORE32 -D5Store 32
+STORE33 -D5Store 33
+STORE34 -D5Store 34
+STORE35 -D5Store 35
+STORE36 -D5Store 36
+STORE37 -D5Store 37
+STORE38 -D5Store 38
+STORE39 -D5Store 39
+STORE4 -D4Store 4
+STORE40 -D5Store 40
+STORE41 -D10Store 41
+STORE42 -D10Store 42
+STORE43 -D10Store 43
+STORE44 -D10Store 44
+STORE45 -D10Store 45
+STORE46 -D10Store 46
+STORE47 -D10Store 47
+STORE48 -D10Store 48
+STORE49 -D10Store 49
+STORE5 -D5Store 5
+STORE50 -D10Store 50
+STORE51 -D10Store 51
+STORE52 -D10Store 52
+STORE53 -D10Store 53
+STORE54 -D10Store 54
+STORE55 -D10Store 55
+STORE56 -D10Store 56
+STORE57 -D10Store 57
+STORE58 -D10Store 58
+STORE59 -D10Store 59
+STORE6 -D5Store 6
+STORE60 -D10Store 60
+STORE7 -D5Store 7
+STORE8 -D5Store 8
+STORE9 -D5Store 9
+ZAUTOSTORE001 -Z Autostore001_STORE1
+ZAUTOSTORE002 -Z Autostore002_STORE1
+BANNER1 - Banner 1
+BANNER2 - Banner 2
+BANNER3 - Banner 3
+BANNER4 - Banner 4
+CORP - Corporate
+DISTRICT1 - R1District 1
+DISTRICT10 - R7District 10
+DISTRICT2 - R2District 2
+DISTRICT3 - R3District 3
+DISTRICT4 - R4District 4
+DISTRICT5 - R4District 5
+DISTRICT6 - R5District 6
+DISTRICT7 - R5District 7
+DISTRICT8 - R6District 8
+DISTRICT9 - R6District 9
+DIVISION1 - B1Division 1
+DIVISION2 - B2Division 2
+DIVISION3 - B2Division 3
+REGION1 - D1Region 1
+REGION2 - D2Region 2
+REGION3 - D2Region 3
+REGION4 - D3Region 4
+REGION5 - D3Region 5
+REGION6 - D3Region 6
+REGION7 - D3Region 7
+STORE1 - D1Store 1
+STORE10 - D5Store 10
+STORE11 - D3Store 11
+STORE12 - D3Store 12
+STORE13 - D3Store 13
+STORE14 - D3Store 14
+STORE15 - D3Store 15
+STORE16 - D3Store 16
+STORE17 - D3Store 17
+STORE18 - D6Store 18
+STORE19 - D6Store 19
+STORE2 - D2Store 2
+STORE20 - D6Store 20
+STORE21 - D7Store 21
+STORE22 - D7Store 22
+STORE23 - D7Store 23
+STORE24 - D1Store 24
+STORE25 - D1Store 25
+STORE26 - D8Store 26
+STORE27 - D8Store 27
+STORE28 - D9Store 28
+STORE29 - D9Store 29
+STORE3 - D3Store 3
+STORE30 - D10Store 30
+STORE31 - D5Store 31
+STORE32 - D5Store 32
+STORE33 - D5Store 33
+STORE34 - D5Store 34
+STORE35 - D5Store 35
+STORE36 - D5Store 36
+STORE37 - D5Store 37
+STORE38 - D5Store 38
+STORE39 - D5Store 39
+STORE4 - D4Store 4
+STORE40 - D5Store 40
+STORE41 - D10Store 41
+STORE42 - D10Store 42
+STORE43 - D10Store 43
+STORE44 - D10Store 44
+STORE45 - D10Store 45
+STORE46 - D10Store 46
+STORE47 - D10Store 47
+STORE48 - D10Store 48
+STORE49 - D10Store 49
+STORE5 - D5Store 5
+STORE50 - D10Store 50
+STORE51 - D10Store 51
+STORE52 - D10Store 52
+STORE53 - D10Store 53
+STORE54 - D10Store 54
+STORE55 - D10Store 55
+STORE56 - D10Store 56
+STORE57 - D10Store 57
+STORE58 - D10Store 58
+STORE59 - D10Store 59
+STORE6 - D5Store 6
+STORE60 - D10Store 60
+STORE7 - D5Store 7
+STORE8 - D5Store 8
+STORE9 - D5Store 9
+ZAUTOSTORE001 - Z Autostore001_STORE1
+ZAUTOSTORE002 - Z Autostore002_STORE1
+Accutime Systems
+Biometric Access Company
+Reflexis Systems Inc.
+PC_Clock
+MICROS
+POS_ELC
+System_Device
+Reflexis
+WC
+DVCOPERPOLICY1
+DVCOPERPOLICY1_DESC
+STD DVC OPER POLICY
+Clock In , Clock Out , Meal Start , Meal End , Break Start , Break End , Labor Transfer , On Schedule
+FIELDHOURLY
+FIELDSALARIED
+GEMINIDRIVER
+ALL_EMP_GROUP_WEEKLY
+TEST_WEEKLY
+Certification Group A, Certification Group C
+Certification Group B, Certification Group C
+Shift policy for FIXEDGROUP5
+Shift policy for FIXEDGROUP6
+Store 24 25 Policy
+Shift policy for SCENARIOGROUP7
+Shift policy for Store 10
+Shift policy for Store 37
+DEFAULT POLICY
+DEFAULT_POLICY
+RFLX0120250704
+RFLX0220250704
+SGRP1 - Staff Group1
+SGRP2 - Staff Group2
+SGRP3 - Staff Group3
+SGRP4 - Staff Group4
+SGRP5 - Staff Group5
+Store1,Associate01
+Store1,Associate02
+Store1,Associate03
+Store1,Associate04
+Store1,Associate05
+Store1,Associate06
+Store1,Associate07
+Store1,Associate08
+Store1,Associate09
+Store1,Associate10
+Store1,Associate11
+Store1,Associate12
+Store1,Associate13
+Store1,Associate14
+Store1,Associate15
+Store1,Associate16
+Store1,Associate17
+ZStore1,Associate001
+ZStore1,Associate002
+ZStore1,Associate003
+ZStore1,Associate004
+ZStore1,Associate005
+ZStore1,Associate006
+ZStore1,Associate007
+ZStore1,Associate008
+ZStore1,Associate009
+ZStore1,Associate010
+ZStore1,Associate011
+ZStore1,Associate012
+ZStore1,Associate013
+ZStore1,Associate014
+ZStore1,Associate015
+ZStore1,Associate016
+ZStore1,Associate017
+ZStore2,Associate001
+ZStore2,Associate002
+ZStore2,Associate003
+ZStore2,Associate004
+ZStore2,Associate005
+ZStore2,Associate006
+ZStore2,Associate007
+ZStore2,Associate008
+ZStore2,Associate009
+ZStore2,Associate010
+ZStore2,Associate011
+ZStore2,Associate012
+ZStore2,Associate013
+ZStore2,Associate014
+ZStore2,Associate015
+ZStore2,Associate016
+ZStore2,Associate017
+Store2,Associate01
+Store2,Associate02
+Store2,Associate03
+Store2,Associate04
+Store2,Associate05
+Store2,Associate06
+Store2,Associate07
+Store2,Associate08
+Store2,Associate09
+Store2,Associate10
+Store2,Associate11
+Store2,Associate12
+Store2,Associate13
+Store2,Associate14
+Store2,Associate15
+Store2,Associate16
+Store2,Associate17
+Store3,Associate01
+Store3,Associate02
+Store3,Associate03
+Store3,Associate04
+Store3,Associate05
+Store3,Associate06
+Store3,Associate07
+Store3,Associate08
+Store3,Associate09
+Store3,Associate10
+Store3,Associate11
+Store3,Associate12
+Store3,Associate13
+Store3,Associate14
+Store3,Associate15
+Store3,Associate16
+Store3,Associate17
+Store3,Associate18
+Store3,Associate19
+Store3,Associate20
+Store3,Associate21
+Store3,Associate22
+Store3,Associate23
+Store3,Associate24
+Store3,Associate25
+Store3,Associate26
+Store3,Associate27
+Store3,Associate28
+Store3,Associate29
+Store3,Associate30
+Store3,Associate31
+Store3,Associate32
+Store3,Associate33
+Store3,Associate34
+Store3,Associate35
+Store3,Associate36
+Store3,Associate37
+Store3,Associate38
+Store3,Associate39
+Store3,Associate40
+Store3,Associate41
+Store3,Associate42
+Store3,Associate43
+Store3,Associate44
+Store3,Associate45
+Store4,Associate01
+Store4,Associate02
+Store4,Associate03
+Store4,Associate04
+Store4,Associate05
+Store4,Associate06
+Store4,Associate07
+Store4,Associate08
+Store5,Associate01
+Store5,Associate02
+Store5,Associate03
+Store5,Associate04
+Store5,Associate05
+Store5,Associate06
+Store5,RHAssociate01
+Store5,RHAssociate10
+Store5,RHAssociate08
+Store5,RHAssociate09
+Store5,RHAssociate06
+Store5,RHAssociate07
+Store5,RHAssociate02
+Store5,RHAssociate03
+Store5,RHAssociate04
+Store5,RHAssociate05
+Store5,RHAssociate11
+Store5,RHAssociate12
+Store6,Associate01
+Store6,Associate02
+Store6,Associate03
+Store6,Associate04
+Store6,Associate05
+Store6,Associate06
+Store7,Associate01
+Store7,Associate02
+Store7,Associate03
+Store7,Associate04
+Store7,Associate05
+Store7,Associate06
+Store7,Associate07
+Store7,Associate08
+Store7,Associate09
+Store7,Associate10
+Store7,Associate11
+Store7,Associate12
+Store7,Associate13
+Store7,Associate14
+Store7,Associate15
+Store7,Associate16
+Store8,Associate01
+Store8,Associate02
+Store8,Associate05
+Store8,Associate03
+Store8,Associate04
+Store8,Associate06
+Store9,Associate01
+Store9,Associate02
+Store9,Associate05
+Store9,Associate06
+Store9,Associate07
+Store9,Associate03
+Store9,Associate04
+Store9,Associate08
+Store10,Associate01
+Store10,Associate02
+Store10,Associate03
+Store10,Associate04
+Store10,Associate05
+Store10,Associate06
+Store10,Associate07
+Store10,Associate08
+Store10,Associate09
+Store10,Associate10
+Store10,Associate11
+Store10,Associate12
+Store10,Associate13
+Store10,Associate14
+Store10,Associate15
+Store10,Associate16
+Store10,Associate17
+Store10,Associate18
+Store11,Associate01
+Store11,Associate02
+Store11,Associate03
+Store11,Associate04
+Store11,Associate05
+Store11,Associate06
+Store11,Associate07
+Store11,Associate08
+Store11,Associate09
+Store11,Associate10
+Store12,Associate01
+Store12,Associate02
+Store12,Associate03
+Store12,Associate04
+Store12,Associate05
+Store12,Associate06
+Store12,Associate07
+Store12,Associate08
+Store12,Associate09
+Store12,Associate10
+Store13,Associate01
+Store13,Associate02
+Store13,Associate03
+Store13,Associate04
+Store13,Associate05
+Store13,Associate06
+Store13,Associate07
+Store13,Associate08
+Store14,Associate01
+Store14,Associate02
+Store14,Associate03
+Store14,Associate04
+Store14,Associate05
+Store14,Associate06
+Store14,Associate07
+Store14,Associate08
+Store14,Associate09
+Store14,Associate10
+Store14,Associate11
+Store14,Associate12
+Store14,Associate13
+Store14,Associate14
+Store14,Associate15
+Store14,Associate16
+Store14,Associate17
+Store14,Associate18
+Store14,Associate19
+Store14,Associate20
+Store15,Associate01
+Store15,Associate02
+Store15,Associate03
+Store15,Associate04
+Store15,Associate05
+Store15,Associate06
+Store15,Associate07
+Store15,Associate08
+Store15,Associate09
+Store15,Associate10
+Store15,Associate11
+Store15,Associate12
+Store15,Associate13
+Store15,Associate14
+Store15,Associate15
+Store15,Associate16
+Store15,Associate17
+Store15,Associate18
+Store15,Associate19
+Store15,Associate20
+Store15,Associate21
+Store15,Associate22
+Store15,Associate23
+Store15,Associate24
+Store15,Associate25
+Store16,Associate01
+Store16,Associate02
+Store16,Associate03
+Store16,Associate04
+Store16,Associate05
+Store16,Associate06
+Store17,Associate01
+Store17,Associate02
+Store17,Associate03
+Store17,Associate04
+Store17,Associate05
+Store17,Associate06
+Store17,Associate07
+Store17,Associate08
+Store17,Associate09
+Store17,Associate10
+Store17,Associate11
+Store17,Associate12
+Store17,Associate13
+Store17,Associate14
+Store17,Associate15
+Store17,Associate16
+Store18,Associate01
+Store18,Associate02
+Store18,Associate03
+Store18,Associate04
+Store18,Associate05
+Store18,Associate06
+Store18,Associate07
+Store18,Associate08
+Store18,Associate09
+Store18,Associate10
+Store18,Associate11
+Store18,Associate12
+Store18,Associate13
+Store18,Associate14
+Store18,Associate15
+Store18,Associate16
+Store18,Associate17
+Store18,Associate18
+Store18,Associate19
+Store18,Associate20
+Store18,Associate21
+Store18,Associate22
+Store18,Associate23
+Store18,Associate24
+Store18,Associate25
+Store18,Associate26
+Store19,Associate01
+Store19,Associate02
+Store19,Associate03
+Store19,Associate04
+Store19,Associate05
+Store19,Associate06
+Store19,Associate07
+Store19,Associate08
+Store19,Associate09
+Store19,Associate10
+Store19,Associate11
+Store19,Associate12
+Store19,Associate13
+Store19,Associate14
+Store19,Associate15
+Store19,Associate16
+Store19,Associate17
+Store19,Associate18
+Store19,Associate19
+Store19,Associate20
+Store19,Associate21
+Store19,Associate22
+Store19,Associate23
+Store20,Associate01
+Store20,Associate02
+Store20,Associate03
+Store20,Associate04
+Store20,Associate05
+Store20,Associate06
+Store20,Associate07
+Store20,Associate08
+Store20,Associate09
+Store20,Associate10
+Store20,Associate11
+Store20,Associate12
+Store20,Associate13
+Store20,Associate14
+Store20,Associate15
+Store20,Associate16
+Store20,Associate17
+Store20,Associate18
+Store20,Associate19
+Store20,Associate20
+Store20,Associate21
+Store20,Associate22
+Store20,Associate23
+Store20,Associate24
+Store20,Associate25
+Store21,Associate01
+Store21,Associate02
+Store21,Associate03
+Store21,Associate04
+Store21,Associate05
+Store21,Associate06
+Store21,Associate07
+Store21,Associate08
+Store21,Associate09
+Store21,Associate10
+Store21,Associate11
+Store21,Associate12
+Store21,Associate13
+Store21,Associate14
+Store21,Associate15
+Store21,Associate16
+Store21,Associate17
+Store21,Associate18
+Store21,Associate19
+Store21,Associate20
+Store21,Associate21
+Store21,Associate22
+Store21,Associate23
+Store21,Associate24
+Store21,Associate25
+Store22,Associate01
+Store22,Associate02
+Store22,Associate03
+Store22,Associate04
+Store22,Associate05
+Store22,Associate06
+Store22,Associate07
+Store22,Associate08
+Store22,Associate09
+Store22,Associate10
+Store22,Associate11
+Store22,Associate12
+Store22,Associate13
+Store22,Associate14
+Store22,Associate15
+Store22,Associate16
+Store22,Associate17
+Store22,Associate18
+Store22,Associate19
+Store22,Associate20
+Store22,Associate21
+Store22,Associate22
+Store22,Associate23
+Store22,Associate24
+Store22,Associate25
+Store22,Associate26
+Store23,Associate01
+Store23,Associate02
+Store23,Associate03
+Store23,Associate04
+Store23,Associate05
+Store23,Associate06
+Store23,Associate07
+Store23,Associate08
+Store23,Associate09
+Store23,Associate10
+Store23,Associate11
+Store23,Associate12
+Store23,Associate13
+Store23,Associate14
+Store23,Associate15
+Store23,Associate16
+Store23,Associate17
+Store23,Associate18
+Store23,Associate19
+Store23,Associate20
+Store24,Associate01
+Store24,Associate02
+Store24,Associate03
+Store24,Associate04
+Store24,Associate05
+Store24,Associate06
+Store24,Associate07
+Store24,Associate08
+Store24,Associate09
+Store24,Associate10
+Store24,Associate11
+Store24,Associate12
+Store24,Associate13
+Store24,Associate14
+Store24,Associate15
+Store24,Associate16
+Store24,Associate17
+Store24,Associate18
+Store24,Associate19
+Store24,Associate20
+Store24,Associate21
+Store24,Associate22
+Store24,Associate23
+Store24,Associate24
+Store24,Associate25
+Store24,Associate26
+Store24,Associate27
+Store24,Associate28
+Store24,Associate29
+Store24,Associate30
+Store24,Associate31
+Store24,Associate32
+Store24,Associate33
+Store24,Associate34
+Store24,Associate35
+Store24,Associate36
+Store24,Associate37
+Store25,Associate01
+Store25,Associate02
+Store25,Associate03
+Store25,Associate04
+Store25,Associate05
+Store25,Associate06
+Store25,Associate07
+Store25,Associate08
+Store25,Associate09
+Store25,Associate10
+Store25,Associate11
+Store25,Associate12
+Store25,Associate13
+Store25,Associate14
+Store25,Associate15
+Store25,Associate16
+Store25,Associate17
+Store25,Associate18
+Store25,Associate19
+Store25,Associate20
+Store26,Associate01
+Store26,Associate02
+Store26,Associate03
+Store26,Associate04
+Store26,Associate05
+Store26,Associate06
+Store26,Associate07
+Store26,Associate08
+Store26,Associate09
+Store26,Associate10
+Store26,Associate11
+Store26,Associate12
+Store26,Associate13
+Store26,Associate14
+Store26,Associate15
+Store26,Associate16
+Store26,Associate17
+Store26,Associate18
+Store26,Associate19
+Store26,Associate20
+Store26,Associate21
+Store26,Associate22
+Store26,Associate23
+Store26,Associate24
+Store26,Associate25
+Store26,Associate26
+Store26,Associate27
+Store26,Associate28
+Store26,Associate29
+Store26,Associate30
+Store26,Associate31
+Store26,Associate32
+Store26,Associate33
+Store26,Associate34
+Store27,Associate01
+Store27,Associate02
+Store27,Associate03
+Store27,Associate04
+Store27,Associate05
+Store27,Associate06
+Store27,Associate07
+Store27,Associate08
+Store27,Associate09
+Store27,Associate10
+Store27,Associate11
+Store27,Associate12
+Store27,Associate13
+Store27,Associate14
+Store27,Associate15
+Store27,Associate16
+Store27,Associate17
+Store27,Associate18
+Store27,Associate19
+Store27,Associate20
+Store27,Associate21
+Store27,Associate22
+Store27,Associate23
+Store27,Associate24
+Store27,Associate25
+Store27,Associate26
+Store27,Associate27
+Store27,Associate28
+Store27,Associate29
+Store27,Associate30
+Store27,Associate31
+Store27,Associate32
+Store27,Associate33
+Store27,Associate34
+Store27,FAssociate01
+Store27,FAssociate02
+Store28,Associate01
+Store28,Associate02
+Store28,Associate03
+Store28,Associate04
+Store28,Associate05
+Store28,Associate06
+Store28,Associate07
+Store28,Associate08
+Store28,Associate09
+Store28,Associate10
+Store28,Associate11
+Store28,Associate12
+Store28,Associate13
+Store28,Associate14
+Store28,Associate15
+Store28,Associate16
+Store28,Associate17
+Store28,Associate18
+Store28,Associate19
+Store28,Associate20
+Store28,Associate21
+Store28,Associate22
+Store28,Associate23
+Store28,Associate24
+Store28,Associate25
+Store28,Associate26
+Store28,Associate27
+Store28,Associate28
+Store28,Associate29
+Store28,Associate30
+Store28,Associate31
+Store28,Associate32
+Store28,Associate33
+Store28,Associate34
+Store29,Associate01
+Store29,Associate02
+Store29,Associate03
+Store29,Associate04
+Store29,Associate05
+Store29,Associate06
+Store29,Associate07
+Store29,Associate08
+Store29,Associate09
+Store29,Associate10
+Store29,Associate11
+Store29,Associate12
+Store29,Associate13
+Store29,Associate14
+Store29,Associate15
+Store29,Associate16
+Store29,Associate17
+Store29,Associate18
+Store29,Associate19
+Store29,Associate20
+Store29,Associate21
+Store29,Associate22
+Store29,Associate23
+Store29,Associate24
+Store29,Associate25
+Store29,Associate26
+Store29,Associate27
+Store29,Associate28
+Store29,Associate29
+Store29,Associate30
+Store29,Associate31
+Store29,Associate32
+Store29,Associate33
+Store29,Associate34
+Store29,FAssociate01
+Store29,FAssociate02
+Store30,Associate01
+Store30,Associate02
+Store30,Associate03
+Store30,Associate04
+Store30,Associate05
+Store30,Associate06
+Store30,Associate07
+Store30,Associate08
+Store30,Associate09
+Store30,Associate10
+Store30,Associate11
+Store30,Associate12
+Store30,Associate13
+Store30,Associate14
+Store30,Associate15
+Store30,Associate16
+Store30,Associate17
+Store30,Associate18
+Store30,Associate19
+Store30,Associate20
+Store30,Associate21
+Store30,Associate22
+Store30,Associate23
+Store30,Associate24
+Store30,Associate25
+Store30,Associate26
+Store30,Associate27
+Store30,Associate28
+Store30,Associate29
+Store30,Associate30
+Store30,Associate31
+Store30,Associate32
+Store30,Associate33
+Store30,Associate34
+Store30,FAssociate01
+Store30,FAssociate02
+Store26,Avpassociate01
+Store26,Avpassociate02
+Store26,Avpassociate03
+Store26,Avpassociate04
+Store26,Avpassociate05
+Store26,Avpassociate06
+Store26,Avpassociate07
+Store26,Avpassociate08
+Store26,Avpassociate09
+Store26,Avpassociate10
+Store26,Avpassociate11
+Store26,Avpassociate12
+Store26,Avpassociate13
+Store26,Avpassociate14
+Store26,Avpassociate15
+Store26,Avpassociate16
+Store26,Avpassociate17
+Store26,Avpassociate18
+Store26,Avpassociate19
+Store26,Avpassociate20
+Store26,Avpassociate21
+Store26,Avpassociate22
+Store26,Avpassociate23
+Store26,Avpassociate24
+Store26,Avpassociate25
+Store27,Avpassociate01
+Store27,Avpassociate02
+Store27,Avpassociate03
+Store27,Avpassociate04
+Store27,Avpassociate05
+Store27,Avpassociate06
+Store27,Avpassociate07
+Store27,Avpassociate08
+Store27,Avpassociate09
+Store27,Avpassociate10
+Store27,Avpassociate11
+Store27,Avpassociate12
+Store27,Avpassociate13
+Store27,Avpassociate14
+Store27,Avpassociate15
+Store27,Avpassociate16
+Store27,Avpassociate17
+Store27,Avpassociate18
+Store27,Avpassociate19
+Store27,Avpassociate20
+Store27,Avpassociate21
+Store27,Avpassociate22
+Store27,Avpassociate23
+Store27,Avpassociate24
+Store27,Avpassociate25
+Store28,Avpassociate01
+Store28,Avpassociate02
+Store28,Avpassociate03
+Store28,Avpassociate04
+Store28,Avpassociate05
+Store28,Avpassociate06
+Store28,Avpassociate07
+Store28,Avpassociate08
+Store28,Avpassociate09
+Store28,Avpassociate10
+Store28,Avpassociate11
+Store28,Avpassociate12
+Store28,Avpassociate13
+Store28,Avpassociate14
+Store28,Avpassociate15
+Store28,Avpassociate16
+Store28,Avpassociate17
+Store28,Avpassociate18
+Store28,Avpassociate19
+Store28,Avpassociate20
+Store28,Avpassociate21
+Store28,Avpassociate22
+Store28,Avpassociate23
+Store28,Avpassociate24
+Store28,Avpassociate25
+Store29,Avpassociate01
+Store29,Avpassociate02
+Store29,Avpassociate03
+Store29,Avpassociate04
+Store29,Avpassociate05
+Store29,Avpassociate06
+Store29,Avpassociate07
+Store29,Avpassociate08
+Store29,Avpassociate09
+Store29,Avpassociate10
+Store29,Avpassociate11
+Store29,Avpassociate12
+Store29,Avpassociate13
+Store29,Avpassociate14
+Store29,Avpassociate15
+Store29,Avpassociate16
+Store29,Avpassociate17
+Store29,Avpassociate18
+Store29,Avpassociate19
+Store29,Avpassociate20
+Store29,Avpassociate21
+Store29,Avpassociate22
+Store29,Avpassociate23
+Store29,Avpassociate24
+Store29,Avpassociate25
+Store30,Avpassociate01
+Store30,Avpassociate02
+Store30,Avpassociate03
+Store30,Avpassociate04
+Store30,Avpassociate05
+Store30,Avpassociate06
+Store30,Avpassociate07
+Store30,Avpassociate08
+Store30,Avpassociate09
+Store30,Avpassociate10
+Store30,Avpassociate11
+Store30,Avpassociate12
+Store30,Avpassociate13
+Store30,Avpassociate14
+Store30,Avpassociate15
+Store30,Avpassociate16
+Store30,Avpassociate17
+Store30,Avpassociate18
+Store30,Avpassociate19
+Store30,Avpassociate20
+Store30,Avpassociate21
+Store30,Avpassociate22
+Store30,Avpassociate23
+Store30,Avpassociate24
+Store30,Avpassociate25
+District3,Manager01
+District5,Floater01
+District5,Floater02
+District5,Floater03
+District5,Floater04
+District5,Floater05
+District5,Floater06
+District5,Floater07
+District5,Floater08
+District6,Manager01
+District6,MgrFloater01
+District6,Floater01
+District6,Floater02
+District6,Floater03
+District6,Floater04
+District6,Floater05
+District6,Floater06
+District7,Manager01
+District7,MgrFloater01
+District7,Floater01
+District7,Floater02
+District7,Floater03
+District7,Floater04
+District7,Floater05
+District7,Floater06
+Corp,CEO1
+Corp,Superuser01
+Corp,Superuser02
+Corp,Associate01
+Corp,Associate02
+Banner2,Manager01
+Banner2,Associate01
+Banner2,Associate02
+Division3,Manager01
+Division3,Associate01
+Division3,Associate02
+Region5,Manager01
+Region5,Associate01
+Store1,Associate18
+Region5,Associate02
+Region5,Associate03
+District5,RHAssociate01
+District5,RHAssociate06
+District5,RHAssociate03
+District5,RHAssociate04
+District5,RHAssociate05
+District5,RHAssociate02
+District5,RHAssociate07
+Region4,RHAssociate01
+Region4,RHAssociate02
+Region4,RHAssociate03
+Region4,RHAssociate04
+Region4,RHAssociate05
+Division3,RHAssociate01
+Division3,RHAssociate02
+Division3,RHAssociate03
+Division3,RHAssociate04
+Division3,RHAssociate05
+Banner2,RHAssociate01
+Banner2,RHAssociate02
+Banner2,RHAssociate03
+Banner2,RHAssociate04
+Banner2,RHAssociate05
+CEO,RHAssociate01
+HR,RHAssociate01
+CORP,RHAssociate02
+CORP,RHAssociate03
+CORP,RHAssociate04
+CORP,RHAssociate05
+Store5,Associate07
+Store2,Associate47
+Store2,Associate48
+Store2,Associate49
+Store2,Associate50
+RFLX0120250704,NewAssociate01
+RFLX0220250704,NewAssociate02
+RFLX0120260519,NewAssociate01
+RFLX0220260519,NewAssociate02
+Store1,Associate19
+AS - AdditionalSick
+ILL - Sick
+LVAC - LVacation
+PER - Personal
+VAC - Vacation
+DEPT1 - Department1
+DEPT2 - Department2
+DEPT3 - Department3
+DEPT4 - Department4
+DEPT5 - Department5
+DEPT6 - Department6
+ZONE1 - ZONE 1
+ZONE2 - ZONE 2
+ZONE3 - ZONE 3
+DEPT1,DEPT2,DEPT3
+DEPT3,DEPT4,DEPT5
+DEPT4,DEPT5
+BANNER
+CEO
+Corporate Associate
+HR Super User
+MyWork Administrator
+Reflexis Administrator
+System Administrator
+Banner
+Banner Associate
+Banner Manager
+Division
+Division Associate
+Division Manager
+Region
+Region Associate
+Region Manager
+District
+District Admin
+District Associate
+District Manager
+District Supervisor
+Store    
+Assistant Store Admin
+Associate
+Store Admin
+Store Administrator
+Store Coordinator
+Store Department Manager
+Store Supervisor
+System Administrator (CORP)
+Paid / Unpaid
+FI
+FNI
+U
+Croston
+Driver2 for Forecast
+Driver3 for Forecast
+Driver7 for Forecast
+Driver8 for Forecast
+Driver17 for Forecast
+Driver18 for Forecast
+Driver19 for Forecast
+Driver27 for Forecast
+Driver9 for Forecast
+Driver10 for Forecast
+Driver11 for Forecast
+Driver12 for Forecast
+Driver20 for Forecast
+Driver21 for Forecast
+Driver22 for Forecast
+Driver23 for Forecast
+Driver24 for Forecast
+Driver25 for Forecast
+Driver26 for Forecast
+Holts winter Multiplicative
+Polynomial Linear Regression
+Sync Models
+Driver 11 F
+Driver 2 F
+Driver 12 F
+All Banner    
+All Division    
+All Region    
+All District
+AIEA
+ALPINE
+ANDERSON
+APPOMATTOX
+ASHLAND
+BOISE
+BOULDER
+CARSON
+CLARK
+CLAYTON
+CRUMP
+DANBURY
+DOVER
+FOLEY
+KENNESAW
+LEWIS
+MIAMI
+PORTLAND
+PRATTVILLE
+San Antonio
+TEMESAL
+TUNTUTULIAK
+WASHINGTON
+10 Browder St, CLAYTON, 36016
+103 N Juniper St, FOLEY, 36535
+125 Floral Dr NW, MIAMI, 33112
+125 Townpark Dr NW, AIEA, 30144
+125 Townpark Dr NW, ALPINE, 30144
+125 Townpark Dr NW, ASHLAND, 97520
+125 Townpark Dr NW, BOISE, 30144
+125 Townpark Dr NW, DANBURY, 30144
+125 Townpark Dr NW, DOVER, 30144
+125 Townpark Dr NW, KENNESAW, 30144
+125 Townpark Dr NW, KENNESAW, 36068
+125 Townpark Dr NW, TEMESAL, 30144
+125 Townpark Dr NW, TUNTUTULIAK, 30144
+125 Townpark Dr NW, WASHINGTON, 30144
+1255 park Dr NWZ, PORTLAND, 30144
+1420 Providence Highway, San Antonio, 1234567890
+18 Townpark Dr NW, ANDERSON, 30144
+19 Townpark Dr NW, CLARK, 30144
+20 Townpark Dr NW, CRUMP, 30144
+200 Clarinbridge Pkwy NW, CARSON, 89701
+21 Townpark Dr NW, BOULDER, 30144
+215 Gillespie St, PRATTVILLE, 36067
+217 Gillespie St, PRATTVILLE, 36067
+22 Townpark Dr NW, LEWIS, 30144
+23 Townpark Dr NW, APPOMATTOX, 30144
+LSGRP1A - Log Staff Group1A
+LSGRP1B - Log Staff Group1B
+LSGRP2A - Log Staff Group2A
+LSGRP2B - Log Staff Group2B
+LSGRP3A - Log Staff Group3A
+LSGRP3B - Log Staff Group3B
+LSGRP4A - Log Staff Group4A
+LSGRP4B - Log Staff Group4B
+LSGRP5A - Log Staff Group5A
+LSGRP5B - Log Staff Group5B
+LSGRP5C - Log Staff Group5C
+LSGRP6A - Log Staff Group6A
+LSGRP6B - Log Staff Group6B
+LSGRP7A - Log Staff Group7A
+LSGRP7B - Log Staff Group7B
+LSGRP8A - Log Staff Group8A
+LSGRP8B - Log Staff Group8B
+LSGRP9A - Log Staff Group9A
+LSGRP9B - Log Staff Group9B
+LSGRP10A - Log Staff Group10A
+LSGRP10B - Log Staff Group10B
+LZSGRP1A - Log ZStaff Group1A
+LZSGRP2A - Log ZStaff Group2A
+LZSGRP2B - Log ZStaff Group2B
+LZSGRP2C - Log ZStaff Group2C
+LZSGRP3A - Log ZStaff Group3A
+LZSGRP4A - Log ZStaff Group4A
+LZSGRP4B - Log ZStaff Group4B
+LZSGRP4C - Log ZStaff Group4C
+Store1,Associate01 - 10000001
+Store1,Associate02 - 10000002
+Store1,Associate03 - 10000003
+Store1,Associate04 - 10000004
+Store1,Associate05 - 10000005
+Store1,Associate06 - 10000006
+Store1,Associate07 - 10000007
+Store1,Associate08 - 10000008
+Store1,Associate09 - 10000009
+Store1,Associate10 - 10000010
+Store1,Associate11 - 10000011
+Store1,Associate12 - 10000012
+Store1,Associate13 - 10000013
+Store1,Associate14 - 10000014
+Store1,Associate15 - 10000015
+Store1,Associate16 - 10000016
+Store1,Associate17 - 10000017
+ZStore1,Associate001 - ZEMP000001
+ZStore1,Associate002 - ZEMP000002
+ZStore1,Associate003 - ZEMP000003
+ZStore1,Associate004 - ZEMP000004
+ZStore1,Associate005 - ZEMP000005
+ZStore1,Associate006 - ZEMP000006
+ZStore1,Associate007 - ZEMP000007
+ZStore1,Associate008 - ZEMP000008
+ZStore1,Associate009 - ZEMP000009
+ZStore1,Associate010 - ZEMP000010
+ZStore1,Associate011 - ZEMP000011
+ZStore1,Associate012 - ZEMP000012
+ZStore1,Associate013 - ZEMP000013
+ZStore1,Associate014 - ZEMP000014
+ZStore1,Associate015 - ZEMP000015
+ZStore1,Associate016 - ZEMP000016
+ZStore1,Associate017 - ZEMP000017
+ZStore2,Associate001 - Z2EMP000001
+ZStore2,Associate002 - Z2EMP000002
+ZStore2,Associate003 - Z2EMP000003
+ZStore2,Associate004 - Z2EMP000004
+ZStore2,Associate005 - Z2EMP000005
+ZStore2,Associate006 - Z2EMP000006
+ZStore2,Associate007 - Z2EMP000007
+ZStore2,Associate008 - Z2EMP000008
+ZStore2,Associate009 - Z2EMP000009
+ZStore2,Associate010 - Z2EMP000010
+ZStore2,Associate011 - Z2EMP000011
+ZStore2,Associate012 - Z2EMP000012
+ZStore2,Associate013 - Z2EMP000013
+ZStore2,Associate014 - Z2EMP000014
+ZStore2,Associate015 - Z2EMP000015
+ZStore2,Associate016 - Z2EMP000016
+ZStore2,Associate017 - Z2EMP000017
+Store2,Associate01 - 20000001
+Store2,Associate02 - 20000002
+Store2,Associate03 - 20000003
+Store2,Associate04 - 20000004
+Store2,Associate05 - 20000005
+Store2,Associate06 - 20000006
+Store2,Associate07 - 20000007
+Store2,Associate08 - 20000008
+Store2,Associate09 - 20000009
+Store2,Associate10 - 20000010
+Store2,Associate11 - 20000011
+Store2,Associate12 - 20000012
+Store2,Associate13 - 20000013
+Store2,Associate14 - 20000014
+Store2,Associate15 - 20000015
+Store2,Associate16 - 20000016
+Store2,Associate17 - 20000017
+Store3,Associate01 - 30000001
+Store3,Associate02 - 30000002
+Store3,Associate03 - 30000003
+Store3,Associate04 - 30000004
+Store3,Associate05 - 30000005
+Store3,Associate06 - 30000006
+Store3,Associate07 - 30000007
+Store3,Associate08 - 30000008
+Store3,Associate09 - 30000009
+Store3,Associate10 - 30000010
+Store3,Associate11 - 30000011
+Store3,Associate12 - 30000012
+Store3,Associate13 - 30000013
+Store3,Associate14 - 30000014
+Store3,Associate15 - 30000015
+Store3,Associate16 - 30000016
+Store3,Associate17 - 30000017
+Store3,Associate18 - 30000018
+Store3,Associate19 - 30000019
+Store3,Associate20 - 30000020
+Store3,Associate21 - 30000021
+Store3,Associate22 - 30000022
+Store3,Associate23 - 30000023
+Store3,Associate24 - 30000024
+Store3,Associate25 - 30000025
+Store3,Associate26 - 30000026
+Store3,Associate27 - 30000027
+Store3,Associate28 - 30000028
+Store3,Associate29 - 30000029
+Store3,Associate30 - 30000030
+Store3,Associate31 - 30000031
+Store3,Associate32 - 30000032
+Store3,Associate33 - 30000033
+Store3,Associate34 - 30000034
+Store3,Associate35 - 30000035
+Store3,Associate36 - 30000036
+Store3,Associate37 - 30000037
+Store3,Associate38 - 30000038
+Store3,Associate39 - 30000039
+Store3,Associate40 - 30000040
+Store3,Associate41 - 30000041
+Store3,Associate42 - 30000042
+Store3,Associate43 - 30000043
+Store3,Associate44 - 30000044
+Store3,Associate45 - 30000045
+Store4,Associate01 - 40000001
+Store4,Associate02 - 40000002
+Store4,Associate03 - 40000003
+Store4,Associate04 - 40000004
+Store4,Associate05 - 40000005
+Store4,Associate06 - 40000006
+Store4,Associate07 - 40000007
+Store4,Associate08 - 40000008
+Store5,Associate01 - 50000001
+Store5,Associate02 - 50000002
+Store5,Associate03 - 50000003
+Store5,Associate04 - 50000004
+Store5,Associate05 - 50000005
+Store5,Associate06 - 50000006
+Store5,RHAssociate01 - RHS50000001
+Store5,RHAssociate10 - RHS50000010
+Store5,RHAssociate08 - RHS50000008
+Store5,RHAssociate09 - RHS50000009
+Store5,RHAssociate06 - RHS50000006
+Store5,RHAssociate07 - RHS50000007
+Store5,RHAssociate02 - RHS50000002
+Store5,RHAssociate03 - RHS50000003
+Store5,RHAssociate04 - RHS50000004
+Store5,RHAssociate05 - RHS50000005
+Store5,RHAssociate11 - RHS50000011
+Store5,RHAssociate12 - RHS50000012
+Store6,Associate01 - 60000001
+Store6,Associate02 - 60000002
+Store6,Associate03 - 60000003
+Store6,Associate04 - 60000004
+Store6,Associate05 - 60000005
+Store6,Associate06 - 60000006
+Store7,Associate01 - 70000001
+Store7,Associate02 - 70000002
+Store7,Associate03 - 70000003
+Store7,Associate04 - 70000004
+Store7,Associate05 - 70000005
+Store7,Associate06 - 70000006
+Store7,Associate07 - 70000007
+Store7,Associate08 - 70000008
+Store7,Associate09 - 70000009
+Store7,Associate10 - 70000010
+Store7,Associate11 - 70000011
+Store7,Associate12 - 70000012
+Store7,Associate13 - 70000013
+Store7,Associate14 - 70000014
+Store7,Associate15 - 70000015
+Store7,Associate16 - 70000016
+Store8,Associate01 - 80000001
+Store8,Associate02 - 80000002
+Store8,Associate05 - 80000005
+Store8,Associate03 - 80000003
+Store8,Associate04 - 80000004
+Store8,Associate06 - 80000006
+Store9,Associate01 - 90000001
+Store9,Associate02 - 90000002
+Store9,Associate05 - 90000005
+Store9,Associate06 - 90000006
+Store9,Associate07 - 90000007
+Store9,Associate03 - 90000003
+Store9,Associate04 - 90000004
+Store9,Associate08 - 90000008
+Store10,Associate01 - 100000001
+Store10,Associate02 - 100000002
+Store10,Associate03 - 100000003
+Store10,Associate04 - 100000004
+Store10,Associate05 - 100000005
+Store10,Associate06 - 100000006
+Store10,Associate07 - 100000007
+Store10,Associate08 - 100000008
+Store10,Associate09 - 100000009
+Store10,Associate10 - 100000010
+Store10,Associate11 - 100000011
+Store10,Associate12 - 100000012
+Store10,Associate13 - 100000013
+Store10,Associate14 - 100000014
+Store10,Associate15 - 100000015
+Store10,Associate16 - 100000016
+Store10,Associate17 - 100000017
+Store10,Associate18 - 100000018
+Store11,Associate01 - 110000001
+Store11,Associate02 - 110000002
+Store11,Associate03 - 110000003
+Store11,Associate04 - 110000004
+Store11,Associate05 - 110000005
+Store11,Associate06 - 110000006
+Store11,Associate07 - 110000007
+Store11,Associate08 - 110000008
+Store11,Associate09 - 110000009
+Store11,Associate10 - 110000010
+Store12,Associate01 - 120000001
+Store12,Associate02 - 120000002
+Store12,Associate03 - 120000003
+Store12,Associate04 - 120000004
+Store12,Associate05 - 120000005
+Store12,Associate06 - 120000006
+Store12,Associate07 - 120000007
+Store12,Associate08 - 120000008
+Store12,Associate09 - 120000009
+Store12,Associate10 - 120000010
+Store13,Associate01 - 130000001
+Store13,Associate02 - 130000002
+Store13,Associate03 - 130000003
+Store13,Associate04 - 130000004
+Store13,Associate05 - 130000005
+Store13,Associate06 - 130000006
+Store13,Associate07 - 130000007
+Store13,Associate08 - 130000008
+Store14,Associate01 - 140000001
+Store14,Associate02 - 140000002
+Store14,Associate03 - 140000003
+Store14,Associate04 - 140000004
+Store14,Associate05 - 140000005
+Store14,Associate06 - 140000006
+Store14,Associate07 - 140000007
+Store14,Associate08 - 140000008
+Store14,Associate09 - 140000009
+Store14,Associate10 - 140000010
+Store14,Associate11 - 140000011
+Store14,Associate12 - 140000012
+Store14,Associate13 - 140000013
+Store14,Associate14 - 140000014
+Store14,Associate15 - 140000015
+Store14,Associate16 - 140000016
+Store14,Associate17 - 140000017
+Store14,Associate18 - 140000018
+Store14,Associate19 - 140000019
+Store14,Associate20 - 140000020
+Store15,Associate01 - 150000001
+Store15,Associate02 - 150000002
+Store15,Associate03 - 150000003
+Store15,Associate04 - 150000004
+Store15,Associate05 - 150000005
+Store15,Associate06 - 150000006
+Store15,Associate07 - 150000007
+Store15,Associate08 - 150000008
+Store15,Associate09 - 150000009
+Store15,Associate10 - 150000010
+Store15,Associate11 - 150000011
+Store15,Associate12 - 150000012
+Store15,Associate13 - 150000013
+Store15,Associate14 - 150000014
+Store15,Associate15 - 150000015
+Store15,Associate16 - 150000016
+Store15,Associate17 - 150000017
+Store15,Associate18 - 150000018
+Store15,Associate19 - 150000019
+Store15,Associate20 - 150000020
+Store15,Associate21 - 150000021
+Store15,Associate22 - 150000022
+Store15,Associate23 - 150000023
+Store15,Associate24 - 150000024
+Store15,Associate25 - 150000025
+Store16,Associate01 - 160000001
+Store16,Associate02 - 160000002
+Store16,Associate03 - 160000003
+Store16,Associate04 - 160000004
+Store16,Associate05 - 160000005
+Store16,Associate06 - 160000006
+Store17,Associate01 - 170000001
+Store17,Associate02 - 170000002
+Store17,Associate03 - 170000003
+Store17,Associate04 - 170000004
+Store17,Associate05 - 170000005
+Store17,Associate06 - 170000006
+Store17,Associate07 - 170000007
+Store17,Associate08 - 170000008
+Store17,Associate09 - 170000009
+Store17,Associate10 - 170000010
+Store17,Associate11 - 170000011
+Store17,Associate12 - 170000012
+Store17,Associate13 - 170000013
+Store17,Associate14 - 170000014
+Store17,Associate15 - 170000015
+Store17,Associate16 - 170000016
+Store18,Associate01 - 180000001
+Store18,Associate02 - 180000002
+Store18,Associate03 - 180000003
+Store18,Associate04 - 180000004
+Store18,Associate05 - 180000005
+Store18,Associate06 - 180000006
+Store18,Associate07 - 180000007
+Store18,Associate08 - 180000008
+Store18,Associate09 - 180000009
+Store18,Associate10 - 180000010
+Store18,Associate11 - 180000011
+Store18,Associate12 - 180000012
+Store18,Associate13 - 180000013
+Store18,Associate14 - 180000014
+Store18,Associate15 - 180000015
+Store18,Associate16 - 180000016
+Store18,Associate17 - 180000017
+Store18,Associate18 - 180000018
+Store18,Associate19 - 180000019
+Store18,Associate20 - 180000020
+Store18,Associate21 - 180000021
+Store18,Associate22 - 180000022
+Store18,Associate23 - 180000023
+Store18,Associate24 - 180000024
+Store18,Associate25 - 180000025
+Store18,Associate26 - 180000026
+Store19,Associate01 - 190000001
+Store19,Associate02 - 190000002
+Store19,Associate03 - 190000003
+Store19,Associate04 - 190000004
+Store19,Associate05 - 190000005
+Store19,Associate06 - 190000006
+Store19,Associate07 - 190000007
+Store19,Associate08 - 190000008
+Store19,Associate09 - 190000009
+Store19,Associate10 - 190000010
+Store19,Associate11 - 190000011
+Store19,Associate12 - 190000012
+Store19,Associate13 - 190000013
+Store19,Associate14 - 190000014
+Store19,Associate15 - 190000015
+Store19,Associate16 - 190000016
+Store19,Associate17 - 190000017
+Store19,Associate18 - 190000018
+Store19,Associate19 - 190000019
+Store19,Associate20 - 190000020
+Store19,Associate21 - 190000021
+Store19,Associate22 - 190000022
+Store19,Associate23 - 190000023
+Store20,Associate01 - 200000001
+Store20,Associate02 - 200000002
+Store20,Associate03 - 200000003
+Store20,Associate04 - 200000004
+Store20,Associate05 - 200000005
+Store20,Associate06 - 200000006
+Store20,Associate07 - 200000007
+Store20,Associate08 - 200000008
+Store20,Associate09 - 200000009
+Store20,Associate10 - 200000010
+Store20,Associate11 - 200000011
+Store20,Associate12 - 200000012
+Store20,Associate13 - 200000013
+Store20,Associate14 - 200000014
+Store20,Associate15 - 200000015
+Store20,Associate16 - 200000016
+Store20,Associate17 - 200000017
+Store20,Associate18 - 200000018
+Store20,Associate19 - 200000019
+Store20,Associate20 - 200000020
+Store20,Associate21 - 200000021
+Store20,Associate22 - 200000022
+Store20,Associate23 - 200000023
+Store20,Associate24 - 200000024
+Store20,Associate25 - 200000025
+Store21,Associate01 - 210000001
+Store21,Associate02 - 210000002
+Store21,Associate03 - 210000003
+Store21,Associate04 - 210000004
+Store21,Associate05 - 210000005
+Store21,Associate06 - 210000006
+Store21,Associate07 - 210000007
+Store21,Associate08 - 210000008
+Store21,Associate09 - 210000009
+Store21,Associate10 - 210000010
+Store21,Associate11 - 210000011
+Store21,Associate12 - 210000012
+Store21,Associate13 - 210000013
+Store21,Associate14 - 210000014
+Store21,Associate15 - 210000015
+Store21,Associate16 - 210000016
+Store21,Associate17 - 210000017
+Store21,Associate18 - 210000018
+Store21,Associate19 - 210000019
+Store21,Associate20 - 210000020
+Store21,Associate21 - 210000021
+Store21,Associate22 - 210000022
+Store21,Associate23 - 210000023
+Store21,Associate24 - 210000024
+Store21,Associate25 - 210000025
+Store22,Associate01 - 220000001
+Store22,Associate02 - 220000002
+Store22,Associate03 - 220000003
+Store22,Associate04 - 220000004
+Store22,Associate05 - 220000005
+Store22,Associate06 - 220000006
+Store22,Associate07 - 220000007
+Store22,Associate08 - 220000008
+Store22,Associate09 - 220000009
+Store22,Associate10 - 220000010
+Store22,Associate11 - 220000011
+Store22,Associate12 - 220000012
+Store22,Associate13 - 220000013
+Store22,Associate14 - 220000014
+Store22,Associate15 - 220000015
+Store22,Associate16 - 220000016
+Store22,Associate17 - 220000017
+Store22,Associate18 - 220000018
+Store22,Associate19 - 220000019
+Store22,Associate20 - 220000020
+Store22,Associate21 - 220000021
+Store22,Associate22 - 220000022
+Store22,Associate23 - 220000023
+Store22,Associate24 - 220000024
+Store22,Associate25 - 220000025
+Store22,Associate26 - 220000026
+Store23,Associate01 - 230000001
+Store23,Associate02 - 230000002
+Store23,Associate03 - 230000003
+Store23,Associate04 - 230000004
+Store23,Associate05 - 230000005
+Store23,Associate06 - 230000006
+Store23,Associate07 - 230000007
+Store23,Associate08 - 230000008
+Store23,Associate09 - 230000009
+Store23,Associate10 - 230000010
+Store23,Associate11 - 230000011
+Store23,Associate12 - 230000012
+Store23,Associate13 - 230000013
+Store23,Associate14 - 230000014
+Store23,Associate15 - 230000015
+Store23,Associate16 - 230000016
+Store23,Associate17 - 230000017
+Store23,Associate18 - 230000018
+Store23,Associate19 - 230000019
+Store23,Associate20 - 230000020
+Store24,Associate01 - 240000001
+Store24,Associate02 - 240000002
+Store24,Associate03 - 240000003
+Store24,Associate04 - 240000004
+Store24,Associate05 - 240000005
+Store24,Associate06 - 240000006
+Store24,Associate07 - 240000007
+Store24,Associate08 - 240000008
+Store24,Associate09 - 240000009
+Store24,Associate10 - 240000010
+Store24,Associate11 - 240000011
+Store24,Associate12 - 240000012
+Store24,Associate13 - 240000013
+Store24,Associate14 - 240000014
+Store24,Associate15 - 240000015
+Store24,Associate16 - 240000016
+Store24,Associate17 - 240000017
+Store24,Associate18 - 240000018
+Store24,Associate19 - 240000019
+Store24,Associate20 - 240000020
+Store24,Associate21 - 240000021
+Store24,Associate22 - 240000022
+Store24,Associate23 - 240000023
+Store24,Associate24 - 240000024
+Store24,Associate25 - 240000025
+Store24,Associate26 - 240000026
+Store24,Associate27 - 240000027
+Store24,Associate28 - 240000028
+Store24,Associate29 - 240000029
+Store24,Associate30 - 240000030
+Store24,Associate31 - 240000031
+Store24,Associate32 - 240000032
+Store24,Associate33 - 240000033
+Store24,Associate34 - 240000034
+Store24,Associate35 - 240000035
+Store24,Associate36 - 240000036
+Store24,Associate37 - 240000037
+Store25,Associate01 - 250000001
+Store25,Associate02 - 250000002
+Store25,Associate03 - 250000003
+Store25,Associate04 - 250000004
+Store25,Associate05 - 250000005
+Store25,Associate06 - 250000006
+Store25,Associate07 - 250000007
+Store25,Associate08 - 250000008
+Store25,Associate09 - 250000009
+Store25,Associate10 - 250000010
+Store25,Associate11 - 250000011
+Store25,Associate12 - 250000012
+Store25,Associate13 - 250000013
+Store25,Associate14 - 250000014
+Store25,Associate15 - 250000015
+Store25,Associate16 - 250000016
+Store25,Associate17 - 250000017
+Store25,Associate18 - 250000018
+Store25,Associate19 - 250000019
+Store25,Associate20 - 250000020
+Store26,Associate01 - 260000001
+Store26,Associate02 - 260000002
+Store26,Associate03 - 260000003
+Store26,Associate04 - 260000004
+Store26,Associate05 - 260000005
+Store26,Associate06 - 260000006
+Store26,Associate07 - 260000007
+Store26,Associate08 - 260000008
+Store26,Associate09 - 260000009
+Store26,Associate10 - 260000010
+Store26,Associate11 - 260000011
+Store26,Associate12 - 260000012
+Store26,Associate13 - 260000013
+Store26,Associate14 - 260000014
+Store26,Associate15 - 260000015
+Store26,Associate16 - 260000016
+Store26,Associate17 - 260000017
+Store26,Associate18 - 260000018
+Store26,Associate19 - 260000019
+Store26,Associate20 - 260000020
+Store26,Associate21 - 260000021
+Store26,Associate22 - 260000022
+Store26,Associate23 - 260000023
+Store26,Associate24 - 260000024
+Store26,Associate25 - 260000025
+Store26,Associate26 - 260000026
+Store26,Associate27 - 260000027
+Store26,Associate28 - 260000028
+Store26,Associate29 - 260000029
+Store26,Associate30 - 260000030
+Store26,Associate31 - 260000031
+Store26,Associate32 - 260000032
+Store26,Associate33 - 260000033
+Store26,Associate34 - 260000034
+Store27,Associate01 - 270000001
+Store27,Associate02 - 270000002
+Store27,Associate03 - 270000003
+Store27,Associate04 - 270000004
+Store27,Associate05 - 270000005
+Store27,Associate06 - 270000006
+Store27,Associate07 - 270000007
+Store27,Associate08 - 270000008
+Store27,Associate09 - 270000009
+Store27,Associate10 - 270000010
+Store27,Associate11 - 270000011
+Store27,Associate12 - 270000012
+Store27,Associate13 - 270000013
+Store27,Associate14 - 270000014
+Store27,Associate15 - 270000015
+Store27,Associate16 - 270000016
+Store27,Associate17 - 270000017
+Store27,Associate18 - 270000018
+Store27,Associate19 - 270000019
+Store27,Associate20 - 270000020
+Store27,Associate21 - 270000021
+Store27,Associate22 - 270000022
+Store27,Associate23 - 270000023
+Store27,Associate24 - 270000024
+Store27,Associate25 - 270000025
+Store27,Associate26 - 270000026
+Store27,Associate27 - 270000027
+Store27,Associate28 - 270000028
+Store27,Associate29 - 270000029
+Store27,Associate30 - 270000030
+Store27,Associate31 - 270000031
+Store27,Associate32 - 270000032
+Store27,Associate33 - 270000033
+Store27,Associate34 - 270000034
+Store27,FAssociate01 - F270000001
+Store27,FAssociate02 - F270000002
+Store28,Associate01 - 280000001
+Store28,Associate02 - 280000002
+Store28,Associate03 - 280000003
+Store28,Associate04 - 280000004
+Store28,Associate05 - 280000005
+Store28,Associate06 - 280000006
+Store28,Associate07 - 280000007
+Store28,Associate08 - 280000008
+Store28,Associate09 - 280000009
+Store28,Associate10 - 280000010
+Store28,Associate11 - 280000011
+Store28,Associate12 - 280000012
+Store28,Associate13 - 280000013
+Store28,Associate14 - 280000014
+Store28,Associate15 - 280000015
+Store28,Associate16 - 280000016
+Store28,Associate17 - 280000017
+Store28,Associate18 - 280000018
+Store28,Associate19 - 280000019
+Store28,Associate20 - 280000020
+Store28,Associate21 - 280000021
+Store28,Associate22 - 280000022
+Store28,Associate23 - 280000023
+Store28,Associate24 - 280000024
+Store28,Associate25 - 280000025
+Store28,Associate26 - 280000026
+Store28,Associate27 - 280000027
+Store28,Associate28 - 280000028
+Store28,Associate29 - 280000029
+Store28,Associate30 - 280000030
+Store28,Associate31 - 280000031
+Store28,Associate32 - 280000032
+Store28,Associate33 - 280000033
+Store28,Associate34 - 280000034
+Store29,Associate01 - 290000001
+Store29,Associate02 - 290000002
+Store29,Associate03 - 290000003
+Store29,Associate04 - 290000004
+Store29,Associate05 - 290000005
+Store29,Associate06 - 290000006
+Store29,Associate07 - 290000007
+Store29,Associate08 - 290000008
+Store29,Associate09 - 290000009
+Store29,Associate10 - 290000010
+Store29,Associate11 - 290000011
+Store29,Associate12 - 290000012
+Store29,Associate13 - 290000013
+Store29,Associate14 - 290000014
+Store29,Associate15 - 290000015
+Store29,Associate16 - 290000016
+Store29,Associate17 - 290000017
+Store29,Associate18 - 290000018
+Store29,Associate19 - 290000019
+Store29,Associate20 - 290000020
+Store29,Associate21 - 290000021
+Store29,Associate22 - 290000022
+Store29,Associate23 - 290000023
+Store29,Associate24 - 290000024
+Store29,Associate25 - 290000025
+Store29,Associate26 - 290000026
+Store29,Associate27 - 290000027
+Store29,Associate28 - 290000028
+Store29,Associate29 - 290000029
+Store29,Associate30 - 290000030
+Store29,Associate31 - 290000031
+Store29,Associate32 - 290000032
+Store29,Associate33 - 290000033
+Store29,Associate34 - 290000034
+Store29,FAssociate01 - F290000001
+Store29,FAssociate02 - F290000002
+Store30,Associate01 - 300000001
+Store30,Associate02 - 300000002
+Store30,Associate03 - 300000003
+Store30,Associate04 - 300000004
+Store30,Associate05 - 300000005
+Store30,Associate06 - 300000006
+Store30,Associate07 - 300000007
+Store30,Associate08 - 300000008
+Store30,Associate09 - 300000009
+Store30,Associate10 - 300000010
+Store30,Associate11 - 300000011
+Store30,Associate12 - 300000012
+Store30,Associate13 - 300000013
+Store30,Associate14 - 300000014
+Store30,Associate15 - 300000015
+Store30,Associate16 - 300000016
+Store30,Associate17 - 300000017
+Store30,Associate18 - 300000018
+Store30,Associate19 - 300000019
+Store30,Associate20 - 300000020
+Store30,Associate21 - 300000021
+Store30,Associate22 - 300000022
+Store30,Associate23 - 300000023
+Store30,Associate24 - 300000024
+Store30,Associate25 - 300000025
+Store30,Associate26 - 300000026
+Store30,Associate27 - 300000027
+Store30,Associate28 - 300000028
+Store30,Associate29 - 300000029
+Store30,Associate30 - 300000030
+Store30,Associate31 - 300000031
+Store30,Associate32 - 300000032
+Store30,Associate33 - 300000033
+Store30,Associate34 - 300000034
+Store30,FAssociate01 - F300000001
+Store30,FAssociate02 - F300000002
+Store26,Avpassociate01 - A260000001
+Store26,Avpassociate02 - A260000002
+Store26,Avpassociate03 - A260000003
+Store26,Avpassociate04 - A260000004
+Store26,Avpassociate05 - A260000005
+Store26,Avpassociate06 - A260000006
+Store26,Avpassociate07 - A260000007
+Store26,Avpassociate08 - A260000008
+Store26,Avpassociate09 - A260000009
+Store26,Avpassociate10 - A260000010
+Store26,Avpassociate11 - A260000011
+Store26,Avpassociate12 - A260000012
+Store26,Avpassociate13 - A260000013
+Store26,Avpassociate14 - A260000014
+Store26,Avpassociate15 - A260000015
+Store26,Avpassociate16 - A260000016
+Store26,Avpassociate17 - A260000017
+Store26,Avpassociate18 - A260000018
+Store26,Avpassociate19 - A260000019
+Store26,Avpassociate20 - A260000020
+Store26,Avpassociate21 - A260000021
+Store26,Avpassociate22 - A260000022
+Store26,Avpassociate23 - A260000023
+Store26,Avpassociate24 - A260000024
+Store26,Avpassociate25 - A260000025
+Store27,Avpassociate01 - A270000001
+Store27,Avpassociate02 - A270000002
+Store27,Avpassociate03 - A270000003
+Store27,Avpassociate04 - A270000004
+Store27,Avpassociate05 - A270000005
+Store27,Avpassociate06 - A270000006
+Store27,Avpassociate07 - A270000007
+Store27,Avpassociate08 - A270000008
+Store27,Avpassociate09 - A270000009
+Store27,Avpassociate10 - A270000010
+Store27,Avpassociate11 - A270000011
+Store27,Avpassociate12 - A270000012
+Store27,Avpassociate13 - A270000013
+Store27,Avpassociate14 - A270000014
+Store27,Avpassociate15 - A270000015
+Store27,Avpassociate16 - A270000016
+Store27,Avpassociate17 - A270000017
+Store27,Avpassociate18 - A270000018
+Store27,Avpassociate19 - A270000019
+Store27,Avpassociate20 - A270000020
+Store27,Avpassociate21 - A270000021
+Store27,Avpassociate22 - A270000022
+Store27,Avpassociate23 - A270000023
+Store27,Avpassociate24 - A270000024
+Store27,Avpassociate25 - A270000025
+Store28,Avpassociate01 - A280000001
+Store28,Avpassociate02 - A280000002
+Store28,Avpassociate03 - A280000003
+Store28,Avpassociate04 - A280000004
+Store28,Avpassociate05 - A280000005
+Store28,Avpassociate06 - A280000006
+Store28,Avpassociate07 - A280000007
+Store28,Avpassociate08 - A280000008
+Store28,Avpassociate09 - A280000009
+Store28,Avpassociate10 - A280000010
+Store28,Avpassociate11 - A280000011
+Store28,Avpassociate12 - A280000012
+Store28,Avpassociate13 - A280000013
+Store28,Avpassociate14 - A280000014
+Store28,Avpassociate15 - A280000015
+Store28,Avpassociate16 - A280000016
+Store28,Avpassociate17 - A280000017
+Store28,Avpassociate18 - A280000018
+Store28,Avpassociate19 - A280000019
+Store28,Avpassociate20 - A280000020
+Store28,Avpassociate21 - A280000021
+Store28,Avpassociate22 - A280000022
+Store28,Avpassociate23 - A280000023
+Store28,Avpassociate24 - A280000024
+Store28,Avpassociate25 - A280000025
+Store29,Avpassociate01 - A290000001
+Store29,Avpassociate02 - A290000002
+Store29,Avpassociate03 - A290000003
+Store29,Avpassociate04 - A290000004
+Store29,Avpassociate05 - A290000005
+Store29,Avpassociate06 - A290000006
+Store29,Avpassociate07 - A290000007
+Store29,Avpassociate08 - A290000008
+Store29,Avpassociate09 - A290000009
+Store29,Avpassociate10 - A290000010
+Store29,Avpassociate11 - A290000011
+Store29,Avpassociate12 - A290000012
+Store29,Avpassociate13 - A290000013
+Store29,Avpassociate14 - A290000014
+Store29,Avpassociate15 - A290000015
+Store29,Avpassociate16 - A290000016
+Store29,Avpassociate17 - A290000017
+Store29,Avpassociate18 - A290000018
+Store29,Avpassociate19 - A290000019
+Store29,Avpassociate20 - A290000020
+Store29,Avpassociate21 - A290000021
+Store29,Avpassociate22 - A290000022
+Store29,Avpassociate23 - A290000023
+Store29,Avpassociate24 - A290000024
+Store29,Avpassociate25 - A290000025
+Store30,Avpassociate01 - A300000001
+Store30,Avpassociate02 - A300000002
+Store30,Avpassociate03 - A300000003
+Store30,Avpassociate04 - A300000004
+Store30,Avpassociate05 - A300000005
+Store30,Avpassociate06 - A300000006
+Store30,Avpassociate07 - A300000007
+Store30,Avpassociate08 - A300000008
+Store30,Avpassociate09 - A300000009
+Store30,Avpassociate10 - A300000010
+Store30,Avpassociate11 - A300000011
+Store30,Avpassociate12 - A300000012
+Store30,Avpassociate13 - A300000013
+Store30,Avpassociate14 - A300000014
+Store30,Avpassociate15 - A300000015
+Store30,Avpassociate16 - A300000016
+Store30,Avpassociate17 - A300000017
+Store30,Avpassociate18 - A300000018
+Store30,Avpassociate19 - A300000019
+Store30,Avpassociate20 - A300000020
+Store30,Avpassociate21 - A300000021
+Store30,Avpassociate22 - A300000022
+Store30,Avpassociate23 - A300000023
+Store30,Avpassociate24 - A300000024
+Store30,Avpassociate25 - A300000025
+District3,Manager01 - D30000001
+District5,Floater01 - D50000001
+District5,Floater02 - D50000002
+District5,Floater03 - D50000003
+District5,Floater04 - D50000004
+District5,Floater05 - D50000005
+District5,Floater06 - D50000006
+District5,Floater07 - D50000007
+District5,Floater08 - D50000008
+District6,Manager01 - D60000001
+District6,MgrFloater01 - D60000002
+District6,Floater01 - D60000003
+District6,Floater02 - D60000004
+District6,Floater03 - D60000005
+District6,Floater04 - D60000006
+District6,Floater05 - D60000007
+District6,Floater06 - D60000008
+District7,Manager01 - D70000001
+District7,MgrFloater01 - D70000002
+District7,Floater01 - D70000003
+District7,Floater02 - D70000004
+District7,Floater03 - D70000005
+District7,Floater04 - D70000006
+District7,Floater05 - D70000007
+District7,Floater06 - D70000008
+Corp,CEO1 - CORP000001
+Corp,Superuser01 - CORP000002
+Corp,Superuser02 - CORP000003
+Corp,Associate01 - CORP000004
+Corp,Associate02 - CORP000005
+Banner2,Manager01 - BAN2000001
+Banner2,Associate01 - BAN2000002
+Banner2,Associate02 - BAN2000003
+Division3,Manager01 - DIV3000001
+Division3,Associate01 - DIV3000002
+Division3,Associate02 - DIV3000003
+Region5,Manager01 - REG5000001
+Region5,Associate01 - REG5000002
+Store1,Associate18 - 10000018
+Region5,Associate02 - REG5000003
+Region5,Associate03 - REG5000004
+District5,RHAssociate01 - RHD50000001
+District5,RHAssociate06 - RHD50000006
+District5,RHAssociate03 - RHD50000003
+District5,RHAssociate04 - RHD50000004
+District5,RHAssociate05 - RHD50000005
+District5,RHAssociate02 - RHD50000002
+District5,RHAssociate07 - RHD50000007
+Region4,RHAssociate01 - RHREG4000001
+Region4,RHAssociate02 - RHREG4000002
+Region4,RHAssociate03 - RHREG4000003
+Region4,RHAssociate04 - RHREG4000004
+Region4,RHAssociate05 - RHREG4000005
+Division3,RHAssociate01 - RHDIV3000001
+Division3,RHAssociate02 - RHDIV3000002
+Division3,RHAssociate03 - RHDIV3000003
+Division3,RHAssociate04 - RHDIV3000004
+Division3,RHAssociate05 - RHDIV3000005
+Banner2,RHAssociate01 - RHBAN2000001
+Banner2,RHAssociate02 - RHBAN2000002
+Banner2,RHAssociate03 - RHBAN2000003
+Banner2,RHAssociate04 - RHBAN2000004
+Banner2,RHAssociate05 - RHBAN2000005
+CEO,RHAssociate01 - RHCEO0000001
+HR,RHAssociate01 - RHHRO0000001
+CORP,RHAssociate02 - RHCORP000002
+CORP,RHAssociate03 - RHCORP000003
+CORP,RHAssociate04 - RHCORP000004
+CORP,RHAssociate05 - RHCORP000005
+Store5,Associate07 - 50000007
+Store2,Associate47 - 20000047
+Store2,Associate48 - 20000048
+Store2,Associate49 - 20000049
+Store2,Associate50 - 20000050
+RFLX0120250704,NewAssociate01 - RFLX0120250704
+RFLX0220250704,NewAssociate02 - RFLX0220250704
+RFLX0120260519,NewAssociate01 - RFLX0120260519
+RFLX0220260519,NewAssociate02 - RFLX0220260519
+Store1,Associate19 - 10000019

@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["HRCIFileConfiguration"],
+  "description": "Configuration for HRCI file upload entity data provider",
+  "version": "1.0"
+}

@@ -1,0 +1,10 @@
+{
+    "base_url": "https://knldxnspp.reflexisinc.co.uk/RWS4/",
+    "domainId": "DIX",
+    "kernel_url": "https://knlcl52pp.reflexisinc.co.uk/kernel/",
+    "app_url": "https://knldxnspp.reflexisinc.co.uk/kernel/views/authenticate/W/DIX.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "DIX_PP",
+    "RAR_GATEWAY_URI": "https://knldxnspp.reflexisinc.co.uk:443/rwsibmcognos/bi/v1/disp"
+}

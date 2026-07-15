@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WST Test Results Dashboard - Detailed View</title>
+  <link rel="stylesheet" href="test-results-styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/ag-grid-community@31.0.3/dist/ag-grid-community.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@31.0.3/styles/ag-grid.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ag-grid-community@31.0.3/styles/ag-theme-alpine.css" />
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.5.29/dist/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="hero__content">
+        <div class="brand">
+          <div>
+            <h1>WST Test Results</h1>
+            <p>Per-test execution history across environments</p>
+          </div>
+        </div>
+        <div class="hero__side">
+          <div class="hero__meta">
+            <div class="meta-card">
+              <span>Tests</span>
+              <strong id="total-tests-count">Loading...</strong>
+            </div>
+            <div class="meta-card">
+              <span>Environments</span>
+              <strong id="total-env-count">Loading...</strong>
+            </div>
+          </div>
+          <div class="hero__actions">
+            <button class="btn btn--ghost btn--icon" id="export-xls" type="button" aria-label="Export XLS" title="Export XLS">
+              <span class="btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path d="M6 2h8l4 4v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V7h3.5L14 3.5zM8.4 11.5h1.6l1.2 2 1.2-2H14l-2 3 2 3h-1.6l-1.2-2-1.2 2H8.4l2-3-2-3zm7.6 6.5h-1v-1h1v1zm-2 0h-1v-1h1v1zm2-2h-1v-1h1v1z" />
+                </svg>
+              </span>
+            </button>
+            <button class="btn btn--solid btn--icon" id="export-pdf" type="button" aria-label="Export PDF" title="Export PDF">
+              <span class="btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path d="M6 2h8l4 4v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V7h3.5L14 3.5zM7 12h3a2 2 0 0 1 0 4H9v2H7v-6zm2 3h1a1 1 0 0 0 0-2H9v2zm4-3h2.5a1.5 1.5 0 0 1 0 3H15v3h-2v-6zm2 2a.5.5 0 0 0 0-1H15v1h0z" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="dashboard-toolbar">
+        <div class="dashboard-toolbar__left">
+          <span class="run-type-bar__label">Test scope</span>
+          <div class="run-type-toggle" role="group" aria-label="Filter dashboard by run type">
+            <button type="button" class="run-type-btn" data-run-type="sanity" aria-pressed="false">Sanity</button>
+            <button type="button" class="run-type-btn" data-run-type="sit" aria-pressed="false">SIT</button>
+          </div>
+          <span class="run-type-status" id="run-type-status" aria-live="polite"></span>
+        </div>
+        <nav class="dashboard-nav" aria-label="Dashboard views">
+          <span class="dashboard-nav__label">View</span>
+          <div class="dashboard-nav__tabs">
+            <a href="index.html" class="dashboard-nav__link">Summary</a>
+            <a href="test-results.html" class="dashboard-nav__link active" aria-current="page">Detailed</a>
+          </div>
+        </nav>
+      </div>
+
+      <section class="panel results-panel">
+        <div class="results-panel__header">
+          <div class="results-panel__title">
+            <h2>Test execution matrix</h2>
+            <p>Search and compare results across environments. Test titles show business names; IDs are available on hover.</p>
+          </div>
+          <div class="results-panel__filters">
+            <label class="filter-field">
+              <span class="filter-field__label">Search</span>
+              <input
+                type="text"
+                id="quick-filter"
+                placeholder="Test name..."
+                class="filter-input"
+                title="Search across all test names"
+              />
+            </label>
+            <label class="filter-field">
+              <span class="filter-field__label">Tag</span>
+              <input
+                type="text"
+                id="tag-filter"
+                placeholder="e.g. smoke"
+                class="filter-input filter-input--narrow"
+                title="Filter tests by tags"
+              />
+            </label>
+            <button class="btn btn--outline btn--compact" id="filter-failed" type="button" title="Show only tests with failures">
+              Failed only
+            </button>
+          </div>
+        </div>
+
+        <div class="results-legend-strip" aria-label="Status legend">
+          <div class="legend-chip">
+            <span class="legend-chip__sample status-box-main status-pass"><span class="status-label">PASS</span></span>
+            <span>Pass</span>
+          </div>
+          <div class="legend-chip">
+            <span class="legend-chip__sample status-box-main status-fail"><span class="status-label">FAIL</span></span>
+            <span>Fail</span>
+          </div>
+          <div class="legend-chip">
+            <span class="legend-chip__sample status-box-main status-skip"><span class="status-label">SKIP</span></span>
+            <span>Skip</span>
+          </div>
+          <div class="legend-chip">
+            <span class="legend-chip__mini-group" aria-hidden="true">
+              <span class="status-box-mini status-pass"></span>
+              <span class="status-box-mini status-fail"></span>
+            </span>
+            <span>Prior 2 runs</span>
+          </div>
+          <span class="results-legend-strip__hint">Hover cells for details · Click to open Jenkins build</span>
+        </div>
+
+        <div class="grid-container">
+          <div id="testResultsGrid" class="ag-theme-alpine"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>History depth: last 3 runs per environment · Updated after each Jenkins run</p>
+    </footer>
+  </div>
+
+  <script src="run-type-utils.js"></script>
+  <script src="customer-labels.js"></script>
+  <script src="test-results-app.js"></script>
+</body>
+</html>

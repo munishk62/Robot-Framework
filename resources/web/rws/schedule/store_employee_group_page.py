@@ -1,0 +1,6 @@
+STORE_EMP_GROUP_EMPLOYEE_GROUP_TYPES_LINK = "a[ng-click*='selectedParam.EMPGROUPTYPE,']"
+STORE_EMP_GROUP_EMPLOYEE_GROUP_TYPES_SAVE_BTN = "button[ng-click*='saveEmpGroupType']"
+STORE_EMP_GROUP_EMPLOYEE_GROUPS_LINK = "a[ng-click*='selectedParam.EMPGROUP,']"
+STORE_EMP_GROUP_EMPLOYEE_GROUPS_SAVE_BTN = "button[ng-click*='saveEmpGroup']"
+STORE_EMP_GROUP_STORE_EMPLOYEE_GROUPS_LINK = "a[ng-click*='selectedParam.STOREEMPGROUP,']"
+STORE_EMP_GROUP_STORE_EMPLOYEE_GROUPS_SAVE_BTN = "button[ng-click*='saveStoreEmpGroup']"

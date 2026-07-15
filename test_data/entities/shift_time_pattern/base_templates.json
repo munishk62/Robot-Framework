@@ -1,0 +1,106 @@
+{
+    "default":{
+        "startTime":480,
+        "duration":480,
+        "endTime":960,
+        "uiStartTime":480,
+        "uiEndTime":960,
+        "description":"8:00 AM - 4:00 PM"
+    },
+    "standard_8hr": {
+        "startTime": 480,
+        "duration": 480,
+        "endTime":960,
+        "uiStartTime":480,
+        "uiEndTime":960,
+        "description":"8:00 AM - 4:00 PM"
+    },
+    "standard_9hr": {
+        "startTime": 480,
+        "duration": 540,
+        "endTime":1020,
+        "uiStartTime":480,
+        "uiEndTime":1020,
+        "description":"8:00 AM - 5:00 PM"
+    },
+    "short_4hr": { 
+        "startTime": 540,
+        "duration": 240,
+        "endTime":780,
+        "uiStartTime":540,
+        "uiEndTime":780,
+        "description":"9:00 AM - 1:00 PM"
+    },
+    "early_morning_8hr": {
+        "startTime": 360,
+        "duration": 480,
+        "endTime":840,
+        "uiStartTime":360,
+        "uiEndTime":840,
+        "description":"6:00 AM - 2:00 PM"
+    },
+    "afternoon_8hr": {
+        "startTime": 720,
+        "duration": 480,
+        "endTime":1200,
+        "uiStartTime":720,
+        "uiEndTime":1200,
+        "description":"12:00 PM - 8:00 PM"
+    },
+    "closing_shift": {
+        "startTime": 840,
+        "duration": 480,
+        "endTime":1320,
+        "uiStartTime":840,
+        "uiEndTime":1320,
+        "description":"2:00 PM - 10:00 PM" 
+    },
+    "late_morning_8hr": {
+        "startTime": 600,
+        "duration": 480,
+        "endTime": 1080,
+        "uiStartTime": 600,
+        "uiEndTime": 1080,
+        "description": "10:00 AM - 6:00 PM"
+    },
+    "morning_7hr": {
+        "startTime": 360,
+        "duration": 420,
+        "endTime": 780,
+        "uiStartTime": 360,
+        "uiEndTime": 780,
+        "description": "6:00 AM - 1:00 PM"
+    },
+    "late_morning_7hr": {
+        "startTime": 600,
+        "duration": 420,
+        "endTime": 1020,
+        "uiStartTime": 600,
+        "uiEndTime": 1020,
+        "description": "10:00 AM - 5:00 PM"
+    },
+    "until_evening_7hr": {
+        "startTime": 660,
+        "duration": 420,
+        "endTime": 1080,
+        "uiStartTime": 660,
+        "uiEndTime": 1080,
+        "description": "11:00 AM - 6:00 PM"
+    },
+    "afternoon_7hr": {
+        "startTime": 720,
+        "duration": 420,
+        "endTime": 1140,
+        "uiStartTime": 720,
+        "uiEndTime": 1140,
+        "description": "12:00 PM - 7:00 PM"
+    },
+    "evening_7hr": {
+        "startTime": 780,
+        "duration": 420,
+        "endTime": 1200,
+        "uiStartTime": 780,
+        "uiEndTime": 1200,
+        "description": "1:00 PM - 8:00 PM"
+    }
+}

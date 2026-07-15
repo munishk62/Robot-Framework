@@ -1,0 +1,2 @@
+CALC_METHODS_ADD_BTN = "span#spanAddCalcMethod"
+CALC_METHODS_ADD_CALC_METHOD_PREVIOUS_BTN = "input#Previous"

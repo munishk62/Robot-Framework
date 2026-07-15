@@ -1,0 +1,32 @@
+{
+  "default": {
+      "fifth_week": "5_0",
+      "colleague": {
+        "primary_job": true
+      },
+      "shift": {
+        "shift_details": "Start",
+        "detailed_view": true
+      }
+    },
+  "summary_view": {
+      "fifth_week": "5_0",
+      "colleague": {
+        "primary_job": true
+      },
+      "shift": {
+        "shift_details": "Start - End",
+        "detailed_view": false
+      }
+    },
+  "full_range_view": {
+      "fifth_week": "5_0",
+      "colleague": {
+        "primary_job": true
+      },
+      "shift": {
+        "shift_details": "Start - End",
+        "detailed_view": true
+      }
+    }
+  }

@@ -1,0 +1,13 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "WAG_SB",
+    "agentLabel": "wfm-qa-agent",
+    "noOfParallelProcesses": "2",
+    "testPath": "tests/web/l2_suite tests/mobile",
+    "includeTags": "bat_phase1,bat_phase2",
+    "testRayPlan": "WFM-122365",
+    "testRayCycle": "WFM 451 R21 - BAT WAG",
+    "extraRobotArgs": "--variable PAGE_LOAD_TIMEOUT:90s --variable MEDIUM_TIMEOUT:60s --variable LONG_TIMEOUT:120s",
+    "jobTimeout":"10",
+    "mobilePlatform": "ios"
+])

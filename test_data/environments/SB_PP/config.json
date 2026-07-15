@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwssallybeautypp.reflexisinc.com/RWS4/",
+    "domainId": "SB",
+    "kernel_url": "https://knlcl12pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlsallybeautypp.reflexisinc.com/kernel/views/authenticate/W/SB.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "SB_PP",
+    "RAR_GATEWAY_URI": "https://knlsallybeautypp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

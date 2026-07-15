@@ -1,0 +1,7 @@
+PARENT_PAGE_LOCATOR = "//mat-expansion-panel[@id]//span//*[@title]"
+CHILD_PAGE_EXPANSION_PANEL = "//span/*[@title='{PARENT_MENU_NAME}']/ancestor::mat-expansion-panel-header[@aria-expanded='false']"
+CHILD_PAGE_MENU_LOCATOR = "//mat-expansion-panel[@id]//span//*[@title='{PARENT_MENU_NAME}']/ancestor::mat-expansion-panel-header/following-sibling::div[@role]//li"
+CHILD_MENU_EXPANSION_PANEL = "//span/*[@title='{PARENT_MENU_NAME}']/ancestor::mat-expansion-panel-header"
+RWS_MODULE_LOCATOR = "#menu-RWS"
+RTA_MODULE_LOCATOR = "#menu-RTA"
+ESS_MODULE_LOCATOR = "#menu-ESS"

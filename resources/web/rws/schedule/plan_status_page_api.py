@@ -1,0 +1,1 @@
+PLAN_STATUS_PAGE_WORKLOAD_GENERATE_SUCCESS_API = "**/controller/rws/weekplan/web/workload/maxworkloaditerationtype/**"

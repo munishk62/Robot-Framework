@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwsdiscounttirepp.reflexisinc.com/RWS4/",
+    "domainId": "DT",
+    "kernel_url": "https://knlcl09pp.reflexisinc.com/kernel/",
+    "app_url": "https://rwsdiscounttirepp.reflexisinc.com/kernel/views/authenticate/W/DT.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "DT_PP",
+    "RAR_GATEWAY_URI": "https://knldiscounttirepp.reflexisinc.com/rwsibmcognos/bi/v1/disp"
+}

@@ -1,0 +1,11 @@
+{
+  "constant_classes": [
+    "StoreEntity",
+    "CriteriaTypeEntity",
+    "CriteriaStatusEntity",
+    "ConditionAttributeEntity",
+    "ConditionAttributeIdEntity"
+  ],
+  "description": "Configuration for Criteria Configuration entity",
+  "version": "1.0"
+}

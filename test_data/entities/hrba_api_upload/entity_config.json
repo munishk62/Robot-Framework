@@ -1,0 +1,10 @@
+{
+  "constant_classes": [],
+  "date_fields": [],
+  "time_fields": [],
+  "required_processing": [],
+  "template_references": {},
+  "_description": "Entity configuration for HRBA API upload",
+  "_note": "HRBA uses environment-specific config files that contain field_order arrays. The GenericDataProvider automatically handles these via _load_hrba_env_specific_templates()"
+}
+

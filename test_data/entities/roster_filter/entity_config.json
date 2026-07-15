@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["AssociateType", "EmploymentStatus", "ReporteeType","AssociateTypeForTA"],
+  "description": "Configuration for Roster Filter data provider",
+  "version": "1.0"
+}

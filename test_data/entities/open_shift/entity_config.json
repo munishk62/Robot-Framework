@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["TaskSegmentType", "StaffGroup"],
+  "description": "Configuration for open shift entity with single task segment for open shift operations",
+  "version": "1.0"
+}

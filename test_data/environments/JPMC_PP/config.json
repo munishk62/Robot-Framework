@@ -1,0 +1,10 @@
+{
+    "base_url": "https://jpmcpp.reflexisinc.com/RWS4",
+    "domainId": "JPMC",
+    "kernel_url": "https://knlcl22pp.reflexisinc.com/kernel/",
+    "app_url": "https://jpmcpp.reflexisinc.com/kernel/views/authenticate/W/JPMC.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "JPMC_PP",
+    "RAR_GATEWAY_URI": "https://jpmcpp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

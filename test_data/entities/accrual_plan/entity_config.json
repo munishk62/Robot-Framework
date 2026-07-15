@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["AccrualPlanStatus","AccrualPlanTermType","AccrualPlanPlanFrequency","HttpStatusCode"],
+  "description": "Entity configuration for accrual plan tests",
+  "version": "1.0"
+}

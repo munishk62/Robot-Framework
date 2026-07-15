@@ -1,0 +1,9 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "QA29_B0",
+    "testPath": "tests/",
+    "agentLabel": "SWS_UBU_04",
+    "includeTags": "bat_phase2",
+    "testRayPlan": "WFM-100208",
+    "testRayCycle": "Cycle 1 - QA29 B0"
+])

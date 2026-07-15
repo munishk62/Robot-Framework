@@ -1,0 +1,7 @@
+{
+  "constant_classes": ["TaskSegmentType"],
+  "date_fields": [],
+  "time_fields": ["start_time", "end_time"],
+  "description": "Configuration for detailed shift entity with multiple task segments for right-click shift operations",
+  "version": "1.0"
+}

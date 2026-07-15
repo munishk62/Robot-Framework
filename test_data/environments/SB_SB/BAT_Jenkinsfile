@@ -1,0 +1,12 @@
+@Library('wfm-qe-libs') _
+wfmQAPuneJenkins([
+    "testEnv": "SB_SB",
+    "testPath": "tests/web/l2_suite tests/mobile",
+    "includeTags": "bat_phase1,bat_phase2",
+    "testRayPlan": "WFM-122365",
+    "testRayCycle": "WFM 451 R21 - BAT SB_SB",
+    "jobTimeout":"10",
+    "healthCheckTimeout": "10",
+    "skipDatabaseHealthCheck": false,
+    "queuePendingThreshold": "100"
+])

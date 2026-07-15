@@ -1,0 +1,54 @@
+{
+  "default": {
+    "field_order": [
+      "record_id",
+      "entity_name",
+      "employee_id",
+      "effective_date",
+      "transaction_type",
+      "leave_balance_type",
+      "leave_balance_days",
+      "leave_balance_action",
+      "unused_field1",
+      "unused_field2"
+    ],
+    "record_id": "HRAC",
+    "entity_name": "RFLX",
+    "employee_id": "EMP000000",
+    "effective_date": "20260101",
+    "transaction_type": "I",
+    "leave_balance_type": "VAC",
+    "leave_balance_days": "20",
+    "leave_balance_action": "D",
+    "unused_field1": "",
+    "unused_field2": ""
+  },
+  "country_based_leave_balance": {
+    "field_order": [
+      "record_id",
+      "entity_name",
+      "employee_id",
+      "effective_date",
+      "transaction_type",
+      "leave_balance_type",
+      "leave_balance_country",
+      "leave_balance_days",
+      "leave_balance_action",
+      "unused_field1",
+      "unused_field2",
+      "unused_field3"
+    ],
+    "record_id": "HRAC",
+    "entity_name": "RFLX",
+    "employee_id": "EMP000000",
+    "effective_date": "20260101",
+    "transaction_type": "",
+    "leave_balance_type": "PTO",
+    "leave_balance_country": "USA",
+    "leave_balance_days": "48:00",
+    "leave_balance_action": "H",
+    "unused_field1": "",
+    "unused_field2": "",
+    "unused_field3": ""
+  }
+}

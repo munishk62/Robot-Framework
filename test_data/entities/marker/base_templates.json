@@ -1,0 +1,70 @@
+{
+  "default": {
+    "import_window": {
+      "current_week_minus_weeks": 4,
+      "planning_week_plus_weeks": 3
+    },
+    "driver_codes": {
+      "vdp": "PRE_VDPDRIVER01",
+      "vdi": "PRE_VDIDRIVER01"
+    },
+    "driver_names": {
+      "vdp": "PRE VDP Store Driver01",
+      "vdi": "PRE VDI Store Driver01"
+    },
+    "forecast_weeks": [
+      {
+        "week_offset": "0_0",
+        "expected_values": {
+          "total": 5200,
+          "day_1": 100,
+          "day_2": 1000,
+          "day_3": 1000,
+          "day_4": 1000,
+          "day_5": 1000,
+          "day_6": 1000,
+          "day_7": 100
+        }
+      },
+      {
+        "week_offset": "1_0",
+        "expected_values": {
+          "total": 3700,
+          "day_1": 100,
+          "day_2": 700,
+          "day_3": 700,
+          "day_4": 700,
+          "day_5": 700,
+          "day_6": 700,
+          "day_7": 100
+        }
+      },
+      {
+        "week_offset": "2_0",
+        "expected_values": {
+          "total": 400,
+          "day_1": 100,
+          "day_2": 40,
+          "day_3": 40,
+          "day_4": 40,
+          "day_5": 40,
+          "day_6": 40,
+          "day_7": 100
+        }
+      },
+      {
+        "week_offset": "3_0",
+        "expected_values": {
+          "total": 2200,
+          "day_1": 100,
+          "day_2": 400,
+          "day_3": 400,
+          "day_4": 400,
+          "day_5": 400,
+          "day_6": 400,
+          "day_7": 100
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "default": {
+    "activity_code": "ActivityCode.ACTCODE1_HS",
+    "clock_in_questionnaire": "''",
+    "clock_out_questionnaire": "''"
+  }
+}

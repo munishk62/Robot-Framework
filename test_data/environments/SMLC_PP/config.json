@@ -1,0 +1,10 @@
+{
+    "base_url": "https://supmercadoslacoloniapp.reflexisinc.com/RWS4/",
+    "domainId": "SMLC",
+    "kernel_url": "https://knlcl03pp.reflexisinc.com/kernel/",
+    "app_url": "https://supmercadoslacoloniapp.reflexisinc.com/kernel/views/authenticate/W/SMLC.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "True",
+    "CLIENT": "SMLC_PP",
+    "RAR_GATEWAY_URI": "https://supmercadoslacoloniapp.reflexisinc.com:443/rwsibmcognos/bi/v1/disp"
+}

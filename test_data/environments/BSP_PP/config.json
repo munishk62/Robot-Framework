@@ -1,0 +1,10 @@
+{
+    "base_url": "https://rwsbsipp.reflexisinc.com/RWS4/",
+    "domainId": "BSP",
+    "kernel_url": "https://knlcl09pp.reflexisinc.com/kernel/",
+    "app_url": "https://knlbsipp.reflexisinc.com/kernel/views/authenticate/W/BSP.view",
+    "MYWORK_ENABLED": "True",
+    "DIRECT_LOGIN": "False",
+    "CLIENT": "BSP_PP",
+    "RAR_GATEWAY_URI": "https://rwsbsipp.reflexisinc.com/ibmcognos/bi/v1/disp/"
+}

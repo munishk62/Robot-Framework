@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WST Test Automation Dashboard</title>
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jspdf-autotable@3.5.29/dist/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="hero__content">
+        <div class="brand">
+          <div>
+            <h1>WST Test Automation Dashboard</h1>
+            <p>Unified quality telemetry for build acceptance and release validation</p>
+          </div>
+        </div>
+        <div class="hero__side">
+          <div class="hero__meta">
+            <div class="meta-card">
+              <span>Last Updated</span>
+              <strong id="last-updated">Loading...</strong>
+            </div>
+            <div class="meta-card">
+              <span>Data Retention</span>
+              <strong>Last 7 updates</strong>
+            </div>
+          </div>
+          <div class="hero__actions">
+            <button class="btn btn--ghost btn--icon" id="export-xls" type="button" aria-label="Export XLS" title="Export XLS">
+              <span class="btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path d="M6 2h8l4 4v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V7h3.5L14 3.5zM8.4 11.5h1.6l1.2 2 1.2-2H14l-2 3 2 3h-1.6l-1.2-2-1.2 2H8.4l2-3-2-3zm7.6 6.5h-1v-1h1v1zm-2 0h-1v-1h1v1zm2-2h-1v-1h1v1z" />
+                </svg>
+              </span>
+            </button>
+            <button class="btn btn--solid btn--icon" id="export-pdf" type="button" aria-label="Export PDF" title="Export PDF">
+              <span class="btn__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="presentation">
+                  <path d="M6 2h8l4 4v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V7h3.5L14 3.5zM7 12h3a2 2 0 0 1 0 4H9v2H7v-6zm2 3h1a1 1 0 0 0 0-2H9v2zm4-3h2.5a1.5 1.5 0 0 1 0 3H15v3h-2v-6zm2 2a.5.5 0 0 0 0-1H15v1h0z" />
+                </svg>
+              </span>
+            </button>
+            <div class="toggle-wrap">
+              <span class="toggle-label" id="rate-toggle-label">Success rate</span>
+              <label class="switch" id="rate-toggle-wrap" title="Switch between success rate and pass rate">
+                <input type="checkbox" id="rate-toggle" aria-label="Switch between success rate and pass rate" />
+                <span class="slider"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <div class="dashboard-toolbar">
+        <div class="dashboard-toolbar__left">
+          <span class="run-type-bar__label">Test scope</span>
+          <div class="run-type-toggle" role="group" aria-label="Filter dashboard by run type">
+            <button type="button" class="run-type-btn" data-run-type="sanity" aria-pressed="false">Sanity</button>
+            <button type="button" class="run-type-btn" data-run-type="sit" aria-pressed="false">SIT</button>
+          </div>
+          <span class="run-type-status" id="run-type-status" aria-live="polite"></span>
+        </div>
+        <nav class="dashboard-nav" aria-label="Dashboard views">
+          <span class="dashboard-nav__label">View</span>
+          <div class="dashboard-nav__tabs">
+            <a href="index.html" class="dashboard-nav__link active" aria-current="page">Summary</a>
+            <a href="test-results.html" class="dashboard-nav__link">Detailed</a>
+          </div>
+        </nav>
+      </div>
+
+      <div class="metric-definition-bar" id="metric-definition-bar">
+        <span class="metric-definition-bar__label" id="metric-mode-label">Success rate</span>
+        <span class="metric-definition-bar__sep" aria-hidden="true">—</span>
+        <span class="metric-definition-bar__text" id="metric-definition-text"></span>
+      </div>
+
+      <section class="summary-grid">
+        <article class="summary-card summary-card--counts total-card">
+          <div class="summary-card__head">
+            <h3>Run totals</h3>
+            <span class="summary-sub" id="total-sub">Across - unique envs</span>
+          </div>
+          <div class="summary-metrics summary-metrics--four summary-metrics--inline">
+            <div class="metric accent">
+              <span>Total</span>
+              <strong id="total-tests">-</strong>
+            </div>
+            <div class="metric success">
+              <span>Pass</span>
+              <strong id="passed-tests">-</strong>
+            </div>
+            <div class="metric danger">
+              <span>Fail</span>
+              <strong id="failed-tests">-</strong>
+            </div>
+            <div class="metric warning">
+              <span>Skip</span>
+              <strong id="skipped-tests">-</strong>
+            </div>
+          </div>
+        </article>
+        <article class="summary-card accent is-hidden" id="pass-card">
+          <h3>Avg Pass Rate</h3>
+          <p class="summary-value" id="avg-pass-rate">-</p>
+          <span class="summary-trend" id="avg-pass-rate-trend">-</span>
+          <div class="summary-detail">
+            <span id="avg-pass-rate-7day">7-run avg: -</span>
+            <span id="avg-pass-rate-best">Best: -</span>
+            <span id="avg-pass-rate-worst">Worst: -</span>
+          </div>
+          <span class="summary-sub" id="pass-rate-sub">Pass / (Total - Skip)</span>
+        </article>
+        <article class="summary-card summary-card--platform" id="platform-rates-card">
+          <div class="summary-rate-block" id="success-card">
+            <h3 class="summary-rate-block__title">Success rate</h3>
+            <div class="summary-platform-metrics">
+              <div class="summary-platform-metric">
+                <span class="summary-platform-metric__label">Overall</span>
+                <strong id="avg-success-rate">-</strong>
+              </div>
+              <div class="summary-platform-metric">
+                <span class="summary-platform-metric__label">Web</span>
+                <strong id="avg-success-rate-web">-</strong>
+              </div>
+              <div class="summary-platform-metric">
+                <span class="summary-platform-metric__label">Mobile</span>
+                <strong id="avg-success-rate-mobile">-</strong>
+              </div>
+            </div>
+          </div>
+          <div class="summary-rate-block" id="skip-card">
+            <h3 class="summary-rate-block__title">Skip rate</h3>
+            <div class="summary-platform-metrics">
+              <div class="summary-platform-metric">
+                <span class="summary-platform-metric__label">Overall</span>
+                <strong id="avg-skip-rate">-</strong>
+              </div>
+              <div class="summary-platform-metric">
+                <span class="summary-platform-metric__label">Web</span>
+                <strong id="avg-skip-rate-web">-</strong>
+              </div>
+              <div class="summary-platform-metric">
+                <span class="summary-platform-metric__label">Mobile</span>
+                <strong id="avg-skip-rate-mobile">-</strong>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="summary-card accent is-hidden" id="fail-card">
+          <h3>Avg Fail Rate</h3>
+          <p class="summary-value" id="avg-fail-rate">-</p>
+          <span class="summary-trend" id="avg-fail-rate-trend">-</span>
+          <div class="summary-detail">
+            <span id="avg-fail-rate-7day">7-run avg: -</span>
+            <span id="avg-fail-rate-best">Best: -</span>
+            <span id="avg-fail-rate-worst">Worst: -</span>
+          </div>
+          <span class="summary-sub" id="fail-rate-sub">Fail / (Total - Skip)</span>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header">
+          <div>
+            <h2>Environment Breakdown</h2>
+            <p>Latest run details by environment. Web/mobile success rates use the <code>web</code> and <code>mobile</code> test tags.</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="summary-select-header">Summary</th>
+                <th data-sort="env">Environment <span class="sort-indicator"></span></th>
+                <th data-sort="appVersion">Version <span class="sort-indicator"></span></th>
+                <th data-sort="lastRun">Last Run <span class="sort-indicator"></span></th>
+                <th data-sort="total">Total <span class="sort-indicator"></span></th>
+                <th class="success" data-sort="passed">Passed <span class="sort-indicator"></span></th>
+                <th class="danger" data-sort="failed">Failed <span class="sort-indicator"></span></th>
+                <th class="warning" data-sort="skipped">Skipped <span class="sort-indicator"></span></th>
+                <th data-sort="primaryRate" id="rate-header">Pass Rate <span class="sort-indicator"></span></th>
+                <th
+                  data-sort="webSuccessRate"
+                  title="Success rate for tests tagged web (non-mobile tests count as web)"
+                >
+                  Web success <span class="sort-indicator"></span>
+                </th>
+                <th data-sort="mobileSuccessRate" title="Success rate for tests tagged mobile">
+                  Mobile success <span class="sort-indicator"></span>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="env-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header">
+          <div>
+            <h2>Environment Health (Latest Run per Environment)</h2>
+            <p>Stacked distribution of pass, fail, and skip counts.</p>
+          </div>
+        </div>
+        <div class="chart-scroll-container">
+          <canvas id="env-stacked"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header">
+          <div>
+            <h2>Run Trends (Last 7 Updates)</h2>
+            <p>Passed, failed, skipped, and total counts for the selected environment.</p>
+          </div>
+          <div class="panel__controls">
+            <label class="panel__label" for="run-trend-env">Environment</label>
+            <select id="run-trend-env" class="panel__select" aria-label="Run trend environment"></select>
+          </div>
+        </div>
+        <div class="chart-canvas-wrap">
+          <canvas id="trend-counts" height="140"></canvas>
+        </div>
+      </section>
+      
+      <section class="panel">
+        <div class="panel__header">
+          <div>
+            <h2 id="env-ranking-title">Environment Success Rate Ranking</h2>
+            <p id="env-ranking-desc">Latest run per environment, sorted best to worst. Green ≥90%, amber 85–90%, red &lt;85%.</p>
+          </div>
+        </div>
+        <div class="chart-scroll-container">
+          <canvas id="env-ranking"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel__header">
+          <div>
+            <h2 id="env-rate-title">Rate History by Environment</h2>
+            <p id="env-rate-desc">How selected environments trend over the last 7 updates — one metric at a time.</p>
+          </div>
+          <div class="env-selector">
+            <label for="env-search">Select Environments (2-3):</label>
+            <div class="env-selector-container">
+              <input type="text" id="env-search" placeholder="Search environments..." />
+              <div class="env-list" id="env-list">
+                <!-- Environment checkboxes will be populated here -->
+              </div>
+            </div>
+            <div class="env-selector-actions">
+              <button id="env-select-clear" class="btn btn--ghost btn--small" type="button">Clear</button>
+              <button id="env-select-top3" class="btn btn--ghost btn--small" type="button">Top 3</button>
+            </div>
+          </div>
+        </div>
+        <div class="chart-toolbar">
+          <div class="chart-metric-tabs" id="env-trend-metric-tabs" role="tablist" aria-label="Environment trend metric">
+            <button type="button" class="chart-metric-tab active" data-env-metric="primary" role="tab" aria-selected="true" id="env-metric-primary">Pass</button>
+            <button type="button" class="chart-metric-tab" data-env-metric="fail" role="tab" aria-selected="false" id="env-metric-fail">Fail</button>
+            <button type="button" class="chart-metric-tab" data-env-metric="skip" role="tab" aria-selected="false" id="env-metric-skip">Skip</button>
+          </div>
+        </div>
+        <div class="chart-canvas-wrap chart-canvas-wrap--trend">
+          <canvas id="env-trend" height="180"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Automation Insights Hub is updated automatically after each Jenkins run.</p>
+    </footer>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="run-type-utils.js"></script>
+  <script src="customer-labels.js"></script>
+  <script src="chart-theme.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

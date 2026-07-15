@@ -1,0 +1,11 @@
+{
+  "default": {
+    "associate_user_key": "ESS4_STORE1",
+    "schedule_template": "3_0_sm1_store1",
+    "week_offset": "schedule_generation_setup.3_0_sm1_store1.week_offset",
+    "week_start_date": "schedule_generation_setup.3_0_sm1_store1.week_start_date",
+    "shift_days": "schedule_generation_setup.3_0_sm1_store1.users[0].shifts_to_add",
+    "test_description": "Verify ESS user is able to review monthly schedule with shifts from schedule generation template. NOTE: week_offset, week_start_date and shift_days above are documentation-only placeholders pointing to schedule_generation_setup and are always overridden with concrete values in test code (GenericDataProvider does not resolve cross-entity placeholders)."
+  }
+}
+

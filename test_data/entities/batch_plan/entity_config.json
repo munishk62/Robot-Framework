@@ -1,0 +1,5 @@
+{
+  "constant_classes": ["ScheduleTypeToBeGenerated","SanityCheck","ScheduleGenerationAttemptTime"],
+  "description": "Configuration for Plan Status page entity data provider",
+  "version": "1.0"
+}

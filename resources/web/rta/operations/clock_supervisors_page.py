@@ -1,0 +1,3 @@
+# Clock Supervisors Page Elements
+CLOCK_SUPERVISORS_PAGE_ADD_SUPERVISOR_BUTTON = "#positive"
+CLOCK_SUPERVISORS_PAGE_PREVIOUS_BUTTON = "#navigatePrevious"

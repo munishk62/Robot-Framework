@@ -1,0 +1,36 @@
+{
+  "default": {
+    "pay_period_start_date": "1_0",
+    "pay_period_end_date": "1_0",
+    "pay_period_name": "Pay Period 1",
+    "pay_period_type": "PayPeriodType.WEEKLY",
+    "location": "STORE_001",
+    "employee_id": null,
+    "notes": "Default shift template",
+    "payroll_checkset_id": "PLCHECKSET1",
+    "payroll_checkset_name": "PL Checkset Name1",
+    "payroll_checkset_description": "PL Check Set Description1",
+    "edited_payroll_checkset_name": "PL Checkset Name Updated1",
+    "edited_payroll_checkset_description": "PL Check Set Description Updated1",
+    "payroll_week_start_date": "",
+    "payroll_week_end_date": "",
+    "pay_file_name": ""
+  },
+  "payroll_release": {
+    "pay_period_start_date": "1_0",
+    "pay_period_end_date": "1_0",
+    "pay_period_name": "Pay Period 1",
+    "pay_period_type": "PayPeriodType.WEEKLY",
+    "location": "STORE_001",
+    "employee_id": null,
+    "notes": "Default shift template",
+    "payroll_checkset_id": "PLCHECKSET1",
+    "payroll_checkset_name": "PL Checkset Name1",
+    "payroll_checkset_description": "PL Check Set Description1",
+    "edited_payroll_checkset_name": "PL Checkset Name Updated1",
+    "edited_payroll_checkset_description": "PL Check Set Description Updated1",
+    "payroll_week_start_date": "-2_0",
+    "payroll_week_end_date": "-2_6",
+    "pay_file_name": "TOTAL_STORES_WEEKLY"
+  }
+}
